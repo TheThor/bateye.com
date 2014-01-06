@@ -1,0 +1,46 @@
+# config/doctrine/schema.yml
+#Category:
+#  actAs: { Timestampable: ~ }
+#  columns:
+#    id:  { type: integer, primary: true }
+#    category:  { type: string(255) }
+#  relations:
+#    JobeetCategory: { onDelete: CASCADE, local: category_id, foreign: id, foreignAlias: JobeetJobs }
+
+Product:
+  actAs: { Timestampable: ~ }
+  columns:
+    product_id:         { type: integer, primary: true }
+    description:        { type: string(255) }
+    type:               { type: string(255) }
+    width:              { type: string(255) }
+    height:             { type: string(255) }
+    depth:              { type: string(255) }
+    diameter:           { type: string(255) }
+    product_url:        { type: string(255) }
+    image_url:          { type: string(255) }
+    collection_id:      { type: string(255) }
+
+Collection:
+  actAs: { Timestampable: ~ }
+  columns:
+    collection_id: { type: integer, primary: true }
+    description:   { type: string(255) }
+    url:           { type: string(255) }
+    is_active:     { type: boolean, notnull: true, default: 0 }
+
+ProductCollection:
+  actAs: { Timestampable: ~ }
+  columns:
+    prodcut_id:     { type: integer, primary: true }
+    collection_id:  { type: integer, primary: true }
+  relations:
+
+
+Users:
+  columns:
+    category_id:  { type: integer, primary: true }
+    affiliate_id: { type: integer, primary: true }
+  relations:
+    JobeetCategory:  { onDelete: CASCADE, local: category_id, foreign: id }
+    JobeetAffiliate: { onDelete: CASCADE, local: affiliate_id, foreign: id }

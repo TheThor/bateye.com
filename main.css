@@ -1,0 +1,354 @@
+/* BARRA CIMA */
+#fundo{
+	width: 100%;
+	height: 150px;
+	background-color: #2a2728;
+}
+
+#back{
+	padding-top: 30px;
+	width: 200px;
+	margin: auto;
+}
+
+#logo{
+	width: 170px;
+	margin: auto;
+}
+
+/* MENU */
+		
+#menu{
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 14px;
+	width:750px;
+	margin: auto;
+	padding-top: 10px;
+}
+	#menu a{
+		padding-left: 10px;
+		text-decoration: none;
+		color: #232323;
+	}
+		#menu a:hover{
+			color: #A41B21;
+		}
+	
+/* PAG. CONTACTOS */
+#contact{
+	width: 600px;
+	margin: auto;
+	padding-top: 50px;
+}
+	#contact h1{
+		text-align: center;
+		font-family: 'Lato', sans-serif;
+		font-weight: bold;
+		font-size: 40px;
+		width: 210px;
+		margin: auto;
+		
+	}
+		#contact hr{
+			height: 3px;	
+			background-color: #000;
+			border: 0px;
+		}
+			#c_1{
+				width: 200px;
+				margin-left: 50px;
+			}
+				#c_2{
+					width: 200px;
+					margin-left: 250px;
+					margin-top: -120px;
+				}
+					#c_3{
+						width: 200px;
+						margin-left: 450px;
+						margin-top: -120px;
+					}
+
+#follow{
+	width: 600px;
+	margin: auto;
+	padding-top: 50px;
+}
+	#follow h1{
+		text-align: center;
+		font-family: 'Lato', sans-serif;
+		font-weight: bold;
+		font-size: 40px;
+		width: 210px;
+		margin: auto;
+		
+	}
+		#follow hr{
+			height: 3px;	
+			background-color: #000;
+			border: 0px;
+		}
+			#f_1{
+				width: 150px;
+				margin-left: 20px
+			}
+				#f_2{
+					width: 150px;
+					margin-left: 170px;
+					margin-top: -120px;
+				}
+					#f_3{
+						width: 150px;
+						margin-left: 320px;
+						margin-top: -120px;
+					}
+						#f_4{
+							width: 150px;
+							margin-left: 470px;
+							margin-top: -120px;
+						}
+							#follow text{
+								margin-left: 25px;
+							}
+
+#subs{
+	width: 600px;
+	margin: auto;
+	padding-top: 50px;
+}
+	#subs h1{
+		text-align: center;
+		font-family: 'Lato', sans-serif;
+		font-weight: bold;
+		font-size: 40px;
+		width: 210px;
+		margin: auto;
+		
+	}
+		#suns hr{
+			height: 3px;	
+			background-color: #000;
+			border: 0px;
+		}
+			#s_1{
+				width: 100px;
+				margin: auto;
+			}
+				#subs text{
+					margin-left: 15px;
+				}
+
+#download{
+	width: 600px;
+	margin: auto;
+	padding-top: 50px;
+}
+	#download h1{
+		text-align: center;
+		font-family: 'Lato', sans-serif;
+		font-weight: bold;
+		font-size: 40px;
+		width: 210px;
+		margin: auto;
+		
+	}
+		#download hr{
+			height: 3px;	
+			background-color: #000;
+			border: 0px;
+		}
+			#d_1{
+				width: 200px;
+				margin-left: 150px;
+			}
+				#d_2{
+					width: 200px;
+					margin-left: 350px;
+					margin-top: -120px;
+				}
+				#download text{
+					margin-left: 20px;
+				}
+#talk{
+	width: 600px;
+	margin: auto;
+	padding-top: 50px;
+}
+	#talk h1{
+		text-align: center;
+		font-family: 'Lato', sans-serif;
+		font-weight: bold;
+		font-size: 40px;
+		width: 210px;
+		margin: auto;
+		
+	}
+		#talk hr{
+			height: 3px;	
+			background-color: #000;
+			border: 0px;
+		}
+		
+			#talk form{
+				margin-top: 20px;
+				font-family: 'Lato', sans-serif;
+				font-weight: 300;
+			}
+			
+				input{
+					border: 0px;
+					background-color: #bebebe;
+					width: 600px;
+				}
+				
+				textarea{
+					border: 0px;
+					background-color: #bebebe;
+					width: 600px;
+				}
+				
+				.button{
+					width: 100px;
+				}
+				
+/* PAG. PEÇAS*/
+
+#title{
+	width: 200px;
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 40px;
+}
+	#title h6{
+		font-family: 'Abril Fatface', sans-serif;
+		font-size: 40px;
+		font-weight: 400;
+
+
+	}
+		#title h5{
+			font-family: 'Lato', sans-serif;
+			font-size: 20px;
+			font-weight: 300; 
+			text-transform: uppercase;
+		}
+#nada{height: 450px; background-color: #fff;}
+	#text{
+		width: 260px;
+		margin: auto;
+		font-family: 'Lato', sans-serif;
+		text-align: center;
+		margin-top: 50px;
+	}
+		#text hr{
+			height: 2px;
+			border: 0px;
+			background-color: #000;
+		}
+			#desc{
+				width: 960px;
+				margin: auto;
+				font-family: 'Lato', sans-serif;
+				font-weight: 300;
+				margin-top: 50px;
+			}
+				#info_peca{
+					width: 960px;
+					margin: 50px auto;
+					font-family: 'Lato', sans-serif;
+					font-weight: 300;
+				}
+					#info_peca b{
+						font-weight: bold;
+					}
+						#left{
+							width: 200px;
+						}
+							#rigth{
+								margin-left: 300px;
+								margin-top: -145px;
+							}
+
+/* PAG. COLCEÇÕES */
+
+#title_colecao{
+		width: 140px;
+		margin:auto;
+		margin-top: 50px;
+}
+	#title_colecao h3{
+		font-size: 60px;
+		font-weight: bold;
+	}
+		#title_colecao h2{
+			font-family: 'Lato', sans-serif;
+			font-weight: 300;
+			font-size: 25px;
+			text-align: center;
+		}
+
+#red{
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: red;
+	padding-top: 80px;
+	width: 200px;
+	margin: auto;
+}
+#desc_colecao{
+				width: 600px;
+				margin: auto;
+				font-family: 'Lato', sans-serif;
+				font-weight: 300;
+				margin-top: 50px;
+				margin-bottom: 100px;
+			}
+
+/* PAG. PORTO COLLECTION */
+#container{
+	width: 1000px;
+	margin: auto;
+	margin-top: 50px;
+}
+	div.img
+	  {
+	  margin:2px;
+	  height:400px;
+	  width:310px;
+	  float:left;
+	  text-align:center;
+	  }
+		div.img img
+		  {
+		  display:inline;
+		  margin:3px;
+		  }
+				div.desc
+				  {
+				  color: #000;
+				  text-decoration: none;
+				  text-align:center;
+				  font-weight:normal;
+				  font-family: 'Lato', sans-serif;
+				  width:302px;
+				  margin:2px;
+				  }
+				  	div.desc a{
+				  		text-decoration: none;
+				  		color:#000;
+				  	}
+
+				  	div.desc h6{
+				  		font-weight: bolder;
+				  		font-size: 28px;
+				  		text-decoration: none;
+				  	}
+				  		div.desc h5{
+				  			font-weight: 300;
+				  			font-size: 16px;
+				  			text-transform: uppercase;
+				  		}
