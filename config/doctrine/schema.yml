@@ -1,12 +1,3 @@
-# config/doctrine/schema.yml
-#Category:
-#  actAs: { Timestampable: ~ }
-#  columns:
-#    id:  { type: integer, primary: true }
-#    category:  { type: string(255) }
-#  relations:
-#    JobeetCategory: { onDelete: CASCADE, local: category_id, foreign: id, foreignAlias: JobeetJobs }
-
 Product:
   actAs: { Timestampable: ~ }
   columns:
