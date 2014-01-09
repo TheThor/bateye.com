@@ -3,15 +3,25 @@
 <html>
   <head>
     <title>Bat Eye</title>
+      <meta name="description" content="Bat Eye is a design brand with exclusive furniture to decorate interiors with the most exquisite, artistic deseign.">
+      <meta name="keywords" content="design furniture, luxury furniture manufacturers, customized furniture, furniture store, living room furniture, signature furniture, interior design, exquisite furniture, Marco Sousa, artisan, handmade, luxury pieces">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="description" content="Bat Eye is a design brand with exclusive furniture inspired to decorate interiors with the most exquisite art with the signature of Marco Sousa.">
-    <meta name="keywords" content="design furniture, luxury furniture manufacturers, customized furniture, furniture store, living room furniture, signature furniture, interior design, exquisite furniture, Marco Sousa, artisan, handmade, luxury pieces">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="css/reset.css" rel="stylesheet" type="text/css" />
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" media="screen">
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-31416663-1', 'bateye.com');
+      ga('send', 'pageview');
+
+    </script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="../../assets/js/html5shiv.js"></script>
@@ -22,28 +32,9 @@
     <?php if($dev_mode==true): ?>
       <div id="getposition" style="z-index: 500000; position: fixed; top 5px; left:5px; width: 5px; height:5px;"></div>
     <?php endif; ?>
-    <div id="newsletteroverlay" class="overlay">
-        <div class="newsubscribe">
-            <a id="closeform" style="display: inline-block"></a>
 
-            <div style="width:330px; margin: 0 auto">
-                <img class="logo" src="images/logo_principal_cores.png" alt="Logo Bateye"/>
-            </div>
-            <div id="newsletterform">
-                <form id="mail" name="mail" method="post" action="contact-us.php">
-                    <label for="name">NOME</label><input type="text" name="name" id="name"/>
-                    <label for="email">EMAIL</label><input type="email" name="email" id="email"/>
-                    <label for="country">PAÍS</label><input type="text" name="country" id="country"/>
-                    <!--  <div id="termos">
-                       <input type="checkbox" name="terms" id="terms"> Ao submeter os seus dados receberá a newsletter, ofertas e publicidade enviado por bateye.com e aceita os Termos e Condições e a Política de Privacidade. Os dados submetidos não serão partilhados com mais nenhuma entidade.
-                     </div> -->
-                    <div id="sendcontainer">
-                        <input type="submit" name="enviar" id="enviar" value="SEND" class="button">
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
+    <?php include_once 'include/common/newsletter.php';?>
+
   	<div class="container">
   		<div>
   			<div class="span11 pagination-centered" style="position: relative">
@@ -249,7 +240,8 @@ finished in satin wood; the metal joining the margins is now the support base.</
 
         //Menu fixo
         function fixDiv() {
-          var $cache = $('#menu');
+          var $cache;
+          $cache = $('#menu');
           if ($(window).scrollTop() > 641)
             $cache.css({'position': 'fixed', 'z-index': '4', 'top': '0px'});
           else
