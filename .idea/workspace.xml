@@ -26,17 +26,7 @@
     <favorites_list name="bateye" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="155" selection-start="239" selection-end="239" vertical-scroll-proportion="0.14917128" vertical-offset="0" max-vertical-offset="5400">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -46,10 +36,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/ballet.php" />
-        <option value="$PROJECT_DIR$/movements.php" />
-        <option value="$PROJECT_DIR$/fairytale.php" />
-        <option value="$PROJECT_DIR$/elegance.php" />
         <option value="$PROJECT_DIR$/cask.php" />
         <option value="$PROJECT_DIR$/pillar.php" />
         <option value="$PROJECT_DIR$/reflection.php" />
@@ -62,12 +48,16 @@
         <option value="$PROJECT_DIR$/top.php" />
         <option value="$PROJECT_DIR$/explore.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/config/doctrine/schema.yml" />
+        <option value="$PROJECT_DIR$/data/fixtures/categories.yml" />
+        <option value="$PROJECT_DIR$/data/fixtures/collections.yml" />
+        <option value="$PROJECT_DIR$/data/fixtures/contacts.yml" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1497" />
+    <option name="x" value="57" />
     <option name="y" value="-4" />
     <option name="width" value="1384" />
     <option name="height" value="905" />
@@ -144,6 +134,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bateye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bateye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bateye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bateye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fixtures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -155,7 +181,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.lastSelected" value="Configurable.PHP.FrameworkIntegration" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
@@ -208,7 +234,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1497" y="-4" width="1384" height="905" extended-state="6" />
+    <frame x="57" y="-4" width="1384" height="905" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -248,69 +274,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pillar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="0" selection-start="1986" selection-end="1986" vertical-scroll-proportion="-7.5925927" vertical-offset="947" max-vertical-offset="2340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reflection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="0" selection-start="2001" selection-end="2001" vertical-scroll-proportion="-6.6666665" vertical-offset="972" max-vertical-offset="2340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sensuality.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="22" selection-start="1999" selection-end="1999" vertical-scroll-proportion="-7.5925927" vertical-offset="929" max-vertical-offset="2376">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/silhouette.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="22" selection-start="2000" selection-end="2000" vertical-scroll-proportion="-6.9259257" vertical-offset="947" max-vertical-offset="2358">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ties.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="22" selection-start="1960" selection-end="1960" vertical-scroll-proportion="1.5662984" vertical-offset="0" max-vertical-offset="2304">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stone.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="22" selection-start="1970" selection-end="1970" vertical-scroll-proportion="0.25828728" vertical-offset="947" max-vertical-offset="2412">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/explore.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="54" selection-start="900" selection-end="900" vertical-scroll-proportion="0.7955801" vertical-offset="0" max-vertical-offset="1098">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ballet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="22" selection-start="4225" selection-end="4225" vertical-scroll-proportion="1.748924" vertical-offset="995" max-vertical-offset="2394">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/queenly.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="20" selection-start="519" selection-end="521" vertical-scroll-proportion="-0.7517934" vertical-offset="830" max-vertical-offset="2430">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/top.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="56" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.40331492" vertical-offset="50" max-vertical-offset="774">
@@ -341,7 +304,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="155" selection-start="239" selection-end="239" vertical-scroll-proportion="0.14917128" vertical-offset="0" max-vertical-offset="5400">
+        <state line="6" column="181" selection-start="421" selection-end="421" vertical-scroll-proportion="-1.4814814" vertical-offset="68" max-vertical-offset="5400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/sql/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="73" selection-start="1958" selection-end="1995" vertical-scroll-proportion="-1.8701298" vertical-offset="0" max-vertical-offset="468">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/fixtures/products.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="751">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/fixtures/slider_images.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="727">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/fixtures/users.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="727">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/fixtures/porduct_images.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="751">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/doctrine/schema.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="12" selection-start="867" selection-end="867" vertical-scroll-proportion="0.09587217" vertical-offset="270" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/fixtures/categories.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/fixtures/index_content.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="727">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/fixtures/contacts.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="23" selection-start="58" selection-end="58" vertical-scroll-proportion="0.047936086" vertical-offset="0" max-vertical-offset="751">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/fixtures/collections.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="27" selection-start="83" selection-end="83" vertical-scroll-proportion="0.09587217" vertical-offset="0" max-vertical-offset="751">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/fixtures/news.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="727">
           <folding />
         </state>
       </provider>
