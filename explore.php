@@ -30,13 +30,7 @@
 			</div>
 		</div>
 	</div> -->
-	<?php
-      include_once 'include/common/sidebuttons.php';
-    ?>
 	<?php require_once('include/common/footer.php');?>
-	<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script type="text/javascript" src="js/sidebuttons.js"></script>
      <script type="text/javascript">
       $(document).ready(function() {
         //Smallbox right bottom

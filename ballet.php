@@ -12,8 +12,6 @@
 	    ///////////////////////////////////////////////////////////////////////////////////////////////////-->
 	    <link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'>
 	    <style>
-			text-decoration: none;
-			}
 			#back_to_camera {
 				clear: both;
 				display: block;
@@ -66,11 +64,8 @@
 		</div>
 		<div class="fluid_container">
 	        <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
-	            <div data-thumb="images/slides/thumbs/bridge.jpg" data-src="images/slides/ballet/ballet1.jpg">
-	            </div>
-	            <div data-thumb="images/slides/thumbs/leaf.jpg" data-src="images/slides/ballet/ballet2.jpg">
-	            </div>
-	            </div>
+	            <div data-thumb="images/slides/thumbs/bridge.jpg" data-src="images/slides/ballet/ballet1.jpg"></div>
+	            <div data-thumb="images/slides/thumbs/leaf.jpg" data-src="images/slides/ballet/ballet2.jpg"></div>
 	        </div><!-- #camera_wrap_1 -->
 		</div>
 		<div id="nada"></div>
@@ -120,7 +115,7 @@ Finish in silver leaf
 				</span>
 	       	</div>
         </div>
-    </div>
+
 	<?php
 		require 'explore.php';
 	?>

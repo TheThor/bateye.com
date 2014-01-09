@@ -12,8 +12,6 @@
 	    ///////////////////////////////////////////////////////////////////////////////////////////////////-->
 	    <link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'>
 	    <style>
-			text-decoration: none;
-			}
 			#back_to_camera {
 				clear: both;
 				display: block;
@@ -63,7 +61,6 @@
 	            <div data-thumb="images/slides/thumbs/bridge.jpg" data-src="images/slides/stone/stone1.jpg">
 	            </div>
 	            <div data-thumb="images/slides/thumbs/leaf.jpg" data-src="images/slides/stone/stone2.jpg">
-	            </div>
 	            </div>
 	        </div><!-- #camera_wrap_1 -->
 		</div>

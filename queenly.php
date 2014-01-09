@@ -12,8 +12,6 @@
 	    ///////////////////////////////////////////////////////////////////////////////////////////////////-->
 	    <link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'>
 	    <style>
-			text-decoration: none;
-			}
 			#back_to_camera {
 				clear: both;
 				display: block;
@@ -55,8 +53,8 @@
 			<a href="porto_collection.php"><img src="images/setas.png"></a>
 		</div>
 		<div id="title">
-			<h6>Fairytale</h6>
-			<h5>Bar</h5>
+			<h6>Queenly</h6>
+			<h5>Coffee Table</h5>
 		</div>
 		<div class="fluid_container">
 	        <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
@@ -66,7 +64,6 @@
 	            </div>
                 <div data-thumb="images/slides/queenly/queenly_3.png" data-src="images/slides/queenly/queenly_3.png">
                 </div>
-	            </div>
 	        </div><!-- #camera_wrap_1 -->
 		</div>
 		<div id="nada"></div>

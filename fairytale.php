@@ -12,8 +12,6 @@
 	    ///////////////////////////////////////////////////////////////////////////////////////////////////-->
 	    <link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'>
 	    <style>
-			text-decoration: none;
-			}
 			#back_to_camera {
 				clear: both;
 				display: block;
