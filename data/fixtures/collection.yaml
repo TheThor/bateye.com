@@ -1,0 +1,11 @@
+Collection:
+   porto_collection:
+     name:         Porto Collection
+     description:  Porto Collection é uma coleção inspirada na cidae do Porto
+     url:          http://www.bateye.com/porto_collection.php
+     is_active:    1
+   london_collection:
+     name:         London Collection
+     description:  London Collection é uma coleção inspirada na cidae do London
+     url:          http://www.bateye.com/london_collection.php
+     is_active:    1

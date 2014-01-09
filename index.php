@@ -2,8 +2,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>bateye</title>
+    <title>Bat Eye</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="Bat Eye is a design brand with exclusive furniture inspired to decorate interiors with the most exquisite art with the signature of Marco Sousa.">
+    <meta name="keywords" content="design furniture, luxury furniture manufacturers, customized furniture, furniture store, living room furniture, signature furniture, interior design, exquisite furniture, Marco Sousa, artisan, handmade, luxury pieces">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="css/reset.css" rel="stylesheet" type="text/css" />
@@ -15,7 +17,6 @@
       <script src="../../assets/js/html5shiv.js"></script>
       <script src="../../assets/js/respond.min.js"></script>
     <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <?php if($dev_mode==true): ?>
@@ -86,7 +87,7 @@
           <a href="porto_collection.php"><img class="responsive-img" src="images/portocollection_branco.png" alt="Link para coleção Porto" /></a>
         </div>
         <div id="london-collect">
-          <a href="london_collection.php"><img class="responsive-img" src="images/londoncollection_branco.png" alt="Link para coleção Londres" /></a>
+          <a href="not_available.php"><img class="responsive-img" src="images/londoncollection_branco.png" alt="Link para coleção Londres" /></a>
         </div>
       </div>
       <div class="span11 moreinfo nodisplay">
@@ -268,7 +269,7 @@ finished in satin wood; the metal joining the margins is now the support base.</
         //Smallbox right bottom
         var container = $( "#produ" );
         $( "#closeit" ).click(
-          function(event){
+          function(){
             if (container.is( ":visible" )){
               // Hide - slide up.
               container.slideUp( 2000 );
