@@ -7,4 +7,4 @@ all:
     param:
       dsn:      mysql:host=localhost;dbname=bateye
       username: root
-      password: C@r0L87
+      password: 
