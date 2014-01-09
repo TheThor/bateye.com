@@ -1,37 +1,184 @@
-Product:
-  actAs: { Timestampable: ~ }
+Category:
+  connection: doctrine
+  tableName: category
   columns:
-    product_id:         { type: integer, primary: true }
-    description:        { type: string(255) }
-    type:               { type: string(255) }
-    width:              { type: string(255) }
-    height:             { type: string(255) }
-    depth:              { type: string(255) }
-    diameter:           { type: string(255) }
-    product_url:        { type: string(255) }
-    image_url:          { type: string(255) }
-    collection_id:      { type: string(255) }
-
+    id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    name:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
 Collection:
-  actAs: { Timestampable: ~ }
+  connection: doctrine
+  tableName: collection
   columns:
-    collection_id: { type: integer, primary: true }
-    description:   { type: string(255) }
-    url:           { type: string(255) }
-    is_active:     { type: boolean, notnull: true, default: 0 }
-
-ProductCollection:
-  actAs: { Timestampable: ~ }
+    id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    name:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    description:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    url:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    is_active:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: '1'
+      notnull: true
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+Product:
+  connection: doctrine
+  tableName: product
   columns:
-    prodcut_id:     { type: integer, primary: true }
-    collection_id:  { type: integer, primary: true }
-  relations:
-
-
-Users:
-  columns:
-    category_id:  { type: integer, primary: true }
-    affiliate_id: { type: integer, primary: true }
-  relations:
-    JobeetCategory:  { onDelete: CASCADE, local: category_id, foreign: id }
-    JobeetAffiliate: { onDelete: CASCADE, local: affiliate_id, foreign: id }
+    id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    category_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    collection_id:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    product_url:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    image_url:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    description:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    type:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    width:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    height:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    depth:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    diameter:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    is_active:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: '1'
+      notnull: true
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false

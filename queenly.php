@@ -60,10 +60,12 @@
 		</div>
 		<div class="fluid_container">
 	        <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
-	            <div data-thumb="images/slides/thumbs/bridge.jpg" data-src="images/slides/ballet/ballet1.jpg">
+	            <div data-thumb="images/slides/queenly/queenly_1.png" data-src="images/slides/queenly/queenly_1.png">
 	            </div>
-	            <div data-thumb="images/slides/thumbs/leaf.jpg" data-src="images/slides/ballet/ballet2.jpg">
+                <div data-thumb="images/slides/queenly/queenly_2.png" data-src="images/slides/queenly/queenly_2.png">
 	            </div>
+                <div data-thumb="images/slides/queenly/queenly_3.png" data-src="images/slides/queenly/queenly_3.png">
+                </div>
 	            </div>
 	        </div><!-- #camera_wrap_1 -->
 		</div>

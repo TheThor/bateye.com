@@ -1,0 +1,21 @@
+Category:
+   table_lamp:
+     name: Table Lamp
+   sideboard:
+      name: Sideboard
+   armchar:
+      name: Armchair
+   table_bench:
+      name: Table and Bench
+   mirror:
+      name: Mirror
+   bench:
+      name: Bench
+   console:
+      name: console
+   bench:
+      name: Bench
+   bar:
+      name: bar
+   coffee_table:
+      name: Coffee Table
