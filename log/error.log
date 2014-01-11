@@ -25,3 +25,866 @@
 [Thu Jan 09 22:21:42.837042 2014] [:error] [pid 8388] [client 127.0.0.1:51884] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
 [Thu Jan 09 22:21:42.838324 2014] [:error] [pid 8388] [client 127.0.0.1:51884] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
 [Thu Jan 09 22:21:42.838644 2014] [:error] [pid 8388] [client 127.0.0.1:51884] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Fri Jan 10 20:36:53.583542 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Fri Jan 10 20:36:53.598927 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP Stack trace:
+[Fri Jan 10 20:36:53.598968 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 20:36:53.598981 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 20:36:53.599003 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 20:36:53.599015 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 20:36:53.599026 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 20:36:53.599038 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 20:36:53.599049 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   7. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Fri Jan 10 20:36:53.599060 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   8. sfExecutionFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 20:36:53.599070 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   9. sfExecutionFilter->handleView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Fri Jan 10 20:36:53.599086 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  10. sfExecutionFilter->executeView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Fri Jan 10 20:36:53.599097 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  11. sfController->getView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:140
+[Fri Jan 10 20:36:53.599110 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  12. sfView->__construct() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:369
+[Fri Jan 10 20:36:53.599120 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  13. sfView->initialize() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:93
+[Fri Jan 10 20:36:53.599130 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  14. sfPHPView->configure() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:145
+[Fri Jan 10 20:36:53.599140 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  15. require() /var/www/bateye/lib/vendor/symfony/lib/view/sfPHPView.class.php:110
+[Fri Jan 10 20:36:53.599156 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  16. sfWebResponse->addHttpMeta() /var/www/bateye/cache/frontend/dev/config/modules_default_config_view.yml.php:20
+[Fri Jan 10 20:36:53.599167 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  17. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:512
+[Fri Jan 10 20:36:53.599177 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  18. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Fri Jan 10 20:36:53.599506 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Fri Jan 10 20:36:53.599522 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP Stack trace:
+[Fri Jan 10 20:36:53.599532 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 20:36:53.599558 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 20:36:53.599569 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 20:36:53.599579 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 20:36:53.599589 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 20:36:53.599600 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 20:36:53.599611 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   7. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Fri Jan 10 20:36:53.599621 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   8. sfExecutionFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 20:36:53.599631 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   9. sfExecutionFilter->handleView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Fri Jan 10 20:36:53.599641 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  10. sfExecutionFilter->executeView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Fri Jan 10 20:36:53.599656 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  11. sfController->getView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:140
+[Fri Jan 10 20:36:53.599666 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  12. sfView->__construct() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:369
+[Fri Jan 10 20:36:53.599676 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  13. sfView->initialize() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:93
+[Fri Jan 10 20:36:53.599686 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  14. sfPHPView->configure() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:145
+[Fri Jan 10 20:36:53.599696 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  15. require() /var/www/bateye/lib/vendor/symfony/lib/view/sfPHPView.class.php:110
+[Fri Jan 10 20:36:53.599706 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  16. sfWebResponse->addHttpMeta() /var/www/bateye/cache/frontend/dev/config/modules_default_config_view.yml.php:20
+[Fri Jan 10 20:36:53.599717 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  17. sfWebResponse->setHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:515
+[Fri Jan 10 20:36:53.599727 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  18. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:236
+[Fri Jan 10 20:36:53.599737 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  19. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Fri Jan 10 20:36:53.600214 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Fri Jan 10 20:36:53.600225 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP Stack trace:
+[Fri Jan 10 20:36:53.600235 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 20:36:53.600245 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 20:36:53.600261 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 20:36:53.600271 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 20:36:53.600282 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 20:36:53.600292 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 20:36:53.600302 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   7. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Fri Jan 10 20:36:53.600311 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   8. sfExecutionFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 20:36:53.600321 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   9. sfExecutionFilter->handleView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Fri Jan 10 20:36:53.600331 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  10. sfExecutionFilter->executeView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Fri Jan 10 20:36:53.600341 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  11. sfController->getView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:140
+[Fri Jan 10 20:36:53.600350 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  12. sfView->__construct() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:369
+[Fri Jan 10 20:36:53.600360 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  13. sfView->initialize() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:93
+[Fri Jan 10 20:36:53.600369 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  14. sfPHPView->configure() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:145
+[Fri Jan 10 20:36:53.600379 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  15. require() /var/www/bateye/lib/vendor/symfony/lib/view/sfPHPView.class.php:110
+[Fri Jan 10 20:36:53.600389 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  16. sfWebResponse->addHttpMeta() /var/www/bateye/cache/frontend/dev/config/modules_default_config_view.yml.php:20
+[Fri Jan 10 20:36:53.600398 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  17. sfWebResponse->setHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:515
+[Fri Jan 10 20:36:53.600408 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  18. sfWebResponse->getHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:247
+[Fri Jan 10 20:36:53.600417 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  19. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:274
+[Fri Jan 10 20:36:53.600426 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  20. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Fri Jan 10 20:36:53.600641 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Fri Jan 10 20:36:53.600651 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP Stack trace:
+[Fri Jan 10 20:36:53.600661 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 20:36:53.600671 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 20:36:53.600688 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 20:36:53.600698 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 20:36:53.600708 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 20:36:53.600717 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 20:36:53.600727 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   7. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Fri Jan 10 20:36:53.600737 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   8. sfExecutionFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 20:36:53.600746 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   9. sfExecutionFilter->handleView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Fri Jan 10 20:36:53.600756 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  10. sfExecutionFilter->executeView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Fri Jan 10 20:36:53.600766 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  11. sfController->getView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:140
+[Fri Jan 10 20:36:53.600775 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  12. sfView->__construct() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:369
+[Fri Jan 10 20:36:53.600785 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  13. sfView->initialize() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:93
+[Fri Jan 10 20:36:53.600795 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  14. sfPHPView->configure() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:145
+[Fri Jan 10 20:36:53.600804 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  15. require() /var/www/bateye/lib/vendor/symfony/lib/view/sfPHPView.class.php:110
+[Fri Jan 10 20:36:53.600813 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  16. sfWebResponse->addHttpMeta() /var/www/bateye/cache/frontend/dev/config/modules_default_config_view.yml.php:20
+[Fri Jan 10 20:36:53.600823 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  17. sfWebResponse->getContentType() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:526
+[Fri Jan 10 20:36:53.600833 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  18. sfWebResponse->getHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:319
+[Fri Jan 10 20:36:53.600843 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  19. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:274
+[Fri Jan 10 20:36:53.600852 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  20. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Fri Jan 10 20:36:53.671213 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409) in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336
+[Fri Jan 10 20:36:53.671235 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP Stack trace:
+[Fri Jan 10 20:36:53.671249 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 20:36:53.671260 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 20:36:53.671282 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 20:36:53.671293 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 20:36:53.671303 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 20:36:53.671314 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 20:36:53.671323 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   7. sfWebResponse->send() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:51
+[Fri Jan 10 20:36:53.671333 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   8. sfWebResponse->sendHttpHeaders() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:396
+[Fri Jan 10 20:36:53.671342 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   9. header() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:336
+[Fri Jan 10 20:36:53.671597 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Fri Jan 10 20:36:53.671606 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP Stack trace:
+[Fri Jan 10 20:36:53.671616 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 20:36:53.671627 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 20:36:53.671637 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 20:36:53.671647 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 20:36:53.671657 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 20:36:53.671667 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 20:36:53.671677 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   7. sfWebResponse->send() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:51
+[Fri Jan 10 20:36:53.671687 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   8. sfWebResponse->sendHttpHeaders() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:396
+[Fri Jan 10 20:36:53.671697 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   9. sfWebResponse->getHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:351
+[Fri Jan 10 20:36:53.671707 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  10. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:274
+[Fri Jan 10 20:36:53.671716 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  11. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Fri Jan 10 20:36:53.672173 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409) in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357
+[Fri Jan 10 20:36:53.672188 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP Stack trace:
+[Fri Jan 10 20:36:53.672200 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 20:36:53.672210 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 20:36:53.672220 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 20:36:53.672230 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 20:36:53.672240 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 20:36:53.672250 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 20:36:53.672260 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   7. sfWebResponse->send() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:51
+[Fri Jan 10 20:36:53.672270 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   8. sfWebResponse->sendHttpHeaders() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:396
+[Fri Jan 10 20:36:53.672279 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   9. header() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:357
+[Fri Jan 10 20:36:53.673329 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Fri Jan 10 20:36:53.673338 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP Stack trace:
+[Fri Jan 10 20:36:53.675346 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 20:36:53.675363 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 20:36:53.675374 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 20:36:53.675385 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 20:36:53.675395 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 20:36:53.675405 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 20:36:53.675415 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   7. sfWebResponse->send() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:51
+[Fri Jan 10 20:36:53.675425 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   8. sfWebResponse->sendContent() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:397
+[Fri Jan 10 20:36:53.675435 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP   9. sfResponse->sendContent() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:387
+[Fri Jan 10 20:36:53.675445 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  10. sfEventDispatcher->filter() /var/www/bateye/lib/vendor/symfony/lib/response/sfResponse.class.php:97
+[Fri Jan 10 20:36:53.675455 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  11. call_user_func_array() /var/www/bateye/lib/vendor/symfony/lib/event_dispatcher/sfEventDispatcher.php:118
+[Fri Jan 10 20:36:53.675475 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  12. sfWebDebugLogger->filterResponseContent() /var/www/bateye/lib/vendor/symfony/lib/event_dispatcher/sfEventDispatcher.php:118
+[Fri Jan 10 20:36:53.675485 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  13. sfWebResponse->getContentType() /var/www/bateye/lib/vendor/symfony/lib/log/sfWebDebugLogger.class.php:162
+[Fri Jan 10 20:36:53.675495 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  14. sfWebResponse->getHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:319
+[Fri Jan 10 20:36:53.675505 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  15. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:274
+[Fri Jan 10 20:36:53.675514 2014] [:error] [pid 14249] [client 127.0.0.1:56537] PHP  16. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Fri Jan 10 21:29:13.461135 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Fri Jan 10 21:29:13.516364 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP Stack trace:
+[Fri Jan 10 21:29:13.516406 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 21:29:13.516418 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 21:29:13.516429 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 21:29:13.516440 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 21:29:13.516451 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 21:29:13.516462 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:29:13.516472 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   7. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Fri Jan 10 21:29:13.516483 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   8. sfExecutionFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:29:13.516494 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   9. sfExecutionFilter->handleView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Fri Jan 10 21:29:13.516504 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  10. sfExecutionFilter->executeView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Fri Jan 10 21:29:13.516514 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  11. sfController->getView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:140
+[Fri Jan 10 21:29:13.516525 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  12. sfView->__construct() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:369
+[Fri Jan 10 21:29:13.516535 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  13. sfView->initialize() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:93
+[Fri Jan 10 21:29:13.516546 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  14. sfPHPView->configure() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:145
+[Fri Jan 10 21:29:13.516555 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  15. require() /var/www/bateye/lib/vendor/symfony/lib/view/sfPHPView.class.php:110
+[Fri Jan 10 21:29:13.516578 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  16. sfWebResponse->addHttpMeta() /var/www/bateye/cache/frontend/dev/config/modules_default_config_view.yml.php:20
+[Fri Jan 10 21:29:13.516588 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  17. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:512
+[Fri Jan 10 21:29:13.516598 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  18. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Fri Jan 10 21:29:13.516921 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Fri Jan 10 21:29:13.516931 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP Stack trace:
+[Fri Jan 10 21:29:13.516941 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 21:29:13.516951 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 21:29:13.516961 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 21:29:13.516971 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 21:29:13.516981 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 21:29:13.516991 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:29:13.517001 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   7. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Fri Jan 10 21:29:13.517011 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   8. sfExecutionFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:29:13.517020 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   9. sfExecutionFilter->handleView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Fri Jan 10 21:29:13.517030 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  10. sfExecutionFilter->executeView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Fri Jan 10 21:29:13.517040 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  11. sfController->getView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:140
+[Fri Jan 10 21:29:13.517050 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  12. sfView->__construct() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:369
+[Fri Jan 10 21:29:13.517059 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  13. sfView->initialize() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:93
+[Fri Jan 10 21:29:13.517069 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  14. sfPHPView->configure() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:145
+[Fri Jan 10 21:29:13.517078 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  15. require() /var/www/bateye/lib/vendor/symfony/lib/view/sfPHPView.class.php:110
+[Fri Jan 10 21:29:13.517088 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  16. sfWebResponse->addHttpMeta() /var/www/bateye/cache/frontend/dev/config/modules_default_config_view.yml.php:20
+[Fri Jan 10 21:29:13.517098 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  17. sfWebResponse->setHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:515
+[Fri Jan 10 21:29:13.517108 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  18. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:236
+[Fri Jan 10 21:29:13.517123 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  19. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Fri Jan 10 21:29:13.517603 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Fri Jan 10 21:29:13.517616 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP Stack trace:
+[Fri Jan 10 21:29:13.517626 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 21:29:13.517636 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 21:29:13.517647 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 21:29:13.517657 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 21:29:13.517667 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 21:29:13.517677 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:29:13.517687 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   7. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Fri Jan 10 21:29:13.517697 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   8. sfExecutionFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:29:13.517707 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   9. sfExecutionFilter->handleView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Fri Jan 10 21:29:13.517717 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  10. sfExecutionFilter->executeView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Fri Jan 10 21:29:13.517727 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  11. sfController->getView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:140
+[Fri Jan 10 21:29:13.517736 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  12. sfView->__construct() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:369
+[Fri Jan 10 21:29:13.517746 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  13. sfView->initialize() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:93
+[Fri Jan 10 21:29:13.517756 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  14. sfPHPView->configure() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:145
+[Fri Jan 10 21:29:13.517765 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  15. require() /var/www/bateye/lib/vendor/symfony/lib/view/sfPHPView.class.php:110
+[Fri Jan 10 21:29:13.517775 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  16. sfWebResponse->addHttpMeta() /var/www/bateye/cache/frontend/dev/config/modules_default_config_view.yml.php:20
+[Fri Jan 10 21:29:13.517785 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  17. sfWebResponse->setHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:515
+[Fri Jan 10 21:29:13.517795 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  18. sfWebResponse->getHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:247
+[Fri Jan 10 21:29:13.517805 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  19. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:274
+[Fri Jan 10 21:29:13.517821 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  20. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Fri Jan 10 21:29:13.518051 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Fri Jan 10 21:29:13.518061 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP Stack trace:
+[Fri Jan 10 21:29:13.518070 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 21:29:13.518081 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 21:29:13.518091 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 21:29:13.518119 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 21:29:13.518131 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 21:29:13.518141 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:29:13.518151 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   7. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Fri Jan 10 21:29:13.518161 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   8. sfExecutionFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:29:13.518171 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   9. sfExecutionFilter->handleView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Fri Jan 10 21:29:13.518181 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  10. sfExecutionFilter->executeView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Fri Jan 10 21:29:13.518190 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  11. sfController->getView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:140
+[Fri Jan 10 21:29:13.518200 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  12. sfView->__construct() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:369
+[Fri Jan 10 21:29:13.518210 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  13. sfView->initialize() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:93
+[Fri Jan 10 21:29:13.518219 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  14. sfPHPView->configure() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:145
+[Fri Jan 10 21:29:13.518228 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  15. require() /var/www/bateye/lib/vendor/symfony/lib/view/sfPHPView.class.php:110
+[Fri Jan 10 21:29:13.518238 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  16. sfWebResponse->addHttpMeta() /var/www/bateye/cache/frontend/dev/config/modules_default_config_view.yml.php:20
+[Fri Jan 10 21:29:13.518248 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  17. sfWebResponse->getContentType() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:526
+[Fri Jan 10 21:29:13.518258 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  18. sfWebResponse->getHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:319
+[Fri Jan 10 21:29:13.518268 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  19. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:274
+[Fri Jan 10 21:29:13.518284 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  20. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Fri Jan 10 21:29:13.552152 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409) in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336
+[Fri Jan 10 21:29:13.552173 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP Stack trace:
+[Fri Jan 10 21:29:13.552187 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 21:29:13.552197 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 21:29:13.552207 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 21:29:13.552217 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 21:29:13.552227 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 21:29:13.552237 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:29:13.552247 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   7. sfWebResponse->send() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:51
+[Fri Jan 10 21:29:13.552257 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   8. sfWebResponse->sendHttpHeaders() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:396
+[Fri Jan 10 21:29:13.552266 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   9. header() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:336
+[Fri Jan 10 21:29:13.552518 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Fri Jan 10 21:29:13.552527 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP Stack trace:
+[Fri Jan 10 21:29:13.552538 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 21:29:13.552553 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 21:29:13.552564 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 21:29:13.552574 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 21:29:13.552583 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 21:29:13.552593 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:29:13.552603 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   7. sfWebResponse->send() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:51
+[Fri Jan 10 21:29:13.552613 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   8. sfWebResponse->sendHttpHeaders() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:396
+[Fri Jan 10 21:29:13.552634 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   9. sfWebResponse->getHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:351
+[Fri Jan 10 21:29:13.552644 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  10. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:274
+[Fri Jan 10 21:29:13.552653 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  11. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Fri Jan 10 21:29:13.553104 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409) in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357
+[Fri Jan 10 21:29:13.553113 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP Stack trace:
+[Fri Jan 10 21:29:13.553123 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 21:29:13.553132 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 21:29:13.553141 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 21:29:13.553151 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 21:29:13.553160 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 21:29:13.553169 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:29:13.553178 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   7. sfWebResponse->send() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:51
+[Fri Jan 10 21:29:13.553187 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   8. sfWebResponse->sendHttpHeaders() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:396
+[Fri Jan 10 21:29:13.553195 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   9. header() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:357
+[Fri Jan 10 21:29:13.553879 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Fri Jan 10 21:29:13.553888 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP Stack trace:
+[Fri Jan 10 21:29:13.553899 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 21:29:13.553909 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 21:29:13.553919 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 21:29:13.553929 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 21:29:13.553939 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 21:29:13.553948 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:29:13.553964 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   7. sfWebResponse->send() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:51
+[Fri Jan 10 21:29:13.553974 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   8. sfWebResponse->sendContent() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:397
+[Fri Jan 10 21:29:13.553984 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP   9. sfResponse->sendContent() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:387
+[Fri Jan 10 21:29:13.553994 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  10. sfEventDispatcher->filter() /var/www/bateye/lib/vendor/symfony/lib/response/sfResponse.class.php:97
+[Fri Jan 10 21:29:13.554003 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  11. call_user_func_array() /var/www/bateye/lib/vendor/symfony/lib/event_dispatcher/sfEventDispatcher.php:118
+[Fri Jan 10 21:29:13.554013 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  12. sfWebDebugLogger->filterResponseContent() /var/www/bateye/lib/vendor/symfony/lib/event_dispatcher/sfEventDispatcher.php:118
+[Fri Jan 10 21:29:13.554023 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  13. sfWebResponse->getContentType() /var/www/bateye/lib/vendor/symfony/lib/log/sfWebDebugLogger.class.php:162
+[Fri Jan 10 21:29:13.554033 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  14. sfWebResponse->getHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:319
+[Fri Jan 10 21:29:13.554042 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  15. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:274
+[Fri Jan 10 21:29:13.554051 2014] [:error] [pid 14250] [client 127.0.0.1:57539] PHP  16. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Fri Jan 10 21:30:24.010167 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Fri Jan 10 21:30:24.010198 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP Stack trace:
+[Fri Jan 10 21:30:24.010212 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 21:30:24.010224 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 21:30:24.010234 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 21:30:24.010245 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 21:30:24.010255 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 21:30:24.010270 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:30:24.010280 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   7. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Fri Jan 10 21:30:24.010290 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   8. sfExecutionFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:30:24.010299 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   9. sfExecutionFilter->handleView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Fri Jan 10 21:30:24.010309 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  10. sfExecutionFilter->executeView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Fri Jan 10 21:30:24.010331 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  11. sfController->getView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:140
+[Fri Jan 10 21:30:24.010341 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  12. sfView->__construct() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:369
+[Fri Jan 10 21:30:24.010350 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  13. sfView->initialize() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:93
+[Fri Jan 10 21:30:24.010359 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  14. sfPHPView->configure() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:145
+[Fri Jan 10 21:30:24.010367 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  15. require() /var/www/bateye/lib/vendor/symfony/lib/view/sfPHPView.class.php:110
+[Fri Jan 10 21:30:24.010376 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  16. sfWebResponse->addHttpMeta() /var/www/bateye/cache/frontend/dev/config/modules_default_config_view.yml.php:20
+[Fri Jan 10 21:30:24.010385 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  17. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:512
+[Fri Jan 10 21:30:24.010394 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  18. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Fri Jan 10 21:30:24.010617 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Fri Jan 10 21:30:24.010626 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP Stack trace:
+[Fri Jan 10 21:30:24.010635 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 21:30:24.010645 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 21:30:24.010654 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 21:30:24.010664 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 21:30:24.010674 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 21:30:24.010683 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:30:24.010692 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   7. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Fri Jan 10 21:30:24.010701 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   8. sfExecutionFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:30:24.010711 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   9. sfExecutionFilter->handleView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Fri Jan 10 21:30:24.010720 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  10. sfExecutionFilter->executeView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Fri Jan 10 21:30:24.010729 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  11. sfController->getView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:140
+[Fri Jan 10 21:30:24.010739 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  12. sfView->__construct() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:369
+[Fri Jan 10 21:30:24.010754 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  13. sfView->initialize() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:93
+[Fri Jan 10 21:30:24.010764 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  14. sfPHPView->configure() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:145
+[Fri Jan 10 21:30:24.010772 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  15. require() /var/www/bateye/lib/vendor/symfony/lib/view/sfPHPView.class.php:110
+[Fri Jan 10 21:30:24.010781 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  16. sfWebResponse->addHttpMeta() /var/www/bateye/cache/frontend/dev/config/modules_default_config_view.yml.php:20
+[Fri Jan 10 21:30:24.010790 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  17. sfWebResponse->setHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:515
+[Fri Jan 10 21:30:24.010800 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  18. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:236
+[Fri Jan 10 21:30:24.010808 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  19. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Fri Jan 10 21:30:24.011223 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Fri Jan 10 21:30:24.011232 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP Stack trace:
+[Fri Jan 10 21:30:24.011241 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 21:30:24.011251 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 21:30:24.011260 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 21:30:24.011270 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 21:30:24.011279 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 21:30:24.011288 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:30:24.011298 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   7. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Fri Jan 10 21:30:24.011307 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   8. sfExecutionFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:30:24.011316 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   9. sfExecutionFilter->handleView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Fri Jan 10 21:30:24.011326 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  10. sfExecutionFilter->executeView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Fri Jan 10 21:30:24.011335 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  11. sfController->getView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:140
+[Fri Jan 10 21:30:24.011344 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  12. sfView->__construct() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:369
+[Fri Jan 10 21:30:24.011353 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  13. sfView->initialize() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:93
+[Fri Jan 10 21:30:24.011363 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  14. sfPHPView->configure() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:145
+[Fri Jan 10 21:30:24.011378 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  15. require() /var/www/bateye/lib/vendor/symfony/lib/view/sfPHPView.class.php:110
+[Fri Jan 10 21:30:24.011387 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  16. sfWebResponse->addHttpMeta() /var/www/bateye/cache/frontend/dev/config/modules_default_config_view.yml.php:20
+[Fri Jan 10 21:30:24.011397 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  17. sfWebResponse->setHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:515
+[Fri Jan 10 21:30:24.011406 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  18. sfWebResponse->getHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:247
+[Fri Jan 10 21:30:24.011415 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  19. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:274
+[Fri Jan 10 21:30:24.011424 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  20. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Fri Jan 10 21:30:24.011607 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Fri Jan 10 21:30:24.011622 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP Stack trace:
+[Fri Jan 10 21:30:24.011640 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 21:30:24.011659 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 21:30:24.011669 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 21:30:24.011680 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 21:30:24.011689 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 21:30:24.011699 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:30:24.011709 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   7. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Fri Jan 10 21:30:24.011718 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   8. sfExecutionFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:30:24.011728 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   9. sfExecutionFilter->handleView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Fri Jan 10 21:30:24.011738 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  10. sfExecutionFilter->executeView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Fri Jan 10 21:30:24.011748 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  11. sfController->getView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:140
+[Fri Jan 10 21:30:24.011757 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  12. sfView->__construct() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:369
+[Fri Jan 10 21:30:24.011767 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  13. sfView->initialize() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:93
+[Fri Jan 10 21:30:24.011782 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  14. sfPHPView->configure() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:145
+[Fri Jan 10 21:30:24.011799 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  15. require() /var/www/bateye/lib/vendor/symfony/lib/view/sfPHPView.class.php:110
+[Fri Jan 10 21:30:24.011809 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  16. sfWebResponse->addHttpMeta() /var/www/bateye/cache/frontend/dev/config/modules_default_config_view.yml.php:20
+[Fri Jan 10 21:30:24.011818 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  17. sfWebResponse->getContentType() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:526
+[Fri Jan 10 21:30:24.011828 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  18. sfWebResponse->getHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:319
+[Fri Jan 10 21:30:24.011837 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  19. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:274
+[Fri Jan 10 21:30:24.011845 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  20. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Fri Jan 10 21:30:24.015521 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409) in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336
+[Fri Jan 10 21:30:24.015532 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP Stack trace:
+[Fri Jan 10 21:30:24.015543 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 21:30:24.015553 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 21:30:24.015563 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 21:30:24.015572 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 21:30:24.015581 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 21:30:24.015591 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:30:24.015600 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   7. sfWebResponse->send() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:51
+[Fri Jan 10 21:30:24.015609 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   8. sfWebResponse->sendHttpHeaders() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:396
+[Fri Jan 10 21:30:24.015617 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   9. header() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:336
+[Fri Jan 10 21:30:24.015840 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Fri Jan 10 21:30:24.015849 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP Stack trace:
+[Fri Jan 10 21:30:24.015858 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 21:30:24.015868 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 21:30:24.015877 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 21:30:24.015894 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 21:30:24.015903 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 21:30:24.015913 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:30:24.015922 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   7. sfWebResponse->send() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:51
+[Fri Jan 10 21:30:24.015931 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   8. sfWebResponse->sendHttpHeaders() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:396
+[Fri Jan 10 21:30:24.015940 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   9. sfWebResponse->getHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:351
+[Fri Jan 10 21:30:24.015949 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  10. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:274
+[Fri Jan 10 21:30:24.015958 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  11. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Fri Jan 10 21:30:24.016303 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409) in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357
+[Fri Jan 10 21:30:24.016311 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP Stack trace:
+[Fri Jan 10 21:30:24.016321 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 21:30:24.016330 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 21:30:24.016340 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 21:30:24.016349 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 21:30:24.016358 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 21:30:24.016368 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:30:24.016377 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   7. sfWebResponse->send() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:51
+[Fri Jan 10 21:30:24.016386 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   8. sfWebResponse->sendHttpHeaders() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:396
+[Fri Jan 10 21:30:24.016394 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   9. header() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:357
+[Fri Jan 10 21:30:24.017073 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Fri Jan 10 21:30:24.017082 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP Stack trace:
+[Fri Jan 10 21:30:24.017091 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 21:30:24.017107 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 21:30:24.017117 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 21:30:24.017126 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 21:30:24.017135 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 21:30:24.017145 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:30:24.017154 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   7. sfWebResponse->send() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:51
+[Fri Jan 10 21:30:24.017163 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   8. sfWebResponse->sendContent() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:397
+[Fri Jan 10 21:30:24.017172 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP   9. sfResponse->sendContent() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:387
+[Fri Jan 10 21:30:24.017182 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  10. sfEventDispatcher->filter() /var/www/bateye/lib/vendor/symfony/lib/response/sfResponse.class.php:97
+[Fri Jan 10 21:30:24.017190 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  11. call_user_func_array() /var/www/bateye/lib/vendor/symfony/lib/event_dispatcher/sfEventDispatcher.php:118
+[Fri Jan 10 21:30:24.017200 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  12. sfWebDebugLogger->filterResponseContent() /var/www/bateye/lib/vendor/symfony/lib/event_dispatcher/sfEventDispatcher.php:118
+[Fri Jan 10 21:30:24.017209 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  13. sfWebResponse->getContentType() /var/www/bateye/lib/vendor/symfony/lib/log/sfWebDebugLogger.class.php:162
+[Fri Jan 10 21:30:24.017218 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  14. sfWebResponse->getHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:319
+[Fri Jan 10 21:30:24.017228 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  15. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:274
+[Fri Jan 10 21:30:24.017236 2014] [:error] [pid 14251] [client 127.0.0.1:57555] PHP  16. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Fri Jan 10 21:31:10.712019 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Fri Jan 10 21:31:10.712049 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP Stack trace:
+[Fri Jan 10 21:31:10.712061 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 21:31:10.712073 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 21:31:10.712083 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 21:31:10.712151 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 21:31:10.712164 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 21:31:10.712189 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:31:10.712199 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   7. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Fri Jan 10 21:31:10.712209 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   8. sfExecutionFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:31:10.712218 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   9. sfExecutionFilter->handleView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Fri Jan 10 21:31:10.712228 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  10. sfExecutionFilter->executeView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Fri Jan 10 21:31:10.712238 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  11. sfController->getView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:140
+[Fri Jan 10 21:31:10.712247 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  12. sfView->__construct() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:369
+[Fri Jan 10 21:31:10.712257 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  13. sfView->initialize() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:93
+[Fri Jan 10 21:31:10.712266 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  14. sfPHPView->configure() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:145
+[Fri Jan 10 21:31:10.712275 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  15. require() /var/www/bateye/lib/vendor/symfony/lib/view/sfPHPView.class.php:110
+[Fri Jan 10 21:31:10.712285 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  16. sfWebResponse->addHttpMeta() /var/www/bateye/cache/frontend/dev/config/modules_default_config_view.yml.php:20
+[Fri Jan 10 21:31:10.712295 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  17. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:512
+[Fri Jan 10 21:31:10.712304 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  18. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Fri Jan 10 21:31:10.712506 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Fri Jan 10 21:31:10.712516 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP Stack trace:
+[Fri Jan 10 21:31:10.712525 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 21:31:10.712535 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 21:31:10.712545 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 21:31:10.712555 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 21:31:10.712564 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 21:31:10.712574 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:31:10.712583 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   7. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Fri Jan 10 21:31:10.712599 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   8. sfExecutionFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:31:10.712609 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   9. sfExecutionFilter->handleView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Fri Jan 10 21:31:10.712619 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  10. sfExecutionFilter->executeView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Fri Jan 10 21:31:10.712629 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  11. sfController->getView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:140
+[Fri Jan 10 21:31:10.712639 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  12. sfView->__construct() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:369
+[Fri Jan 10 21:31:10.712648 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  13. sfView->initialize() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:93
+[Fri Jan 10 21:31:10.712658 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  14. sfPHPView->configure() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:145
+[Fri Jan 10 21:31:10.712667 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  15. require() /var/www/bateye/lib/vendor/symfony/lib/view/sfPHPView.class.php:110
+[Fri Jan 10 21:31:10.712677 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  16. sfWebResponse->addHttpMeta() /var/www/bateye/cache/frontend/dev/config/modules_default_config_view.yml.php:20
+[Fri Jan 10 21:31:10.712687 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  17. sfWebResponse->setHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:515
+[Fri Jan 10 21:31:10.712696 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  18. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:236
+[Fri Jan 10 21:31:10.712705 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  19. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Fri Jan 10 21:31:10.713135 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Fri Jan 10 21:31:10.713145 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP Stack trace:
+[Fri Jan 10 21:31:10.713155 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 21:31:10.713167 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 21:31:10.713177 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 21:31:10.713187 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 21:31:10.713197 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 21:31:10.713207 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:31:10.713217 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   7. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Fri Jan 10 21:31:10.713227 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   8. sfExecutionFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:31:10.713237 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   9. sfExecutionFilter->handleView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Fri Jan 10 21:31:10.713254 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  10. sfExecutionFilter->executeView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Fri Jan 10 21:31:10.713264 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  11. sfController->getView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:140
+[Fri Jan 10 21:31:10.713274 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  12. sfView->__construct() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:369
+[Fri Jan 10 21:31:10.713284 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  13. sfView->initialize() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:93
+[Fri Jan 10 21:31:10.713294 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  14. sfPHPView->configure() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:145
+[Fri Jan 10 21:31:10.713303 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  15. require() /var/www/bateye/lib/vendor/symfony/lib/view/sfPHPView.class.php:110
+[Fri Jan 10 21:31:10.713313 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  16. sfWebResponse->addHttpMeta() /var/www/bateye/cache/frontend/dev/config/modules_default_config_view.yml.php:20
+[Fri Jan 10 21:31:10.713323 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  17. sfWebResponse->setHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:515
+[Fri Jan 10 21:31:10.713338 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  18. sfWebResponse->getHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:247
+[Fri Jan 10 21:31:10.713348 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  19. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:274
+[Fri Jan 10 21:31:10.713361 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  20. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Fri Jan 10 21:31:10.713591 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Fri Jan 10 21:31:10.713602 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP Stack trace:
+[Fri Jan 10 21:31:10.713616 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 21:31:10.713626 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 21:31:10.713636 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 21:31:10.713648 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 21:31:10.713664 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 21:31:10.713678 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:31:10.713687 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   7. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Fri Jan 10 21:31:10.713697 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   8. sfExecutionFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:31:10.713706 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   9. sfExecutionFilter->handleView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Fri Jan 10 21:31:10.713730 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  10. sfExecutionFilter->executeView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Fri Jan 10 21:31:10.713741 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  11. sfController->getView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:140
+[Fri Jan 10 21:31:10.713754 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  12. sfView->__construct() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:369
+[Fri Jan 10 21:31:10.713763 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  13. sfView->initialize() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:93
+[Fri Jan 10 21:31:10.713773 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  14. sfPHPView->configure() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:145
+[Fri Jan 10 21:31:10.713782 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  15. require() /var/www/bateye/lib/vendor/symfony/lib/view/sfPHPView.class.php:110
+[Fri Jan 10 21:31:10.713793 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  16. sfWebResponse->addHttpMeta() /var/www/bateye/cache/frontend/dev/config/modules_default_config_view.yml.php:20
+[Fri Jan 10 21:31:10.713802 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  17. sfWebResponse->getContentType() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:526
+[Fri Jan 10 21:31:10.713812 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  18. sfWebResponse->getHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:319
+[Fri Jan 10 21:31:10.713822 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  19. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:274
+[Fri Jan 10 21:31:10.713831 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  20. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Fri Jan 10 21:31:10.718014 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409) in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336
+[Fri Jan 10 21:31:10.718027 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP Stack trace:
+[Fri Jan 10 21:31:10.718038 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 21:31:10.718048 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 21:31:10.718057 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 21:31:10.718067 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 21:31:10.718077 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 21:31:10.718087 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:31:10.718096 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   7. sfWebResponse->send() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:51
+[Fri Jan 10 21:31:10.718122 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   8. sfWebResponse->sendHttpHeaders() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:396
+[Fri Jan 10 21:31:10.718140 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   9. header() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:336
+[Fri Jan 10 21:31:10.718379 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Fri Jan 10 21:31:10.718388 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP Stack trace:
+[Fri Jan 10 21:31:10.718398 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 21:31:10.718408 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 21:31:10.718418 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 21:31:10.718428 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 21:31:10.718438 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 21:31:10.718447 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:31:10.718457 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   7. sfWebResponse->send() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:51
+[Fri Jan 10 21:31:10.718467 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   8. sfWebResponse->sendHttpHeaders() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:396
+[Fri Jan 10 21:31:10.718476 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   9. sfWebResponse->getHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:351
+[Fri Jan 10 21:31:10.718486 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  10. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:274
+[Fri Jan 10 21:31:10.718495 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  11. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Fri Jan 10 21:31:10.718852 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409) in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357
+[Fri Jan 10 21:31:10.718861 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP Stack trace:
+[Fri Jan 10 21:31:10.718871 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 21:31:10.718881 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 21:31:10.718891 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 21:31:10.718901 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 21:31:10.718911 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 21:31:10.718920 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:31:10.718930 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   7. sfWebResponse->send() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:51
+[Fri Jan 10 21:31:10.718946 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   8. sfWebResponse->sendHttpHeaders() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:396
+[Fri Jan 10 21:31:10.718955 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   9. header() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:357
+[Fri Jan 10 21:31:10.719656 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Fri Jan 10 21:31:10.719665 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP Stack trace:
+[Fri Jan 10 21:31:10.719675 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Fri Jan 10 21:31:10.719685 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Fri Jan 10 21:31:10.719695 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Fri Jan 10 21:31:10.719705 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Fri Jan 10 21:31:10.719715 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Fri Jan 10 21:31:10.719725 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Fri Jan 10 21:31:10.719735 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   7. sfWebResponse->send() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:51
+[Fri Jan 10 21:31:10.719745 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   8. sfWebResponse->sendContent() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:397
+[Fri Jan 10 21:31:10.719754 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP   9. sfResponse->sendContent() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:387
+[Fri Jan 10 21:31:10.719764 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  10. sfEventDispatcher->filter() /var/www/bateye/lib/vendor/symfony/lib/response/sfResponse.class.php:97
+[Fri Jan 10 21:31:10.719773 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  11. call_user_func_array() /var/www/bateye/lib/vendor/symfony/lib/event_dispatcher/sfEventDispatcher.php:118
+[Fri Jan 10 21:31:10.719784 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  12. sfWebDebugLogger->filterResponseContent() /var/www/bateye/lib/vendor/symfony/lib/event_dispatcher/sfEventDispatcher.php:118
+[Fri Jan 10 21:31:10.719793 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  13. sfWebResponse->getContentType() /var/www/bateye/lib/vendor/symfony/lib/log/sfWebDebugLogger.class.php:162
+[Fri Jan 10 21:31:10.719803 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  14. sfWebResponse->getHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:319
+[Fri Jan 10 21:31:10.719813 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  15. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:274
+[Fri Jan 10 21:31:10.719822 2014] [:error] [pid 14250] [client 127.0.0.1:57570] PHP  16. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Fri Jan 10 21:33:18.655112 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /var/www/bateye/lib/vendor/symfony/lib/config/sfRootConfigHandler.class.php on line 91
+[Fri Jan 10 21:33:18.655202 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP Stack trace:
+[Fri Jan 10 21:33:18.655224 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP   1. {main}() /var/www/bateye/web/index.php:0
+[Fri Jan 10 21:33:18.655236 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP   2. sfProjectConfiguration::getApplicationConfiguration() /var/www/bateye/web/index.php:6
+[Fri Jan 10 21:33:18.655247 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP   3. sfApplicationConfiguration->__construct() /var/www/bateye/lib/vendor/symfony/lib/config/sfProjectConfiguration.class.php:614
+[Fri Jan 10 21:33:18.655258 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP   4. sfApplicationConfiguration->initConfiguration() /var/www/bateye/lib/vendor/symfony/lib/config/sfApplicationConfiguration.class.php:51
+[Fri Jan 10 21:33:18.655269 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP   5. sfConfigCache->import() /var/www/bateye/lib/vendor/symfony/lib/config/sfApplicationConfiguration.class.php:109
+[Fri Jan 10 21:33:18.655279 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP   6. sfConfigCache->checkConfig() /var/www/bateye/lib/vendor/symfony/lib/config/sfConfigCache.class.php:249
+[Fri Jan 10 21:33:18.655289 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP   7. sfConfigCache->callHandler() /var/www/bateye/lib/vendor/symfony/lib/config/sfConfigCache.class.php:197
+[Fri Jan 10 21:33:18.655299 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP   8. sfConfigCache->loadConfigHandlers() /var/www/bateye/lib/vendor/symfony/lib/config/sfConfigCache.class.php:54
+[Fri Jan 10 21:33:18.655309 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP   9. sfConfigCache->checkConfig() /var/www/bateye/lib/vendor/symfony/lib/config/sfConfigCache.class.php:279
+[Fri Jan 10 21:33:18.655319 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP  10. sfConfigCache->callHandler() /var/www/bateye/lib/vendor/symfony/lib/config/sfConfigCache.class.php:197
+[Fri Jan 10 21:33:18.655329 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP  11. sfRootConfigHandler->execute() /var/www/bateye/lib/vendor/symfony/lib/config/sfConfigCache.class.php:108
+[Fri Jan 10 21:33:18.655338 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP  12. date() /var/www/bateye/lib/vendor/symfony/lib/config/sfRootConfigHandler.class.php:91
+[Fri Jan 10 21:33:18.938987 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /var/www/bateye/lib/vendor/symfony/lib/config/sfCompileConfigHandler.class.php on line 82
+[Fri Jan 10 21:33:18.939018 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP Stack trace:
+[Fri Jan 10 21:33:18.939029 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP   1. {main}() /var/www/bateye/web/index.php:0
+[Fri Jan 10 21:33:18.939041 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP   2. sfProjectConfiguration::getApplicationConfiguration() /var/www/bateye/web/index.php:6
+[Fri Jan 10 21:33:18.939051 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP   3. sfApplicationConfiguration->__construct() /var/www/bateye/lib/vendor/symfony/lib/config/sfProjectConfiguration.class.php:614
+[Fri Jan 10 21:33:18.939062 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP   4. sfApplicationConfiguration->initConfiguration() /var/www/bateye/lib/vendor/symfony/lib/config/sfApplicationConfiguration.class.php:51
+[Fri Jan 10 21:33:18.939082 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP   5. sfConfigCache->import() /var/www/bateye/lib/vendor/symfony/lib/config/sfApplicationConfiguration.class.php:109
+[Fri Jan 10 21:33:18.939093 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP   6. sfConfigCache->checkConfig() /var/www/bateye/lib/vendor/symfony/lib/config/sfConfigCache.class.php:249
+[Fri Jan 10 21:33:18.939103 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP   7. sfConfigCache->callHandler() /var/www/bateye/lib/vendor/symfony/lib/config/sfConfigCache.class.php:197
+[Fri Jan 10 21:33:18.939113 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP   8. sfCompileConfigHandler->execute() /var/www/bateye/lib/vendor/symfony/lib/config/sfConfigCache.class.php:108
+[Fri Jan 10 21:33:18.939122 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP   9. date() /var/www/bateye/lib/vendor/symfony/lib/config/sfCompileConfigHandler.class.php:82
+[Fri Jan 10 21:33:19.010278 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /var/www/bateye/lib/vendor/symfony/lib/config/sfDefineEnvironmentConfigHandler.class.php on line 66
+[Fri Jan 10 21:33:19.010316 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP Stack trace:
+[Fri Jan 10 21:33:19.010329 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP   1. {main}() /var/www/bateye/web/index.php:0
+[Fri Jan 10 21:33:19.010340 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP   2. sfProjectConfiguration::getApplicationConfiguration() /var/www/bateye/web/index.php:6
+[Fri Jan 10 21:33:19.010350 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP   3. sfApplicationConfiguration->__construct() /var/www/bateye/lib/vendor/symfony/lib/config/sfProjectConfiguration.class.php:614
+[Fri Jan 10 21:33:19.010360 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP   4. sfApplicationConfiguration->initConfiguration() /var/www/bateye/lib/vendor/symfony/lib/config/sfApplicationConfiguration.class.php:51
+[Fri Jan 10 21:33:19.010370 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP   5. sfConfigCache->checkConfig() /var/www/bateye/lib/vendor/symfony/lib/config/sfApplicationConfiguration.class.php:121
+[Fri Jan 10 21:33:19.010379 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP   6. sfConfigCache->callHandler() /var/www/bateye/lib/vendor/symfony/lib/config/sfConfigCache.class.php:197
+[Fri Jan 10 21:33:19.010389 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP   7. sfDefineEnvironmentConfigHandler->execute() /var/www/bateye/lib/vendor/symfony/lib/config/sfConfigCache.class.php:108
+[Fri Jan 10 21:33:19.010398 2014] [:error] [pid 20898] [client 127.0.0.1:57590] PHP   8. date() /var/www/bateye/lib/vendor/symfony/lib/config/sfDefineEnvironmentConfigHandler.class.php:66
+[Sat Jan 11 00:46:38.469787 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Sat Jan 11 00:46:38.469841 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP Stack trace:
+[Sat Jan 11 00:46:38.469864 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Sat Jan 11 00:46:38.469876 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Sat Jan 11 00:46:38.469887 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Sat Jan 11 00:46:38.469898 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Sat Jan 11 00:46:38.469921 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Sat Jan 11 00:46:38.469932 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Sat Jan 11 00:46:38.469941 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   7. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Sat Jan 11 00:46:38.469951 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   8. sfExecutionFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Sat Jan 11 00:46:38.469961 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   9. sfExecutionFilter->handleView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Sat Jan 11 00:46:38.469971 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  10. sfExecutionFilter->executeView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Sat Jan 11 00:46:38.469981 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  11. sfController->getView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:140
+[Sat Jan 11 00:46:38.469991 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  12. sfView->__construct() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:369
+[Sat Jan 11 00:46:38.470000 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  13. sfView->initialize() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:93
+[Sat Jan 11 00:46:38.470010 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  14. sfPHPView->configure() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:145
+[Sat Jan 11 00:46:38.470019 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  15. require() /var/www/bateye/lib/vendor/symfony/lib/view/sfPHPView.class.php:110
+[Sat Jan 11 00:46:38.470029 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  16. sfWebResponse->addHttpMeta() /var/www/bateye/cache/frontend/dev/config/modules_default_config_view.yml.php:20
+[Sat Jan 11 00:46:38.470038 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  17. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:512
+[Sat Jan 11 00:46:38.470048 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  18. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Sat Jan 11 00:46:38.470380 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Sat Jan 11 00:46:38.470391 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP Stack trace:
+[Sat Jan 11 00:46:38.470400 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Sat Jan 11 00:46:38.470417 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Sat Jan 11 00:46:38.470427 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Sat Jan 11 00:46:38.470437 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Sat Jan 11 00:46:38.470447 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Sat Jan 11 00:46:38.470458 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Sat Jan 11 00:46:38.470474 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   7. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Sat Jan 11 00:46:38.470484 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   8. sfExecutionFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Sat Jan 11 00:46:38.470493 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   9. sfExecutionFilter->handleView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Sat Jan 11 00:46:38.470503 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  10. sfExecutionFilter->executeView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Sat Jan 11 00:46:38.470513 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  11. sfController->getView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:140
+[Sat Jan 11 00:46:38.470523 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  12. sfView->__construct() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:369
+[Sat Jan 11 00:46:38.470532 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  13. sfView->initialize() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:93
+[Sat Jan 11 00:46:38.470542 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  14. sfPHPView->configure() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:145
+[Sat Jan 11 00:46:38.470556 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  15. require() /var/www/bateye/lib/vendor/symfony/lib/view/sfPHPView.class.php:110
+[Sat Jan 11 00:46:38.470565 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  16. sfWebResponse->addHttpMeta() /var/www/bateye/cache/frontend/dev/config/modules_default_config_view.yml.php:20
+[Sat Jan 11 00:46:38.470575 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  17. sfWebResponse->setHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:515
+[Sat Jan 11 00:46:38.470584 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  18. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:236
+[Sat Jan 11 00:46:38.470592 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  19. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Sat Jan 11 00:46:38.471042 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Sat Jan 11 00:46:38.471054 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP Stack trace:
+[Sat Jan 11 00:46:38.471063 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Sat Jan 11 00:46:38.471072 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Sat Jan 11 00:46:38.471082 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Sat Jan 11 00:46:38.471092 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Sat Jan 11 00:46:38.471102 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Sat Jan 11 00:46:38.471111 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Sat Jan 11 00:46:38.471120 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   7. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Sat Jan 11 00:46:38.471135 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   8. sfExecutionFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Sat Jan 11 00:46:38.471145 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   9. sfExecutionFilter->handleView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Sat Jan 11 00:46:38.471154 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  10. sfExecutionFilter->executeView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Sat Jan 11 00:46:38.471164 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  11. sfController->getView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:140
+[Sat Jan 11 00:46:38.471173 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  12. sfView->__construct() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:369
+[Sat Jan 11 00:46:38.471182 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  13. sfView->initialize() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:93
+[Sat Jan 11 00:46:38.471191 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  14. sfPHPView->configure() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:145
+[Sat Jan 11 00:46:38.471199 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  15. require() /var/www/bateye/lib/vendor/symfony/lib/view/sfPHPView.class.php:110
+[Sat Jan 11 00:46:38.471209 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  16. sfWebResponse->addHttpMeta() /var/www/bateye/cache/frontend/dev/config/modules_default_config_view.yml.php:20
+[Sat Jan 11 00:46:38.471218 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  17. sfWebResponse->setHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:515
+[Sat Jan 11 00:46:38.471227 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  18. sfWebResponse->getHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:247
+[Sat Jan 11 00:46:38.471236 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  19. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:274
+[Sat Jan 11 00:46:38.471245 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  20. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Sat Jan 11 00:46:38.471446 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Sat Jan 11 00:46:38.471455 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP Stack trace:
+[Sat Jan 11 00:46:38.471464 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Sat Jan 11 00:46:38.471474 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Sat Jan 11 00:46:38.471483 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Sat Jan 11 00:46:38.471492 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Sat Jan 11 00:46:38.471502 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Sat Jan 11 00:46:38.471511 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Sat Jan 11 00:46:38.471520 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   7. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Sat Jan 11 00:46:38.471536 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   8. sfExecutionFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Sat Jan 11 00:46:38.471545 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   9. sfExecutionFilter->handleView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Sat Jan 11 00:46:38.471555 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  10. sfExecutionFilter->executeView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Sat Jan 11 00:46:38.471564 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  11. sfController->getView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:140
+[Sat Jan 11 00:46:38.471573 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  12. sfView->__construct() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:369
+[Sat Jan 11 00:46:38.471590 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  13. sfView->initialize() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:93
+[Sat Jan 11 00:46:38.471600 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  14. sfPHPView->configure() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:145
+[Sat Jan 11 00:46:38.471609 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  15. require() /var/www/bateye/lib/vendor/symfony/lib/view/sfPHPView.class.php:110
+[Sat Jan 11 00:46:38.471618 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  16. sfWebResponse->addHttpMeta() /var/www/bateye/cache/frontend/dev/config/modules_default_config_view.yml.php:20
+[Sat Jan 11 00:46:38.471628 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  17. sfWebResponse->getContentType() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:526
+[Sat Jan 11 00:46:38.471638 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  18. sfWebResponse->getHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:319
+[Sat Jan 11 00:46:38.471647 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  19. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:274
+[Sat Jan 11 00:46:38.471657 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  20. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Sat Jan 11 00:46:38.475538 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409) in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336
+[Sat Jan 11 00:46:38.475549 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP Stack trace:
+[Sat Jan 11 00:46:38.475567 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Sat Jan 11 00:46:38.475578 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Sat Jan 11 00:46:38.475588 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Sat Jan 11 00:46:38.475597 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Sat Jan 11 00:46:38.475607 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Sat Jan 11 00:46:38.475616 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Sat Jan 11 00:46:38.475626 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   7. sfWebResponse->send() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:51
+[Sat Jan 11 00:46:38.475643 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   8. sfWebResponse->sendHttpHeaders() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:396
+[Sat Jan 11 00:46:38.475652 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   9. header() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:336
+[Sat Jan 11 00:46:38.475888 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Sat Jan 11 00:46:38.475897 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP Stack trace:
+[Sat Jan 11 00:46:38.475907 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Sat Jan 11 00:46:38.475916 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Sat Jan 11 00:46:38.475925 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Sat Jan 11 00:46:38.475935 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Sat Jan 11 00:46:38.475944 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Sat Jan 11 00:46:38.475953 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Sat Jan 11 00:46:38.475962 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   7. sfWebResponse->send() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:51
+[Sat Jan 11 00:46:38.475971 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   8. sfWebResponse->sendHttpHeaders() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:396
+[Sat Jan 11 00:46:38.475981 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   9. sfWebResponse->getHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:351
+[Sat Jan 11 00:46:38.475990 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  10. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:274
+[Sat Jan 11 00:46:38.475998 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  11. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Sat Jan 11 00:46:38.476357 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409) in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357
+[Sat Jan 11 00:46:38.476365 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP Stack trace:
+[Sat Jan 11 00:46:38.476376 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Sat Jan 11 00:46:38.476385 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Sat Jan 11 00:46:38.476395 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Sat Jan 11 00:46:38.476404 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Sat Jan 11 00:46:38.476428 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Sat Jan 11 00:46:38.476444 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Sat Jan 11 00:46:38.476454 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   7. sfWebResponse->send() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:51
+[Sat Jan 11 00:46:38.476464 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   8. sfWebResponse->sendHttpHeaders() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:396
+[Sat Jan 11 00:46:38.476472 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   9. header() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:357
+[Sat Jan 11 00:46:38.477165 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Sat Jan 11 00:46:38.477173 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP Stack trace:
+[Sat Jan 11 00:46:38.477183 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Sat Jan 11 00:46:38.477193 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Sat Jan 11 00:46:38.477202 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Sat Jan 11 00:46:38.477211 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Sat Jan 11 00:46:38.477221 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Sat Jan 11 00:46:38.477230 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Sat Jan 11 00:46:38.477239 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   7. sfWebResponse->send() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:51
+[Sat Jan 11 00:46:38.477248 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   8. sfWebResponse->sendContent() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:397
+[Sat Jan 11 00:46:38.477257 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP   9. sfResponse->sendContent() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:387
+[Sat Jan 11 00:46:38.477266 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  10. sfEventDispatcher->filter() /var/www/bateye/lib/vendor/symfony/lib/response/sfResponse.class.php:97
+[Sat Jan 11 00:46:38.477275 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  11. call_user_func_array() /var/www/bateye/lib/vendor/symfony/lib/event_dispatcher/sfEventDispatcher.php:118
+[Sat Jan 11 00:46:38.477285 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  12. sfWebDebugLogger->filterResponseContent() /var/www/bateye/lib/vendor/symfony/lib/event_dispatcher/sfEventDispatcher.php:118
+[Sat Jan 11 00:46:38.477294 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  13. sfWebResponse->getContentType() /var/www/bateye/lib/vendor/symfony/lib/log/sfWebDebugLogger.class.php:162
+[Sat Jan 11 00:46:38.477303 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  14. sfWebResponse->getHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:319
+[Sat Jan 11 00:46:38.477312 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  15. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:274
+[Sat Jan 11 00:46:38.477335 2014] [:error] [pid 22093] [client 127.0.0.1:57841] PHP  16. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Sat Jan 11 12:09:08.395909 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Sat Jan 11 12:09:08.395941 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP Stack trace:
+[Sat Jan 11 12:09:08.396766 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Sat Jan 11 12:09:08.396779 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Sat Jan 11 12:09:08.396790 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Sat Jan 11 12:09:08.396802 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Sat Jan 11 12:09:08.396812 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Sat Jan 11 12:09:08.396823 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Sat Jan 11 12:09:08.396833 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   7. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Sat Jan 11 12:09:08.396844 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   8. sfExecutionFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Sat Jan 11 12:09:08.396854 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   9. sfExecutionFilter->handleView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Sat Jan 11 12:09:08.396864 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  10. sfExecutionFilter->executeView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Sat Jan 11 12:09:08.396875 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  11. sfController->getView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:140
+[Sat Jan 11 12:09:08.396890 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  12. sfView->__construct() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:369
+[Sat Jan 11 12:09:08.396900 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  13. sfView->initialize() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:93
+[Sat Jan 11 12:09:08.396910 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  14. sfPHPView->configure() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:145
+[Sat Jan 11 12:09:08.396919 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  15. require() /var/www/bateye/lib/vendor/symfony/lib/view/sfPHPView.class.php:110
+[Sat Jan 11 12:09:08.396929 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  16. sfWebResponse->addHttpMeta() /var/www/bateye/cache/frontend/dev/config/modules_default_config_view.yml.php:20
+[Sat Jan 11 12:09:08.396939 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  17. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:512
+[Sat Jan 11 12:09:08.396948 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  18. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Sat Jan 11 12:09:08.397168 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Sat Jan 11 12:09:08.397178 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP Stack trace:
+[Sat Jan 11 12:09:08.397198 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Sat Jan 11 12:09:08.397208 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Sat Jan 11 12:09:08.397217 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Sat Jan 11 12:09:08.397227 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Sat Jan 11 12:09:08.397236 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Sat Jan 11 12:09:08.397245 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Sat Jan 11 12:09:08.397254 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   7. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Sat Jan 11 12:09:08.397263 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   8. sfExecutionFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Sat Jan 11 12:09:08.397272 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   9. sfExecutionFilter->handleView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Sat Jan 11 12:09:08.397281 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  10. sfExecutionFilter->executeView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Sat Jan 11 12:09:08.397290 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  11. sfController->getView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:140
+[Sat Jan 11 12:09:08.397307 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  12. sfView->__construct() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:369
+[Sat Jan 11 12:09:08.397317 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  13. sfView->initialize() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:93
+[Sat Jan 11 12:09:08.397326 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  14. sfPHPView->configure() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:145
+[Sat Jan 11 12:09:08.397335 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  15. require() /var/www/bateye/lib/vendor/symfony/lib/view/sfPHPView.class.php:110
+[Sat Jan 11 12:09:08.397344 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  16. sfWebResponse->addHttpMeta() /var/www/bateye/cache/frontend/dev/config/modules_default_config_view.yml.php:20
+[Sat Jan 11 12:09:08.397353 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  17. sfWebResponse->setHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:515
+[Sat Jan 11 12:09:08.397362 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  18. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:236
+[Sat Jan 11 12:09:08.397370 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  19. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Sat Jan 11 12:09:08.397777 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Sat Jan 11 12:09:08.397786 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP Stack trace:
+[Sat Jan 11 12:09:08.397795 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Sat Jan 11 12:09:08.397805 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Sat Jan 11 12:09:08.397820 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Sat Jan 11 12:09:08.397830 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Sat Jan 11 12:09:08.397839 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Sat Jan 11 12:09:08.397872 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Sat Jan 11 12:09:08.397882 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   7. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Sat Jan 11 12:09:08.397892 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   8. sfExecutionFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Sat Jan 11 12:09:08.397901 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   9. sfExecutionFilter->handleView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Sat Jan 11 12:09:08.397911 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  10. sfExecutionFilter->executeView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Sat Jan 11 12:09:08.397921 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  11. sfController->getView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:140
+[Sat Jan 11 12:09:08.397931 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  12. sfView->__construct() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:369
+[Sat Jan 11 12:09:08.397941 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  13. sfView->initialize() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:93
+[Sat Jan 11 12:09:08.397950 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  14. sfPHPView->configure() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:145
+[Sat Jan 11 12:09:08.397959 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  15. require() /var/www/bateye/lib/vendor/symfony/lib/view/sfPHPView.class.php:110
+[Sat Jan 11 12:09:08.397969 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  16. sfWebResponse->addHttpMeta() /var/www/bateye/cache/frontend/dev/config/modules_default_config_view.yml.php:20
+[Sat Jan 11 12:09:08.397979 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  17. sfWebResponse->setHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:515
+[Sat Jan 11 12:09:08.397988 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  18. sfWebResponse->getHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:247
+[Sat Jan 11 12:09:08.397998 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  19. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:274
+[Sat Jan 11 12:09:08.398007 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  20. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Sat Jan 11 12:09:08.398231 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Sat Jan 11 12:09:08.398241 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP Stack trace:
+[Sat Jan 11 12:09:08.398250 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Sat Jan 11 12:09:08.398260 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Sat Jan 11 12:09:08.398275 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Sat Jan 11 12:09:08.398285 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Sat Jan 11 12:09:08.398294 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Sat Jan 11 12:09:08.398304 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Sat Jan 11 12:09:08.398313 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   7. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:33
+[Sat Jan 11 12:09:08.398322 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   8. sfExecutionFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Sat Jan 11 12:09:08.398344 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   9. sfExecutionFilter->handleView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:47
+[Sat Jan 11 12:09:08.398353 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  10. sfExecutionFilter->executeView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:116
+[Sat Jan 11 12:09:08.398363 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  11. sfController->getView() /var/www/bateye/lib/vendor/symfony/lib/filter/sfExecutionFilter.class.php:140
+[Sat Jan 11 12:09:08.398372 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  12. sfView->__construct() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:369
+[Sat Jan 11 12:09:08.398381 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  13. sfView->initialize() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:93
+[Sat Jan 11 12:09:08.398390 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  14. sfPHPView->configure() /var/www/bateye/lib/vendor/symfony/lib/view/sfView.class.php:145
+[Sat Jan 11 12:09:08.398398 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  15. require() /var/www/bateye/lib/vendor/symfony/lib/view/sfPHPView.class.php:110
+[Sat Jan 11 12:09:08.398407 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  16. sfWebResponse->addHttpMeta() /var/www/bateye/cache/frontend/dev/config/modules_default_config_view.yml.php:20
+[Sat Jan 11 12:09:08.398416 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  17. sfWebResponse->getContentType() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:526
+[Sat Jan 11 12:09:08.398425 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  18. sfWebResponse->getHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:319
+[Sat Jan 11 12:09:08.398434 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  19. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:274
+[Sat Jan 11 12:09:08.398443 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  20. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Sat Jan 11 12:09:08.402522 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409) in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336
+[Sat Jan 11 12:09:08.402533 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP Stack trace:
+[Sat Jan 11 12:09:08.402543 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Sat Jan 11 12:09:08.402554 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Sat Jan 11 12:09:08.402574 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Sat Jan 11 12:09:08.402584 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Sat Jan 11 12:09:08.402594 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Sat Jan 11 12:09:08.402604 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Sat Jan 11 12:09:08.402613 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   7. sfWebResponse->send() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:51
+[Sat Jan 11 12:09:08.402623 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   8. sfWebResponse->sendHttpHeaders() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:396
+[Sat Jan 11 12:09:08.402632 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   9. header() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:336
+[Sat Jan 11 12:09:08.402865 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Sat Jan 11 12:09:08.402874 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP Stack trace:
+[Sat Jan 11 12:09:08.402884 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Sat Jan 11 12:09:08.402894 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Sat Jan 11 12:09:08.402903 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Sat Jan 11 12:09:08.402913 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Sat Jan 11 12:09:08.402923 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Sat Jan 11 12:09:08.402933 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Sat Jan 11 12:09:08.402943 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   7. sfWebResponse->send() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:51
+[Sat Jan 11 12:09:08.402953 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   8. sfWebResponse->sendHttpHeaders() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:396
+[Sat Jan 11 12:09:08.402963 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   9. sfWebResponse->getHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:351
+[Sat Jan 11 12:09:08.402973 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  10. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:274
+[Sat Jan 11 12:09:08.402982 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  11. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Sat Jan 11 12:09:08.403347 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409) in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357
+[Sat Jan 11 12:09:08.403365 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP Stack trace:
+[Sat Jan 11 12:09:08.403375 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Sat Jan 11 12:09:08.403386 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Sat Jan 11 12:09:08.403395 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Sat Jan 11 12:09:08.403405 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Sat Jan 11 12:09:08.403415 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Sat Jan 11 12:09:08.403425 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Sat Jan 11 12:09:08.403434 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   7. sfWebResponse->send() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:51
+[Sat Jan 11 12:09:08.403444 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   8. sfWebResponse->sendHttpHeaders() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:396
+[Sat Jan 11 12:09:08.403453 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   9. header() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:357
+[Sat Jan 11 12:09:08.404132 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409
+[Sat Jan 11 12:09:08.404141 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP Stack trace:
+[Sat Jan 11 12:09:08.404151 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   1. {main}() /var/www/bateye/web/frontend_dev.php:0
+[Sat Jan 11 12:09:08.404160 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   2. sfContext->dispatch() /var/www/bateye/web/frontend_dev.php:13
+[Sat Jan 11 12:09:08.404170 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   3. sfFrontWebController->dispatch() /var/www/bateye/lib/vendor/symfony/lib/util/sfContext.class.php:170
+[Sat Jan 11 12:09:08.404179 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   4. sfController->forward() /var/www/bateye/lib/vendor/symfony/lib/controller/sfFrontWebController.class.php:48
+[Sat Jan 11 12:09:08.404188 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   5. sfFilterChain->execute() /var/www/bateye/lib/vendor/symfony/lib/controller/sfController.class.php:238
+[Sat Jan 11 12:09:08.404198 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   6. sfRenderingFilter->execute() /var/www/bateye/lib/vendor/symfony/lib/filter/sfFilterChain.class.php:53
+[Sat Jan 11 12:09:08.404207 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   7. sfWebResponse->send() /var/www/bateye/lib/vendor/symfony/lib/filter/sfRenderingFilter.class.php:51
+[Sat Jan 11 12:09:08.404216 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   8. sfWebResponse->sendContent() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:397
+[Sat Jan 11 12:09:08.404226 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP   9. sfResponse->sendContent() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:387
+[Sat Jan 11 12:09:08.404235 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  10. sfEventDispatcher->filter() /var/www/bateye/lib/vendor/symfony/lib/response/sfResponse.class.php:97
+[Sat Jan 11 12:09:08.404244 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  11. call_user_func_array() /var/www/bateye/lib/vendor/symfony/lib/event_dispatcher/sfEventDispatcher.php:118
+[Sat Jan 11 12:09:08.404259 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  12. sfWebDebugLogger->filterResponseContent() /var/www/bateye/lib/vendor/symfony/lib/event_dispatcher/sfEventDispatcher.php:118
+[Sat Jan 11 12:09:08.404269 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  13. sfWebResponse->getContentType() /var/www/bateye/lib/vendor/symfony/lib/log/sfWebDebugLogger.class.php:162
+[Sat Jan 11 12:09:08.404278 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  14. sfWebResponse->getHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:319
+[Sat Jan 11 12:09:08.404287 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  15. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:274
+[Sat Jan 11 12:09:08.404296 2014] [:error] [pid 22093] [client 127.0.0.1:59694] PHP  16. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
