@@ -3,7 +3,7 @@
 <html>
   <head>
     <title>Bat Eye</title>
-    <meta name="description" content="Bat Eye is a design brand with exclusive furniture to decorate interiors with the most exquisite, artistic deseign.">
+    <meta name="description" content="Bat Eye is a design brand with exclusive furniture to decorate interiors with the most exquisite, artistic design. It wants to bring the impressive interior design with it's exclusive luxury furniture, delivered by Marco Sousa who is inspired by cities like Porto.">
     <meta name="keywords" content="design furniture, luxury furniture manufacturers, customized furniture, furniture store, living room furniture, signature furniture, interior design, exquisite furniture, Marco Sousa, artisan, handmade, luxury pieces">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
