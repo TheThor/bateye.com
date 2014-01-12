@@ -54,6 +54,7 @@ News:
     news_title:     { type: string(255), notnull: true }
     news_content:   { type: string(255), notnull: true }
     news_image:     { type: string(255), notnull: true }
+    link:           { type: string(255), notnull: true }
 
 Contacts:
   actAs: { Timestampable: ~ }
