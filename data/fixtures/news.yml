@@ -1,4 +1,4 @@
-columns:
+News:
   Quennly:
     news_title: <h2>Queenly</h2>
     news_content: <h3>Coffee table</h3><p>An unique coffee table that represents a taste for the exotic and artistic forms, inspired by stained glass windows of Arabian room.</p>
@@ -16,7 +16,7 @@ columns:
     news_content: <h3>Carris Hotel, Porto</h3> <p>We have our pieces exposed in the Carris Hotel just in the Porto historical center. Don’t loose the oportunity to see our pieces and stay in while visiting Porto.</p>
     news_image: images/whatsnew/ARC.png
   Christmas:
-    news_title: <h2>Bat eye wish...</h2>
+    news_title: <h2>Bat eye wish...</h2>clear
     news_content: <h3>Bat eye wish you a Very Merry Christmas and a Happy New Year.</h3>
     news_image: images/whatsnew/merrychristmas.png
   StoneEditors:

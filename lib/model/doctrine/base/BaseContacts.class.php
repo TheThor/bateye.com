@@ -31,15 +31,15 @@ abstract class BaseContacts extends sfDoctrineRecord
              'primary' => true,
              'autoincrement' => true,
              ));
-        $this->hasColumn('email', 'string', 150, array(
+        $this->hasColumn('email', 'string', 255, array(
              'type' => 'string',
              'notnull' => true,
-             'length' => 150,
+             'length' => 255,
              ));
-        $this->hasColumn('phone', 'string', 150, array(
+        $this->hasColumn('phone', 'string', 255, array(
              'type' => 'string',
              'notnull' => true,
-             'length' => 150,
+             'length' => 255,
              ));
     }
 

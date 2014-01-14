@@ -5,6 +5,7 @@ Products:
     id:             { type: integer, primary: true, autoincrement: true }
     name:           { type: string(255), notnull: true }
     main_img_path:  { type: string(255), notnull: true }
+    main_img_alt:   { type: string(255), notnull: true }
     citation:       { type: string(255), notnull: true }
     description:    { type: string(255), notnull: true }
     designer:       { type: string(255) }
@@ -12,6 +13,7 @@ Products:
     height:         { type: string(255) }
     diameter:       { type: string(255) }
     depth:          { type: string(255) }
+    materials:      { type: string(255) }
     other:          { type: string(255) }
     collection_id:  { type: integer, notnull: true }
     category_id:    { type: integer, notnull: true }
@@ -24,7 +26,8 @@ ProductImages:
   columns:
     id:             { type: integer, primary: true, autoincrement: true }
     product_id:     { type: integer, notnull: true }
-    location:       { type: string(255), notnull:true }
+    location:       { type: string(255), notnull: true }
+    alt:            { type: string(255), notnull: true }
   relations:
     Products:       { local: product_id, foreign: id, foreignAlias: ProductImage }
 
@@ -46,6 +49,7 @@ SliderImages:
   columns:
     id:             { type: integer, primary: true, autoincrement: true }
     path:           { type: string(255), notnull: true }
+    alt:            { type: string(255), notnull: true }
 
 News:
   actAs: { Timestampable: ~ }
@@ -59,6 +63,14 @@ News:
 Contacts:
   actAs: { Timestampable: ~ }
   columns:
+    email:          { type: string(255), notnull: true }
+    phone:          { type: string(255), notnull: true }
+
+IndexContent:
+  actAs: { Timestampable: ~ }
+  columns:
     id:             { type: integer, primary: true, autoincrement: true }
-    email:          { type: string(150), notnull: true }
-    phone:          { type: string(150), notnull: true }
+    newsletter:     { type: string(255), notnull: true }
+    catalogue:      { type: string(255), notnull: true }
+    thebrand:       { type: string(255), notnull: true }
+    thedesigner:    { type: string(255), notnull: true }

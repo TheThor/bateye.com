@@ -1,0 +1,17 @@
+ProductImages:
+  Ballet1:
+    product_id:     1
+    location:       images/slides/ballet/ballet1.jpg
+    alt:            Ballet image
+  Ballet2:
+    product_id:     1
+    location:       images/slides/ballet/ballet2.jpg
+    alt:            Ballet image
+  Arc:
+    product_id:     2
+    location:       images/slides/arc/arc1.jpg
+    alt:            Arc image
+  Arc2:
+    product_id:     2
+    location:       images/slides/arc/arc1.jpg
+    alt:            Arc image

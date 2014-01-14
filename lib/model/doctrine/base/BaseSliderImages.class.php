@@ -7,11 +7,14 @@
  * 
  * @property integer $id
  * @property string $path
+ * @property string $alt
  * 
  * @method integer      getId()   Returns the current record's "id" value
  * @method string       getPath() Returns the current record's "path" value
+ * @method string       getAlt()  Returns the current record's "alt" value
  * @method SliderImages setId()   Sets the current record's "id" value
  * @method SliderImages setPath() Sets the current record's "path" value
+ * @method SliderImages setAlt()  Sets the current record's "alt" value
  * 
  * @package    bateye
  * @subpackage model
@@ -29,6 +32,11 @@ abstract class BaseSliderImages extends sfDoctrineRecord
              'autoincrement' => true,
              ));
         $this->hasColumn('path', 'string', 255, array(
+             'type' => 'string',
+             'notnull' => true,
+             'length' => 255,
+             ));
+        $this->hasColumn('alt', 'string', 255, array(
              'type' => 'string',
              'notnull' => true,
              'length' => 255,

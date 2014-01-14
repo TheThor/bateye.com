@@ -9,15 +9,18 @@
  * @property string $news_title
  * @property string $news_content
  * @property string $news_image
+ * @property string $link
  * 
  * @method integer getId()           Returns the current record's "id" value
  * @method string  getNewsTitle()    Returns the current record's "news_title" value
  * @method string  getNewsContent()  Returns the current record's "news_content" value
  * @method string  getNewsImage()    Returns the current record's "news_image" value
+ * @method string  getLink()         Returns the current record's "link" value
  * @method News    setId()           Sets the current record's "id" value
  * @method News    setNewsTitle()    Sets the current record's "news_title" value
  * @method News    setNewsContent()  Sets the current record's "news_content" value
  * @method News    setNewsImage()    Sets the current record's "news_image" value
+ * @method News    setLink()         Sets the current record's "link" value
  * 
  * @package    bateye
  * @subpackage model
@@ -45,6 +48,11 @@ abstract class BaseNews extends sfDoctrineRecord
              'length' => 255,
              ));
         $this->hasColumn('news_image', 'string', 255, array(
+             'type' => 'string',
+             'notnull' => true,
+             'length' => 255,
+             ));
+        $this->hasColumn('link', 'string', 255, array(
              'type' => 'string',
              'notnull' => true,
              'length' => 255,

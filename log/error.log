@@ -1164,3 +1164,332 @@
 [Sat Jan 11 12:58:02.290656 2014] [:error] [pid 14250] [client 127.0.0.1:60550] PHP  14. sfWebResponse->getHttpHeader() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:319
 [Sat Jan 11 12:58:02.290666 2014] [:error] [pid 14250] [client 127.0.0.1:60550] PHP  15. sfWebResponse->normalizeHeaderName() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:274
 [Sat Jan 11 12:58:02.290675 2014] [:error] [pid 14250] [client 127.0.0.1:60550] PHP  16. preg_replace() /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409
+[Sun Jan 12 01:10:01.022297 2014] [:error] [pid 1130] [client 127.0.0.1:37551] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Mon Jan 13 13:51:21.143470 2014] [:error] [pid 8532] [client 127.0.0.1:48036] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Mon Jan 13 19:47:47.566426 2014] [:error] [pid 10173] [client 127.0.0.1:49036] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Mon Jan 13 21:13:06.927230 2014] [:error] [pid 10173] [client 127.0.0.1:50106] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:13:07.070591 2014] [:error] [pid 8533] [client 127.0.0.1:50110] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:13:07.180874 2014] [:error] [pid 4906] [client 127.0.0.1:50107] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:13:07.277333 2014] [:error] [pid 8524] [client 127.0.0.1:50109] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:13:07.392506 2014] [:error] [pid 13430] [client 127.0.0.1:50111] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:13:07.461345 2014] [:error] [pid 4909] [client 127.0.0.1:50108] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:14:39.441091 2014] [:error] [pid 8526] [client 127.0.0.1:50121] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:14:39.547863 2014] [:error] [pid 8531] [client 127.0.0.1:50124] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:14:39.617918 2014] [:error] [pid 10173] [client 127.0.0.1:50126] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:14:39.705752 2014] [:error] [pid 8533] [client 127.0.0.1:50127] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:14:39.781175 2014] [:error] [pid 18990] [client 127.0.0.1:50128] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:14:39.851122 2014] [:error] [pid 18813] [client 127.0.0.1:50125] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:15:35.108578 2014] [:error] [pid 8524] [client 127.0.0.1:50135] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:15:35.198302 2014] [:error] [pid 13430] [client 127.0.0.1:50137] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:15:35.282661 2014] [:error] [pid 19013] [client 127.0.0.1:50139] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:15:35.345974 2014] [:error] [pid 4909] [client 127.0.0.1:50138] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:15:35.408041 2014] [:error] [pid 8526] [client 127.0.0.1:50140] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:15:35.485324 2014] [:error] [pid 8531] [client 127.0.0.1:50141] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:15:57.050797 2014] [:error] [pid 8533] [client 127.0.0.1:50149] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:15:57.161407 2014] [:error] [pid 18990] [client 127.0.0.1:50150] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:15:57.221607 2014] [:error] [pid 8524] [client 127.0.0.1:50152] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:15:57.280382 2014] [:error] [pid 18813] [client 127.0.0.1:50151] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:15:57.341165 2014] [:error] [pid 13430] [client 127.0.0.1:50154] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:15:57.402546 2014] [:error] [pid 19026] [client 127.0.0.1:50153] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:23:14.161855 2014] [:error] [pid 18813] [client 127.0.0.1:50302] Empty module and/or action after parsing the URL "/home/" (/).
+[Mon Jan 13 21:24:05.620390 2014] [:error] [pid 8531] [client 127.0.0.1:50311] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:24:05.704144 2014] [:error] [pid 13430] [client 127.0.0.1:50314] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:24:05.769769 2014] [:error] [pid 4909] [client 127.0.0.1:50309] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:24:05.835539 2014] [:error] [pid 19029] [client 127.0.0.1:50312] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:24:05.897125 2014] [:error] [pid 8526] [client 127.0.0.1:50313] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:24:05.957603 2014] [:error] [pid 18813] [client 127.0.0.1:50315] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:24:10.889330 2014] [:error] [pid 18813] [client 127.0.0.1:50315] Empty module and/or action after parsing the URL "/home/" (/).
+[Mon Jan 13 21:24:12.105581 2014] [:error] [pid 18813] [client 127.0.0.1:50315] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:24:12.319323 2014] [:error] [pid 18813] [client 127.0.0.1:50315] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:24:12.390703 2014] [:error] [pid 19026] [client 127.0.0.1:50323] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:24:12.454067 2014] [:error] [pid 8533] [client 127.0.0.1:50327] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:24:12.516621 2014] [:error] [pid 18990] [client 127.0.0.1:50324] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:24:12.586674 2014] [:error] [pid 19365] [client 127.0.0.1:50333] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:24:14.575739 2014] [:error] [pid 19365] [client 127.0.0.1:50333] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:24:14.743014 2014] [:error] [pid 19365] [client 127.0.0.1:50333] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:24:14.834930 2014] [:error] [pid 19026] [client 127.0.0.1:50323] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:24:14.914798 2014] [:error] [pid 18990] [client 127.0.0.1:50324] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:24:14.980569 2014] [:error] [pid 8533] [client 127.0.0.1:50327] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:24:15.037685 2014] [:error] [pid 18813] [client 127.0.0.1:50315] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:25:57.389068 2014] [:error] [pid 8531] [client 127.0.0.1:50345] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:25:57.476150 2014] [:error] [pid 13430] [client 127.0.0.1:50346] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:25:57.539921 2014] [:error] [pid 19365] [client 127.0.0.1:50350] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:25:57.611890 2014] [:error] [pid 4909] [client 127.0.0.1:50347] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:25:57.685101 2014] [:error] [pid 19029] [client 127.0.0.1:50349] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:25:57.753582 2014] [:error] [pid 8526] [client 127.0.0.1:50348] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:26:49.733724 2014] [:error] [pid 13430] [client 127.0.0.1:50366] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:26:49.823384 2014] [:error] [pid 8531] [client 127.0.0.1:50367] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:26:49.940052 2014] [:error] [pid 18990] [client 127.0.0.1:50361] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Mon Jan 13 21:26:50.002201 2014] [:error] [pid 19396] [client 127.0.0.1:50365] Action "images/Carousel" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:54:32.795861 2014] [:error] [pid 19029] [client 127.0.0.1:56363] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:54:32.944329 2014] [:error] [pid 4909] [client 127.0.0.1:56364] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:54:33.012422 2014] [:error] [pid 19029] [client 127.0.0.1:56363] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:54:33.096698 2014] [:error] [pid 4909] [client 127.0.0.1:56364] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:54:33.230132 2014] [:error] [pid 19029] [client 127.0.0.1:56363] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:54:33.292621 2014] [:error] [pid 19410] [client 127.0.0.1:56366] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:54:33.378385 2014] [:error] [pid 4909] [client 127.0.0.1:56364] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:54:33.469425 2014] [:error] [pid 13430] [client 127.0.0.1:56367] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:55:28.355680 2014] [:error] [pid 19455] [client 127.0.0.1:56391] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:55:28.440902 2014] [:error] [pid 11454] [client 127.0.0.1:56392] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:55:28.609594 2014] [:error] [pid 8526] [client 127.0.0.1:56393] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:55:28.725970 2014] [:error] [pid 18990] [client 127.0.0.1:56390] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:55:28.832503 2014] [:error] [pid 19029] [client 127.0.0.1:56394] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:55:28.938623 2014] [:error] [pid 11454] [client 127.0.0.1:56392] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:55:29.032114 2014] [:error] [pid 19396] [client 127.0.0.1:56389] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:55:29.199013 2014] [:error] [pid 19455] [client 127.0.0.1:56391] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:55:29.525647 2014] [:error] [pid 19455] [client 127.0.0.1:56391] Empty module and/or action after parsing the URL "/fonts/AbrilFatface-Regular.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:55:29.559045 2014] [:error] [pid 19396] [client 127.0.0.1:56389] Empty module and/or action after parsing the URL "/fonts/Lato-Regular.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:55:29.569648 2014] [:error] [pid 11454] [client 127.0.0.1:56392] Empty module and/or action after parsing the URL "/fonts/Lato-Bold.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:55:29.583133 2014] [:error] [pid 18990] [client 127.0.0.1:56390] Empty module and/or action after parsing the URL "/fonts/Lato-Light.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:55:29.590701 2014] [:error] [pid 19455] [client 127.0.0.1:56391] Empty module and/or action after parsing the URL "/fonts/Lato-Italic.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:55:54.414129 2014] [:error] [pid 4909] [client 127.0.0.1:56397] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:55:54.522672 2014] [:error] [pid 13430] [client 127.0.0.1:56398] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:55:54.665815 2014] [:error] [pid 19029] [client 127.0.0.1:56400] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:55:54.746261 2014] [:error] [pid 11454] [client 127.0.0.1:56402] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:55:54.851591 2014] [:error] [pid 8526] [client 127.0.0.1:56401] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:55:54.955337 2014] [:error] [pid 6449] [client 127.0.0.1:56396] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:55:55.038486 2014] [:error] [pid 4909] [client 127.0.0.1:56397] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:55:55.121218 2014] [:error] [pid 11486] [client 127.0.0.1:56399] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:55:55.273427 2014] [:error] [pid 11486] [client 127.0.0.1:56399] Empty module and/or action after parsing the URL "/fonts/Lato-Regular.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:55:55.284135 2014] [:error] [pid 4909] [client 127.0.0.1:56397] Empty module and/or action after parsing the URL "/fonts/Lato-Bold.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:55:55.317519 2014] [:error] [pid 4909] [client 127.0.0.1:56397] Empty module and/or action after parsing the URL "/fonts/Lato-Light.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:55:55.328590 2014] [:error] [pid 11486] [client 127.0.0.1:56399] Empty module and/or action after parsing the URL "/fonts/Lato-Italic.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:58:35.530858 2014] [:error] [pid 18990] [client 127.0.0.1:56404] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:58:35.623164 2014] [:error] [pid 11454] [client 127.0.0.1:56409] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:58:35.697660 2014] [:error] [pid 13430] [client 127.0.0.1:56406] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:58:35.787116 2014] [:error] [pid 8526] [client 127.0.0.1:56408] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:58:35.886744 2014] [:error] [pid 11454] [client 127.0.0.1:56409] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:58:35.968883 2014] [:error] [pid 11490] [client 127.0.0.1:56407] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:58:36.051507 2014] [:error] [pid 8526] [client 127.0.0.1:56408] Empty module and/or action after parsing the URL "/fonts/Lato-Regular.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:58:36.064868 2014] [:error] [pid 13430] [client 127.0.0.1:56406] Empty module and/or action after parsing the URL "/fonts/Lato-Bold.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:58:36.075145 2014] [:error] [pid 18990] [client 127.0.0.1:56404] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:58:36.152308 2014] [:error] [pid 19455] [client 127.0.0.1:56405] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:58:36.231609 2014] [:error] [pid 11454] [client 127.0.0.1:56409] Empty module and/or action after parsing the URL "/fonts/Lato-Light.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 22:58:36.238761 2014] [:error] [pid 11490] [client 127.0.0.1:56407] Empty module and/or action after parsing the URL "/fonts/Lato-Italic.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:00:36.042898 2014] [:error] [pid 4909] [client 127.0.0.1:56412] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:00:36.142762 2014] [:error] [pid 13430] [client 127.0.0.1:56416] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:00:36.287005 2014] [:error] [pid 4909] [client 127.0.0.1:56412] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:00:36.384982 2014] [:error] [pid 11519] [client 127.0.0.1:56414] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:00:36.452619 2014] [:error] [pid 13430] [client 127.0.0.1:56416] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:00:36.515446 2014] [:error] [pid 6449] [client 127.0.0.1:56411] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:00:36.584124 2014] [:error] [pid 11486] [client 127.0.0.1:56413] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:00:36.645217 2014] [:error] [pid 8526] [client 127.0.0.1:56415] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:00:36.704614 2014] [:error] [pid 13430] [client 127.0.0.1:56416] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:00:36.793125 2014] [:error] [pid 13430] [client 127.0.0.1:56416] Empty module and/or action after parsing the URL "/fonts/Lato-Regular.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:00:36.814458 2014] [:error] [pid 13430] [client 127.0.0.1:56416] Empty module and/or action after parsing the URL "/fonts/Lato-Bold.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:00:36.825381 2014] [:error] [pid 8526] [client 127.0.0.1:56415] Empty module and/or action after parsing the URL "/fonts/Lato-Light.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:00:36.835455 2014] [:error] [pid 11486] [client 127.0.0.1:56413] Empty module and/or action after parsing the URL "/fonts/Lato-Italic.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:00:37.179763 2014] [:error] [pid 11486] [client 127.0.0.1:56413] Empty module and/or action after parsing the URL "/fonts/AbrilFatface-Regular.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:00:37.186863 2014] [:error] [pid 8526] [client 127.0.0.1:56415] Empty module and/or action after parsing the URL "/fonts/Lato-BoldItalic.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:00:37.197455 2014] [:error] [pid 13430] [client 127.0.0.1:56416] Empty module and/or action after parsing the URL "/fonts/Pompadour.woff" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:00:37.443770 2014] [:error] [pid 13430] [client 127.0.0.1:56416] Empty module and/or action after parsing the URL "/fonts/Pompadour.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:00:37.580022 2014] [:error] [pid 13430] [client 127.0.0.1:56416] Empty module and/or action after parsing the URL "/fonts/Pompadour.svg" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:42.499554 2014] [:error] [pid 4909] [client 127.0.0.1:56422] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:42.578756 2014] [:error] [pid 11519] [client 127.0.0.1:56423] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:42.688171 2014] [:error] [pid 11490] [client 127.0.0.1:56421] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:42.775885 2014] [:error] [pid 11454] [client 127.0.0.1:56419] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:42.841097 2014] [:error] [pid 4909] [client 127.0.0.1:56422] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:42.902231 2014] [:error] [pid 11541] [client 127.0.0.1:56420] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:42.967371 2014] [:error] [pid 11519] [client 127.0.0.1:56423] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:43.026120 2014] [:error] [pid 19455] [client 127.0.0.1:56418] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:43.176330 2014] [:error] [pid 11519] [client 127.0.0.1:56423] Empty module and/or action after parsing the URL "/fonts/Lato-Bold.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:43.188341 2014] [:error] [pid 11490] [client 127.0.0.1:56421] Empty module and/or action after parsing the URL "/fonts/Lato-Italic.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:43.197145 2014] [:error] [pid 19455] [client 127.0.0.1:56418] Empty module and/or action after parsing the URL "/fonts/Lato-Regular.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:43.203868 2014] [:error] [pid 11541] [client 127.0.0.1:56420] Empty module and/or action after parsing the URL "/fonts/Lato-Light.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:43.280580 2014] [:error] [pid 19455] [client 127.0.0.1:56418] Empty module and/or action after parsing the URL "/fonts/Lato-BoldItalic.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:43.293757 2014] [:error] [pid 11490] [client 127.0.0.1:56421] Empty module and/or action after parsing the URL "/fonts/Pompadour.woff" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:43.300912 2014] [:error] [pid 11541] [client 127.0.0.1:56420] Empty module and/or action after parsing the URL "/fonts/AbrilFatface-Regular.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:43.581784 2014] [:error] [pid 11541] [client 127.0.0.1:56420] Empty module and/or action after parsing the URL "/fonts/Pompadour.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:43.669322 2014] [:error] [pid 11541] [client 127.0.0.1:56420] Empty module and/or action after parsing the URL "/fonts/Pompadour.svg" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:46.195588 2014] [:error] [pid 11490] [client 127.0.0.1:56421] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:46.258259 2014] [:error] [pid 11541] [client 127.0.0.1:56420] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:46.333287 2014] [:error] [pid 11454] [client 127.0.0.1:56419] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:46.426490 2014] [:error] [pid 11519] [client 127.0.0.1:56423] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:46.507490 2014] [:error] [pid 4909] [client 127.0.0.1:56422] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:46.580885 2014] [:error] [pid 11541] [client 127.0.0.1:56420] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:46.651905 2014] [:error] [pid 19455] [client 127.0.0.1:56418] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:46.717324 2014] [:error] [pid 11490] [client 127.0.0.1:56421] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:46.774904 2014] [:error] [pid 11519] [client 127.0.0.1:56423] Empty module and/or action after parsing the URL "/fonts/Lato-Bold.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:46.781755 2014] [:error] [pid 11454] [client 127.0.0.1:56419] Empty module and/or action after parsing the URL "/fonts/Lato-Regular.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:46.790136 2014] [:error] [pid 11541] [client 127.0.0.1:56420] Empty module and/or action after parsing the URL "/fonts/Lato-Italic.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:46.800236 2014] [:error] [pid 4909] [client 127.0.0.1:56422] Empty module and/or action after parsing the URL "/fonts/Lato-Light.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:47.135744 2014] [:error] [pid 4909] [client 127.0.0.1:56422] Empty module and/or action after parsing the URL "/fonts/AbrilFatface-Regular.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:47.554241 2014] [:error] [pid 4909] [client 127.0.0.1:56422] Empty module and/or action after parsing the URL "/fonts/Lato-BoldItalic.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:47.873599 2014] [:error] [pid 4909] [client 127.0.0.1:56422] Empty module and/or action after parsing the URL "/fonts/Pompadour.woff" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:47.962428 2014] [:error] [pid 4909] [client 127.0.0.1:56422] Empty module and/or action after parsing the URL "/fonts/Pompadour.ttf" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:01:48.030549 2014] [:error] [pid 4909] [client 127.0.0.1:56422] Empty module and/or action after parsing the URL "/fonts/Pompadour.svg" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:02:18.907636 2014] [:error] [pid 11486] [client 127.0.0.1:56427] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:02:19.001753 2014] [:error] [pid 8526] [client 127.0.0.1:56428] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:02:19.205115 2014] [:error] [pid 11486] [client 127.0.0.1:56427] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:02:19.314840 2014] [:error] [pid 19455] [client 127.0.0.1:56429] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:02:19.387181 2014] [:error] [pid 11490] [client 127.0.0.1:56432] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:02:19.447088 2014] [:error] [pid 13430] [client 127.0.0.1:56430] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:02:19.532247 2014] [:error] [pid 11547] [client 127.0.0.1:56431] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:02:19.627890 2014] [:error] [pid 8526] [client 127.0.0.1:56428] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:02:19.691103 2014] [:error] [pid 11486] [client 127.0.0.1:56427] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:02:39.023763 2014] [:error] [pid 11454] [client 127.0.0.1:56435] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:02:39.105066 2014] [:error] [pid 19455] [client 127.0.0.1:56438] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:02:39.185925 2014] [:error] [pid 11541] [client 127.0.0.1:56436] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:02:39.259795 2014] [:error] [pid 13430] [client 127.0.0.1:56440] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:02:39.340435 2014] [:error] [pid 11562] [client 127.0.0.1:56439] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:02:39.407170 2014] [:error] [pid 11454] [client 127.0.0.1:56435] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:02:39.474415 2014] [:error] [pid 19455] [client 127.0.0.1:56438] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:02:39.536826 2014] [:error] [pid 4909] [client 127.0.0.1:56437] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:02:39.606780 2014] [:error] [pid 11562] [client 127.0.0.1:56439] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:02:56.447429 2014] [:error] [pid 8526] [client 127.0.0.1:56445] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:02:56.543361 2014] [:error] [pid 11541] [client 127.0.0.1:56446] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:02:56.678692 2014] [:error] [pid 13430] [client 127.0.0.1:56444] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:02:56.775285 2014] [:error] [pid 11454] [client 127.0.0.1:56448] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:02:56.886630 2014] [:error] [pid 11541] [client 127.0.0.1:56446] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:02:56.953249 2014] [:error] [pid 13430] [client 127.0.0.1:56444] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:02:57.025410 2014] [:error] [pid 11486] [client 127.0.0.1:56442] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:02:57.097232 2014] [:error] [pid 11576] [client 127.0.0.1:56447] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:02:57.171974 2014] [:error] [pid 11547] [client 127.0.0.1:56443] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:03:42.119922 2014] [:error] [pid 4909] [client 127.0.0.1:56450] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:03:42.210273 2014] [:error] [pid 11584] [client 127.0.0.1:56453] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:03:42.284686 2014] [:error] [pid 8526] [client 127.0.0.1:56452] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:03:42.385445 2014] [:error] [pid 4909] [client 127.0.0.1:56450] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:03:42.505916 2014] [:error] [pid 11541] [client 127.0.0.1:56455] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:03:42.589589 2014] [:error] [pid 11454] [client 127.0.0.1:56454] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:03:42.667071 2014] [:error] [pid 11562] [client 127.0.0.1:56451] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:03:42.761455 2014] [:error] [pid 11584] [client 127.0.0.1:56453] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:04:07.421157 2014] [:error] [pid 11589] [client 127.0.0.1:56460] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:04:07.491541 2014] [:error] [pid 11486] [client 127.0.0.1:56457] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:04:07.629672 2014] [:error] [pid 11486] [client 127.0.0.1:56457] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:04:07.730893 2014] [:error] [pid 11541] [client 127.0.0.1:56463] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:04:07.809523 2014] [:error] [pid 11547] [client 127.0.0.1:56459] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:04:07.872175 2014] [:error] [pid 8526] [client 127.0.0.1:56462] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:04:07.946463 2014] [:error] [pid 4909] [client 127.0.0.1:56461] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:04:08.011063 2014] [:error] [pid 11576] [client 127.0.0.1:56458] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:05:01.054514 2014] [:error] [pid 11589] [client 127.0.0.1:56468] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:05:01.137697 2014] [:error] [pid 11486] [client 127.0.0.1:56470] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:05:01.333442 2014] [:error] [pid 11562] [client 127.0.0.1:56465] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:05:01.415931 2014] [:error] [pid 11584] [client 127.0.0.1:56466] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:05:01.499957 2014] [:error] [pid 11541] [client 127.0.0.1:56469] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:05:01.564769 2014] [:error] [pid 11486] [client 127.0.0.1:56470] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:05:01.628583 2014] [:error] [pid 11589] [client 127.0.0.1:56468] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:05:01.690665 2014] [:error] [pid 11596] [client 127.0.0.1:56467] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:05:24.828472 2014] [:error] [pid 11576] [client 127.0.0.1:56474] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:05:24.898850 2014] [:error] [pid 11584] [client 127.0.0.1:56477] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:05:25.001870 2014] [:error] [pid 11597] [client 127.0.0.1:56475] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:05:25.396670 2014] [:error] [pid 11597] [client 127.0.0.1:56475] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:05:25.497066 2014] [:error] [pid 11576] [client 127.0.0.1:56474] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:05:25.577289 2014] [:error] [pid 8526] [client 127.0.0.1:56472] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:05:25.653028 2014] [:error] [pid 11562] [client 127.0.0.1:56476] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:05:25.722105 2014] [:error] [pid 11584] [client 127.0.0.1:56477] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:05:25.785240 2014] [:error] [pid 11597] [client 127.0.0.1:56475] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:06:29.174091 2014] [:error] [pid 11596] [client 127.0.0.1:56481] Empty module and/or action after parsing the URL "/css/bootstrap.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:06:29.187846 2014] [:error] [pid 11589] [client 127.0.0.1:56480] Empty module and/or action after parsing the URL "/css/jquery-1.10.2.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:06:29.397546 2014] [:error] [pid 11596] [client 127.0.0.1:56481] Empty module and/or action after parsing the URL "/css/parallax.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:06:29.418696 2014] [:error] [pid 4909] [client 127.0.0.1:56483] Empty module and/or action after parsing the URL "/css/others.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:06:29.433629 2014] [:error] [pid 11589] [client 127.0.0.1:56480] Empty module and/or action after parsing the URL "/css/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:06:29.442868 2014] [:error] [pid 11613] [client 127.0.0.1:56482] Empty module and/or action after parsing the URL "/css/validator.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:06:29.511670 2014] [:error] [pid 11613] [client 127.0.0.1:56482] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:06:29.571326 2014] [:error] [pid 11589] [client 127.0.0.1:56480] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:06:29.709094 2014] [:error] [pid 4909] [client 127.0.0.1:56483] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:06:29.809411 2014] [:error] [pid 11576] [client 127.0.0.1:56484] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:06:29.910546 2014] [:error] [pid 11613] [client 127.0.0.1:56482] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:06:29.973249 2014] [:error] [pid 11589] [client 127.0.0.1:56480] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:06:30.067760 2014] [:error] [pid 11596] [client 127.0.0.1:56481] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:06:30.134082 2014] [:error] [pid 8526] [client 127.0.0.1:56485] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:06:46.117006 2014] [:error] [pid 11584] [client 127.0.0.1:56487] Empty module and/or action after parsing the URL "/css/jquery-1.10.2.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:06:46.135903 2014] [:error] [pid 11584] [client 127.0.0.1:56487] Empty module and/or action after parsing the URL "/css/bootstrap.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:06:46.161127 2014] [:error] [pid 11584] [client 127.0.0.1:56487] Empty module and/or action after parsing the URL "/css/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:06:46.182589 2014] [:error] [pid 11584] [client 127.0.0.1:56487] Empty module and/or action after parsing the URL "/css/parallax.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:06:46.205260 2014] [:error] [pid 11584] [client 127.0.0.1:56487] Empty module and/or action after parsing the URL "/css/validator.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:06:46.268151 2014] [:error] [pid 11584] [client 127.0.0.1:56487] Empty module and/or action after parsing the URL "/css/others.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:06:46.367394 2014] [:error] [pid 11584] [client 127.0.0.1:56487] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:06:46.440019 2014] [:error] [pid 11597] [client 127.0.0.1:56488] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:06:46.605614 2014] [:error] [pid 11576] [client 127.0.0.1:56492] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:06:46.732710 2014] [:error] [pid 11597] [client 127.0.0.1:56488] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:06:46.803412 2014] [:error] [pid 11625] [client 127.0.0.1:56490] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:06:46.865370 2014] [:error] [pid 11584] [client 127.0.0.1:56487] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:06:46.927155 2014] [:error] [pid 4909] [client 127.0.0.1:56491] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:06:46.988641 2014] [:error] [pid 11486] [client 127.0.0.1:56489] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:09:34.501750 2014] [:error] [pid 11584] [client 127.0.0.1:56503] Empty module and/or action after parsing the URL "/css/jquery-1.10.2.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:09:34.524295 2014] [:error] [pid 11584] [client 127.0.0.1:56503] Empty module and/or action after parsing the URL "/css/bootstrap.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:09:34.547075 2014] [:error] [pid 11584] [client 127.0.0.1:56503] Empty module and/or action after parsing the URL "/css/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:09:34.567950 2014] [:error] [pid 11584] [client 127.0.0.1:56503] Empty module and/or action after parsing the URL "/css/parallax.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:09:34.603836 2014] [:error] [pid 11584] [client 127.0.0.1:56503] Empty module and/or action after parsing the URL "/css/validator.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:09:34.629212 2014] [:error] [pid 11584] [client 127.0.0.1:56503] Empty module and/or action after parsing the URL "/css/others.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:09:34.733048 2014] [:error] [pid 11625] [client 127.0.0.1:56504] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:09:34.848775 2014] [:error] [pid 4909] [client 127.0.0.1:56506] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:09:35.087473 2014] [:error] [pid 11584] [client 127.0.0.1:56503] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:09:35.177772 2014] [:error] [pid 11486] [client 127.0.0.1:56505] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:09:35.255575 2014] [:error] [pid 11596] [client 127.0.0.1:56507] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:09:35.332456 2014] [:error] [pid 4909] [client 127.0.0.1:56506] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:09:35.408268 2014] [:error] [pid 11625] [client 127.0.0.1:56504] Action "images/icons" does not exist., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:09:59.216301 2014] [:error] [pid 11636] [client 127.0.0.1:56510] Empty module and/or action after parsing the URL "/css/jquery-1.10.2.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:09:59.252604 2014] [:error] [pid 11576] [client 127.0.0.1:56511] Empty module and/or action after parsing the URL "/css/bootstrap.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:09:59.316290 2014] [:error] [pid 11576] [client 127.0.0.1:56511] Empty module and/or action after parsing the URL "/css/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:09:59.323580 2014] [:error] [pid 11597] [client 127.0.0.1:56512] Empty module and/or action after parsing the URL "/css/validator.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:09:59.333282 2014] [:error] [pid 11636] [client 127.0.0.1:56510] Empty module and/or action after parsing the URL "/css/parallax.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:09:59.340705 2014] [:error] [pid 11486] [client 127.0.0.1:56515] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:09:59.407806 2014] [:error] [pid 11596] [client 127.0.0.1:56514] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:09:59.488750 2014] [:error] [pid 11665] [client 127.0.0.1:56513] Empty module and/or action after parsing the URL "/css/others.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:10:27.673099 2014] [:error] [pid 11486] [client 127.0.0.1:56521] Empty module and/or action after parsing the URL "/css/validator.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:10:27.692627 2014] [:error] [pid 11589] [client 127.0.0.1:56517] Empty module and/or action after parsing the URL "/css/jquery-1.10.2.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:10:27.720944 2014] [:error] [pid 11625] [client 127.0.0.1:56519] Empty module and/or action after parsing the URL "/css/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:10:27.730991 2014] [:error] [pid 11597] [client 127.0.0.1:56522] Empty module and/or action after parsing the URL "/css/others.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:10:27.742717 2014] [:error] [pid 4909] [client 127.0.0.1:56518] Empty module and/or action after parsing the URL "/css/bootstrap.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:10:27.758637 2014] [:error] [pid 11671] [client 127.0.0.1:56520] Empty module and/or action after parsing the URL "/css/parallax.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:10:27.851455 2014] [:error] [pid 11625] [client 127.0.0.1:56519] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:10:27.944246 2014] [:error] [pid 11597] [client 127.0.0.1:56522] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:10:28.190867 2014] [:error] [pid 11625] [client 127.0.0.1:56519] Empty module and/or action after parsing the URL "/images/newsletter.png" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:10:28.255414 2014] [:error] [pid 4909] [client 127.0.0.1:56518] Empty module and/or action after parsing the URL "/images/CATALOGUE.png" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:10:52.037173 2014] [:error] [pid 11636] [client 127.0.0.1:56524] Empty module and/or action after parsing the URL "/css/jquery-1.10.2.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:10:52.053708 2014] [:error] [pid 11665] [client 127.0.0.1:56525] Empty module and/or action after parsing the URL "/css/bootstrap.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:10:52.068109 2014] [:error] [pid 11636] [client 127.0.0.1:56524] Empty module and/or action after parsing the URL "/css/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:10:52.080204 2014] [:error] [pid 11596] [client 127.0.0.1:56526] Empty module and/or action after parsing the URL "/css/parallax.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:10:52.088478 2014] [:error] [pid 11675] [client 127.0.0.1:56527] Empty module and/or action after parsing the URL "/css/validator.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:10:52.167751 2014] [:error] [pid 11675] [client 127.0.0.1:56527] Empty module and/or action after parsing the URL "/css/others.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:10:52.223412 2014] [:error] [pid 11675] [client 127.0.0.1:56527] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:10:52.289790 2014] [:error] [pid 11596] [client 127.0.0.1:56526] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:11:16.549797 2014] [:error] [pid 11625] [client 127.0.0.1:56533] Empty module and/or action after parsing the URL "/css/jquery-1.10.2.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:11:16.574459 2014] [:error] [pid 11671] [client 127.0.0.1:56534] Empty module and/or action after parsing the URL "/css/bootstrap.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:11:16.609834 2014] [:error] [pid 11671] [client 127.0.0.1:56534] Empty module and/or action after parsing the URL "/css/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:11:16.690523 2014] [:error] [pid 11671] [client 127.0.0.1:56534] Empty module and/or action after parsing the URL "/css/parallax.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:11:16.705654 2014] [:error] [pid 11625] [client 127.0.0.1:56533] Empty module and/or action after parsing the URL "/css/validator.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:11:16.727814 2014] [:error] [pid 11486] [client 127.0.0.1:56537] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:11:16.811149 2014] [:error] [pid 11665] [client 127.0.0.1:56536] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:11:16.876999 2014] [:error] [pid 11686] [client 127.0.0.1:56535] Empty module and/or action after parsing the URL "/css/others.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:11:27.005764 2014] [:error] [pid 11589] [client 127.0.0.1:56540] Empty module and/or action after parsing the URL "/css/bootstrap.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:11:27.035639 2014] [:error] [pid 4909] [client 127.0.0.1:56543] Empty module and/or action after parsing the URL "/css/validator.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:11:27.043095 2014] [:error] [pid 11671] [client 127.0.0.1:56544] Empty module and/or action after parsing the URL "/css/others.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:11:27.052568 2014] [:error] [pid 11596] [client 127.0.0.1:56541] Empty module and/or action after parsing the URL "/css/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:11:27.064516 2014] [:error] [pid 11636] [client 127.0.0.1:56542] Empty module and/or action after parsing the URL "/css/parallax.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:11:27.073737 2014] [:error] [pid 11675] [client 127.0.0.1:56539] Empty module and/or action after parsing the URL "/css/jquery-1.10.2.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:11:27.131343 2014] [:error] [pid 11636] [client 127.0.0.1:56542] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:11:27.289119 2014] [:error] [pid 11636] [client 127.0.0.1:56542] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:13:19.850483 2014] [:error] [pid 11486] [client 127.0.0.1:56565] Empty module and/or action after parsing the URL "/css/jquery-1.10.2.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:13:19.885491 2014] [:error] [pid 11665] [client 127.0.0.1:56566] Empty module and/or action after parsing the URL "/css/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:13:19.892284 2014] [:error] [pid 11686] [client 127.0.0.1:56567] Empty module and/or action after parsing the URL "/css/parallax.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:13:19.899692 2014] [:error] [pid 11486] [client 127.0.0.1:56565] Empty module and/or action after parsing the URL "/css/bootstrap.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:13:19.915725 2014] [:error] [pid 11589] [client 127.0.0.1:56569] Empty module and/or action after parsing the URL "/css/others.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:13:19.925383 2014] [:error] [pid 11695] [client 127.0.0.1:56568] Empty module and/or action after parsing the URL "/css/validator.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:13:20.036376 2014] [:error] [pid 4909] [client 127.0.0.1:56570] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:13:20.120061 2014] [:error] [pid 11665] [client 127.0.0.1:56566] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:16:35.159715 2014] [:error] [pid 11675] [client 127.0.0.1:56591] Empty module and/or action after parsing the URL "/css/jquery-1.10.2.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:16:35.195607 2014] [:error] [pid 11486] [client 127.0.0.1:56593] Empty module and/or action after parsing the URL "/css/parallax.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:16:35.207457 2014] [:error] [pid 11675] [client 127.0.0.1:56591] Empty module and/or action after parsing the URL "/css/bootstrap.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:16:35.222514 2014] [:error] [pid 11589] [client 127.0.0.1:56595] Empty module and/or action after parsing the URL "/css/others.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:16:35.229388 2014] [:error] [pid 11636] [client 127.0.0.1:56592] Empty module and/or action after parsing the URL "/css/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:16:35.238789 2014] [:error] [pid 11706] [client 127.0.0.1:56594] Empty module and/or action after parsing the URL "/css/validator.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:16:35.313138 2014] [:error] [pid 11706] [client 127.0.0.1:56594] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:16:35.511026 2014] [:error] [pid 11706] [client 127.0.0.1:56594] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:16:35.742908 2014] [:error] [pid 11706] [client 127.0.0.1:56594] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Tue Jan 14 23:16:40.050000 2014] [:error] [pid 11636] [client 127.0.0.1:56592] Empty module and/or action after parsing the URL "/css/bootstrap.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:16:40.056845 2014] [:error] [pid 11675] [client 127.0.0.1:56591] Empty module and/or action after parsing the URL "/css/validator.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:16:40.063471 2014] [:error] [pid 11486] [client 127.0.0.1:56593] Empty module and/or action after parsing the URL "/css/parallax.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:16:40.071940 2014] [:error] [pid 11706] [client 127.0.0.1:56594] Empty module and/or action after parsing the URL "/css/jquery-1.10.2.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:16:40.084156 2014] [:error] [pid 11695] [client 127.0.0.1:56596] Empty module and/or action after parsing the URL "/css/others.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:16:40.097790 2014] [:error] [pid 11589] [client 127.0.0.1:56595] Empty module and/or action after parsing the URL "/css/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:16:40.112221 2014] [:error] [pid 11706] [client 127.0.0.1:56594] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:16:40.194738 2014] [:error] [pid 11695] [client 127.0.0.1:56596] Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:17:22.022228 2014] [:error] [pid 11686] [client 127.0.0.1:56602] Empty module and/or action after parsing the URL "/css/jquery-1.10.2.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:17:22.033769 2014] [:error] [pid 11665] [client 127.0.0.1:56603] Empty module and/or action after parsing the URL "/css/bootstrap.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:17:22.074026 2014] [:error] [pid 11665] [client 127.0.0.1:56603] Empty module and/or action after parsing the URL "/css/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:17:22.084514 2014] [:error] [pid 11686] [client 127.0.0.1:56602] Empty module and/or action after parsing the URL "/css/parallax.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:17:22.113768 2014] [:error] [pid 11596] [client 127.0.0.1:56604] Empty module and/or action after parsing the URL "/css/validator.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:17:22.128814 2014] [:error] [pid 11797] [client 127.0.0.1:56605] Empty module and/or action after parsing the URL "/css/others.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 14 23:17:22.162725 2014] [:error] [pid 11486] [client 127.0.0.1:56606] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home

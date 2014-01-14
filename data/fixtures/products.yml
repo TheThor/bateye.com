@@ -1,0 +1,27 @@
+Products:
+  Ballet:
+    name:          Ballet
+    main_img_path: images/portocollection/Ballet.png
+    main_img_alt:  Ballet
+    citation:      ‘A simple dance scattering into a ray of light. Miss, do you dance?’
+    description:   ‘Ballet’ is an influent type of dance all over world, which has a highly technical form and its own vocabulary. Marco Sousa watching people strolling through streets of Porto. The rhythmic movement of people inspired Marco Sousa to weave the finest woods, forming the foot of the lamp. In the abajour we have the piece that brings balance: so is the ballet, the position of the dancer’s hands and arms brings balance and subtlety to the movements. The whole lamp is carved from a unique piece of wood, manually by our joiners.
+    designer:      Marco Sousa
+    width:         w 23 cm | 9,1”
+    height:        h 57 cm | 22,4”
+    diameter:      d 23 cm | 9,1”
+    materials:     Noble Wood, Finish in silver Leaf
+    collection_id: 1
+    category_id:   1
+  Arc:
+    name:          Arc
+    main_img_path: images/portocollection/Arc.png
+    main_img_alt:  Arc
+    citation:      ‘What nature divided, man dared to unite. One bridge between two shores led the conversation on.’
+    description:   <p>What nature separated, man wanted to unite. Two margins and a bridge that led them talking. 125 years were enough for the D. Luís I bridge became one of the most iconic places of Porto. Although the official name of the bridge is “Luiz I”, as attested by the inscriptions on the plates of the pillars on the entries of the lower deck, the population of Porto has always called it “D. Luís Bridge”, excepting the title of the king with whom the city was very close to. However, the Arc Sideboard seems its antithesis. Instead of a magnanimous piece of engineering, Marco Sousa designed for Bat eye a singular piece worked by the hand of the artisan, with an interior carefully designed and finished in satin wood; the metal joining the margins is now the support base.</p><p>Finally, we leave aside the monochrome and dress up the piece with hand painted tiles. The same that dress up the city of Porto, and by which tourists fall in love, reflex of a culture of a People.</p>
+    designer:      Marco Sousa
+    width:         w 227 cm | 89,4”
+    height:        h 103 cm | 40,6”
+    diameter:      d 80 cm | 31,5”
+    materials:     satin wood, hand painted portuguese tiles
+    collection_id: 1
+    category_id:   2
