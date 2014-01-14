@@ -8,6 +8,7 @@
  * @property integer $id
  * @property string $name
  * @property string $main_img_path
+ * @property string $main_img_alt
  * @property string $citation
  * @property string $description
  * @property string $designer
@@ -15,6 +16,7 @@
  * @property string $height
  * @property string $diameter
  * @property string $depth
+ * @property string $materials
  * @property string $other
  * @property integer $collection_id
  * @property integer $category_id
@@ -25,6 +27,7 @@
  * @method integer             getId()            Returns the current record's "id" value
  * @method string              getName()          Returns the current record's "name" value
  * @method string              getMainImgPath()   Returns the current record's "main_img_path" value
+ * @method string              getMainImgAlt()    Returns the current record's "main_img_alt" value
  * @method string              getCitation()      Returns the current record's "citation" value
  * @method string              getDescription()   Returns the current record's "description" value
  * @method string              getDesigner()      Returns the current record's "designer" value
@@ -32,6 +35,7 @@
  * @method string              getHeight()        Returns the current record's "height" value
  * @method string              getDiameter()      Returns the current record's "diameter" value
  * @method string              getDepth()         Returns the current record's "depth" value
+ * @method string              getMaterials()     Returns the current record's "materials" value
  * @method string              getOther()         Returns the current record's "other" value
  * @method integer             getCollectionId()  Returns the current record's "collection_id" value
  * @method integer             getCategoryId()    Returns the current record's "category_id" value
@@ -41,6 +45,7 @@
  * @method Products            setId()            Sets the current record's "id" value
  * @method Products            setName()          Sets the current record's "name" value
  * @method Products            setMainImgPath()   Sets the current record's "main_img_path" value
+ * @method Products            setMainImgAlt()    Sets the current record's "main_img_alt" value
  * @method Products            setCitation()      Sets the current record's "citation" value
  * @method Products            setDescription()   Sets the current record's "description" value
  * @method Products            setDesigner()      Sets the current record's "designer" value
@@ -48,6 +53,7 @@
  * @method Products            setHeight()        Sets the current record's "height" value
  * @method Products            setDiameter()      Sets the current record's "diameter" value
  * @method Products            setDepth()         Sets the current record's "depth" value
+ * @method Products            setMaterials()     Sets the current record's "materials" value
  * @method Products            setOther()         Sets the current record's "other" value
  * @method Products            setCollectionId()  Sets the current record's "collection_id" value
  * @method Products            setCategoryId()    Sets the current record's "category_id" value
@@ -80,6 +86,11 @@ abstract class BaseProducts extends sfDoctrineRecord
              'notnull' => true,
              'length' => 255,
              ));
+        $this->hasColumn('main_img_alt', 'string', 255, array(
+             'type' => 'string',
+             'notnull' => true,
+             'length' => 255,
+             ));
         $this->hasColumn('citation', 'string', 255, array(
              'type' => 'string',
              'notnull' => true,
@@ -107,6 +118,10 @@ abstract class BaseProducts extends sfDoctrineRecord
              'length' => 255,
              ));
         $this->hasColumn('depth', 'string', 255, array(
+             'type' => 'string',
+             'length' => 255,
+             ));
+        $this->hasColumn('materials', 'string', 255, array(
              'type' => 'string',
              'length' => 255,
              ));

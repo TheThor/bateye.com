@@ -8,15 +8,18 @@
  * @property integer $id
  * @property integer $product_id
  * @property string $location
+ * @property string $alt
  * @property Products $Products
  * 
  * @method integer       getId()         Returns the current record's "id" value
  * @method integer       getProductId()  Returns the current record's "product_id" value
  * @method string        getLocation()   Returns the current record's "location" value
+ * @method string        getAlt()        Returns the current record's "alt" value
  * @method Products      getProducts()   Returns the current record's "Products" value
  * @method ProductImages setId()         Sets the current record's "id" value
  * @method ProductImages setProductId()  Sets the current record's "product_id" value
  * @method ProductImages setLocation()   Sets the current record's "location" value
+ * @method ProductImages setAlt()        Sets the current record's "alt" value
  * @method ProductImages setProducts()   Sets the current record's "Products" value
  * 
  * @package    bateye
@@ -39,6 +42,11 @@ abstract class BaseProductImages extends sfDoctrineRecord
              'notnull' => true,
              ));
         $this->hasColumn('location', 'string', 255, array(
+             'type' => 'string',
+             'notnull' => true,
+             'length' => 255,
+             ));
+        $this->hasColumn('alt', 'string', 255, array(
              'type' => 'string',
              'notnull' => true,
              'length' => 255,
