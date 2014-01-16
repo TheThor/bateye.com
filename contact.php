@@ -16,73 +16,82 @@
 				E-MAIL <br><input type="text" name="email" id="email"><br><br>
 				PHONE <br><input type="text" name="telefone" id="telefone"><br><br>
 				CITY <br><input type="text" name="cidade" id="cidade"><br><br>
-				MESSAGE <br><textarea rows="5" cols="40"></textarea><br><br>
+				MESSAGE <br><textarea rows="5" cols="40" id="mensagem" name="mensagem"></textarea><br><br>
 				<input type="submit" name="enviar" id="enviar" value="SEND" class="button">
+            </form>
 				<?php 
 				    if(isset($_POST['enviar']))
 				    {
+//                        var_dump($_POST); exit;
 				        if($_POST['nome']==""||$_POST['assunto']==""||$_POST['email']==""||$_POST['telefone']==""||$_POST['cidade']==""||$_POST['mensagem']=="")
 				        {
 				            echo"Por favor preencha todos os campos!";
 				        }else{
-				             	$nome=$_POST[nome];
-							    $assunto=$_POST[assunto];
-							    $email=$_POST[email];
-							    $telefone=$_POST[telefone];
-							    $cidade=$_POST[cidade];
-							    $mensagem=$_POST[mensagem];
-							    
-							    //enviar mail
-							    
-							    mail("killzonedsk@gmail.com","Formulário Contacto Bat Eye","
-							    
-								 Nome:\n$nome\n
-								 Assunto:\n$assunto\n
-								 Email:\n$email\n
-								 Telefone:\n$telefone\n
-								 Cidade:\n$cidade\n
-								 Mensagem:\n$mensagem","FROM:$nome<$email>");
-													    
-															    echo"E-mail enviado com sucesso!!";
-												        }
-												        
-												    }
-												?>
+                            require_once("include/class.phpmailer.php");
+                            $email = "marcosousa@bateye.com";
+                            $name = "Marco Sousa";
+                            $email_from = $_POST['email'];
+                            $name_from = $_POST['nome'];
+                            $assunto = $_POST['assunto'];
+                            $referer = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : '';
+                            $message = "Nome: " .$_POST['nome'] . "\n Email: " . $email_from . "\n Cidade: " . $_POST['cidade'] . "\n Mensagem: " . $_POST['mensagem'] . "\nTelefone: ". $_POST['telefone'];
+
+                            $mail = new PHPMailer(true);
+                            $mail->IsSMTP(); // telling the class to use SMTP
+                            $mail->SMTPAuth = true; // enable SMTP authentication
+                            $mail->Host = "smtp.bateye.com"; // sets GMAIL as the SMTP server
+                            $mail->Port = 25; // set the SMTP port for the GMAIL server
+                            $mail->Username = "bateye"; // GMAIL username
+                            $mail->Password = "att314"; // GMAIL password
+                            $mail->AddAddress($email, $name);
+                            $mail->SetFrom($email_from, $name_from);
+                            $mail->Subject = $assunto;
+                            $mail->Body = $message;
+
+                            try{
+                                $mail->Send();
+                                echo "E-mail enviado com sucesso!!";
+                            } catch(Exception $e){
+                                echo "false". $mail->ErrorInfo;
+                            }
+                        }
+                    }
+				?>
 		</div>
-		<div id="follow">
-			<div id="subs">
-				<h1>subscribe</h1><br>
-				<hr>
-				<div id="s_1">
-					<img src="images/icons/newsletter.png">
-					<h2>newsletter</h2>
-				</div>
-				<div id="s_2">
-					<form name="news" method="post" action="">
-						E-MAIL <input type="text" name="email_news" id="email_news"><br>
-						<input type="submit" name="enviar_news" id="enviar_news" value="SUBS" class="button">
-						<?php 
-						if(isset($_POST['enviar_news']))
-						{
-							if($_POST['email_news']=="")
-							{
-								echo "Por favor indique o seu e-mail!";
-							}else{
-								$email_news=$_POST[email_news];
-
-								//enviar newsletter
-								mail("killzonedsk@gmail.com","Newsletter Bat Eye","
-
-
-									Email:\n$email_news\n","FROM: <$email_news>");
-
-								echo"Subs efectuada!!";
-							}
-						}
-						?>
-					</div>
-				</div>
-			</div>
+<!--		<div id="follow">-->
+<!--			<div id="subs">-->
+<!--				<h1>subscribe</h1><br>-->
+<!--				<hr>-->
+<!--				<div id="s_1">-->
+<!--					<img src="images/icons/newsletter.png">-->
+<!--					<h2>newsletter</h2>-->
+<!--				</div>-->
+<!--				<div id="s_2">-->
+<!--					<form name="news" method="post" action="">-->
+<!--						E-MAIL <input type="text" name="email_news" id="email_news"><br>-->
+<!--						<input type="submit" name="enviar_news" id="enviar_news" value="SUBS" class="button">-->
+<!--						--><?php //
+//						if(isset($_POST['enviar_news']))
+//						{
+//							if($_POST['email_news']=="")
+//							{
+//								echo "Por favor indique o seu e-mail!";
+//							}else{
+//								$email_news=$_POST[email_news];
+//
+//								//enviar newsletter
+//								mail("killzonedsk@gmail.com","Newsletter Bat Eye","
+//
+//
+//									Email:\n$email_news\n","FROM: <$email_news>");
+//
+//								echo"Subs efectuada!!";
+//							}
+//						}
+//						?>
+<!--					</div>-->
+<!--				</div>-->
+<!--			</div>-->
 		<!-- <div id="contact">
 			<h1>contact us</h1><br>
 			<hr>

@@ -16,4 +16,13 @@ class NewsTable extends Doctrine_Table
     {
         return Doctrine_Core::getTable('News');
     }
+
+    public function getLatestNews(){
+        $q = Doctrine_Query::create()
+            ->select('*')
+            ->from('News')
+            ->orderBy('created_at DESC')
+            ->limit(6);
+        return $q->execute();
+    }
 }
