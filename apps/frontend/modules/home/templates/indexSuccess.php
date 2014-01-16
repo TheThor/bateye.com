@@ -168,6 +168,11 @@
     </div>
     <div id="mainwrapper" class="span11 nodisplay"><!-- This #mainwrapper section contains all of our images to make them center and look proper in the browser ->
           <!-- Image Caption 1 -->
+        <pre>
+        <?php var_dump($news->title);?>
+        </pre>
+        <?php foreach($news as $new): ?>
+        <p><?php echo $new->getNewsTitle() . "<br>"; ?></p>
         <div id="box-1" class="box">
             <a href="queenly.php">
                 <img id="image-1" src="/images/whatsnew/queenly.png" alt="Imagem da queenly"/>
@@ -178,6 +183,7 @@
               </span>
             </a>
         </div>
+        <?php endforeach ?>
 
         <!-- Image Caption 2 -->
         <div id="box-2" class="box">

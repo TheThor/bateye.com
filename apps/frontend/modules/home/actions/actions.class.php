@@ -18,6 +18,7 @@ class homeActions extends sfActions
   public function executeIndex(sfWebRequest $request)
   {
 //    $this->forward('default', 'module');
-      return sfView::SUCCESS;
+//      return sfView::SUCCESS;
+      $this->news = Doctrine::getTable('News')->getLatestNews();
   }
 }

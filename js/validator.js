@@ -41,7 +41,7 @@ $("#enviar").click(function(){
 	            if (result == 'true') {
 	                alert("Subscrição efectuada!");
 	            } else {
-	                alert("Não foi possível enviar a subscrição. Contacte-nos para joanacruz@bateye.com!")
+	                alert("Não foi possível enviar a subscrição. Contacte-nos para marcosousa@bateye.com!")
 	            }
 	        },
 	        error: function(errormessage){
