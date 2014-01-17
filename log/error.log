@@ -1764,3 +1764,18 @@
 [Wed Jan 15 13:37:52.224804 2014] [:error] [pid 17950] [client 127.0.0.1:57303] Empty module and/or action after parsing the URL "/css/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
 [Wed Jan 15 13:37:52.236609 2014] [:error] [pid 14244] [client 127.0.0.1:57306] Empty module and/or action after parsing the URL "/css/others.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
 [Wed Jan 15 13:37:52.409203 2014] [:error] [pid 14244] [client 127.0.0.1:57306] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Thu Jan 16 23:15:22.815890 2014] [:error] [pid 14190] [client 127.0.0.1:36298] Empty module and/or action after parsing the URL "/css/jquery-1.10.2.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Thu Jan 16 23:15:23.034001 2014] [:error] [pid 25913] [client 127.0.0.1:36302] Empty module and/or action after parsing the URL "/css/validator.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Thu Jan 16 23:15:23.097286 2014] [:error] [pid 25954] [client 127.0.0.1:36299] Empty module and/or action after parsing the URL "/css/bootstrap.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Thu Jan 16 23:15:23.150019 2014] [:error] [pid 25913] [client 127.0.0.1:36302] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Thu Jan 16 23:15:23.976500 2014] [:error] [pid 14140] [client 127.0.0.1:36301] Empty module and/or action after parsing the URL "/css/parallax.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Thu Jan 16 23:15:24.350166 2014] [:error] [pid 14205] [client 127.0.0.1:36300] Empty module and/or action after parsing the URL "/css/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Thu Jan 16 23:15:24.581981 2014] [:error] [pid 17942] [client 127.0.0.1:36303] Empty module and/or action after parsing the URL "/css/others.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Fri Jan 17 20:52:51.942087 2014] [:error] [pid 17968] [client 127.0.0.1:38328] Empty module and/or action after parsing the URL "/css/jquery-1.10.2.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Fri Jan 17 20:52:52.173290 2014] [:error] [pid 17942] [client 127.0.0.1:38331] Empty module and/or action after parsing the URL "/css/parallax.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Fri Jan 17 20:52:52.481513 2014] [:error] [pid 14205] [client 127.0.0.1:38332] Empty module and/or action after parsing the URL "/css/validator.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Fri Jan 17 20:52:52.653709 2014] [:error] [pid 25697] [client 127.0.0.1:38329] Empty module and/or action after parsing the URL "/css/bootstrap.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Fri Jan 17 20:52:52.664802 2014] [:error] [pid 28922] [client 127.0.0.1:38330] Empty module and/or action after parsing the URL "/css/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Fri Jan 17 20:52:52.678271 2014] [:error] [pid 25954] [client 127.0.0.1:38333] Empty module and/or action after parsing the URL "/css/others.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Fri Jan 17 20:52:52.845944 2014] [:error] [pid 25954] [client 127.0.0.1:38333] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/
+[Fri Jan 17 20:53:02.446247 2014] [:error] [pid 25954] [client 127.0.0.1:38333] Empty module and/or action after parsing the URL "/favicon.ico" (/).
