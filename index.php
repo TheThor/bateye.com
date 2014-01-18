@@ -2,9 +2,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Bat Eye</title>
-    <meta name="description" content="Bat Eye is a design brand with exclusive furniture to decorate interiors with the most exquisite, artistic design. It wants to bring the impressive interior design with it's exclusive luxury furniture, delivered by Marco Sousa who is inspired by cities like Porto.">
-    <meta name="keywords" content="design furniture, luxury furniture manufacturers, customized furniture, furniture store, living room furniture, signature furniture, interior design, exquisite furniture, Marco Sousa, artisan, handmade, luxury pieces">
+    <title>Bat Eye - Luxury brand with exclusive furniture design</title>
+    <meta name="description" content="Bat Eye is a portuguese design brand with exclusive furniture to decorate interiors with the most exquisite, artistic design. It wants to bring the impressive interior design with it's exclusive luxury furniture, delivered by Marco Sousa who is inspired by cities like Porto in Portugal.">
+    <meta name="keywords" content="design furniture, luxury furniture manufacturers, customized furniture, furniture store, living room furniture, signature furniture, interior design, exquisite furniture, Marco Sousa, artisan, handmade, luxury pieces, Portugal, Porto">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
@@ -147,13 +147,13 @@
       </div>
       <div id="mainwrapper" class="span11 nodisplay"><!-- This #mainwrapper section contains all of our images to make them center and look proper in the browser ->
           <!-- Image Caption 1 -->
-          <div id="box-1" class="box">
+          <div id="box-1" class="box" itemscope itemtype="http://schema.org/CreativeWork">
             <a href="queenly.php">
-              <img id="image-1" src="images/whatsnew/queenly.png" alt="Imagem da queenly"/>
+              <img itemprop="image" id="image-1" src="images/whatsnew/queenly.png" alt="Imagem da queenly"/>
               <span class="caption fade-caption">
-              <h2>Queenly</h2>
+              <h2 itemprop="name" >Queenly</h2>
               <h3>Coffee table</h3>
-              <p>An unique coffee table that represents a taste for the exotic and artistic forms, inspired by stained glass windows of Arabian room.</p>
+              <p itemprop="description">An unique coffee table that represents a taste for the exotic and artistic forms, inspired by stained glass windows of Arabian room.</p>
               </span>
             </a>
           </div>
