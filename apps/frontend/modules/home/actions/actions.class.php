@@ -20,7 +20,11 @@ class homeActions extends sfActions
 //    $this->forward('default', 'module');
 //      return sfView::SUCCESS;
       $this->news = Doctrine::getTable('News')->getLatestNews();
+      $this->sliderCount = $this->countSlider();
+      $this->sliders = Doctrine::getTable('SliderImages')->getAllSliders();
+  }
 
-      $this->slider = Doctrine::getTable('SliderImages')->countSliders();
+  public function countSlider(){
+      return Doctrine::getTable('SliderImages')->count();
   }
 }
