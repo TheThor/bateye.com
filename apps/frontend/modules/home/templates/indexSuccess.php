@@ -42,19 +42,25 @@
     <div id="myCarousel" class="carousel slide span11">
         <a href="#" id="keep-scroll"></a>
         <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <?php for($i=0; $i<$sliderCount; $i++): ?>
+                <?php if($i==0):?>
+                    <li data-target="#myCarousel" data-slide-to="<?php echo $i; ?>" class="active"></li>
+                <?php else: ?>
+                    <li data-target="#myCarousel" data-slide-to="<?php echo $i; ?>"></li>
+                <?php endif; ?>
+            <?php endfor; $i = 0;?>
         </ol>
         <!-- Carousel items -->
         <div class="carousel-inner">
-            <div class="active item img-carousel abrilfat"><img src="/images/Carousel/banner_arc.png" alt="Banner da peça Arc" /></div>
-            <div class="item img-carousel"><img class="img-crousel" src="/images/Carousel/banner_elegance.png" alt="Banner da peça elegance" /></div>
-            <div class="item img-carousel"><img class="img-crousel" src="/images/Carousel/banner_fairytale.png" alt="Banner da peça fairytale" /></div>
-            <div class="item img-carousel"><img class="img-crousel" src="/images/Carousel/banner_queenly.png" alt="Banner da peça queenly" /></div>
-            <div class="item img-carousel"><img class="img-crousel" src="/images/Carousel/banner_stone.png" alt="Banner da peça stone" /></div>
+
+            <?php foreach($sliders as $slider): ?>
+                <?php if ($i==0): ?>
+                    <div class="active item img-carousel abrilfat"><img src="/<?php echo $slider->getPath();?>" alt="Banner da peça Arc" /></div>
+                    <?php $i++;?>
+                <?php else: ?>
+                    <div class="item img-carousel"><img class="img-crousel" src="/images/Carousel/banner_elegance.png" alt="Banner da peça elegance" /></div>
+                <?php endif;?>
+            <?php endforeach; ?>
         </div>
         <!-- Carousel nav -->
         <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
