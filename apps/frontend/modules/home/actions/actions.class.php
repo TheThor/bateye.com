@@ -22,6 +22,7 @@ class homeActions extends sfActions
       $this->news = Doctrine::getTable('News')->getLatestNews();
       $this->sliderCount = $this->countSlider();
       $this->sliders = Doctrine::getTable('SliderImages')->getAllSliders();
+
   }
 
   public function countSlider(){

@@ -16,4 +16,31 @@ class IndexContentTable extends Doctrine_Table
     {
         return Doctrine_Core::getTable('IndexContent');
     }
+
+    public static function getCatalogueFileName(){
+        $q = Doctrine_Query::create()
+            ->select('catalogue')
+            ->from('IndexContent')
+            ->orderBy('created_at Desc')
+            ->limit(1);
+        return $q->execute();
+    }
+
+    public static function getTheBrand(){
+        $q = Doctrine_Query::create()
+            ->select('')
+            ->from('IndexContent')
+            ->orderBy('created_at Desc')
+            ->limit(1);
+        return $q->execute();
+    }
+
+    public static function getTheDesigner(){
+        $q = Doctrine_Query::create()
+            ->select('*')
+            ->from('IndexContent')
+            ->orderBy('created_at Desc')
+            ->limit(1);
+        return $q->execute();
+    }
 }
