@@ -19,10 +19,13 @@ class homeActions extends sfActions
   {
 //    $this->forward('default', 'module');
 //      return sfView::SUCCESS;
-      $this->news = Doctrine::getTable('News')->getLatestNews();
-      $this->sliderCount = $this->countSlider();
-      $this->sliders = Doctrine::getTable('SliderImages')->getAllSliders();
-
+    $this->news = Doctrine_Core::getTable('News')->getLatestNews();
+    $this->sliderCount = $this->countSlider();
+    $this->sliders =  Doctrine_Core::getTable('SliderImages')->getAllSliders();
+    $this->brand = Doctrine::getTable('IndexContent')
+        ->createQuery('b')
+        ->execute();
+//    $this->designer = Doctrine::getTable('IndexContent')->getThedesigner();
   }
 
   public function countSlider(){

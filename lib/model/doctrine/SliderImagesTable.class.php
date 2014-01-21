@@ -18,10 +18,12 @@ class SliderImagesTable extends Doctrine_Table
     }
 
     public function getAllSliders(){
-        $q = Doctrine_Query::create()
-            ->select('*')
-            ->from('SliderImages')
-            ->orderBy('created_at DESC');
+//        $q = $this->createQuery()
+//            ->select('*')
+//            ->from('SliderImages')
+//            ->orderBy('created_at DESC');
+        $q = $this->createQuery('a')
+            ->orderBy('a.created_at DESC');
         return $q->execute();
     }
 }
