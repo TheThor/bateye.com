@@ -209,7 +209,6 @@
             All rights reserved.
         </div>
     </div>
-
 </div>
 
 <!-- END   -->
@@ -220,7 +219,8 @@
 </div>
 
 <div id="catalogue" style="position:fixed; z-index: 5; left: -6px; top:245px; curs">
-    <a href="download.php"><img src="/images/CATALOGUE.png"></a>
+
+    <a href="<?php echo url_for('media/catalogue.pdf')?>"><img src="/images/CATALOGUE.png"></a>
 </div>
 <div id="produ" style="position:fixed; z-index: 5; bottom: 0; right: 0;">
     <img id="closeit" src="/images/close.png" alt="close button image">
