@@ -2704,3 +2704,12 @@
 [Tue Jan 21 21:08:39.121896 2014] [:error] [pid 16358] [client 127.0.0.1:57642] Empty module and/or action after parsing the URL "/css/others.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
 [Tue Jan 21 21:08:39.224675 2014] [:error] [pid 16371] [client 127.0.0.1:57637] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
 [Tue Jan 21 21:18:45.032252 2014] [:error] [pid 16003] [client 127.0.0.1:57674] Unknown method IndexContentTable::getThebrand
+[Tue Jan 21 21:35:43.677374 2014] [:error] [pid 16449] [client 127.0.0.1:58325] Empty module and/or action after parsing the URL "/css/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 21 21:35:43.779774 2014] [:error] [pid 16371] [client 127.0.0.1:58326] Empty module and/or action after parsing the URL "/css/parallax.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 21 21:35:43.889908 2014] [:error] [pid 15996] [client 127.0.0.1:58323] Empty module and/or action after parsing the URL "/css/jquery-1.10.2.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 21 21:35:43.990567 2014] [:error] [pid 16358] [client 127.0.0.1:58324] Empty module and/or action after parsing the URL "/css/bootstrap.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 21 21:35:44.084551 2014] [:error] [pid 16003] [client 127.0.0.1:58327] Empty module and/or action after parsing the URL "/css/validator.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 21 21:35:44.184290 2014] [:error] [pid 16394] [client 127.0.0.1:58328] Empty module and/or action after parsing the URL "/css/others.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 21 21:35:44.294570 2014] [:error] [pid 16449] [client 127.0.0.1:58325] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 21 21:48:05.445023 2014] [:error] [pid 16453] [client 127.0.0.1:58599] Empty module and/or action after parsing the URL "/not_available.php" (/)., referer: http://local.bateye.com/frontend_dev.php/home
+[Tue Jan 21 21:48:08.862525 2014] [:error] [pid 16453] [client 127.0.0.1:58599] Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/)., referer: http://local.bateye.com/frontend_dev.php/home

@@ -7754,3 +7754,58 @@ Jan 21 21:18:45 symfony [info] {sfWebDebugLogger} Factories 8.40 ms (1)
 Jan 21 21:18:45 symfony [info] {sfWebDebugLogger} Action "home/index" 32.79 ms (1)
 Jan 21 21:18:45 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.76 ms (4)
 Jan 21 21:18:45 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 65.89 ms (1)
+Jan 21 21:35:43 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /home with parameters array (  'module' => 'home',  'action' => 'index',)
+Jan 21 21:35:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 21:35:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 21:35:43 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Jan 21 21:35:43 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 21 21:35:43 symfony [info] {Doctrine_Connection_Mysql} query : SELECT n.id AS n__id, n.news_title AS n__news_title, n.news_content AS n__news_content, n.news_image AS n__news_image, n.link AS n__link, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM news n ORDER BY n.created_at DESC LIMIT 6 - ()
+Jan 21 21:35:43 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM slider_images s - ()
+Jan 21 21:35:43 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.path AS s__path, s.alt AS s__alt, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM slider_images s ORDER BY s.created_at DESC - ()
+Jan 21 21:35:43 symfony [info] {Doctrine_Connection_Mysql} query : SELECT i.id AS i__id, i.newsletter AS i__newsletter, i.catalogue AS i__catalogue, i.thebrand AS i__thebrand, i.thedesigner AS i__thedesigner, i.created_at AS i__created_at, i.updated_at AS i__updated_at FROM index_content i - ()
+Jan 21 21:35:43 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/home/templates/indexSuccess.php"
+Jan 21 21:35:43 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/layout.php"
+Jan 21 21:35:43 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/layout.php"
+Jan 21 21:35:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 21:35:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 21:35:43 symfony [info] {sfWebDebugLogger} Configuration 2.22 ms (9)
+Jan 21 21:35:43 symfony [info] {sfWebDebugLogger} Factories 8.12 ms (1)
+Jan 21 21:35:43 symfony [info] {sfWebDebugLogger} Action "home/index" 37.08 ms (1)
+Jan 21 21:35:43 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.04 ms (5)
+Jan 21 21:35:43 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 18.81 ms (1)
+Jan 21 21:35:43 symfony [info] {sfWebResponse} Send content (51046 o)
+Jan 21 21:35:44 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/).
+Jan 21 21:35:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 21:35:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 21:35:44 symfony [info] {sfWebDebugLogger} Configuration 1.44 ms (5)
+Jan 21 21:35:44 symfony [info] {sfWebDebugLogger} Factories 11.20 ms (1)
+Jan 21 21:48:05 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/not_available.php" (/).
+Jan 21 21:48:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 21:48:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 21:48:05 symfony [info] {sfWebDebugLogger} Configuration 1.13 ms (5)
+Jan 21 21:48:05 symfony [info] {sfWebDebugLogger} Factories 8.17 ms (1)
+Jan 21 21:48:08 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /home with parameters array (  'module' => 'home',  'action' => 'index',)
+Jan 21 21:48:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 21:48:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 21:48:08 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Jan 21 21:48:08 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 21 21:48:08 symfony [info] {Doctrine_Connection_Mysql} query : SELECT n.id AS n__id, n.news_title AS n__news_title, n.news_content AS n__news_content, n.news_image AS n__news_image, n.link AS n__link, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM news n ORDER BY n.created_at DESC LIMIT 6 - ()
+Jan 21 21:48:08 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM slider_images s - ()
+Jan 21 21:48:08 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.path AS s__path, s.alt AS s__alt, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM slider_images s ORDER BY s.created_at DESC - ()
+Jan 21 21:48:08 symfony [info] {Doctrine_Connection_Mysql} query : SELECT i.id AS i__id, i.newsletter AS i__newsletter, i.catalogue AS i__catalogue, i.thebrand AS i__thebrand, i.thedesigner AS i__thedesigner, i.created_at AS i__created_at, i.updated_at AS i__updated_at FROM index_content i - ()
+Jan 21 21:48:08 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/home/templates/indexSuccess.php"
+Jan 21 21:48:08 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/layout.php"
+Jan 21 21:48:08 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/layout.php"
+Jan 21 21:48:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 21:48:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 21:48:08 symfony [info] {sfWebDebugLogger} Configuration 2.51 ms (9)
+Jan 21 21:48:08 symfony [info] {sfWebDebugLogger} Factories 12.84 ms (1)
+Jan 21 21:48:08 symfony [info] {sfWebDebugLogger} Action "home/index" 97.04 ms (1)
+Jan 21 21:48:08 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.10 ms (5)
+Jan 21 21:48:08 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 17.37 ms (1)
+Jan 21 21:48:08 symfony [info] {sfWebResponse} Send content (51014 o)
+Jan 21 21:48:08 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/).
+Jan 21 21:48:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 21:48:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 21:48:08 symfony [info] {sfWebDebugLogger} Configuration 1.27 ms (5)
+Jan 21 21:48:08 symfony [info] {sfWebDebugLogger} Factories 10.86 ms (1)
