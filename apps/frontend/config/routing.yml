@@ -16,7 +16,7 @@ default:
 
 collection:
   url:   /collection/
-  param: { module: collection, action: show }
+  param: { module: collection, action: index }
 
 show_collection:
   url:   /collection/:collection

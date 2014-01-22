@@ -1,5 +1,4 @@
       <?php $uri_url=$_SERVER['REQUEST_URI'];?>
-      <script type="text/javascript" src="js/sidebuttons.js"></script>
       <div class="span11" id="footer" style="<?php if ($uri_url=="" || $uri_url=="index.php") echo 'display: none';?>">
         <div id="bar">
           <div id="logos">

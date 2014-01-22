@@ -1,7 +1,6 @@
 indexSuccess:
-  stylesheets:    [reset.css, bootstrap.min.css, bootstrap-responsive.css, style.css]
-  javascripts:    [jquery-1.10.2.js, bootstrap.js, sidebuttons.js, parallax.js, validator.js, others.js]
+  stylesheets:    [reset.css, style.css, main.css, "http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900", http://fonts.googleapis.com/css?family=Abril+Fatface]
+  javascripts:    [jquery-1.10.2.js, sidebuttons.js, validator.js, others.js, analytics.js, sidebuttons.js]
 
-showSuccess:
-  stylesheets:    [reset.css, main.css, style.css]
-  javascripts:    [jquery-1.10.2.js, bootstrap.js, sidebuttons.js, parallax.js, validator.js, others.js]
+all:
+  layout: page_layout

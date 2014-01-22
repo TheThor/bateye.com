@@ -1,35 +1,67 @@
+<div id="catalogue" style="position:fixed; z-index: 5; left: -6px; top:245px;">
+    <a href="<?php echo url_for('media/catalogue.pdf')?>"><img src="/images/CATALOGUE.png"></a>
+</div>
+
+<div id="fundo">
+    <div id="back">
+        <div id="logo">
+            <img src="/images/logo.png">
+        </div>
+    </div>
+</div>
+<div id="menu">
+    <nav>
+        <ul>
+            <li><a href="<?php echo url_for('homepage') ?>">HOME</a></li>
+            <li><a href="brand.php">THE BRAND</a></li>
+            <li>
+                <a href="<?php echo url_for('collection') ?>">COLLECTIONS</a>
+                <ul>
+                    <?php foreach ($collections as $collection): ?>
+                    <li>
+                        <a href="<?php echo url_for(array(
+                            'module' => 'collection',
+                            'action' => 'show',
+                            'name'   => $collection->getName()
+                        )) ?>"><?php echo $collection->getName(); ?></a>
+                    </li>
+                    <?php endforeach;?>
+                </ul>
+            </li>
+            <li><a href="not_available.php">PRESS & NEWS</a></li>
+            <li><a href="contact.php">CONTACTS</a></li>
+            <li><a href="not_available.php">LOVERS</a></li>
+        </ul>
+    </nav>
+</div>
 <div id="collect_container">
     <div class="span11 collections-imag">
-        <div id="porto-colect">
-            <a href="porto_collection.php"><img class="responsive-img" src="images/portocollection_branco.png"></img></a>
+        <?php foreach ($collections as $collection): ?>
+        <?php
+            $collectionName = $collection->getName();
+            $collectionName = str_replace(" ", "-", $collectionName);
+            $collectionName = strtolower($collectionName);
+            $collectionId = substr($collectionName, 0,-3);
+        ?>
+        <div id="<?php echo $collectionId ?>">
+            <a href="<?php echo url_for(array(
+                'module' => 'collection',
+                'action' => 'show',
+                'collection'   => $collection->getName()
+            )) ?>">
+                <?php $collectionName = str_replace("-", "", $collectionName); ?>
+                <img class="/responsive-img" src="/images/<?php echo $collectionName ?>_branco.png" /></a>
         </div>
-        <div id="london-collect">
-            <a href=""><img class="responsive-img" src="images/londoncollection_branco.png"></img></a>
-        </div>
+        <?php endforeach; ?>
+<!--        <div id="london-collect">-->
+<!--            <a href="--><?php //echo url_for(array(
+//                'module' => 'collection',
+//                'action' => 'show',
+//                'name'   => $collection->getName()
+//            )) ?><!--"><img class="responsive-img" src="/images/londoncollection_branco.png" /></a>-->
+<!--        </div>-->
     </div>
     <div class="clear"></div>
-</div>
-<script type="text/javascript" src="js/sidebuttons.js"></script>
-<div class="span11" id="footer" style="<?php if ($uri_url=="" || $uri_url=="index.php") echo 'display: none';?>">
-    <div id="bar">
-        <div id="logos">
-            <a href="https://twitter.com/bat_eye"><img src="images/icons/bateye_twitter.png" alt="Twitter Logo"></a>
-            <a href="http://www.facebook.com/BatEye.com.pt"><img src="images/icons/bateye_facebook.png" alt="Facebook Logo"></a>
-            <a href="http://www.youtube.com/user/bateyevideos"><img src="images/icons/bateye_youtube.png" alt="Youtube logo"></a>
-            <a href="http://www.behance.net/Bateye"><img src="images/icons/bateye_behance.png" alt="Behance Logo"></a>
-            <a href="http://instagram.com/bateye"><img src="images/icons/bateye_instagram.png" alt="Instagram Logo"></a>
-            <a href="http://www.linkedin.com/company/bat-eye"><img src="images/icons/bateye_linkedin.png" alt="Linkdin logo"></a>
-        </div>
-    </div>
-    <div class="span11 center-text white-text latobold">
-        <p style="font-size:15px;">+<a href="contact.php" style="font-size:14px;">INFO</a></p>
-          <span class="latolight">info@bateye.com<br />
-          +351 915790818</span>
-    </div>
-    <div id="rights" class="latolight">
-        © 2013 <span class="latoitalic">bat eye, Ltd.</span><br />
-        All rights reserved.
-    </div>
 </div>
 
 </div>
