@@ -79,7 +79,7 @@
                         <a href="brand.php">The Brand</a>
                     </li>
                     <li>
-                        <a href="collection.php">Collections</a>
+                        <a href="<?php echo url_for('collection') ?>">Collections</a>
                     </li>
                     <li>
                         <a href="not_available.php">News</a>

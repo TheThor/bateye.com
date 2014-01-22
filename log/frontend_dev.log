@@ -7809,3 +7809,1584 @@ Jan 21 21:48:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Fou
 Jan 21 21:48:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
 Jan 21 21:48:08 symfony [info] {sfWebDebugLogger} Configuration 1.27 ms (5)
 Jan 21 21:48:08 symfony [info] {sfWebDebugLogger} Factories 10.86 ms (1)
+Jan 21 23:01:36 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /home with parameters array (  'module' => 'home',  'action' => 'index',)
+Jan 21 23:01:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:01:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:01:36 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Jan 21 23:01:37 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 21 23:01:37 symfony [info] {Doctrine_Connection_Mysql} query : SELECT n.id AS n__id, n.news_title AS n__news_title, n.news_content AS n__news_content, n.news_image AS n__news_image, n.link AS n__link, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM news n ORDER BY n.created_at DESC LIMIT 6 - ()
+Jan 21 23:01:38 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM slider_images s - ()
+Jan 21 23:01:38 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.path AS s__path, s.alt AS s__alt, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM slider_images s ORDER BY s.created_at DESC - ()
+Jan 21 23:01:38 symfony [info] {Doctrine_Connection_Mysql} query : SELECT i.id AS i__id, i.newsletter AS i__newsletter, i.catalogue AS i__catalogue, i.thebrand AS i__thebrand, i.thedesigner AS i__thedesigner, i.created_at AS i__created_at, i.updated_at AS i__updated_at FROM index_content i - ()
+Jan 21 23:01:38 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/home/templates/indexSuccess.php"
+Jan 21 23:01:38 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/layout.php"
+Jan 21 23:01:38 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/layout.php"
+Jan 21 23:01:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:01:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:01:38 symfony [info] {sfWebDebugLogger} Configuration 527.21 ms (10)
+Jan 21 23:01:38 symfony [info] {sfWebDebugLogger} Factories 785.51 ms (1)
+Jan 21 23:01:38 symfony [info] {sfWebDebugLogger} Action "home/index" 1353.58 ms (1)
+Jan 21 23:01:38 symfony [info] {sfWebDebugLogger} Database (Doctrine) 471.77 ms (5)
+Jan 21 23:01:38 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 54.91 ms (1)
+Jan 21 23:01:38 symfony [info] {sfWebResponse} Send content (50769 o)
+Jan 21 23:01:42 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/).
+Jan 21 23:01:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:01:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:01:42 symfony [info] {sfWebDebugLogger} Configuration 0.68 ms (5)
+Jan 21 23:01:42 symfony [info] {sfWebDebugLogger} Factories 82.08 ms (1)
+Jan 21 23:10:19 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collections with parameters array (  'module' => 'collections',  'action' => 'index',)
+Jan 21 23:10:19 symfony [info] {sfFrontWebController} Action "collections/index" does not exist
+Jan 21 23:10:19 symfony [err] {sfError404Exception} Action "collections/index" does not exist.
+Jan 21 23:10:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:10:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:10:19 symfony [info] {sfWebDebugLogger} Configuration 0.67 ms (5)
+Jan 21 23:10:19 symfony [info] {sfWebDebugLogger} Factories 5.46 ms (1)
+Jan 21 23:10:23 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/collections/" (/).
+Jan 21 23:10:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:10:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:10:23 symfony [info] {sfWebDebugLogger} Configuration 1.03 ms (5)
+Jan 21 23:10:23 symfony [info] {sfWebDebugLogger} Factories 10.40 ms (1)
+Jan 21 23:10:30 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collections with parameters array (  'module' => 'collections',  'action' => 'index',)
+Jan 21 23:10:30 symfony [info] {sfFrontWebController} Action "collections/index" does not exist
+Jan 21 23:10:30 symfony [err] {sfError404Exception} Action "collections/index" does not exist.
+Jan 21 23:10:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:10:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:10:30 symfony [info] {sfWebDebugLogger} Configuration 1.18 ms (5)
+Jan 21 23:10:30 symfony [info] {sfWebDebugLogger} Factories 6.57 ms (1)
+Jan 21 23:10:48 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:10:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:10:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:10:48 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:10:48 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:10:48 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php on line 13 (Undefined variable: uri_url)
+Jan 21 23:10:48 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/layout.php"
+Jan 21 23:10:48 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/layout.php"
+Jan 21 23:10:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:10:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:10:48 symfony [info] {sfWebDebugLogger} Configuration 101.69 ms (10)
+Jan 21 23:10:48 symfony [info] {sfWebDebugLogger} Factories 5.80 ms (1)
+Jan 21 23:10:48 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.18 ms (1)
+Jan 21 23:10:48 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 68.18 ms (1)
+Jan 21 23:10:48 symfony [info] {sfWebResponse} Send content (36153 o)
+Jan 21 23:10:48 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/portocollection_branco.png" (/).
+Jan 21 23:10:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:10:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:10:49 symfony [info] {sfWebDebugLogger} Configuration 0.91 ms (5)
+Jan 21 23:10:49 symfony [info] {sfWebDebugLogger} Factories 54.84 ms (1)
+Jan 21 23:10:49 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/).
+Jan 21 23:10:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:10:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:10:49 symfony [info] {sfWebDebugLogger} Configuration 1.03 ms (5)
+Jan 21 23:10:49 symfony [info] {sfWebDebugLogger} Factories 77.56 ms (1)
+Jan 21 23:10:49 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/londoncollection_branco.png" (/).
+Jan 21 23:10:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:10:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:10:49 symfony [info] {sfWebDebugLogger} Configuration 0.67 ms (5)
+Jan 21 23:10:49 symfony [info] {sfWebDebugLogger} Factories 46.12 ms (1)
+Jan 21 23:10:49 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /images/icons/bateye_facebook.png with parameters array (  'module' => 'images',  'action' => 'icons',  'bateye_facebook.png' => true,)
+Jan 21 23:10:49 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /images/icons/bateye_twitter.png with parameters array (  'module' => 'images',  'action' => 'icons',  'bateye_twitter.png' => true,)
+Jan 21 23:10:49 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /images/icons/bateye_instagram.png with parameters array (  'module' => 'images',  'action' => 'icons',  'bateye_instagram.png' => true,)
+Jan 21 23:10:49 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /images/icons/bateye_youtube.png with parameters array (  'module' => 'images',  'action' => 'icons',  'bateye_youtube.png' => true,)
+Jan 21 23:10:49 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /images/icons/bateye_behance.png with parameters array (  'module' => 'images',  'action' => 'icons',  'bateye_behance.png' => true,)
+Jan 21 23:10:49 symfony [info] {sfFrontWebController} Action "images/icons" does not exist
+Jan 21 23:10:49 symfony [err] {sfError404Exception} Action "images/icons" does not exist.
+Jan 21 23:10:49 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /images/icons/bateye_linkedin.png with parameters array (  'module' => 'images',  'action' => 'icons',  'bateye_linkedin.png' => true,)
+Jan 21 23:10:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:10:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:10:49 symfony [info] {sfWebDebugLogger} Configuration 0.68 ms (5)
+Jan 21 23:10:49 symfony [info] {sfWebDebugLogger} Factories 36.43 ms (1)
+Jan 21 23:10:49 symfony [info] {sfFrontWebController} Action "images/icons" does not exist
+Jan 21 23:10:49 symfony [err] {sfError404Exception} Action "images/icons" does not exist.
+Jan 21 23:10:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:10:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:10:49 symfony [info] {sfWebDebugLogger} Configuration 0.68 ms (5)
+Jan 21 23:10:49 symfony [info] {sfWebDebugLogger} Factories 152.75 ms (1)
+Jan 21 23:10:49 symfony [info] {sfFrontWebController} Action "images/icons" does not exist
+Jan 21 23:10:49 symfony [err] {sfError404Exception} Action "images/icons" does not exist.
+Jan 21 23:10:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:10:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:10:49 symfony [info] {sfWebDebugLogger} Configuration 1.45 ms (5)
+Jan 21 23:10:49 symfony [info] {sfWebDebugLogger} Factories 179.24 ms (1)
+Jan 21 23:10:49 symfony [info] {sfFrontWebController} Action "images/icons" does not exist
+Jan 21 23:10:49 symfony [err] {sfError404Exception} Action "images/icons" does not exist.
+Jan 21 23:10:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:10:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:10:49 symfony [info] {sfWebDebugLogger} Configuration 0.68 ms (5)
+Jan 21 23:10:49 symfony [info] {sfWebDebugLogger} Factories 318.00 ms (1)
+Jan 21 23:10:49 symfony [info] {sfFrontWebController} Action "images/icons" does not exist
+Jan 21 23:10:49 symfony [err] {sfError404Exception} Action "images/icons" does not exist.
+Jan 21 23:10:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:10:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:10:49 symfony [info] {sfWebDebugLogger} Configuration 8.72 ms (5)
+Jan 21 23:10:49 symfony [info] {sfWebDebugLogger} Factories 371.61 ms (1)
+Jan 21 23:10:49 symfony [info] {sfFrontWebController} Action "images/icons" does not exist
+Jan 21 23:10:49 symfony [err] {sfError404Exception} Action "images/icons" does not exist.
+Jan 21 23:10:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:10:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:10:49 symfony [info] {sfWebDebugLogger} Configuration 3.87 ms (5)
+Jan 21 23:10:49 symfony [info] {sfWebDebugLogger} Factories 425.57 ms (1)
+Jan 21 23:11:12 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:11:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:11:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:11:12 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:11:12 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:11:12 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php on line 13 (Undefined variable: uri_url)
+Jan 21 23:11:12 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/layout.php"
+Jan 21 23:11:12 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/layout.php"
+Jan 21 23:11:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:11:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:11:12 symfony [info] {sfWebDebugLogger} Configuration 1.64 ms (9)
+Jan 21 23:11:12 symfony [info] {sfWebDebugLogger} Factories 5.03 ms (1)
+Jan 21 23:11:12 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.19 ms (1)
+Jan 21 23:11:12 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 8.79 ms (1)
+Jan 21 23:11:13 symfony [info] {sfWebResponse} Send content (36176 o)
+Jan 21 23:11:13 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/).
+Jan 21 23:11:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:11:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:11:13 symfony [info] {sfWebDebugLogger} Configuration 0.83 ms (5)
+Jan 21 23:11:13 symfony [info] {sfWebDebugLogger} Factories 5.75 ms (1)
+Jan 21 23:11:13 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/portocollection_branco.png" (/).
+Jan 21 23:11:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:11:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:11:13 symfony [info] {sfWebDebugLogger} Configuration 0.67 ms (5)
+Jan 21 23:11:13 symfony [info] {sfWebDebugLogger} Factories 42.32 ms (1)
+Jan 21 23:11:13 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/bateye/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13))
+Jan 21 23:11:13 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/londoncollection_branco.png" (/).
+Jan 21 23:11:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:11:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:11:13 symfony [info] {sfWebDebugLogger} Configuration 0.69 ms (5)
+Jan 21 23:11:13 symfony [info] {sfWebDebugLogger} Factories 11.04 ms (1)
+Jan 21 23:11:13 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /images/icons/bateye_twitter.png with parameters array (  'module' => 'images',  'action' => 'icons',  'bateye_twitter.png' => true,)
+Jan 21 23:11:13 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /images/icons/bateye_behance.png with parameters array (  'module' => 'images',  'action' => 'icons',  'bateye_behance.png' => true,)
+Jan 21 23:11:13 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /images/icons/bateye_youtube.png with parameters array (  'module' => 'images',  'action' => 'icons',  'bateye_youtube.png' => true,)
+Jan 21 23:11:13 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /images/icons/bateye_facebook.png with parameters array (  'module' => 'images',  'action' => 'icons',  'bateye_facebook.png' => true,)
+Jan 21 23:11:13 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /images/icons/bateye_instagram.png with parameters array (  'module' => 'images',  'action' => 'icons',  'bateye_instagram.png' => true,)
+Jan 21 23:11:13 symfony [info] {sfFrontWebController} Action "images/icons" does not exist
+Jan 21 23:11:13 symfony [err] {sfError404Exception} Action "images/icons" does not exist.
+Jan 21 23:11:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:11:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:11:13 symfony [info] {sfWebDebugLogger} Configuration 0.79 ms (5)
+Jan 21 23:11:13 symfony [info] {sfWebDebugLogger} Factories 89.02 ms (1)
+Jan 21 23:11:13 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /images/icons/bateye_linkedin.png with parameters array (  'module' => 'images',  'action' => 'icons',  'bateye_linkedin.png' => true,)
+Jan 21 23:11:13 symfony [info] {sfFrontWebController} Action "images/icons" does not exist
+Jan 21 23:11:13 symfony [err] {sfError404Exception} Action "images/icons" does not exist.
+Jan 21 23:11:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:11:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:11:13 symfony [info] {sfWebDebugLogger} Configuration 0.70 ms (5)
+Jan 21 23:11:13 symfony [info] {sfWebDebugLogger} Factories 37.23 ms (1)
+Jan 21 23:11:13 symfony [info] {sfFrontWebController} Action "images/icons" does not exist
+Jan 21 23:11:13 symfony [err] {sfError404Exception} Action "images/icons" does not exist.
+Jan 21 23:11:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:11:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:11:13 symfony [info] {sfWebDebugLogger} Configuration 0.81 ms (5)
+Jan 21 23:11:13 symfony [info] {sfWebDebugLogger} Factories 206.09 ms (1)
+Jan 21 23:11:13 symfony [info] {sfFrontWebController} Action "images/icons" does not exist
+Jan 21 23:11:13 symfony [err] {sfError404Exception} Action "images/icons" does not exist.
+Jan 21 23:11:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:11:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:11:13 symfony [info] {sfWebDebugLogger} Configuration 0.71 ms (5)
+Jan 21 23:11:13 symfony [info] {sfWebDebugLogger} Factories 285.85 ms (1)
+Jan 21 23:11:14 symfony [info] {sfFrontWebController} Action "images/icons" does not exist
+Jan 21 23:11:14 symfony [err] {sfError404Exception} Action "images/icons" does not exist.
+Jan 21 23:11:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:11:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:11:14 symfony [info] {sfWebDebugLogger} Configuration 0.89 ms (5)
+Jan 21 23:11:14 symfony [info] {sfWebDebugLogger} Factories 344.86 ms (1)
+Jan 21 23:11:14 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/portocollection_branco.png" (/).
+Jan 21 23:11:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:11:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:11:14 symfony [info] {sfWebDebugLogger} Configuration 0.75 ms (5)
+Jan 21 23:11:14 symfony [info] {sfWebDebugLogger} Factories 231.55 ms (1)
+Jan 21 23:11:14 symfony [info] {sfFrontWebController} Action "images/icons" does not exist
+Jan 21 23:11:14 symfony [err] {sfError404Exception} Action "images/icons" does not exist.
+Jan 21 23:11:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:11:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:11:14 symfony [info] {sfWebDebugLogger} Configuration 10.98 ms (5)
+Jan 21 23:11:14 symfony [info] {sfWebDebugLogger} Factories 449.52 ms (1)
+Jan 21 23:11:44 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:11:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:11:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:11:44 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:11:44 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:11:44 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php on line 13 (Undefined variable: uri_url)
+Jan 21 23:11:44 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/layout.php"
+Jan 21 23:11:44 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/layout.php"
+Jan 21 23:11:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:11:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:11:44 symfony [info] {sfWebDebugLogger} Configuration 1.24 ms (9)
+Jan 21 23:11:44 symfony [info] {sfWebDebugLogger} Factories 9.39 ms (1)
+Jan 21 23:11:44 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.18 ms (1)
+Jan 21 23:11:44 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 8.61 ms (1)
+Jan 21 23:11:44 symfony [info] {sfWebResponse} Send content (36186 o)
+Jan 21 23:11:44 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/portocollection_branco.png" (/).
+Jan 21 23:11:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:11:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:11:44 symfony [info] {sfWebDebugLogger} Configuration 0.99 ms (5)
+Jan 21 23:11:44 symfony [info] {sfWebDebugLogger} Factories 13.75 ms (1)
+Jan 21 23:11:44 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/).
+Jan 21 23:11:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:11:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:11:44 symfony [info] {sfWebDebugLogger} Configuration 19.37 ms (5)
+Jan 21 23:11:44 symfony [info] {sfWebDebugLogger} Factories 63.93 ms (1)
+Jan 21 23:11:45 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/londoncollection_branco.png" (/).
+Jan 21 23:11:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:11:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:11:45 symfony [info] {sfWebDebugLogger} Configuration 0.70 ms (5)
+Jan 21 23:11:45 symfony [info] {sfWebDebugLogger} Factories 54.97 ms (1)
+Jan 21 23:15:53 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:15:53 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/bateye/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): Cannot send session cache limiter - headers already sent (output started at /var/www/bateye/lib/vendor/symfony/lib/config/sfRootConfigHandler.class.php:91))
+Jan 21 23:15:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:15:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:15:53 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:15:53 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:15:53 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php on line 13 (Undefined variable: uri_url)
+Jan 21 23:15:53 symfony [info] {sfPHPView} Decorate content with "/page_layout.php"
+Jan 21 23:15:53 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/bateye/lib/vendor/symfony/lib/exception/sfException.class.php on line 107 (Cannot modify header information - headers already sent by (output started at /var/www/bateye/lib/vendor/symfony/lib/config/sfRootConfigHandler.class.php:91))
+Jan 21 23:15:53 symfony [err] {sfRenderException} The decorator template "page_layout.php" does not exist or is unreadable in "".
+Jan 21 23:15:53 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/bateye/lib/vendor/symfony/lib/exception/sfException.class.php on line 161 (Cannot modify header information - headers already sent by (output started at /var/www/bateye/lib/vendor/symfony/lib/config/sfRootConfigHandler.class.php:91))
+Jan 21 23:15:53 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /var/www/bateye/lib/vendor/symfony/lib/config/sfRootConfigHandler.class.php:91))
+Jan 21 23:15:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jan 21 23:15:53 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /var/www/bateye/lib/vendor/symfony/lib/config/sfRootConfigHandler.class.php:91))
+Jan 21 23:15:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:15:53 symfony [info] {sfWebDebugLogger} Configuration 176.23 ms (9)
+Jan 21 23:15:53 symfony [info] {sfWebDebugLogger} Factories 139.77 ms (1)
+Jan 21 23:15:53 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.17 ms (1)
+Jan 21 23:15:53 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 108.17 ms (1)
+Jan 21 23:18:46 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:18:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:18:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:18:46 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:18:46 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:18:46 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php on line 13 (Undefined variable: uri_url)
+Jan 21 23:18:46 symfony [info] {sfPHPView} Decorate content with "/page_layout.php"
+Jan 21 23:18:46 symfony [err] {sfRenderException} The decorator template "page_layout.php" does not exist or is unreadable in "".
+Jan 21 23:18:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jan 21 23:18:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:18:46 symfony [info] {sfWebDebugLogger} Configuration 1.74 ms (9)
+Jan 21 23:18:46 symfony [info] {sfWebDebugLogger} Factories 6.81 ms (1)
+Jan 21 23:18:46 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.17 ms (1)
+Jan 21 23:18:46 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 30.79 ms (1)
+Jan 21 23:19:32 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:19:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:19:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:19:32 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:19:32 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:19:32 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php on line 13 (Undefined variable: uri_url)
+Jan 21 23:19:32 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:19:32 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:19:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:19:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:19:32 symfony [info] {sfWebDebugLogger} Configuration 2.12 ms (9)
+Jan 21 23:19:32 symfony [info] {sfWebDebugLogger} Factories 6.65 ms (1)
+Jan 21 23:19:32 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.16 ms (1)
+Jan 21 23:19:32 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 12.31 ms (1)
+Jan 21 23:19:32 symfony [info] {sfWebResponse} Send content (36187 o)
+Jan 21 23:19:33 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/portocollection_branco.png" (/).
+Jan 21 23:19:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:19:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:19:33 symfony [info] {sfWebDebugLogger} Configuration 0.70 ms (5)
+Jan 21 23:19:33 symfony [info] {sfWebDebugLogger} Factories 5.67 ms (1)
+Jan 21 23:21:36 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:21:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:21:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:21:36 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:21:36 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:21:36 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php on line 72 (Undefined variable: uri_url)
+Jan 21 23:21:36 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:21:36 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:21:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:21:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:21:36 symfony [info] {sfWebDebugLogger} Configuration 1.39 ms (9)
+Jan 21 23:21:36 symfony [info] {sfWebDebugLogger} Factories 6.39 ms (1)
+Jan 21 23:21:36 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.16 ms (1)
+Jan 21 23:21:36 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 4.99 ms (1)
+Jan 21 23:21:36 symfony [info] {sfWebResponse} Send content (38626 o)
+Jan 21 23:21:37 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/).
+Jan 21 23:21:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:21:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:21:37 symfony [info] {sfWebDebugLogger} Configuration 0.70 ms (5)
+Jan 21 23:21:37 symfony [info] {sfWebDebugLogger} Factories 6.19 ms (1)
+Jan 21 23:21:37 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/bateye/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13))
+Jan 21 23:21:37 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/newsletter.png" (/).
+Jan 21 23:21:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:21:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:21:37 symfony [info] {sfWebDebugLogger} Configuration 0.68 ms (5)
+Jan 21 23:21:37 symfony [info] {sfWebDebugLogger} Factories 24.54 ms (1)
+Jan 21 23:21:37 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/CATALOGUE.png" (/).
+Jan 21 23:21:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:21:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:21:37 symfony [info] {sfWebDebugLogger} Configuration 0.71 ms (5)
+Jan 21 23:21:37 symfony [info] {sfWebDebugLogger} Factories 83.05 ms (1)
+Jan 21 23:21:37 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/logo.png" (/).
+Jan 21 23:21:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:21:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:21:37 symfony [info] {sfWebDebugLogger} Configuration 0.72 ms (5)
+Jan 21 23:21:37 symfony [info] {sfWebDebugLogger} Factories 132.94 ms (1)
+Jan 21 23:21:37 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/portocollection_branco.png" (/).
+Jan 21 23:21:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:21:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:21:37 symfony [info] {sfWebDebugLogger} Configuration 11.12 ms (5)
+Jan 21 23:21:37 symfony [info] {sfWebDebugLogger} Factories 207.85 ms (1)
+Jan 21 23:21:49 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:21:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:21:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:21:49 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:21:49 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:21:49 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php on line 72 (Undefined variable: uri_url)
+Jan 21 23:21:49 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:21:49 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:21:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:21:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:21:49 symfony [info] {sfWebDebugLogger} Configuration 2.00 ms (9)
+Jan 21 23:21:49 symfony [info] {sfWebDebugLogger} Factories 9.39 ms (1)
+Jan 21 23:21:49 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.18 ms (1)
+Jan 21 23:21:49 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 6.51 ms (1)
+Jan 21 23:21:49 symfony [info] {sfWebResponse} Send content (38626 o)
+Jan 21 23:21:50 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/logo_principal_cores.png" (/).
+Jan 21 23:21:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:21:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:21:50 symfony [info] {sfWebDebugLogger} Configuration 0.69 ms (5)
+Jan 21 23:21:50 symfony [info] {sfWebDebugLogger} Factories 6.83 ms (1)
+Jan 21 23:21:50 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/newsletter.png" (/).
+Jan 21 23:21:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:21:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:21:50 symfony [info] {sfWebDebugLogger} Configuration 0.93 ms (5)
+Jan 21 23:21:50 symfony [info] {sfWebDebugLogger} Factories 14.35 ms (1)
+Jan 21 23:21:50 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/logo.png" (/).
+Jan 21 23:21:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:21:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:21:50 symfony [info] {sfWebDebugLogger} Configuration 0.70 ms (5)
+Jan 21 23:21:50 symfony [info] {sfWebDebugLogger} Factories 115.55 ms (1)
+Jan 21 23:21:50 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/portocollection_branco.png" (/).
+Jan 21 23:21:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:21:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:21:50 symfony [info] {sfWebDebugLogger} Configuration 0.67 ms (5)
+Jan 21 23:21:50 symfony [info] {sfWebDebugLogger} Factories 227.51 ms (1)
+Jan 21 23:21:50 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/CATALOGUE.png" (/).
+Jan 21 23:21:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:21:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:21:50 symfony [info] {sfWebDebugLogger} Configuration 0.73 ms (5)
+Jan 21 23:21:50 symfony [info] {sfWebDebugLogger} Factories 290.11 ms (1)
+Jan 21 23:22:43 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:22:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:22:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:22:43 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:22:43 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:22:43 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php on line 72 (Undefined variable: uri_url)
+Jan 21 23:22:43 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:22:43 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:22:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:22:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:22:43 symfony [info] {sfWebDebugLogger} Configuration 1.52 ms (9)
+Jan 21 23:22:43 symfony [info] {sfWebDebugLogger} Factories 6.37 ms (1)
+Jan 21 23:22:43 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.18 ms (1)
+Jan 21 23:22:43 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 5.55 ms (1)
+Jan 21 23:22:43 symfony [info] {sfWebResponse} Send content (38628 o)
+Jan 21 23:22:44 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/portocollection_branco.png" (/).
+Jan 21 23:22:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:22:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:22:44 symfony [info] {sfWebDebugLogger} Configuration 0.76 ms (5)
+Jan 21 23:22:44 symfony [info] {sfWebDebugLogger} Factories 8.79 ms (1)
+Jan 21 23:23:11 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:23:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:23:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:23:11 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:23:11 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:23:11 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php on line 72 (Undefined variable: uri_url)
+Jan 21 23:23:11 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:23:11 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:23:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:23:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:23:11 symfony [info] {sfWebDebugLogger} Configuration 1.93 ms (9)
+Jan 21 23:23:11 symfony [info] {sfWebDebugLogger} Factories 7.30 ms (1)
+Jan 21 23:23:11 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.35 ms (1)
+Jan 21 23:23:11 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 9.42 ms (1)
+Jan 21 23:23:11 symfony [info] {sfWebResponse} Send content (38630 o)
+Jan 21 23:23:11 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /i/mages/portocollection_branco.png with parameters array (  'module' => 'i',  'action' => 'mages',  'portocollection_branco.png' => true,)
+Jan 21 23:23:11 symfony [info] {sfFrontWebController} Action "i/mages" does not exist
+Jan 21 23:23:11 symfony [err] {sfError404Exception} Action "i/mages" does not exist.
+Jan 21 23:23:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:23:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:23:11 symfony [info] {sfWebDebugLogger} Configuration 0.69 ms (5)
+Jan 21 23:23:11 symfony [info] {sfWebDebugLogger} Factories 8.71 ms (1)
+Jan 21 23:23:53 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:23:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:23:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:23:53 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:23:53 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:23:53 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php on line 72 (Undefined variable: uri_url)
+Jan 21 23:23:53 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:23:53 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:23:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:23:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:23:53 symfony [info] {sfWebDebugLogger} Configuration 15.08 ms (10)
+Jan 21 23:23:53 symfony [info] {sfWebDebugLogger} Factories 7.36 ms (1)
+Jan 21 23:23:53 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.17 ms (1)
+Jan 21 23:23:53 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 21.49 ms (1)
+Jan 21 23:23:53 symfony [info] {sfWebResponse} Send content (38574 o)
+Jan 21 23:23:53 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /i/mages/portocollection_branco.png with parameters array (  'module' => 'i',  'action' => 'mages',  'portocollection_branco.png' => true,)
+Jan 21 23:23:53 symfony [info] {sfFrontWebController} Action "i/mages" does not exist
+Jan 21 23:23:53 symfony [err] {sfError404Exception} Action "i/mages" does not exist.
+Jan 21 23:23:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:23:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:23:53 symfony [info] {sfWebDebugLogger} Configuration 1.06 ms (5)
+Jan 21 23:23:53 symfony [info] {sfWebDebugLogger} Factories 10.87 ms (1)
+Jan 21 23:25:16 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:25:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:25:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:25:16 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:25:16 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:25:16 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:25:16 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:25:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:25:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:25:16 symfony [info] {sfWebDebugLogger} Configuration 1.46 ms (9)
+Jan 21 23:25:16 symfony [info] {sfWebDebugLogger} Factories 7.12 ms (1)
+Jan 21 23:25:16 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.17 ms (1)
+Jan 21 23:25:16 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 8.10 ms (1)
+Jan 21 23:25:16 symfony [info] {sfWebResponse} Send content (33329 o)
+Jan 21 23:25:16 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/).
+Jan 21 23:25:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:25:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:25:16 symfony [info] {sfWebDebugLogger} Configuration 6.04 ms (5)
+Jan 21 23:25:16 symfony [info] {sfWebDebugLogger} Factories 4.66 ms (1)
+Jan 21 23:25:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /i/mages/portocollection_branco.png with parameters array (  'module' => 'i',  'action' => 'mages',  'portocollection_branco.png' => true,)
+Jan 21 23:25:17 symfony [info] {sfFrontWebController} Action "i/mages" does not exist
+Jan 21 23:25:17 symfony [err] {sfError404Exception} Action "i/mages" does not exist.
+Jan 21 23:25:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:25:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:25:17 symfony [info] {sfWebDebugLogger} Configuration 0.84 ms (5)
+Jan 21 23:25:17 symfony [info] {sfWebDebugLogger} Factories 7.06 ms (1)
+Jan 21 23:25:17 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /images/icons/bateye_facebook.png with parameters array (  'module' => 'images',  'action' => 'icons',  'bateye_facebook.png' => true,)
+Jan 21 23:25:17 symfony [info] {sfFrontWebController} Action "images/icons" does not exist
+Jan 21 23:25:17 symfony [err] {sfError404Exception} Action "images/icons" does not exist.
+Jan 21 23:25:17 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /images/icons/bateye_twitter.png with parameters array (  'module' => 'images',  'action' => 'icons',  'bateye_twitter.png' => true,)
+Jan 21 23:25:17 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /images/icons/bateye_behance.png with parameters array (  'module' => 'images',  'action' => 'icons',  'bateye_behance.png' => true,)
+Jan 21 23:25:17 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /images/icons/bateye_youtube.png with parameters array (  'module' => 'images',  'action' => 'icons',  'bateye_youtube.png' => true,)
+Jan 21 23:25:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:25:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:25:17 symfony [info] {sfWebDebugLogger} Configuration 0.68 ms (5)
+Jan 21 23:25:17 symfony [info] {sfWebDebugLogger} Factories 4.87 ms (1)
+Jan 21 23:25:17 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /images/icons/bateye_instagram.png with parameters array (  'module' => 'images',  'action' => 'icons',  'bateye_instagram.png' => true,)
+Jan 21 23:25:17 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /images/icons/bateye_linkedin.png with parameters array (  'module' => 'images',  'action' => 'icons',  'bateye_linkedin.png' => true,)
+Jan 21 23:25:17 symfony [info] {sfFrontWebController} Action "images/icons" does not exist
+Jan 21 23:25:17 symfony [err] {sfError404Exception} Action "images/icons" does not exist.
+Jan 21 23:25:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:25:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:25:17 symfony [info] {sfWebDebugLogger} Configuration 5.88 ms (5)
+Jan 21 23:25:17 symfony [info] {sfWebDebugLogger} Factories 48.16 ms (1)
+Jan 21 23:25:17 symfony [info] {sfFrontWebController} Action "images/icons" does not exist
+Jan 21 23:25:17 symfony [err] {sfError404Exception} Action "images/icons" does not exist.
+Jan 21 23:25:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:25:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:25:17 symfony [info] {sfWebDebugLogger} Configuration 0.71 ms (5)
+Jan 21 23:25:17 symfony [info] {sfWebDebugLogger} Factories 192.59 ms (1)
+Jan 21 23:25:17 symfony [info] {sfFrontWebController} Action "images/icons" does not exist
+Jan 21 23:25:17 symfony [err] {sfError404Exception} Action "images/icons" does not exist.
+Jan 21 23:25:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:25:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:25:17 symfony [info] {sfWebDebugLogger} Configuration 0.69 ms (5)
+Jan 21 23:25:17 symfony [info] {sfWebDebugLogger} Factories 231.34 ms (1)
+Jan 21 23:25:17 symfony [info] {sfFrontWebController} Action "images/icons" does not exist
+Jan 21 23:25:17 symfony [err] {sfError404Exception} Action "images/icons" does not exist.
+Jan 21 23:25:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:25:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:25:17 symfony [info] {sfWebDebugLogger} Configuration 11.82 ms (5)
+Jan 21 23:25:17 symfony [info] {sfWebDebugLogger} Factories 276.53 ms (1)
+Jan 21 23:25:17 symfony [info] {sfFrontWebController} Action "images/icons" does not exist
+Jan 21 23:25:17 symfony [err] {sfError404Exception} Action "images/icons" does not exist.
+Jan 21 23:25:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:25:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:25:17 symfony [info] {sfWebDebugLogger} Configuration 0.68 ms (5)
+Jan 21 23:25:17 symfony [info] {sfWebDebugLogger} Factories 307.61 ms (1)
+Jan 21 23:26:07 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:26:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:26:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:26:07 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:26:07 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:26:07 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:26:07 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:26:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:26:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:26:07 symfony [info] {sfWebDebugLogger} Configuration 1.48 ms (9)
+Jan 21 23:26:07 symfony [info] {sfWebDebugLogger} Factories 5.65 ms (1)
+Jan 21 23:26:07 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.18 ms (1)
+Jan 21 23:26:07 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 5.62 ms (1)
+Jan 21 23:26:07 symfony [info] {sfWebResponse} Send content (33337 o)
+Jan 21 23:26:08 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /i/mages/portocollection_branco.png with parameters array (  'module' => 'i',  'action' => 'mages',  'portocollection_branco.png' => true,)
+Jan 21 23:26:08 symfony [info] {sfFrontWebController} Action "i/mages" does not exist
+Jan 21 23:26:08 symfony [err] {sfError404Exception} Action "i/mages" does not exist.
+Jan 21 23:26:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:26:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:26:08 symfony [info] {sfWebDebugLogger} Configuration 1.00 ms (5)
+Jan 21 23:26:08 symfony [info] {sfWebDebugLogger} Factories 5.30 ms (1)
+Jan 21 23:28:02 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:28:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:28:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:28:02 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:28:02 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:28:02 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:28:02 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:28:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:28:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:28:02 symfony [info] {sfWebDebugLogger} Configuration 13.22 ms (10)
+Jan 21 23:28:02 symfony [info] {sfWebDebugLogger} Factories 6.22 ms (1)
+Jan 21 23:28:02 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.16 ms (1)
+Jan 21 23:28:02 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 17.57 ms (1)
+Jan 21 23:28:02 symfony [info] {sfWebResponse} Send content (33275 o)
+Jan 21 23:28:02 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /i/mages/portocollection_branco.png with parameters array (  'module' => 'i',  'action' => 'mages',  'portocollection_branco.png' => true,)
+Jan 21 23:28:02 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/bateye/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13))
+Jan 21 23:28:02 symfony [info] {sfFrontWebController} Action "i/mages" does not exist
+Jan 21 23:28:02 symfony [err] {sfError404Exception} Action "i/mages" does not exist.
+Jan 21 23:28:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:28:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:28:02 symfony [info] {sfWebDebugLogger} Configuration 0.78 ms (5)
+Jan 21 23:28:02 symfony [info] {sfWebDebugLogger} Factories 18.95 ms (1)
+Jan 21 23:29:00 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:29:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:29:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:29:00 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:29:00 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:29:00 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:29:00 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:29:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:29:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:29:00 symfony [info] {sfWebDebugLogger} Configuration 11.39 ms (10)
+Jan 21 23:29:00 symfony [info] {sfWebDebugLogger} Factories 8.51 ms (1)
+Jan 21 23:29:00 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.35 ms (1)
+Jan 21 23:29:00 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 16.04 ms (1)
+Jan 21 23:29:00 symfony [info] {sfWebResponse} Send content (33276 o)
+Jan 21 23:29:01 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /i/mages/portocollection_branco.png with parameters array (  'module' => 'i',  'action' => 'mages',  'portocollection_branco.png' => true,)
+Jan 21 23:29:01 symfony [info] {sfFrontWebController} Action "i/mages" does not exist
+Jan 21 23:29:01 symfony [err] {sfError404Exception} Action "i/mages" does not exist.
+Jan 21 23:29:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:29:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:29:01 symfony [info] {sfWebDebugLogger} Configuration 0.72 ms (5)
+Jan 21 23:29:01 symfony [info] {sfWebDebugLogger} Factories 8.18 ms (1)
+Jan 21 23:29:30 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:29:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:29:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:29:30 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:29:30 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:29:30 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:29:30 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:29:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:29:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:29:30 symfony [info] {sfWebDebugLogger} Configuration 1.26 ms (9)
+Jan 21 23:29:30 symfony [info] {sfWebDebugLogger} Factories 9.33 ms (1)
+Jan 21 23:29:30 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.17 ms (1)
+Jan 21 23:29:30 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 5.07 ms (1)
+Jan 21 23:29:30 symfony [info] {sfWebResponse} Send content (33271 o)
+Jan 21 23:30:14 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:30:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:30:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:30:14 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:30:14 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:30:14 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:30:14 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:30:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:30:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:30:14 symfony [info] {sfWebDebugLogger} Configuration 1.75 ms (9)
+Jan 21 23:30:14 symfony [info] {sfWebDebugLogger} Factories 6.45 ms (1)
+Jan 21 23:30:14 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.17 ms (1)
+Jan 21 23:30:14 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 5.18 ms (1)
+Jan 21 23:30:14 symfony [info] {sfWebResponse} Send content (33271 o)
+Jan 21 23:30:40 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:30:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:30:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:30:40 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:30:40 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:30:40 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:30:40 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:30:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:30:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:30:40 symfony [info] {sfWebDebugLogger} Configuration 7.18 ms (10)
+Jan 21 23:30:40 symfony [info] {sfWebDebugLogger} Factories 6.74 ms (1)
+Jan 21 23:30:40 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.18 ms (1)
+Jan 21 23:30:40 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 18.14 ms (1)
+Jan 21 23:30:40 symfony [info] {sfWebResponse} Send content (32392 o)
+Jan 21 23:30:58 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:30:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:30:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:30:58 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:30:58 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:30:58 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:30:58 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:30:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:30:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:30:58 symfony [info] {sfWebDebugLogger} Configuration 9.40 ms (10)
+Jan 21 23:30:58 symfony [info] {sfWebDebugLogger} Factories 10.62 ms (1)
+Jan 21 23:30:58 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.18 ms (1)
+Jan 21 23:30:58 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 18.09 ms (1)
+Jan 21 23:30:58 symfony [info] {sfWebResponse} Send content (33191 o)
+Jan 21 23:32:38 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:32:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:32:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:32:38 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:32:38 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:32:38 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:32:38 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:32:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:32:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:32:38 symfony [info] {sfWebDebugLogger} Configuration 13.81 ms (10)
+Jan 21 23:32:38 symfony [info] {sfWebDebugLogger} Factories 12.60 ms (1)
+Jan 21 23:32:38 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.20 ms (1)
+Jan 21 23:32:38 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 18.39 ms (1)
+Jan 21 23:32:38 symfony [info] {sfWebResponse} Send content (33594 o)
+Jan 21 23:32:49 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:32:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:32:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:32:49 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:32:49 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:32:49 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:32:49 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:32:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:32:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:32:49 symfony [info] {sfWebDebugLogger} Configuration 1.25 ms (9)
+Jan 21 23:32:49 symfony [info] {sfWebDebugLogger} Factories 6.83 ms (1)
+Jan 21 23:32:49 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.20 ms (1)
+Jan 21 23:32:49 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 9.08 ms (1)
+Jan 21 23:32:49 symfony [info] {sfWebResponse} Send content (33589 o)
+Jan 21 23:33:06 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:33:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:33:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:33:06 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:33:06 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:33:06 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:33:06 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:33:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:33:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:33:06 symfony [info] {sfWebDebugLogger} Configuration 19.20 ms (10)
+Jan 21 23:33:06 symfony [info] {sfWebDebugLogger} Factories 8.79 ms (1)
+Jan 21 23:33:06 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.17 ms (1)
+Jan 21 23:33:06 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 26.21 ms (1)
+Jan 21 23:33:06 symfony [info] {sfWebResponse} Send content (33496 o)
+Jan 21 23:33:20 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:33:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:33:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:33:20 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:33:20 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:33:20 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:33:20 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:33:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:33:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:33:20 symfony [info] {sfWebDebugLogger} Configuration 11.47 ms (10)
+Jan 21 23:33:20 symfony [info] {sfWebDebugLogger} Factories 7.66 ms (1)
+Jan 21 23:33:20 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.17 ms (1)
+Jan 21 23:33:20 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 16.23 ms (1)
+Jan 21 23:33:20 symfony [info] {sfWebResponse} Send content (33593 o)
+Jan 21 23:33:24 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:33:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:33:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:33:24 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:33:24 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:33:24 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:33:24 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:33:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:33:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:33:24 symfony [info] {sfWebDebugLogger} Configuration 1.48 ms (9)
+Jan 21 23:33:24 symfony [info] {sfWebDebugLogger} Factories 7.84 ms (1)
+Jan 21 23:33:24 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.18 ms (1)
+Jan 21 23:33:24 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 4.72 ms (1)
+Jan 21 23:33:24 symfony [info] {sfWebResponse} Send content (33588 o)
+Jan 21 23:33:34 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:33:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:33:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:33:34 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:33:34 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:33:34 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:33:34 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:33:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:33:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:33:34 symfony [info] {sfWebDebugLogger} Configuration 12.26 ms (10)
+Jan 21 23:33:34 symfony [info] {sfWebDebugLogger} Factories 7.04 ms (1)
+Jan 21 23:33:34 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.17 ms (1)
+Jan 21 23:33:34 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 16.44 ms (1)
+Jan 21 23:33:34 symfony [info] {sfWebResponse} Send content (33510 o)
+Jan 21 23:39:04 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:39:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:39:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:39:04 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:39:04 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:39:04 symfony [err] {sfConfigurationException} The route "home" does not exist.
+Jan 21 23:39:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jan 21 23:39:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:39:04 symfony [info] {sfWebDebugLogger} Configuration 5.72 ms (9)
+Jan 21 23:39:04 symfony [info] {sfWebDebugLogger} Factories 11.61 ms (1)
+Jan 21 23:39:04 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.18 ms (1)
+Jan 21 23:39:04 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 120.52 ms (1)
+Jan 21 23:40:31 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:40:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:40:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:40:31 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:40:31 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:40:31 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:40:31 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:40:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:40:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:40:31 symfony [info] {sfWebDebugLogger} Configuration 1.29 ms (9)
+Jan 21 23:40:31 symfony [info] {sfWebDebugLogger} Factories 5.89 ms (1)
+Jan 21 23:40:31 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.17 ms (1)
+Jan 21 23:40:31 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 7.84 ms (1)
+Jan 21 23:40:31 symfony [info] {sfWebResponse} Send content (33497 o)
+Jan 21 23:41:07 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:41:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:41:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:41:07 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:41:07 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:41:07 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:41:07 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:41:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:41:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:41:07 symfony [info] {sfWebDebugLogger} Configuration 1.47 ms (9)
+Jan 21 23:41:07 symfony [info] {sfWebDebugLogger} Factories 8.52 ms (1)
+Jan 21 23:41:07 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.22 ms (1)
+Jan 21 23:41:07 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 5.82 ms (1)
+Jan 21 23:41:07 symfony [info] {sfWebResponse} Send content (33497 o)
+Jan 21 23:42:11 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:42:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:42:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:42:11 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:42:11 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:42:11 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:42:11 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:42:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:42:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:42:11 symfony [info] {sfWebDebugLogger} Configuration 2.84 ms (9)
+Jan 21 23:42:11 symfony [info] {sfWebDebugLogger} Factories 10.61 ms (1)
+Jan 21 23:42:11 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.36 ms (1)
+Jan 21 23:42:11 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 10.65 ms (1)
+Jan 21 23:42:11 symfony [info] {sfWebResponse} Send content (33498 o)
+Jan 21 23:42:16 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:42:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:42:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:42:16 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:42:16 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:42:16 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:42:16 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:42:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:42:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:42:16 symfony [info] {sfWebDebugLogger} Configuration 1.60 ms (9)
+Jan 21 23:42:16 symfony [info] {sfWebDebugLogger} Factories 7.20 ms (1)
+Jan 21 23:42:16 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.48 ms (1)
+Jan 21 23:42:16 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 7.30 ms (1)
+Jan 21 23:42:16 symfony [info] {sfWebResponse} Send content (33545 o)
+Jan 21 23:42:44 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:42:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:42:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:42:45 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:42:45 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:42:45 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:42:45 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:42:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:42:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:42:45 symfony [info] {sfWebDebugLogger} Configuration 1.35 ms (9)
+Jan 21 23:42:45 symfony [info] {sfWebDebugLogger} Factories 7.97 ms (1)
+Jan 21 23:42:45 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.18 ms (1)
+Jan 21 23:42:45 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 7.97 ms (1)
+Jan 21 23:42:45 symfony [info] {sfWebResponse} Send content (33577 o)
+Jan 21 23:42:53 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:42:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:42:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:42:53 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:42:53 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:42:53 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/bateye/lib/vendor/symfony/lib/helper/UrlHelper.php on line 125 (Undefined offset: 0)
+Jan 21 23:42:53 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/bateye/lib/vendor/symfony/lib/helper/UrlHelper.php on line 125 (Undefined offset: 0)
+Jan 21 23:42:53 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/bateye/lib/vendor/symfony/lib/helper/UrlHelper.php on line 125 (Undefined offset: 0)
+Jan 21 23:42:53 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/bateye/lib/vendor/symfony/lib/helper/UrlHelper.php on line 88 (Missing argument 1 for url_for2())
+Jan 21 23:42:53 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/bateye/lib/vendor/symfony/lib/helper/UrlHelper.php on line 90 (Undefined variable: routeName)
+Jan 21 23:42:53 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:42:53 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:42:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:42:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:42:53 symfony [info] {sfWebDebugLogger} Configuration 1.27 ms (9)
+Jan 21 23:42:53 symfony [info] {sfWebDebugLogger} Factories 8.77 ms (1)
+Jan 21 23:42:53 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.17 ms (1)
+Jan 21 23:42:53 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 8.26 ms (1)
+Jan 21 23:42:53 symfony [info] {sfWebResponse} Send content (62694 o)
+Jan 21 23:43:45 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:43:45 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/bateye/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): Cannot send session cache limiter - headers already sent (output started at /var/www/bateye/lib/vendor/symfony/lib/config/sfRootConfigHandler.class.php:91))
+Jan 21 23:43:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:43:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:43:45 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:43:45 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:43:45 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:43:45 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:43:45 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /var/www/bateye/lib/vendor/symfony/lib/config/sfRootConfigHandler.class.php:91))
+Jan 21 23:43:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:43:45 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /var/www/bateye/lib/vendor/symfony/lib/config/sfRootConfigHandler.class.php:91))
+Jan 21 23:43:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:43:45 symfony [info] {sfWebDebugLogger} Configuration 159.36 ms (9)
+Jan 21 23:43:45 symfony [info] {sfWebDebugLogger} Factories 109.97 ms (1)
+Jan 21 23:43:45 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.17 ms (1)
+Jan 21 23:43:45 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 15.62 ms (1)
+Jan 21 23:43:46 symfony [info] {sfWebResponse} Send content (33583 o)
+Jan 21 23:43:52 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:43:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:43:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:43:52 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:43:52 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:43:52 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:43:52 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:43:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:43:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:43:52 symfony [info] {sfWebDebugLogger} Configuration 1.79 ms (9)
+Jan 21 23:43:52 symfony [info] {sfWebDebugLogger} Factories 6.94 ms (1)
+Jan 21 23:43:52 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.18 ms (1)
+Jan 21 23:43:52 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 6.46 ms (1)
+Jan 21 23:43:52 symfony [info] {sfWebResponse} Send content (33545 o)
+Jan 21 23:45:20 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:45:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:45:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:45:20 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:45:20 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:45:20 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:45:20 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:45:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:45:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:45:20 symfony [info] {sfWebDebugLogger} Configuration 2.34 ms (9)
+Jan 21 23:45:20 symfony [info] {sfWebDebugLogger} Factories 9.67 ms (1)
+Jan 21 23:45:20 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.48 ms (1)
+Jan 21 23:45:20 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 7.29 ms (1)
+Jan 21 23:45:20 symfony [info] {sfWebResponse} Send content (33577 o)
+Jan 21 23:49:04 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:49:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:49:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:49:04 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:49:04 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:49:04 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:49:04 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:49:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:49:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:49:04 symfony [info] {sfWebDebugLogger} Configuration 1.67 ms (9)
+Jan 21 23:49:04 symfony [info] {sfWebDebugLogger} Factories 5.54 ms (1)
+Jan 21 23:49:04 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.17 ms (1)
+Jan 21 23:49:04 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 5.87 ms (1)
+Jan 21 23:49:04 symfony [info] {sfWebResponse} Send content (33595 o)
+Jan 21 23:52:03 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:52:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:52:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:52:04 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:52:04 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:52:04 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:52:04 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:52:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:52:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:52:04 symfony [info] {sfWebDebugLogger} Configuration 1.55 ms (9)
+Jan 21 23:52:04 symfony [info] {sfWebDebugLogger} Factories 5.46 ms (1)
+Jan 21 23:52:04 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.17 ms (1)
+Jan 21 23:52:04 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 9.73 ms (1)
+Jan 21 23:52:04 symfony [info] {sfWebResponse} Send content (33597 o)
+Jan 21 23:52:16 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:52:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:52:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:52:17 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:52:17 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:52:17 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:52:17 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:52:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:52:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:52:17 symfony [info] {sfWebDebugLogger} Configuration 1.36 ms (9)
+Jan 21 23:52:17 symfony [info] {sfWebDebugLogger} Factories 9.86 ms (1)
+Jan 21 23:52:17 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.17 ms (1)
+Jan 21 23:52:17 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 5.31 ms (1)
+Jan 21 23:52:17 symfony [info] {sfWebResponse} Send content (33596 o)
+Jan 21 23:52:28 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:52:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:52:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:52:28 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:52:28 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:52:28 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:52:28 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:52:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:52:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:52:28 symfony [info] {sfWebDebugLogger} Configuration 1.33 ms (9)
+Jan 21 23:52:28 symfony [info] {sfWebDebugLogger} Factories 10.72 ms (1)
+Jan 21 23:52:28 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.18 ms (1)
+Jan 21 23:52:28 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 5.79 ms (1)
+Jan 21 23:52:28 symfony [info] {sfWebResponse} Send content (33598 o)
+Jan 21 23:53:06 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:53:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:53:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:53:06 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:53:06 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:53:06 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:53:06 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:53:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:53:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:53:06 symfony [info] {sfWebDebugLogger} Configuration 1.35 ms (9)
+Jan 21 23:53:06 symfony [info] {sfWebDebugLogger} Factories 8.54 ms (1)
+Jan 21 23:53:06 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.18 ms (1)
+Jan 21 23:53:06 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 8.75 ms (1)
+Jan 21 23:53:06 symfony [info] {sfWebResponse} Send content (33597 o)
+Jan 21 23:53:14 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:53:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:53:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:53:14 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:53:14 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:53:14 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:53:14 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:53:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:53:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:53:14 symfony [info] {sfWebDebugLogger} Configuration 1.24 ms (9)
+Jan 21 23:53:14 symfony [info] {sfWebDebugLogger} Factories 7.90 ms (1)
+Jan 21 23:53:14 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.17 ms (1)
+Jan 21 23:53:14 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 6.10 ms (1)
+Jan 21 23:53:14 symfony [info] {sfWebResponse} Send content (33597 o)
+Jan 21 23:53:29 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:53:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:53:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:53:29 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:53:29 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:53:29 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:53:29 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:53:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:53:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:53:29 symfony [info] {sfWebDebugLogger} Configuration 1.27 ms (9)
+Jan 21 23:53:29 symfony [info] {sfWebDebugLogger} Factories 8.85 ms (1)
+Jan 21 23:53:29 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.17 ms (1)
+Jan 21 23:53:29 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 5.75 ms (1)
+Jan 21 23:53:29 symfony [info] {sfWebResponse} Send content (33597 o)
+Jan 21 23:53:49 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:53:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:53:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:53:49 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:53:49 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:53:49 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:53:49 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:53:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:53:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:53:49 symfony [info] {sfWebDebugLogger} Configuration 1.26 ms (9)
+Jan 21 23:53:49 symfony [info] {sfWebDebugLogger} Factories 11.22 ms (1)
+Jan 21 23:53:49 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.16 ms (1)
+Jan 21 23:53:49 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 5.76 ms (1)
+Jan 21 23:53:49 symfony [info] {sfWebResponse} Send content (33614 o)
+Jan 21 23:54:38 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:54:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:54:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:54:38 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:54:38 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:54:38 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:54:38 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:54:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:54:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:54:38 symfony [info] {sfWebDebugLogger} Configuration 1.53 ms (9)
+Jan 21 23:54:38 symfony [info] {sfWebDebugLogger} Factories 5.92 ms (1)
+Jan 21 23:54:38 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.16 ms (1)
+Jan 21 23:54:38 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 10.33 ms (1)
+Jan 21 23:54:38 symfony [info] {sfWebResponse} Send content (33615 o)
+Jan 21 23:54:42 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Jan 21 23:54:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:54:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:54:42 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Jan 21 23:54:42 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 21 23:54:42 symfony [info] {Doctrine_Connection_Mysql} query : SELECT n.id AS n__id, n.news_title AS n__news_title, n.news_content AS n__news_content, n.news_image AS n__news_image, n.link AS n__link, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM news n ORDER BY n.created_at DESC LIMIT 6 - ()
+Jan 21 23:54:42 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM slider_images s - ()
+Jan 21 23:54:42 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.path AS s__path, s.alt AS s__alt, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM slider_images s ORDER BY s.created_at DESC - ()
+Jan 21 23:54:42 symfony [info] {Doctrine_Connection_Mysql} query : SELECT i.id AS i__id, i.newsletter AS i__newsletter, i.catalogue AS i__catalogue, i.thebrand AS i__thebrand, i.thedesigner AS i__thedesigner, i.created_at AS i__created_at, i.updated_at AS i__updated_at FROM index_content i - ()
+Jan 21 23:54:42 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/home/templates/indexSuccess.php"
+Jan 21 23:54:42 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/layout.php"
+Jan 21 23:54:42 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/layout.php"
+Jan 21 23:54:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:54:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:54:42 symfony [info] {sfWebDebugLogger} Configuration 28.67 ms (10)
+Jan 21 23:54:42 symfony [info] {sfWebDebugLogger} Factories 6.22 ms (1)
+Jan 21 23:54:42 symfony [info] {sfWebDebugLogger} Action "home/index" 184.11 ms (1)
+Jan 21 23:54:42 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.66 ms (5)
+Jan 21 23:54:42 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 21.55 ms (1)
+Jan 21 23:54:42 symfony [info] {sfWebResponse} Send content (51008 o)
+Jan 21 23:54:42 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/).
+Jan 21 23:54:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:54:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:54:42 symfony [info] {sfWebDebugLogger} Configuration 2.42 ms (5)
+Jan 21 23:54:42 symfony [info] {sfWebDebugLogger} Factories 54.34 ms (1)
+Jan 21 23:56:09 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Jan 21 23:56:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:56:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:56:09 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Jan 21 23:56:09 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 21 23:56:09 symfony [info] {Doctrine_Connection_Mysql} query : SELECT n.id AS n__id, n.news_title AS n__news_title, n.news_content AS n__news_content, n.news_image AS n__news_image, n.link AS n__link, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM news n ORDER BY n.created_at DESC LIMIT 6 - ()
+Jan 21 23:56:09 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM slider_images s - ()
+Jan 21 23:56:09 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.path AS s__path, s.alt AS s__alt, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM slider_images s ORDER BY s.created_at DESC - ()
+Jan 21 23:56:09 symfony [info] {Doctrine_Connection_Mysql} query : SELECT i.id AS i__id, i.newsletter AS i__newsletter, i.catalogue AS i__catalogue, i.thebrand AS i__thebrand, i.thedesigner AS i__thedesigner, i.created_at AS i__created_at, i.updated_at AS i__updated_at FROM index_content i - ()
+Jan 21 23:56:09 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/home/templates/indexSuccess.php"
+Jan 21 23:56:09 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/layout.php"
+Jan 21 23:56:09 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/layout.php"
+Jan 21 23:56:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:56:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:56:09 symfony [info] {sfWebDebugLogger} Configuration 2.08 ms (9)
+Jan 21 23:56:09 symfony [info] {sfWebDebugLogger} Factories 8.61 ms (1)
+Jan 21 23:56:09 symfony [info] {sfWebDebugLogger} Action "home/index" 25.66 ms (1)
+Jan 21 23:56:09 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.75 ms (5)
+Jan 21 23:56:09 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 10.87 ms (1)
+Jan 21 23:56:09 symfony [info] {sfWebResponse} Send content (51052 o)
+Jan 21 23:56:09 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/).
+Jan 21 23:56:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:56:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:56:09 symfony [info] {sfWebDebugLogger} Configuration 0.74 ms (5)
+Jan 21 23:56:09 symfony [info] {sfWebDebugLogger} Factories 6.85 ms (1)
+Jan 21 23:56:12 symfony [info] {sfPatternRouting} Match route "collection" (/collection/) for /collection/ with parameters array (  'module' => 'collection',  'action' => 'show',)
+Jan 21 23:56:12 symfony [info] {sfFrontWebController} Action "collection/show" does not exist
+Jan 21 23:56:12 symfony [err] {sfError404Exception} Action "collection/show" does not exist.
+Jan 21 23:56:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:56:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:56:12 symfony [info] {sfWebDebugLogger} Configuration 0.72 ms (5)
+Jan 21 23:56:12 symfony [info] {sfWebDebugLogger} Factories 9.05 ms (1)
+Jan 21 23:56:21 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Jan 21 23:56:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:56:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:56:21 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Jan 21 23:56:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 21 23:56:21 symfony [info] {Doctrine_Connection_Mysql} query : SELECT n.id AS n__id, n.news_title AS n__news_title, n.news_content AS n__news_content, n.news_image AS n__news_image, n.link AS n__link, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM news n ORDER BY n.created_at DESC LIMIT 6 - ()
+Jan 21 23:56:21 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM slider_images s - ()
+Jan 21 23:56:21 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.path AS s__path, s.alt AS s__alt, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM slider_images s ORDER BY s.created_at DESC - ()
+Jan 21 23:56:21 symfony [info] {Doctrine_Connection_Mysql} query : SELECT i.id AS i__id, i.newsletter AS i__newsletter, i.catalogue AS i__catalogue, i.thebrand AS i__thebrand, i.thedesigner AS i__thedesigner, i.created_at AS i__created_at, i.updated_at AS i__updated_at FROM index_content i - ()
+Jan 21 23:56:21 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/home/templates/indexSuccess.php"
+Jan 21 23:56:21 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/layout.php"
+Jan 21 23:56:21 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/layout.php"
+Jan 21 23:56:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:56:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:56:21 symfony [info] {sfWebDebugLogger} Configuration 1.34 ms (9)
+Jan 21 23:56:21 symfony [info] {sfWebDebugLogger} Factories 7.09 ms (1)
+Jan 21 23:56:21 symfony [info] {sfWebDebugLogger} Action "home/index" 20.57 ms (1)
+Jan 21 23:56:21 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.64 ms (5)
+Jan 21 23:56:21 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 9.72 ms (1)
+Jan 21 23:56:21 symfony [info] {sfWebResponse} Send content (51019 o)
+Jan 21 23:56:22 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /collection with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:56:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:56:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:56:22 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:56:22 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:56:22 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:56:22 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:56:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:56:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:56:22 symfony [info] {sfWebDebugLogger} Configuration 1.72 ms (9)
+Jan 21 23:56:22 symfony [info] {sfWebDebugLogger} Factories 5.74 ms (1)
+Jan 21 23:56:22 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.22 ms (1)
+Jan 21 23:56:22 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 7.15 ms (1)
+Jan 21 23:56:22 symfony [info] {sfWebResponse} Send content (33583 o)
+Jan 21 23:57:38 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Jan 21 23:57:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:57:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:57:38 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Jan 21 23:57:38 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 21 23:57:38 symfony [info] {Doctrine_Connection_Mysql} query : SELECT n.id AS n__id, n.news_title AS n__news_title, n.news_content AS n__news_content, n.news_image AS n__news_image, n.link AS n__link, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM news n ORDER BY n.created_at DESC LIMIT 6 - ()
+Jan 21 23:57:38 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM slider_images s - ()
+Jan 21 23:57:38 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.path AS s__path, s.alt AS s__alt, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM slider_images s ORDER BY s.created_at DESC - ()
+Jan 21 23:57:38 symfony [info] {Doctrine_Connection_Mysql} query : SELECT i.id AS i__id, i.newsletter AS i__newsletter, i.catalogue AS i__catalogue, i.thebrand AS i__thebrand, i.thedesigner AS i__thedesigner, i.created_at AS i__created_at, i.updated_at AS i__updated_at FROM index_content i - ()
+Jan 21 23:57:38 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/home/templates/indexSuccess.php"
+Jan 21 23:57:38 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/layout.php"
+Jan 21 23:57:38 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/layout.php"
+Jan 21 23:57:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:57:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:57:38 symfony [info] {sfWebDebugLogger} Configuration 1.41 ms (9)
+Jan 21 23:57:38 symfony [info] {sfWebDebugLogger} Factories 5.40 ms (1)
+Jan 21 23:57:38 symfony [info] {sfWebDebugLogger} Action "home/index" 23.10 ms (1)
+Jan 21 23:57:38 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.78 ms (5)
+Jan 21 23:57:38 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 9.78 ms (1)
+Jan 21 23:57:38 symfony [info] {sfWebResponse} Send content (51019 o)
+Jan 21 23:57:39 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/).
+Jan 21 23:57:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:57:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:57:39 symfony [info] {sfWebDebugLogger} Configuration 0.69 ms (5)
+Jan 21 23:57:39 symfony [info] {sfWebDebugLogger} Factories 19.11 ms (1)
+Jan 21 23:57:43 symfony [info] {sfPatternRouting} Match route "collection" (/collection/) for /collection/ with parameters array (  'module' => 'collection',  'action' => 'show',)
+Jan 21 23:57:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:57:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:57:43 symfony [info] {collectionActions} Call "collectionActions->executeShow()"
+Jan 21 23:57:43 symfony [err] {sfRenderException} The template "showSuccess.php" does not exist or is unreadable in "".
+Jan 21 23:57:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jan 21 23:57:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:57:43 symfony [info] {sfWebDebugLogger} Configuration 1.29 ms (9)
+Jan 21 23:57:43 symfony [info] {sfWebDebugLogger} Factories 7.45 ms (1)
+Jan 21 23:57:43 symfony [info] {sfWebDebugLogger} Action "collection/show" 0.16 ms (1)
+Jan 21 23:57:43 symfony [info] {sfWebDebugLogger} View "Success" for "collection/show" 28.49 ms (1)
+Jan 21 23:59:02 symfony [info] {sfPatternRouting} Match route "collection" (/collection/) for /collection/ with parameters array (  'module' => 'collection',  'action' => 'show',)
+Jan 21 23:59:02 symfony [info] {sfFrontWebController} Action "collection/show" does not exist
+Jan 21 23:59:02 symfony [err] {sfError404Exception} Action "collection/show" does not exist.
+Jan 21 23:59:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:59:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:59:02 symfony [info] {sfWebDebugLogger} Configuration 0.71 ms (5)
+Jan 21 23:59:02 symfony [info] {sfWebDebugLogger} Factories 8.95 ms (1)
+Jan 21 23:59:23 symfony [info] {sfPatternRouting} Match route "collection" (/collection/) for /collection/ with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:59:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:59:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:59:23 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:59:23 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:59:23 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:59:23 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:59:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:59:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:59:23 symfony [info] {sfWebDebugLogger} Configuration 73.62 ms (10)
+Jan 21 23:59:23 symfony [info] {sfWebDebugLogger} Factories 78.94 ms (1)
+Jan 21 23:59:23 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.16 ms (1)
+Jan 21 23:59:23 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 4.92 ms (1)
+Jan 21 23:59:23 symfony [info] {sfWebResponse} Send content (33615 o)
+Jan 21 23:59:26 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Jan 21 23:59:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:59:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:59:26 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Jan 21 23:59:26 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 21 23:59:26 symfony [info] {Doctrine_Connection_Mysql} query : SELECT n.id AS n__id, n.news_title AS n__news_title, n.news_content AS n__news_content, n.news_image AS n__news_image, n.link AS n__link, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM news n ORDER BY n.created_at DESC LIMIT 6 - ()
+Jan 21 23:59:26 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM slider_images s - ()
+Jan 21 23:59:26 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.path AS s__path, s.alt AS s__alt, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM slider_images s ORDER BY s.created_at DESC - ()
+Jan 21 23:59:26 symfony [info] {Doctrine_Connection_Mysql} query : SELECT i.id AS i__id, i.newsletter AS i__newsletter, i.catalogue AS i__catalogue, i.thebrand AS i__thebrand, i.thedesigner AS i__thedesigner, i.created_at AS i__created_at, i.updated_at AS i__updated_at FROM index_content i - ()
+Jan 21 23:59:26 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/home/templates/indexSuccess.php"
+Jan 21 23:59:26 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/layout.php"
+Jan 21 23:59:26 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/layout.php"
+Jan 21 23:59:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:59:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:59:26 symfony [info] {sfWebDebugLogger} Configuration 1.33 ms (9)
+Jan 21 23:59:26 symfony [info] {sfWebDebugLogger} Factories 7.22 ms (1)
+Jan 21 23:59:26 symfony [info] {sfWebDebugLogger} Action "home/index" 21.64 ms (1)
+Jan 21 23:59:26 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.73 ms (5)
+Jan 21 23:59:26 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 12.10 ms (1)
+Jan 21 23:59:26 symfony [info] {sfWebResponse} Send content (51021 o)
+Jan 21 23:59:26 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/).
+Jan 21 23:59:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 21 23:59:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:59:26 symfony [info] {sfWebDebugLogger} Configuration 0.97 ms (5)
+Jan 21 23:59:26 symfony [info] {sfWebDebugLogger} Factories 8.55 ms (1)
+Jan 21 23:59:28 symfony [info] {sfPatternRouting} Match route "collection" (/collection/) for /collection/ with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 21 23:59:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 21 23:59:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 21 23:59:28 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 21 23:59:28 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 21 23:59:28 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:59:28 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 21 23:59:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 21 23:59:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 21 23:59:28 symfony [info] {sfWebDebugLogger} Configuration 1.31 ms (9)
+Jan 21 23:59:28 symfony [info] {sfWebDebugLogger} Factories 10.56 ms (1)
+Jan 21 23:59:28 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.18 ms (1)
+Jan 21 23:59:28 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 9.32 ms (1)
+Jan 21 23:59:28 symfony [info] {sfWebResponse} Send content (33580 o)
+Jan 22 00:00:11 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Jan 22 00:00:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 22 00:00:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 22 00:00:11 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Jan 22 00:00:11 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 22 00:00:11 symfony [info] {Doctrine_Connection_Mysql} query : SELECT n.id AS n__id, n.news_title AS n__news_title, n.news_content AS n__news_content, n.news_image AS n__news_image, n.link AS n__link, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM news n ORDER BY n.created_at DESC LIMIT 6 - ()
+Jan 22 00:00:11 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM slider_images s - ()
+Jan 22 00:00:11 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.path AS s__path, s.alt AS s__alt, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM slider_images s ORDER BY s.created_at DESC - ()
+Jan 22 00:00:11 symfony [info] {Doctrine_Connection_Mysql} query : SELECT i.id AS i__id, i.newsletter AS i__newsletter, i.catalogue AS i__catalogue, i.thebrand AS i__thebrand, i.thedesigner AS i__thedesigner, i.created_at AS i__created_at, i.updated_at AS i__updated_at FROM index_content i - ()
+Jan 22 00:00:11 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/home/templates/indexSuccess.php"
+Jan 22 00:00:11 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/layout.php"
+Jan 22 00:00:11 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/layout.php"
+Jan 22 00:00:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 22 00:00:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 22 00:00:11 symfony [info] {sfWebDebugLogger} Configuration 1.74 ms (9)
+Jan 22 00:00:11 symfony [info] {sfWebDebugLogger} Factories 5.64 ms (1)
+Jan 22 00:00:11 symfony [info] {sfWebDebugLogger} Action "home/index" 20.54 ms (1)
+Jan 22 00:00:11 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.63 ms (5)
+Jan 22 00:00:11 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 18.12 ms (1)
+Jan 22 00:00:11 symfony [info] {sfWebResponse} Send content (51021 o)
+Jan 22 00:00:11 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/).
+Jan 22 00:00:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 22 00:00:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 22 00:00:11 symfony [info] {sfWebDebugLogger} Configuration 0.66 ms (5)
+Jan 22 00:00:11 symfony [info] {sfWebDebugLogger} Factories 5.54 ms (1)
+Jan 22 00:00:16 symfony [info] {sfPatternRouting} Match route "collection" (/collection/) for /collection/ with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 22 00:00:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 22 00:00:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 22 00:00:16 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 22 00:00:16 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 22 00:00:16 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 00:00:16 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 00:00:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 22 00:00:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 22 00:00:16 symfony [info] {sfWebDebugLogger} Configuration 1.28 ms (9)
+Jan 22 00:00:16 symfony [info] {sfWebDebugLogger} Factories 8.75 ms (1)
+Jan 22 00:00:16 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.22 ms (1)
+Jan 22 00:00:16 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 6.79 ms (1)
+Jan 22 00:00:16 symfony [info] {sfWebResponse} Send content (33579 o)
+Jan 22 00:00:18 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Jan 22 00:00:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 22 00:00:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 22 00:00:18 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Jan 22 00:00:18 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 22 00:00:18 symfony [info] {Doctrine_Connection_Mysql} query : SELECT n.id AS n__id, n.news_title AS n__news_title, n.news_content AS n__news_content, n.news_image AS n__news_image, n.link AS n__link, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM news n ORDER BY n.created_at DESC LIMIT 6 - ()
+Jan 22 00:00:18 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM slider_images s - ()
+Jan 22 00:00:18 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.path AS s__path, s.alt AS s__alt, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM slider_images s ORDER BY s.created_at DESC - ()
+Jan 22 00:00:18 symfony [info] {Doctrine_Connection_Mysql} query : SELECT i.id AS i__id, i.newsletter AS i__newsletter, i.catalogue AS i__catalogue, i.thebrand AS i__thebrand, i.thedesigner AS i__thedesigner, i.created_at AS i__created_at, i.updated_at AS i__updated_at FROM index_content i - ()
+Jan 22 00:00:18 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/home/templates/indexSuccess.php"
+Jan 22 00:00:18 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/layout.php"
+Jan 22 00:00:18 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/layout.php"
+Jan 22 00:00:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 22 00:00:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 22 00:00:18 symfony [info] {sfWebDebugLogger} Configuration 1.29 ms (9)
+Jan 22 00:00:18 symfony [info] {sfWebDebugLogger} Factories 5.47 ms (1)
+Jan 22 00:00:18 symfony [info] {sfWebDebugLogger} Action "home/index" 26.19 ms (1)
+Jan 22 00:00:18 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.68 ms (5)
+Jan 22 00:00:18 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 9.70 ms (1)
+Jan 22 00:00:18 symfony [info] {sfWebResponse} Send content (51020 o)
+Jan 22 00:00:18 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/sidebuttons.js" (/).
+Jan 22 00:00:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 22 00:00:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 22 00:00:18 symfony [info] {sfWebDebugLogger} Configuration 0.67 ms (5)
+Jan 22 00:00:18 symfony [info] {sfWebDebugLogger} Factories 5.45 ms (1)
+Jan 22 00:00:22 symfony [info] {sfPatternRouting} Match route "collection" (/collection/) for /collection/ with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 22 00:00:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 22 00:00:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 22 00:00:22 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 22 00:00:22 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 22 00:00:22 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 00:00:22 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 00:00:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 22 00:00:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 22 00:00:22 symfony [info] {sfWebDebugLogger} Configuration 1.74 ms (9)
+Jan 22 00:00:22 symfony [info] {sfWebDebugLogger} Factories 5.28 ms (1)
+Jan 22 00:00:22 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.42 ms (1)
+Jan 22 00:00:22 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 6.19 ms (1)
+Jan 22 00:00:22 symfony [info] {sfWebResponse} Send content (33579 o)
+Jan 22 21:09:17 symfony [info] {sfPatternRouting} Match route "collection" (/collection/) for /collection/ with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 22 21:09:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 22 21:09:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 22 21:09:17 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 22 21:09:17 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 22 21:09:18 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 21:09:18 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 21:09:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 22 21:09:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 22 21:09:18 symfony [info] {sfWebDebugLogger} Configuration 2.15 ms (9)
+Jan 22 21:09:18 symfony [info] {sfWebDebugLogger} Factories 489.30 ms (1)
+Jan 22 21:09:18 symfony [info] {sfWebDebugLogger} Action "collection/index" 0.17 ms (1)
+Jan 22 21:09:18 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 262.57 ms (1)
+Jan 22 21:09:18 symfony [info] {sfWebResponse} Send content (33420 o)
+Jan 22 22:15:53 symfony [info] {sfPatternRouting} Match route "collection" (/collection/) for /collection/ with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 22 22:15:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 22 22:15:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 22 22:15:53 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 22 22:15:53 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 22 22:15:53 symfony [notice] {sfWebDebugLogger}  Notice at /var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php on line 66 (Undefined variable: collection)
+Jan 22 22:25:34 symfony [info] {sfPatternRouting} Match route "collection" (/collection/) for /collection/ with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 22 22:25:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 22 22:25:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 22 22:25:34 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 22 22:25:34 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 22 22:25:34 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.is_active AS c__is_active, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM collections c - ()
+Jan 22 22:25:34 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 22 22:26:05 symfony [info] {sfPatternRouting} Match route "collection" (/collection/) for /collection/ with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 22 22:26:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 22 22:26:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 22 22:26:05 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 22 22:26:05 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 22 22:26:05 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.is_active AS c__is_active, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM collections c - ()
+Jan 22 22:26:05 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 22 22:26:05 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:26:05 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:26:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 22 22:26:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 22 22:26:05 symfony [info] {sfWebDebugLogger} Configuration 1.47 ms (9)
+Jan 22 22:26:05 symfony [info] {sfWebDebugLogger} Factories 8.47 ms (1)
+Jan 22 22:26:05 symfony [info] {sfWebDebugLogger} Action "collection/index" 12.56 ms (1)
+Jan 22 22:26:05 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.24 ms (2)
+Jan 22 22:26:05 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 35.38 ms (1)
+Jan 22 22:26:05 symfony [info] {sfWebResponse} Send content (36777 o)
+Jan 22 22:28:30 symfony [info] {sfPatternRouting} Match route "collection" (/collection/) for /collection/ with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 22 22:28:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 22 22:28:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 22 22:28:30 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 22 22:28:30 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 22 22:28:30 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.is_active AS c__is_active, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM collections c - ()
+Jan 22 22:28:30 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 22 22:28:30 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:28:30 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:28:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 22 22:28:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 22 22:28:30 symfony [info] {sfWebDebugLogger} Configuration 1.65 ms (9)
+Jan 22 22:28:30 symfony [info] {sfWebDebugLogger} Factories 6.71 ms (1)
+Jan 22 22:28:30 symfony [info] {sfWebDebugLogger} Action "collection/index" 12.89 ms (1)
+Jan 22 22:28:30 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.25 ms (2)
+Jan 22 22:28:30 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 9.14 ms (1)
+Jan 22 22:28:30 symfony [info] {sfWebResponse} Send content (36955 o)
+Jan 22 22:29:46 symfony [info] {sfPatternRouting} Match route "collection" (/collection/) for /collection/ with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 22 22:29:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 22 22:29:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 22 22:29:46 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 22 22:29:46 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 22 22:29:46 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.is_active AS c__is_active, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM collections c - ()
+Jan 22 22:29:46 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 22 22:29:46 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:29:46 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:29:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 22 22:29:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 22 22:29:46 symfony [info] {sfWebDebugLogger} Configuration 3.95 ms (9)
+Jan 22 22:29:46 symfony [info] {sfWebDebugLogger} Factories 8.14 ms (1)
+Jan 22 22:29:46 symfony [info] {sfWebDebugLogger} Action "collection/index" 8.66 ms (1)
+Jan 22 22:29:46 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.23 ms (2)
+Jan 22 22:29:46 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 8.28 ms (1)
+Jan 22 22:29:46 symfony [info] {sfWebResponse} Send content (36827 o)
+Jan 22 22:30:09 symfony [info] {sfPatternRouting} Match route "collection" (/collection/) for /collection/ with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 22 22:30:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 22 22:30:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 22 22:30:09 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 22 22:30:09 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 22 22:30:09 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.is_active AS c__is_active, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM collections c - ()
+Jan 22 22:30:09 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 22 22:30:09 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:30:09 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:30:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 22 22:30:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 22 22:30:09 symfony [info] {sfWebDebugLogger} Configuration 1.28 ms (9)
+Jan 22 22:30:09 symfony [info] {sfWebDebugLogger} Factories 6.22 ms (1)
+Jan 22 22:30:09 symfony [info] {sfWebDebugLogger} Action "collection/index" 11.21 ms (1)
+Jan 22 22:30:09 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.25 ms (2)
+Jan 22 22:30:09 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 8.23 ms (1)
+Jan 22 22:30:09 symfony [info] {sfWebResponse} Send content (36828 o)
+Jan 22 22:40:50 symfony [info] {sfPatternRouting} Match route "collection" (/collection/) for /collection/ with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 22 22:40:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 22 22:40:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 22 22:40:50 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 22 22:40:50 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 22 22:40:50 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.is_active AS c__is_active, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM collections c - ()
+Jan 22 22:40:50 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 22 22:40:50 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:40:50 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:40:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 22 22:40:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 22 22:40:50 symfony [info] {sfWebDebugLogger} Configuration 1.96 ms (9)
+Jan 22 22:40:50 symfony [info] {sfWebDebugLogger} Factories 7.75 ms (1)
+Jan 22 22:40:50 symfony [info] {sfWebDebugLogger} Action "collection/index" 11.44 ms (1)
+Jan 22 22:40:50 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.25 ms (2)
+Jan 22 22:40:50 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 9.86 ms (1)
+Jan 22 22:40:50 symfony [info] {sfWebResponse} Send content (37169 o)
+Jan 22 22:41:13 symfony [info] {sfPatternRouting} Match route "collection" (/collection/) for /collection/ with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 22 22:41:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 22 22:41:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 22 22:41:13 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 22 22:41:13 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 22 22:41:13 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.is_active AS c__is_active, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM collections c - ()
+Jan 22 22:41:13 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 22 22:41:13 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:41:13 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:41:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 22 22:41:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 22 22:41:13 symfony [info] {sfWebDebugLogger} Configuration 1.37 ms (9)
+Jan 22 22:41:13 symfony [info] {sfWebDebugLogger} Factories 7.91 ms (1)
+Jan 22 22:41:13 symfony [info] {sfWebDebugLogger} Action "collection/index" 11.83 ms (1)
+Jan 22 22:41:13 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.23 ms (2)
+Jan 22 22:41:13 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 14.08 ms (1)
+Jan 22 22:41:13 symfony [info] {sfWebResponse} Send content (37203 o)
+Jan 22 22:44:27 symfony [info] {sfPatternRouting} Match route "collection" (/collection/) for /collection/ with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 22 22:44:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 22 22:44:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 22 22:44:27 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 22 22:44:27 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 22 22:44:27 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.is_active AS c__is_active, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM collections c - ()
+Jan 22 22:44:27 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 22 22:44:27 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:44:27 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:44:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 22 22:44:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 22 22:44:27 symfony [info] {sfWebDebugLogger} Configuration 4.78 ms (9)
+Jan 22 22:44:27 symfony [info] {sfWebDebugLogger} Factories 9.76 ms (1)
+Jan 22 22:44:27 symfony [info] {sfWebDebugLogger} Action "collection/index" 10.27 ms (1)
+Jan 22 22:44:27 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.25 ms (2)
+Jan 22 22:44:27 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 10.04 ms (1)
+Jan 22 22:44:27 symfony [info] {sfWebResponse} Send content (37176 o)
+Jan 22 22:44:36 symfony [info] {sfPatternRouting} Match route "collection" (/collection/) for /collection/ with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 22 22:44:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 22 22:44:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 22 22:44:36 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 22 22:44:36 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 22 22:44:36 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.is_active AS c__is_active, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM collections c - ()
+Jan 22 22:44:36 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 22 22:44:36 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:44:36 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:44:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 22 22:44:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 22 22:44:36 symfony [info] {sfWebDebugLogger} Configuration 1.26 ms (9)
+Jan 22 22:44:36 symfony [info] {sfWebDebugLogger} Factories 7.34 ms (1)
+Jan 22 22:44:36 symfony [info] {sfWebDebugLogger} Action "collection/index" 14.10 ms (1)
+Jan 22 22:44:36 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.23 ms (2)
+Jan 22 22:44:36 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 9.31 ms (1)
+Jan 22 22:44:36 symfony [info] {sfWebResponse} Send content (37189 o)
+Jan 22 22:44:43 symfony [info] {sfPatternRouting} Match route "collection" (/collection/) for /collection/ with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 22 22:44:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 22 22:44:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 22 22:44:43 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 22 22:44:43 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 22 22:44:43 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.is_active AS c__is_active, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM collections c - ()
+Jan 22 22:44:43 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 22 22:44:43 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:44:43 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:44:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 22 22:44:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 22 22:44:43 symfony [info] {sfWebDebugLogger} Configuration 2.60 ms (9)
+Jan 22 22:44:43 symfony [info] {sfWebDebugLogger} Factories 6.59 ms (1)
+Jan 22 22:44:43 symfony [info] {sfWebDebugLogger} Action "collection/index" 7.32 ms (1)
+Jan 22 22:44:43 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.23 ms (2)
+Jan 22 22:44:43 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 9.56 ms (1)
+Jan 22 22:44:43 symfony [info] {sfWebResponse} Send content (37187 o)
+Jan 22 22:44:50 symfony [info] {sfPatternRouting} Match route "collection" (/collection/) for /collection/ with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 22 22:44:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 22 22:44:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 22 22:44:50 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 22 22:44:50 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 22 22:44:50 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.is_active AS c__is_active, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM collections c - ()
+Jan 22 22:44:50 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 22 22:44:50 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:44:50 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:44:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 22 22:44:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 22 22:44:50 symfony [info] {sfWebDebugLogger} Configuration 1.30 ms (9)
+Jan 22 22:44:50 symfony [info] {sfWebDebugLogger} Factories 7.93 ms (1)
+Jan 22 22:44:50 symfony [info] {sfWebDebugLogger} Action "collection/index" 20.92 ms (1)
+Jan 22 22:44:50 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.48 ms (2)
+Jan 22 22:44:50 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 11.66 ms (1)
+Jan 22 22:44:50 symfony [info] {sfWebResponse} Send content (37196 o)
+Jan 22 22:45:29 symfony [info] {sfPatternRouting} Match route "collection" (/collection/) for /collection/ with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 22 22:45:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 22 22:45:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 22 22:45:29 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 22 22:45:29 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 22 22:45:29 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.is_active AS c__is_active, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM collections c - ()
+Jan 22 22:45:29 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 22 22:45:29 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:45:29 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:45:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 22 22:45:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 22 22:45:29 symfony [info] {sfWebDebugLogger} Configuration 1.48 ms (9)
+Jan 22 22:45:29 symfony [info] {sfWebDebugLogger} Factories 7.32 ms (1)
+Jan 22 22:45:29 symfony [info] {sfWebDebugLogger} Action "collection/index" 9.44 ms (1)
+Jan 22 22:45:29 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.28 ms (2)
+Jan 22 22:45:29 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 10.79 ms (1)
+Jan 22 22:45:29 symfony [info] {sfWebResponse} Send content (37196 o)
+Jan 22 22:45:52 symfony [info] {sfPatternRouting} Match route "collection" (/collection/) for /collection/ with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 22 22:45:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 22 22:45:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 22 22:45:52 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 22 22:45:52 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 22 22:45:52 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.is_active AS c__is_active, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM collections c - ()
+Jan 22 22:45:52 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 22 22:45:52 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:45:52 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:45:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 22 22:45:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 22 22:45:52 symfony [info] {sfWebDebugLogger} Configuration 1.83 ms (9)
+Jan 22 22:45:52 symfony [info] {sfWebDebugLogger} Factories 10.22 ms (1)
+Jan 22 22:45:52 symfony [info] {sfWebDebugLogger} Action "collection/index" 12.06 ms (1)
+Jan 22 22:45:52 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.23 ms (2)
+Jan 22 22:45:52 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 9.88 ms (1)
+Jan 22 22:45:52 symfony [info] {sfWebResponse} Send content (37197 o)
+Jan 22 22:46:21 symfony [info] {sfPatternRouting} Match route "collection" (/collection/) for /collection/ with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 22 22:46:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 22 22:46:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 22 22:46:21 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 22 22:46:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 22 22:46:21 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.is_active AS c__is_active, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM collections c - ()
+Jan 22 22:46:21 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 22 22:46:21 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:46:21 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:46:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 22 22:46:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 22 22:46:21 symfony [info] {sfWebDebugLogger} Configuration 1.48 ms (9)
+Jan 22 22:46:21 symfony [info] {sfWebDebugLogger} Factories 5.54 ms (1)
+Jan 22 22:46:21 symfony [info] {sfWebDebugLogger} Action "collection/index" 7.54 ms (1)
+Jan 22 22:46:21 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.23 ms (2)
+Jan 22 22:46:21 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 9.38 ms (1)
+Jan 22 22:46:21 symfony [info] {sfWebResponse} Send content (37167 o)
+Jan 22 22:47:06 symfony [info] {sfPatternRouting} Match route "collection" (/collection/) for /collection/ with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 22 22:47:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 22 22:47:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 22 22:47:06 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 22 22:47:06 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 22 22:47:06 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.is_active AS c__is_active, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM collections c - ()
+Jan 22 22:47:06 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 22 22:47:06 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:47:06 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:47:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 22 22:47:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 22 22:47:06 symfony [info] {sfWebDebugLogger} Configuration 7.50 ms (9)
+Jan 22 22:47:06 symfony [info] {sfWebDebugLogger} Factories 8.46 ms (1)
+Jan 22 22:47:06 symfony [info] {sfWebDebugLogger} Action "collection/index" 10.96 ms (1)
+Jan 22 22:47:06 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.25 ms (2)
+Jan 22 22:47:06 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 12.56 ms (1)
+Jan 22 22:47:06 symfony [info] {sfWebResponse} Send content (37197 o)
+Jan 22 22:47:20 symfony [info] {sfPatternRouting} Match route "collection" (/collection/) for /collection/ with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 22 22:47:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 22 22:47:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 22 22:47:20 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 22 22:47:20 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 22 22:47:20 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.is_active AS c__is_active, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM collections c - ()
+Jan 22 22:47:20 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 22 22:47:20 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:47:20 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:47:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 22 22:47:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 22 22:47:20 symfony [info] {sfWebDebugLogger} Configuration 1.29 ms (9)
+Jan 22 22:47:20 symfony [info] {sfWebDebugLogger} Factories 7.61 ms (1)
+Jan 22 22:47:20 symfony [info] {sfWebDebugLogger} Action "collection/index" 19.33 ms (1)
+Jan 22 22:47:20 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.23 ms (2)
+Jan 22 22:47:20 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 9.23 ms (1)
+Jan 22 22:47:20 symfony [info] {sfWebResponse} Send content (37168 o)
+Jan 22 22:50:04 symfony [info] {sfPatternRouting} Match route "collection" (/collection/) for /collection/ with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 22 22:50:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 22 22:50:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 22 22:50:04 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 22 22:50:04 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 22 22:50:04 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.is_active AS c__is_active, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM collections c - ()
+Jan 22 22:50:04 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 22 22:50:04 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:50:04 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:50:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 22 22:50:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 22 22:50:04 symfony [info] {sfWebDebugLogger} Configuration 1.46 ms (9)
+Jan 22 22:50:04 symfony [info] {sfWebDebugLogger} Factories 6.88 ms (1)
+Jan 22 22:50:04 symfony [info] {sfWebDebugLogger} Action "collection/index" 9.01 ms (1)
+Jan 22 22:50:04 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.33 ms (2)
+Jan 22 22:50:04 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 10.20 ms (1)
+Jan 22 22:50:04 symfony [info] {sfWebResponse} Send content (37168 o)
+Jan 22 22:52:42 symfony [info] {sfPatternRouting} Match route "collection" (/collection/) for /collection/ with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 22 22:52:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 22 22:52:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 22 22:52:42 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 22 22:52:42 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 22 22:52:42 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.is_active AS c__is_active, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM collections c - ()
+Jan 22 22:52:42 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 22 22:52:42 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:52:42 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 22:52:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 22 22:52:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 22 22:52:42 symfony [info] {sfWebDebugLogger} Configuration 72.09 ms (10)
+Jan 22 22:52:42 symfony [info] {sfWebDebugLogger} Factories 81.36 ms (1)
+Jan 22 22:52:42 symfony [info] {sfWebDebugLogger} Action "collection/index" 9.82 ms (1)
+Jan 22 22:52:42 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.26 ms (2)
+Jan 22 22:52:42 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 9.24 ms (1)
+Jan 22 22:52:42 symfony [info] {sfWebResponse} Send content (37170 o)
+Jan 22 23:14:13 symfony [info] {sfPatternRouting} Match route "collection" (/collection/) for /collection/ with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 22 23:14:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 22 23:14:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 22 23:14:13 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 22 23:14:13 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 22 23:14:13 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.is_active AS c__is_active, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM collections c - ()
+Jan 22 23:14:13 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 22 23:14:13 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 23:14:13 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 23:14:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 22 23:14:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 22 23:14:13 symfony [info] {sfWebDebugLogger} Configuration 60.09 ms (10)
+Jan 22 23:14:13 symfony [info] {sfWebDebugLogger} Factories 64.59 ms (1)
+Jan 22 23:14:13 symfony [info] {sfWebDebugLogger} Action "collection/index" 7.49 ms (1)
+Jan 22 23:14:13 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.26 ms (2)
+Jan 22 23:14:13 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 8.22 ms (1)
+Jan 22 23:14:13 symfony [info] {sfWebResponse} Send content (37170 o)
+Jan 22 23:17:38 symfony [info] {sfPatternRouting} Match route "collection" (/collection/) for /collection/ with parameters array (  'module' => 'collection',  'action' => 'index',)
+Jan 22 23:17:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 22 23:17:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 22 23:17:38 symfony [info] {collectionActions} Call "collectionActions->executeIndex()"
+Jan 22 23:17:38 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 22 23:17:38 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.is_active AS c__is_active, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM collections c - ()
+Jan 22 23:17:38 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/modules/collection/templates/indexSuccess.php"
+Jan 22 23:17:38 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 23:17:38 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/frontend/templates/page_layout.php"
+Jan 22 23:17:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 22 23:17:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 22 23:17:38 symfony [info] {sfWebDebugLogger} Configuration 1.32 ms (9)
+Jan 22 23:17:38 symfony [info] {sfWebDebugLogger} Factories 7.63 ms (1)
+Jan 22 23:17:38 symfony [info] {sfWebDebugLogger} Action "collection/index" 22.16 ms (1)
+Jan 22 23:17:38 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.30 ms (2)
+Jan 22 23:17:38 symfony [info] {sfWebDebugLogger} View "Success" for "collection/index" 7.93 ms (1)
+Jan 22 23:17:38 symfony [info] {sfWebResponse} Send content (37179 o)
