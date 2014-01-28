@@ -21,11 +21,6 @@ class NewsTable extends Doctrine_Table
         $q = $this->createQuery('n')
             ->orderBy('n.created_at DESC')
             ->limit(6);
-//        $q = Doctrine_Query::create()
-//            ->select('*')
-//            ->from('News')
-//            ->orderBy('created_at DESC')
-//            ->limit(6);
         return $q->execute();
     }
 }

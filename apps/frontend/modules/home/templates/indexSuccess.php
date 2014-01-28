@@ -101,12 +101,26 @@
         <div id="artparallax" class="span11 center-text art-typo abrilfat nodisplay">art<span class="symbolred">&</span>design</div>
     </div>
     <div class="span11 collections-img nodisplay">
-        <div id="porto-colect">
-            <a href="porto_collection.php"><img class="responsive-img" src="/images/portocollection_branco.png" alt="Link para coleção Porto" /></a>
-        </div>
-        <div id="london-collect">
-            <a href="not_available.php"><img class="responsive-img" src="/images/londoncollection_branco.png" alt="Link para coleção Londres" /></a>
-        </div>
+        <?php foreach ($collections as $collection): ?>
+            <?php
+            $collectionName = $collection->getName();
+            $collectionName = str_replace(" ", "-", $collectionName);
+            $collectionName = strtolower($collectionName);
+            $collectionId = substr($collectionName, 0,-3);
+            ?>
+            <div id="<?php echo $collectionId ?>">
+                <?php $collectionName = str_replace("-", "", $collectionName); ?>
+                <!--      LINK TO EXAMPLE      -->
+                <?php echo link_to(image_tag('/images/' . $collectionName . '_branco.png'), 'collection/showcollection?id=' . $collection->getId()) ?>
+                <!--            <a href="--><?php //echo url_for(array(
+//                'module' => 'collection',
+//                'action' => 'showcollection',
+//                'collection'   => $collection->getName()
+//            )) ?><!--">-->
+                <!--                <img class="/responsive-img" src="/images/--><?php //echo $collectionName ?><!--_branco.png" />-->
+                <!--            </a>-->
+            </div>
+        <?php endforeach; ?>
     </div>
     <div class="span11 moreinfo nodisplay">
         <div class="span7 center-text border-r marginized abrilfat" style="float: left">

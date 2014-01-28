@@ -16,4 +16,10 @@ class CollectionsTable extends Doctrine_Table
     {
         return Doctrine_Core::getTable('Collections');
     }
+
+    public function showActiveCollections(){
+        $q = $this->createQuery('Collections c')
+            ->where('c.is_active = 1');
+        return $q->execute();
+    }
 }
