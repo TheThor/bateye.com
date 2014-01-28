@@ -12,4 +12,8 @@
  */
 class Category extends BaseCategory
 {
+    public function getCategorySlug()
+    {
+        return Category::slugify($this->getCategory());
+    }
 }
