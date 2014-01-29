@@ -29,23 +29,24 @@ class collectionActions extends sfActions
     {
         $this->collections = $this->showActiveCollection();
         $this->forward404Unless($this->collections);
+        $this->forward404Unless($request->getParameter('id')==1);
         $q = Doctrine_Query::create()
             ->from('Products p')
             ->where('p.collection_id=' . $request->getParameter('id'));
         $this->products = $q->execute();
-
+        $this->forward404Unless($this->products);
         return sfView::SUCCESS;
     }
 
     public function executeShowproduct(sfWebRequest $request)
     {
         $this->collections = $this->showActiveCollection();
-        $this->forward404Unless($this->collections);
+        $this->product = Doctrine::getTable('Products')->find($request->getParameter('id'));
         $q = Doctrine_Query::create()
-            ->from('Products p')
-            ->where('p.collection_id=' . $request->getParameter('id'));
-        $this->products = $q->execute();
-
+            ->from('ProductImages pr')
+            ->where('pr.product_id=' . $request->getParameter('id'));
+        $this->images = $q->execute();
+        $this->forward404Unless($this->product);
         return sfView::SUCCESS;
     }
 }
