@@ -19,7 +19,7 @@ collection:
   param: { module: collection, action: index }
 
 show_collection:
-  url:   /collection/showcollection/
+  url:   /collection/showcollection/:id/:name
   class:   sfDoctrineRoute
   options: { model: Category, type: object }
   param: { module: collection, action: showcollection }
@@ -28,8 +28,11 @@ show_collection:
     sf_method: [get]
 
 show_product:
-  url:  /collection/showproduct
+  url:  /collection/showproduct/:id/:name
   param: { module: collection, action: showproduct }
+  requirements:
+    id: \d+
+    sf_method: [get]
 
 mediafile:
   url: /media/:catalogue.pdf/*

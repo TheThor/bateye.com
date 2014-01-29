@@ -1,35 +1,4 @@
-
 <?php include('include/common/explore_more.php') ?>
-<!-- <div id="explore">
-	<hr>
-	<h1>explore more</h1>
-	<div id="boxes">
-		<div class="img_boxes">
-			  <a  href="#">
-			  <img src="images/explore.jpg" alt="#" width="160" height="90">
-			  </a>
-			  <div class="desc_boxes">The Brand</div>
-			</div>
-			<div class="img_boxes">
-			  <a  href="#">
-			  <img src="images/explore.jpg" alt="#" width="160" height="90">
-			  </a>
-			  <div class="desc_boxes">Events</div>
-			</div>
-			<div class="img_boxes">
-			  <a  href="#">
-			  <img src="images/explore.jpg" alt="#" width="160" height="90">
-			  </a>
-			  <div class="desc_boxes">Lovers</div>
-			</div>
-			<div class="img_boxes">
-			  <a  href="#">
-			  <img src="images/explore.jpg" alt="#" width="160" height="90">
-			  </a>
-			  <div class="desc_boxes">Blog</div>
-			</div>
-		</div>
-	</div> -->
 	<?php require_once('include/common/footer.php');?>
      <script type="text/javascript">
       $(document).ready(function() {

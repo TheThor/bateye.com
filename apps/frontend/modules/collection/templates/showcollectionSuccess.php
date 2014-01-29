@@ -11,7 +11,8 @@
             <a href="<?php echo url_for(array(
                 'module' => 'collection',
                 'action' => 'showproduct',
-                'id' => $product->getId()
+                'id' => $product->getId(),
+                'name' => $product->getName()
             ))?>">
                 <img src="/<?php echo $product->getMainImgPath() ?>" alt="<?php echo $product->getMainImgAlt() ?>">
             </a>

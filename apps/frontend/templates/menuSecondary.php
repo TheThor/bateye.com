@@ -18,7 +18,8 @@
                             <a href="<?php echo url_for(array(
                                 'module' => 'collection',
                                 'action' => 'showcollection',
-                                'collection' => $collection->getName()
+                                'id'    => $collection->getId(),
+                                'name' => $collection->getName()
                             )) ?>"><?php echo $collection->getName(); ?></a>
                         </li>
                     <?php endforeach; ?>

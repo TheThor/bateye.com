@@ -111,7 +111,7 @@
             <div id="<?php echo $collectionId ?>">
                 <?php $collectionName = str_replace("-", "", $collectionName); ?>
                 <!--      LINK TO EXAMPLE      -->
-                <?php echo link_to(image_tag('/images/' . $collectionName . '_branco.png'), 'collection/showcollection?id=' . $collection->getId()) ?>
+                <?php echo link_to(image_tag('/images/' . $collectionName . '_branco.png'), 'collection/showcollection?id=' . $collection->getId()."&name=" . $collection->getName()) ?>
                 <!--            <a href="--><?php //echo url_for(array(
 //                'module' => 'collection',
 //                'action' => 'showcollection',

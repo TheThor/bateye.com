@@ -766,3 +766,9 @@ nav li li a{
 	z-index: -15;
 	top: 150px;
 }
+
+.fluid_container {
+    margin: 50px auto;
+    max-width: 800px;
+    width: 90%;
+}

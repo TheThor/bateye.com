@@ -12,23 +12,9 @@
         <div id="<?php echo $collectionId ?>">
             <?php $collectionName = str_replace("-", "", $collectionName); ?>
             <!--      LINK TO EXAMPLE      -->
-            <?php echo link_to(image_tag('/images/' . $collectionName . '_branco.png'), 'collection/showcollection?id=' . $collection->getId()) ?>
-<!--            <a href="--><?php //echo url_for(array(
-//                'module' => 'collection',
-//                'action' => 'showcollection',
-//                'collection'   => $collection->getName()
-//            )) ?><!--">-->
-<!--                <img class="/responsive-img" src="/images/--><?php //echo $collectionName ?><!--_branco.png" />-->
-<!--            </a>-->
+            <?php echo link_to(image_tag('/images/' . $collectionName . '_branco.png'), 'collection/showcollection?id=' . $collection->getId() . "&name=" . $collection->getName()) ?>
         </div>
         <?php endforeach; ?>
-<!--        <div id="london-collect">-->
-<!--            <a href="--><?php //echo url_for(array(
-//                'module' => 'collection',
-//                'action' => 'show',
-//                'name'   => $collection->getName()
-//            )) ?><!--"><img class="responsive-img" src="/images/londoncollection_branco.png" /></a>-->
-<!--        </div>-->
     </div>
     <div class="clear"></div>
 </div>

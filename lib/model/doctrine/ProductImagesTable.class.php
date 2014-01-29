@@ -16,4 +16,10 @@ class ProductImagesTable extends Doctrine_Table
     {
         return Doctrine_Core::getTable('ProductImages');
     }
+
+    public function ProductSliderImages(){
+        $q = $this->createQuery('ProductsImages pr')
+            ->where('pr.product_id = 1');
+        return $q->execute();
+    }
 }
