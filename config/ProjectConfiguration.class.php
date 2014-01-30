@@ -5,8 +5,21 @@ sfCoreAutoload::register();
 
 class ProjectConfiguration extends sfProjectConfiguration
 {
+    static protected $phpMailer = false;
   public function setup()
   {
     $this->enablePlugins('sfDoctrinePlugin');
   }
+
+    static public function registerPHPmailer()
+    {
+        if (self::$phpMailer)
+        {
+            return;
+        }
+
+        set_include_path(sfConfig::get('sf_lib_dir').'/vendor'.PATH_SEPARATOR.get_include_path());
+        require_once sfConfig::get('sf_lib_dir').'/vendor/PHPMailer/class.phpmailer.php';
+        self::$phpMailer  = true;
+    }
 }

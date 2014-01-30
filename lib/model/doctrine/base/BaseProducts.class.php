@@ -96,10 +96,10 @@ abstract class BaseProducts extends sfDoctrineRecord
              'notnull' => true,
              'length' => 255,
              ));
-        $this->hasColumn('description', 'string', 255, array(
+        $this->hasColumn('description', 'string', 700, array(
              'type' => 'string',
              'notnull' => true,
-             'length' => 255,
+             'length' => 700,
              ));
         $this->hasColumn('designer', 'string', 255, array(
              'type' => 'string',

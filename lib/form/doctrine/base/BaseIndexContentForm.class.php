@@ -28,8 +28,8 @@ abstract class BaseIndexContentForm extends BaseFormDoctrine
       'id'          => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
       'newsletter'  => new sfValidatorString(array('max_length' => 255)),
       'catalogue'   => new sfValidatorString(array('max_length' => 255)),
-      'thebrand'    => new sfValidatorString(array('max_length' => 255)),
-      'thedesigner' => new sfValidatorString(array('max_length' => 255)),
+      'thebrand'    => new sfValidatorPass(),
+      'thedesigner' => new sfValidatorPass(),
       'created_at'  => new sfValidatorDateTime(),
       'updated_at'  => new sfValidatorDateTime(),
     ));

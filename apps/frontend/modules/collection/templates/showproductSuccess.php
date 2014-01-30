@@ -2,10 +2,15 @@
 <?php include(sfConfig::get('sf_app_template_dir').'/menuSecondary.php') ?>
 <?php slot(
     'title',
-    sprintf('%s - Inspired by Porto', $product->getName()))
+    sprintf('%s - Bat Eye', $product->getName()))
 ?>
 <div id="seta-prod">
-    <a href="porto_collection.php"><img src="/images/setas.png"></a>
+    <a href="<?php echo url_for(array(
+        'module' => 'collection',
+        'action' => 'showcollection',
+        'id'    => $product->getCollectionId(),
+        'name' => $product->getCollections()
+    ))?>"><img src="/images/setas.png"></a>
 </div>
     <div id="title">
         <h6><?php echo $product->getName() ?></h6>
@@ -35,40 +40,38 @@
     <div id="info_peca">
         <div style="float: left; width: 135px">
             <b>name</b><br>
-            Arc<br><br>
+            <?php echo $product->getName() ?><br><br>
             <b>type</b><br>
-            Sideboard<br><br>
+            <?php echo $product->getCategory() ?><br><br>
             <b>designer</b><br>
-            Marco Sousa<br><br>
+            <?php echo $product->getDesigner() ?><br><br>
         </div>
         <div style="float: left; width: 135px">
             <b>dimensions</b><br>
-            h 103 cm | 40,6”<br>
-            w 227 cm | 89,4”<br>
-            d 80 cm | 31,5”<br><br>
+            <?php if($product->getWidth()!='null') echo $product->getWidth() . "<br>"; ?>
+            <?php if($product->getHeight()!='null') echo $product->getHeight() . "<br>"; ?>
+            <?php if($product->getDiameter()!='null') echo $product->getDiameter() . "<br>"; ?>
+            <?php if($product->getDepth()!='null') echo $product->getDepth() . "<br>";?>
+            <?php if($product->getOther()!='null') echo $product->getOther() . "<br>";?>
+
             <b>materials</b><br>
-            satin wood <br>
-            hand painted portuguese tiles
+            <?php echo $product->getMaterials(); ?>
         </div>
         <div style="float: left; width: 540px; height: 128px;">
             <span style="position:absolute; margin-left: 85px; font-weight: bold">You might like....</span>
+            <?php foreach($products as $single): ?>
 				<span style="width: 180px; margin-left: 65px">
-					<a href="silhouette.php">
-                        <img style="width: 140px; " src="images/portocollection/Silhouette.png" alt="">
+					<a href="<?php echo url_for(array(
+                        'module' => 'collection',
+                        'action' => 'showproduct',
+                        'id' => $single->getId(),
+                        'name' => $single->getName()
+                    )) ?>">
+                        <img style="width: 140px; " src="/<?php echo $single->getMainImgPath() ?>" alt="<?php echo $single->getMainImgAlt() ?>">
                     </a>
 				</span>
-				<span style="width: 180px; margin-left: 20px">
-					<a href="sensuality.php">
-                        <img style="width: 140px;" src="images/portocollection/Sensuality.png" alt="">
-                    </a>
-				</span>
-				<span style="width: 180px; margin-left: 20px">
-					<a href="movements.php">
-                        <img style="width: 140px;" src="images/portocollection/RhytmicMovements.png" alt="">
-                    </a>
-				</span>
+            <?php endforeach ?>
         </div>
     </div>
-
 <?php include(sfConfig::get('sf_app_template_dir').'/exploreMore.php') ?>
 <?php include(sfConfig::get('sf_app_template_dir').'/footerSecondary.php') ?>

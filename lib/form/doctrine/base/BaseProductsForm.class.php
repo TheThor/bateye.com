@@ -40,7 +40,7 @@ abstract class BaseProductsForm extends BaseFormDoctrine
       'main_img_path' => new sfValidatorString(array('max_length' => 255)),
       'main_img_alt'  => new sfValidatorString(array('max_length' => 255)),
       'citation'      => new sfValidatorString(array('max_length' => 255)),
-      'description'   => new sfValidatorString(array('max_length' => 255)),
+      'description'   => new sfValidatorPass(),
       'designer'      => new sfValidatorString(array('max_length' => 255, 'required' => false)),
       'width'         => new sfValidatorString(array('max_length' => 255, 'required' => false)),
       'height'        => new sfValidatorString(array('max_length' => 255, 'required' => false)),

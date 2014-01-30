@@ -17,9 +17,9 @@
 				PHONE <br><input type="text" name="telefone" id="telefone"><br><br>
 				CITY <br><input type="text" name="cidade" id="cidade"><br><br>
 				MESSAGE <br><textarea rows="5" cols="40" id="mensagem" name="mensagem"></textarea><br><br>
-				<input type="submit" name="enviar" id="enviar" value="SEND" class="button">
+				<input type="submit" name="send" id="send" value="SEND" class="button">
             </form>
-				<?php 
+				<?php
 				    if(isset($_POST['enviar']))
 				    {
 //                        var_dump($_POST); exit;

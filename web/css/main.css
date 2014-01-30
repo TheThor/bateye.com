@@ -772,3 +772,10 @@ nav li li a{
     max-width: 800px;
     width: 90%;
 }
+
+#back_to_camera {
+    clear: both;
+    display: block;
+    line-height: 40px;
+    padding: 20px;
+}
