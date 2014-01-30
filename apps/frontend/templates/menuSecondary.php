@@ -26,7 +26,10 @@
                 </ul>
             </li>
             <li><a href="not_available.php">PRESS & NEWS</a></li>
-            <li><a href="contact.php">CONTACTS</a></li>
+            <li><a href="<?php echo url_for(array(
+                    'module' => 'contacts',
+                    'action' => 'index'
+                )) ?>">CONTACTS</a></li>
             <li><a href="not_available.php">LOVERS</a></li>
         </ul>
     </nav>

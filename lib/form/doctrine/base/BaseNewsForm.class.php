@@ -27,7 +27,7 @@ abstract class BaseNewsForm extends BaseFormDoctrine
     $this->setValidators(array(
       'id'           => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
       'news_title'   => new sfValidatorString(array('max_length' => 255)),
-      'news_content' => new sfValidatorString(array('max_length' => 255)),
+      'news_content' => new sfValidatorPass(),
       'news_image'   => new sfValidatorString(array('max_length' => 255)),
       'link'         => new sfValidatorString(array('max_length' => 255)),
       'created_at'   => new sfValidatorDateTime(),

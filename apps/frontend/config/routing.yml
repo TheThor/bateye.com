@@ -14,6 +14,16 @@ default_index:
 default:
   url:   /:module/:action/*
 
+contacts:
+  url: /contacts/
+  param: { module: collection, action: index }
+
+send_mail:
+  url:  /contacts/sendmail
+  param: { module: contacts, action: sendmail }
+  requirements:
+    sf_method: [post]
+
 collection:
   url:   /collection/
   param: { module: collection, action: index }

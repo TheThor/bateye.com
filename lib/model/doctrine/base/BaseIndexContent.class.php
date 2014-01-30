@@ -8,14 +8,14 @@
  * @property integer $id
  * @property string $newsletter
  * @property string $catalogue
- * @property string $thebrand
- * @property string $thedesigner
+ * @property array $thebrand
+ * @property array $thedesigner
  * 
  * @method integer      getId()          Returns the current record's "id" value
  * @method string       getNewsletter()  Returns the current record's "newsletter" value
  * @method string       getCatalogue()   Returns the current record's "catalogue" value
- * @method string       getThebrand()    Returns the current record's "thebrand" value
- * @method string       getThedesigner() Returns the current record's "thedesigner" value
+ * @method array        getThebrand()    Returns the current record's "thebrand" value
+ * @method array        getThedesigner() Returns the current record's "thedesigner" value
  * @method IndexContent setId()          Sets the current record's "id" value
  * @method IndexContent setNewsletter()  Sets the current record's "newsletter" value
  * @method IndexContent setCatalogue()   Sets the current record's "catalogue" value
@@ -37,25 +37,23 @@ abstract class BaseIndexContent extends sfDoctrineRecord
              'primary' => true,
              'autoincrement' => true,
              ));
-        $this->hasColumn('newsletter', 'string', 255, array(
+        $this->hasColumn('newsletter', 'string', 500, array(
              'type' => 'string',
              'notnull' => true,
-             'length' => 255,
+             'length' => 500,
              ));
-        $this->hasColumn('catalogue', 'string', 255, array(
+        $this->hasColumn('catalogue', 'string', 500, array(
              'type' => 'string',
              'notnull' => true,
-             'length' => 255,
+             'length' => 500,
              ));
-        $this->hasColumn('thebrand', 'string', 255, array(
-             'type' => 'string',
+        $this->hasColumn('thebrand', 'array', null, array(
+             'type' => 'array',
              'notnull' => true,
-             'length' => 255,
              ));
-        $this->hasColumn('thedesigner', 'string', 255, array(
-             'type' => 'string',
+        $this->hasColumn('thedesigner', 'array', null, array(
+             'type' => 'array',
              'notnull' => true,
-             'length' => 255,
              ));
     }
 

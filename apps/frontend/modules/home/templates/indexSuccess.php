@@ -7,28 +7,7 @@
 <!--  Date: 1/9/14-->
 <!--  Time: 7:52 PM-->
 <!-- /-->
-<div id="newsletteroverlay" class="overlay">
-    <div class="newsubscribe">
-        <a id="closeform" style="display: inline-block"></a>
-
-        <div style="width:200px; margin: 0 auto">
-            <img class="logo" src="/images/logo_principal_cores.png" alt="Logo Bateye"/>
-        </div>
-        <div id="newsletterform">
-            <form id="mail" name="mail" method="post" action="contact-us.php">
-                <label for="name">NAME</label><input type="text" name="name" id="name"/>
-                <label for="email">EMAIL</label><input type="email" name="email" id="email"/>
-                <label for="country">COUNTRY</label><input type="text" name="country" id="country"/>
-                <!--  <div id="termos">
-                   <input type="checkbox" name="terms" id="terms"> Ao submeter os seus dados receberá a newsletter, ofertas e publicidade enviado por bateye.com e aceita os Termos e Condições e a Política de Privacidade. Os dados submetidos não serão partilhados com mais nenhuma entidade.
-                 </div> -->
-                <div id="sendcontainer">
-                    <input type="submit" name="enviar" id="enviar" value="SEND" class="button">
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
+<?php include(sfConfig::get('sf_app_template_dir').'/newsletter.php') ?>
 <div class="container">
     <div>
         <div class="span11 pagination-centered" style="position: relative">
@@ -88,7 +67,10 @@
                         <a href="not_available.php">Press</a>
                     </li>
                     <li>
-                        <a href="contact.php">Contacts</a>
+                        <a href="<?php echo url_for(array(
+                            'module' => 'contacts',
+                            'action' => 'index'
+                        )) ?>">Contacts</a>
                     </li>
                     <li>
                         <a href="not_available">Lovers</a>
@@ -188,20 +170,22 @@
     </div>
     <div id="mainwrapper" class="span11 nodisplay">
         <?php foreach($news as $new): ?>
-        <div id="box-1" class="box">
-            <a href="<?php echo $new->getLink() ?>">
-                <img id="image-1" src="/<?php echo $new->getNewsImage() ?>" alt="Imagem da queenly"/>
+            <?php $i=1; ?>
+            <div id="box-<?php echo $i;?>" class="box">
+                <a href="<?php echo $new->getLink() ?>">
+                    <img id="image-<?php echo $i;?>" src="/<?php echo $new->getNewsImage() ?>" alt="<?php echo htmlspecialchars_decode($new->getNewsTitle()) ?>"/>
               <span class="caption fade-caption">
               <?php echo htmlspecialchars_decode($new->getNewsTitle()) ?>
-              <?php echo htmlspecialchars_decode($new->getNewsContent()) ?></p>
+                  <?php echo htmlspecialchars_decode($new->getNewsContent()) ?></p>
               </span>
-            </a>
-        </div>
+                </a>
+            </div>
+            <?php $i++;?>
         <?php endforeach ?>
     </div> <!-- end of #mainwrapper-->
     <div class="clear"></div>
     <?php $uri_url=$_SERVER['REQUEST_URI'];?>
-    <script type="text/javascript" src="js/sidebuttons.js"></script>
+
     <div class="span11" id="footer" style="<?php if ($uri_url=="" || $uri_url=="index.php") echo 'display: none';?>">
         <div id="bar">
             <div id="logos">

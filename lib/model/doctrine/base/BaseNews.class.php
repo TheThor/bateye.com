@@ -42,10 +42,10 @@ abstract class BaseNews extends sfDoctrineRecord
              'notnull' => true,
              'length' => 255,
              ));
-        $this->hasColumn('news_content', 'string', 255, array(
+        $this->hasColumn('news_content', 'string', 1000, array(
              'type' => 'string',
              'notnull' => true,
-             'length' => 255,
+             'length' => 1000,
              ));
         $this->hasColumn('news_image', 'string', 255, array(
              'type' => 'string',

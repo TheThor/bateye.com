@@ -7,7 +7,7 @@ Products:
     main_img_path:  { type: string(255), notnull: true }
     main_img_alt:   { type: string(255), notnull: true }
     citation:       { type: string(255), notnull: true }
-    description:    { type: string(255), notnull: true }
+    description:    { type: string(700), notnull: true }
     designer:       { type: string(255) }
     width:          { type: string(255) }
     height:         { type: string(255) }
@@ -56,7 +56,7 @@ News:
   columns:
     id:             { type: integer, primary: true, autoincrement: true }
     news_title:     { type: string(255), notnull: true }
-    news_content:   { type: string(255), notnull: true }
+    news_content:   { type: string(1000), notnull: true }
     news_image:     { type: string(255), notnull: true }
     link:           { type: string(255), notnull: true }
 
@@ -70,7 +70,7 @@ IndexContent:
   actAs: { Timestampable: ~ }
   columns:
     id:             { type: integer, primary: true, autoincrement: true }
-    newsletter:     { type: string(255), notnull: true }
-    catalogue:      { type: string(255), notnull: true }
-    thebrand:       { type: string(255), notnull: true }
-    thedesigner:    { type: string(255), notnull: true }
+    newsletter:     { type: string(500), notnull: true }
+    catalogue:      { type: string(500), notnull: true }
+    thebrand:       { type: array, notnull: true }
+    thedesigner:    { type: array, notnull: true }

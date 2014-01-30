@@ -2,7 +2,7 @@
 <?php include(sfConfig::get('sf_app_template_dir').'/menuSecondary.php') ?>
 <?php slot(
     'title',
-    sprintf('%s - Inspired by Porto', $collections->getName()))
+    sprintf('%s - A Bat Eye collection', $collections->getName()))
 ?>
 <div id="container">
     <div style="margin: 0 auto; width: 1016px">

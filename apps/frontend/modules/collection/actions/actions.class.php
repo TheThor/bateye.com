@@ -19,6 +19,13 @@ class collectionActions extends sfActions
         return Doctrine_Core::getTable('Collections')->showActiveCollections();
     }
 
+    private function getProductsByCollection($id){
+        $q = Doctrine_Query::create()
+            ->from('Products p')
+            ->where('p.collection_id=' . $id);
+        return $q->execute();
+    }
+
     public function executeIndex(sfWebRequest $request)
     {
         $this->collections = $this->showActiveCollection();
@@ -30,10 +37,7 @@ class collectionActions extends sfActions
         $this->collections = $this->showActiveCollection();
         $this->forward404Unless($this->collections);
         $this->forward404Unless($request->getParameter('id')==1);
-        $q = Doctrine_Query::create()
-            ->from('Products p')
-            ->where('p.collection_id=' . $request->getParameter('id'));
-        $this->products = $q->execute();
+        $this->products = $this->getProductsByCollection($request->getParameter('id'));
         $this->forward404Unless($this->products);
         return sfView::SUCCESS;
     }
@@ -47,6 +51,12 @@ class collectionActions extends sfActions
             ->where('pr.product_id=' . $request->getParameter('id'));
         $this->images = $q->execute();
         $this->forward404Unless($this->product);
+        $q = Doctrine::getTable('Products')
+            ->createQuery()
+            ->orderBy('RAND()')
+            ->limit('3');
+        $this->products = $q->execute();
+        $this->news = Doctrine_Core::getTable('News')->getLatestNews();
         return sfView::SUCCESS;
     }
 }
