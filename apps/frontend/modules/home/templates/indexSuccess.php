@@ -55,7 +55,7 @@
             <div class="nav-collapse">
                 <ul class="nav nav-pills navigation latoregular">
                     <li>
-                        <a href="brand.php">The Brand</a>
+                        <a href="<?php echo url_for('thebrand') ?>">The Brand</a>
                     </li>
                     <li>
                         <a href="<?php echo url_for('collection') ?>">Collections</a>
@@ -198,7 +198,10 @@
             </div>
         </div>
         <div class="span11 center-text white-text latobold">
-            <p style="font-size:15px;">+<a href="contact.php" style="font-size:14px;">INFO</a></p>
+            <p style="font-size:15px;">+<a href="<?php echo url_for(array(
+                    'module' => 'contacts',
+                    'action' => 'index'
+                )) ?>" style="font-size:14px;">INFO</a></p>
           <span class="latolight">info@bateye.com<br />
           +351 915790818</span>
         </div>
@@ -211,14 +214,6 @@
 
 <!-- END   -->
 
-</div>
-<div id="newsletter" style="position:fixed; z-index: 5; left: -6px; top:120px">
-    <img src="/images/newsletter.png" style="">
-</div>
-
-<div id="catalogue" style="position:fixed; z-index: 5; left: -6px; top:245px; curs">
-
-    <a href="<?php echo url_for('media/catalogue.pdf')?>"><img src="/images/CATALOGUE.png"></a>
 </div>
 <div id="produ" style="position:fixed; z-index: 5; bottom: 0; right: 0;">
     <img id="closeit" src="/images/close.png" alt="close button image">

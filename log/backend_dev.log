@@ -54,3 +54,50 @@ Jan 09 01:03:57 symfony [info] {sfWebDebugLogger} Factories 2193.35 ms (1)
 Jan 09 01:03:57 symfony [info] {sfWebDebugLogger} Action "default/index" 0.07 ms (1)
 Jan 09 01:03:57 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 604.51 ms (1)
 Jan 09 01:03:57 symfony [info] {sfWebResponse} Send content (28718 o)
+Jan 30 23:56:51 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jan 30 23:56:51 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/bateye/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): Cannot send session cache limiter - headers already sent (output started at /var/www/bateye/lib/vendor/symfony/lib/config/sfRootConfigHandler.class.php:91))
+Jan 30 23:56:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 30 23:56:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 30 23:56:51 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Jan 30 23:56:51 symfony [info] {sfPHPView} Render "/var/www/bateye/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Jan 30 23:56:51 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Jan 30 23:56:51 symfony [info] {sfPHPView} Render "/var/www/bateye/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Jan 30 23:56:51 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /var/www/bateye/lib/vendor/symfony/lib/config/sfRootConfigHandler.class.php:91))
+Jan 30 23:56:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 30 23:56:51 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /var/www/bateye/lib/vendor/symfony/lib/config/sfRootConfigHandler.class.php:91))
+Jan 30 23:56:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 30 23:56:51 symfony [info] {sfWebDebugLogger} Configuration 768.69 ms (9)
+Jan 30 23:56:51 symfony [info] {sfWebDebugLogger} Factories 501.45 ms (1)
+Jan 30 23:56:51 symfony [info] {sfWebDebugLogger} Action "default/index" 0.18 ms (1)
+Jan 30 23:56:51 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 209.76 ms (1)
+Jan 30 23:56:51 symfony [info] {sfWebResponse} Send content (29315 o)
+Jan 30 23:56:57 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jan 30 23:56:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 30 23:56:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 30 23:56:57 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Jan 30 23:56:57 symfony [info] {sfPHPView} Render "/var/www/bateye/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Jan 30 23:56:57 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Jan 30 23:56:57 symfony [info] {sfPHPView} Render "/var/www/bateye/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Jan 30 23:56:57 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Jan 30 23:56:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 30 23:56:57 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /var/www/bateye/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Jan 30 23:56:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 30 23:56:57 symfony [info] {sfWebDebugLogger} Configuration 1.45 ms (9)
+Jan 30 23:56:57 symfony [info] {sfWebDebugLogger} Factories 11.08 ms (1)
+Jan 30 23:56:57 symfony [info] {sfWebDebugLogger} Action "default/index" 0.16 ms (1)
+Jan 30 23:56:57 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 4.82 ms (1)
+Jan 30 23:56:57 symfony [info] {sfWebResponse} Send content (29338 o)
+Jan 30 23:58:10 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jan 30 23:58:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 30 23:58:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 30 23:58:10 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Jan 30 23:58:10 symfony [info] {sfPHPView} Render "/var/www/bateye/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Jan 30 23:58:10 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Jan 30 23:58:10 symfony [info] {sfPHPView} Render "/var/www/bateye/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Jan 30 23:58:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 30 23:58:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 30 23:58:10 symfony [info] {sfWebDebugLogger} Configuration 1.38 ms (9)
+Jan 30 23:58:10 symfony [info] {sfWebDebugLogger} Factories 5.44 ms (1)
+Jan 30 23:58:10 symfony [info] {sfWebDebugLogger} Action "default/index" 0.16 ms (1)
+Jan 30 23:58:10 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 3.62 ms (1)
+Jan 30 23:58:10 symfony [info] {sfWebResponse} Send content (29335 o)

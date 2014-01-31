@@ -30,7 +30,7 @@
     <div id="text">
         <br><br>
 
-        <p><?php echo $product->getCitation() ?></p><br><br>
+        <?php echo $product->getCitation() ?><br><br>
 
         <hr>
     </div>

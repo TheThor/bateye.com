@@ -1,3 +1,2 @@
 indexSuccess:
   stylesheets:    [reset.css, bootstrap.min.css, bootstrap-responsive.css, style.css]
-  javascripts:    [jquery-1.10.2.js, bootstrap.js, sidebuttons.js, parallax.js, validator.js, others.js]

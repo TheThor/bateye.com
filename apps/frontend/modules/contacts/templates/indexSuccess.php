@@ -1,5 +1,9 @@
 <?php include(sfConfig::get('sf_app_template_dir').'/newsletter.php') ?>
 <?php include(sfConfig::get('sf_app_template_dir').'/menuSecondary.php') ?>
+<?php slot(
+    'title',
+    sprintf('Bat Eye - Contacts'))
+?>
 <div id="talk">
     <h1>talk with us</h1><br>
     <hr>

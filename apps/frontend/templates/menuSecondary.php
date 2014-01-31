@@ -9,7 +9,7 @@
     <nav>
         <ul>
             <li><a href="<?php echo url_for('homepage') ?>">HOME</a></li>
-            <li><a href="brand.php">THE BRAND</a></li>
+            <li><a href="<?php echo url_for('thebrand') ?>">THE BRAND</a></li>
             <li>
                 <a href="<?php echo url_for('collection') ?>">COLLECTIONS</a>
                 <ul>

@@ -14,9 +14,31 @@ default_index:
 default:
   url:   /:module/:action/*
 
+#the brand module
+thebrand:
+  url:  /thebrand/
+  param: { module: thebrand, action: index}
+
+show_concept:
+  url:  /thebrand/concept/
+  param: { module: thebrand, action: showconcept}
+
+show_history:
+  url:  /thebrand/history/
+  param: { module: thebrand, action: showhistory}
+
+show_manufacture:
+  url:  /thebrand/manufacture/
+  param: { module: thebrand, action: showmanufacture}
+
+show_author:
+  url:  /thebrand/author/
+  param: { module: thebrand, action: showauthor}
+
+#contacts module
 contacts:
   url: /contacts/
-  param: { module: collection, action: index }
+  param: { module: contacts, action: index }
 
 send_mail:
   url:  /contacts/sendmail
@@ -24,6 +46,7 @@ send_mail:
   requirements:
     sf_method: [post]
 
+#Collections & products
 collection:
   url:   /collection/
   param: { module: collection, action: index }
@@ -44,6 +67,7 @@ show_product:
     id: \d+
     sf_method: [get]
 
+#Media files and others
 mediafile:
   url: /media/:catalogue.pdf/*
   param: { module: media, action: show }
