@@ -15,8 +15,39 @@ class thebrandActions extends sfActions
   *
   * @param sfRequest $request A request object
   */
-  public function executeIndex(sfWebRequest $request)
-  {
-    $this->forward('default', 'module');
-  }
+    private function showActiveCollection(){
+        return Doctrine_Core::getTable('Collections')->showActiveCollections();
+    }
+
+    public function executeIndex(sfWebRequest $request)
+    {
+        $this->collections = Doctrine_Core::getTable('Collections')->showActiveCollections();
+        $this->news = Doctrine_Core::getTable('News')->getLatestNews();
+        return sfView::SUCCESS;
+    }
+
+    public function executeShowconcept(sfWebRequest $request)
+    {
+        $this->collections = Doctrine_Core::getTable('Collections')->showActiveCollections();
+        $this->news = Doctrine_Core::getTable('News')->getLatestNews();
+        return sfView::SUCCESS;
+    }
+    public function executeShowauthor(sfWebRequest $request)
+    {
+        $this->collections = Doctrine_Core::getTable('Collections')->showActiveCollections();
+        $this->news = Doctrine_Core::getTable('News')->getLatestNews();
+        return sfView::SUCCESS;
+    }
+    public function executeShowhistory(sfWebRequest $request)
+    {
+        $this->collections = Doctrine_Core::getTable('Collections')->showActiveCollections();
+        $this->news = Doctrine_Core::getTable('News')->getLatestNews();
+        return sfView::SUCCESS;
+    }
+    public function executeShowmanufacture(sfWebRequest $request)
+    {
+        $this->collections = Doctrine_Core::getTable('Collections')->showActiveCollections();
+        $this->news = Doctrine_Core::getTable('News')->getLatestNews();
+        return sfView::SUCCESS;
+    }
 }

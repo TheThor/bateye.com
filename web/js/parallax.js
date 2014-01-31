@@ -24,7 +24,7 @@
       $('#footer').fadeIn(2000);
     }
 
-    $('#porto-colect > a').css("top", top/28 + "%");
+    $('#porto-collect > a').css("top", top/28 + "%");
     $('#london-collect > a').css("top", top/29 + "%");
   });
 });

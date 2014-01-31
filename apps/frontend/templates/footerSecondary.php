@@ -15,7 +15,10 @@
         </div>
     </div>
     <div class="span11 center-text white-text latobold">
-        <p style="font-size:15px;">+<a href="contact.php" style="font-size:14px;">INFO</a></p>
+        <p style="font-size:15px;">+<a href="<?php echo url_for(array(
+                'module' => 'contacts',
+                'action' => 'index'
+            )) ?>" style="font-size:14px;">INFO</a></p>
           <span class="latolight">info@bateye.com<br/>
           +351 915790818</span>
     </div>

@@ -9,15 +9,14 @@ $(document).ready(function() {
     $( "#newsletteroverlay" ).fadeOut( "slow" );
   });
 
-  var newsletter = $("#newsletter");
   $( "#newsletter" ).hover(
     // Mouse Over
     function(){
-      newsletter.stop( true, true).animate({ "left": "+=4" }, 200);
+      $(this).stop( true, true).animate({ "left": "+=4" }, 200);
     },
     // Mouse Out
     function(){
-      newsletter.stop( true, true).animate({ 'left': '-6' }, 200);
+      $(this).stop( true, true).animate({ 'left': '-6' }, 200);
     }
   );
   var catalogue = $("#catalogue");

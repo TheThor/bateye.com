@@ -2,75 +2,280 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8af62ba5-926e-42db-946e-b66da7576de1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/camera.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/camera.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.easing.1.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.mobile.customized.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/productslider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/frontend/modules/contacts/templates/sendmailSuccess.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/modules_collection_config_filters.yml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/modules_collection_config_module.yml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/modules_collection_config_security.yml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/modules_collection_config_view.yml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/config_app.yml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/config_autoload.yml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/config_config_handlers.yml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/config_core_compile.yml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/config_databases.yml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/config_factories.yml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/config_routing.yml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/config_settings.yml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/modules_collection_config_filters.yml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/modules_collection_config_module.yml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/modules_collection_config_security.yml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/modules_collection_config_view.yml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/modules_default_config_filters.yml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/modules_default_config_module.yml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/modules_default_config_security.yml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/modules_default_config_view.yml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/modules_home_config_filters.yml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/modules_home_config_module.yml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/modules_home_config_security.yml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/modules_home_config_view.yml.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/base/BaseContacts.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/base/BaseContacts.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/base/BaseIndexContent.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/base/BaseIndexContent.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/form/doctrine/base/BaseIndexContentForm.class.php" afterPath="$PROJECT_DIR$/lib/form/doctrine/base/BaseIndexContentForm.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/base/BaseNews.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/base/BaseNews.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/form/doctrine/base/BaseNewsForm.class.php" afterPath="$PROJECT_DIR$/lib/form/doctrine/base/BaseNewsForm.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/base/BaseProducts.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/base/BaseProducts.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/form/doctrine/base/BaseProductsForm.class.php" afterPath="$PROJECT_DIR$/lib/form/doctrine/base/BaseProductsForm.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/ProjectConfiguration.class.php" afterPath="$PROJECT_DIR$/config/ProjectConfiguration.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/modules/collection/actions/actions.class.php" afterPath="$PROJECT_DIR$/apps/frontend/modules/collection/actions/actions.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/config_autoload.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/config_autoload.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/config_config_handlers.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/config_config_handlers.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/test/config/config_config_handlers.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/test/config/config_config_handlers.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/config_databases.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/config_databases.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/config_factories.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/config_factories.yml.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/frontend/modules/thebrand/templates/showauthorSuccess.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/frontend/modules/thebrand/templates/showconceptSuccess.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/frontend/modules/thebrand/templates/showhistorySuccess.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/frontend/modules/thebrand/templates/showmanufactureSuccess.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/frontend/modules/thebrand/config/view.yml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/arc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/author.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ballet.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/brand.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cask.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/catalogue.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/collection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/concept.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-us.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/Lato-Hairline.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-responsive.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/camera.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/captions.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/download.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elegance.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/events.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/explore.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fairytale.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/AbrilFatface-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Lato-Black.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Lato-BlackItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Lato-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Lato-BoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Lato-Hairline.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Lato-HairlineItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Lato-Italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Lato-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Lato-LightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Lato-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Pompadour.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Pompadour.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Pompadour.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Pompadour.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Pompadour/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/history.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/816.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/904.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/916.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/927.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/982.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/CATALOGUE.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Carousel/banner_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Carousel/banner_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Carousel/banner_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Carousel/banner_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Carousel/banner_arc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Carousel/banner_elegance.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Carousel/banner_fairytale.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Carousel/banner_queenly.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Carousel/banner_stone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/_notes/dwsync.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/brand/autor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/brand/concept.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/brand/history.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/brand/manufactura.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/camera-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/camera_skins.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/closeform.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/closeform.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/events/carris.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/events/casa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/events/decorex.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/events/home.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/events/inter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/events/lisboa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/events/london.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/events/maison.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/events/stockholm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/explore.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/ask.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/bateye_behance.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/bateye_facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/bateye_instagram.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/bateye_linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/bateye_twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/bateye_youtube.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/catalogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/email.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/linkedin1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/morada.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/newsletter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/presskit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/telefone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo_principal_cores.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/londoncollection_branco.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/newprod/Queenly_Bat-eye-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/newsletter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/padraocinzaescuro.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/patterns/_notes/dwsync.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/patterns/overlay1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/patterns/overlay10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/patterns/overlay2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/patterns/overlay3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/patterns/overlay4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/patterns/overlay5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/patterns/overlay6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/patterns/overlay7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/patterns/overlay8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/patterns/overlay9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/porto_co/33.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/porto_co/55.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/porto_co/66.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/porto_co/77.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/porto_london.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/portocollection/Arc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/portocollection/Ballet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/portocollection/Cask.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/portocollection/Elegance.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/portocollection/Fairytale.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/portocollection/Pillar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/portocollection/Queenly.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/portocollection/Reflection.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/portocollection/RhytmicMovements.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/portocollection/Sensuality.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/portocollection/Silhouette.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/portocollection/Stone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/portocollection/Ties.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/portocollection_branco.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/scroll.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/setas.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/setas_slideshow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/_notes/dwsync.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/arc/arc1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/arc/arc2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/ballet/ballet1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/ballet/ballet2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/cask/bateye-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/cask/bateye-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/cask/bateye-desc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/cask/cask1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/cask/cask2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/elegance/bateye-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/elegance/bateye-desc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/elegance/elegance1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/fairytale/fairytale_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/fairytale/fairytale_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/fairytale/fairytale_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/pillar/bateye-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/pillar/bateye-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/pillar/bateye-desc.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/pillar/pillar1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/pillar/pillar2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/porto/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/porto/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/queenly/queenly_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/queenly/queenly_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/queenly/queenly_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/reflection/bateye-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/reflection/bateye-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/reflection/bateye-desc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/reflection/reflection1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/reflection/reflection2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/rithmic/bateye-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/rithmic/bateye-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/rithmic/bateye-desc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/rithmic/rithmic1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/rithmic/rithmic2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/sensuality/bateye-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/sensuality/bateye-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/sensuality/sensuality1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/sensuality/sensuality2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/silhouette/bateye-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/silhouette/bateye-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/silhouette/silhouette1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/silhouette/silhouette2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/silhuetta/bateye-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/silhuetta/bateye-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/silhuetta/bateye-desc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/stone/stone1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/stone/stone2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/thumbs/_notes/dwsync.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/thumbs/big_bunny_fake.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/thumbs/bridge.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/thumbs/header_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/thumbs/leaf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/thumbs/road.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/thumbs/sea.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/thumbs/shelter.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/thumbs/tree.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/ties/bateye-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/ties/bateye-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/ties/bateye-desc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/ties/ties1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slides/ties/ties2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/whatsnew/ARC.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/whatsnew/magazine.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/whatsnew/merrychristmas.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/whatsnew/queenly.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/whatsnew/showroom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/whatsnew/stone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/include/class.phpmailer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/include/class.pop3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/include/class.smtp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/include/common/explore_more.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/include/common/footer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/include/common/menu_home.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/include/common/menu_nav.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/include/common/newsletter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/include/common/sidebuttons.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/include/contact.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery-1.10.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery-1.9.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/parallax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/sidebuttons.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/validator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manufacture.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movements.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/not_available.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pillar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/porto_collection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/porto_concept.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/queenly.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reflection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/_notes/dwsync.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/camera.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/camera.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/jquery.easing.1.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/jquery.mobile.customized.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sensuality.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/silhouette.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stone.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ties.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/top.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/modules/thebrand/actions/actions.class.php" afterPath="$PROJECT_DIR$/apps/frontend/modules/thebrand/actions/actions.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/backend_dev.log" afterPath="$PROJECT_DIR$/log/backend_dev.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/config_routing.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/config_routing.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/config_settings.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/config_settings.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/test/config/config_settings.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/test/config/config_settings.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.php" afterPath="$PROJECT_DIR$/contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/templates/exploreMore.php" afterPath="$PROJECT_DIR$/apps/frontend/templates/exploreMore.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/error.log" afterPath="$PROJECT_DIR$/log/error.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/templates/footerSecondary.php" afterPath="$PROJECT_DIR$/apps/frontend/templates/footerSecondary.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/frontend_dev.log" afterPath="$PROJECT_DIR$/log/frontend_dev.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/modules/contacts/templates/indexSuccess.php" afterPath="$PROJECT_DIR$/apps/frontend/modules/contacts/templates/indexSuccess.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/modules/home/templates/indexSuccess.php" afterPath="$PROJECT_DIR$/apps/frontend/modules/home/templates/indexSuccess.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/main.css" afterPath="$PROJECT_DIR$/web/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/modules/thebrand/templates/indexSuccess.php" afterPath="$PROJECT_DIR$/apps/frontend/modules/thebrand/templates/indexSuccess.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/templates/menuSecondary.php" afterPath="$PROJECT_DIR$/apps/frontend/templates/menuSecondary.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/modules_home_config_filters.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/modules_home_config_filters.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/modules_home_config_module.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/modules_home_config_module.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/modules_home_config_security.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/modules_home_config_security.yml.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/modules_contacts_config_view.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/modules_contacts_config_view.yml.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/modules_home_config_view.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/modules_home_config_view.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/templates/newsletter.php" afterPath="$PROJECT_DIR$/apps/frontend/templates/newsletter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/others.js" afterPath="$PROJECT_DIR$/web/js/others.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/parallax.js" afterPath="$PROJECT_DIR$/web/js/parallax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/fixtures/porduct_images.yml" afterPath="$PROJECT_DIR$/data/fixtures/porduct_images.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/fixtures/products.yml" afterPath="$PROJECT_DIR$/data/fixtures/products.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/config/routing.yml" afterPath="$PROJECT_DIR$/apps/frontend/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sql/schema.sql" afterPath="$PROJECT_DIR$/data/sql/schema.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/doctrine/schema.yml" afterPath="$PROJECT_DIR$/config/doctrine/schema.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/modules/collection/templates/showcollectionSuccess.php" afterPath="$PROJECT_DIR$/apps/frontend/modules/collection/templates/showcollectionSuccess.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/modules/collection/templates/showproductSuccess.php" afterPath="$PROJECT_DIR$/apps/frontend/modules/collection/templates/showproductSuccess.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/validator.js" afterPath="$PROJECT_DIR$/web/js/validator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/config/view.yml" afterPath="$PROJECT_DIR$/apps/frontend/config/view.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/modules/collection/config/view.yml" afterPath="$PROJECT_DIR$/apps/frontend/modules/collection/config/view.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/sidebuttons.js" afterPath="$PROJECT_DIR$/web/js/sidebuttons.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/modules/home/config/view.yml" afterPath="$PROJECT_DIR$/apps/frontend/modules/home/config/view.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/web.log" afterPath="$PROJECT_DIR$/log/web.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bateye.iws" />
@@ -103,66 +308,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="view.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/frontend/modules/contacts/config/view.yml">
+      <file leaf-file-name="settings.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/backend/config/settings.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="3" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
+            <state line="12" column="32" selection-start="423" selection-end="423" vertical-scroll-proportion="0.2967033" vertical-offset="0" max-vertical-offset="756">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newsletter.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/frontend/templates/newsletter.php">
+      <file leaf-file-name="settings.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/frontend/config/settings.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="25" selection-start="1291" selection-end="1448" vertical-scroll-proportion="-13.62963" vertical-offset="28" max-vertical-offset="756">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="indexSuccess.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/frontend/modules/contacts/templates/indexSuccess.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="65" selection-start="496" selection-end="496" vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="738">
-              <folding>
-                <element signature="e#1133#1153#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="validator.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/js/validator.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="103" selection-start="3376" selection-end="3397" vertical-scroll-proportion="0.0" vertical-offset="1198" max-vertical-offset="2214">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="actions.class.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apps/frontend/modules/contacts/actions/actions.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="3" selection-start="278" selection-end="278" vertical-scroll-proportion="0.5575221" vertical-offset="0" max-vertical-offset="630">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="actions.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/actions/actions.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="55" selection-start="412" selection-end="452" vertical-scroll-proportion="-4.0" vertical-offset="216" max-vertical-offset="1224">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="14" selection-start="4297" selection-end="4551" vertical-scroll-proportion="-17.296297" vertical-offset="1387" max-vertical-offset="2088">
+            <state line="10" column="82" selection-start="244" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="738">
               <folding />
             </state>
           </provider>
@@ -186,22 +344,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/web/js/productslider.js" />
-        <option value="$PROJECT_DIR$/apps/frontend/modules/collection/templates/showproductSuccess.php" />
-        <option value="$PROJECT_DIR$/apps/frontend/modules/collection/config/view.yml" />
+        <option value="$PROJECT_DIR$/apps/frontend/modules/thebrand/config/view.yml" />
+        <option value="$PROJECT_DIR$/web/js/parallax.js" />
         <option value="$PROJECT_DIR$/apps/frontend/modules/home/config/view.yml" />
-        <option value="$PROJECT_DIR$/apps/frontend/config/routing.yml" />
-        <option value="$PROJECT_DIR$/config/ProjectConfiguration.class.php" />
-        <option value="$PROJECT_DIR$/apps/frontend/templates/newsletter.php" />
-        <option value="$PROJECT_DIR$/contact.php" />
-        <option value="$PROJECT_DIR$/apps/frontend/templates/menuSecondary.php" />
-        <option value="$PROJECT_DIR$/apps/frontend/modules/home/templates/indexSuccess.php" />
-        <option value="$PROJECT_DIR$/apps/frontend/modules/contacts/actions/actions.class.php" />
-        <option value="$PROJECT_DIR$/apps/frontend/modules/contacts/config/view.yml" />
         <option value="$PROJECT_DIR$/apps/frontend/config/view.yml" />
+        <option value="$PROJECT_DIR$/web/js/sidebuttons.js" />
+        <option value="$PROJECT_DIR$/apps/frontend/modules/collection/templates/showproductSuccess.php" />
+        <option value="$PROJECT_DIR$/data/fixtures/porduct_images.yml" />
+        <option value="$PROJECT_DIR$/data/fixtures/products.yml" />
         <option value="$PROJECT_DIR$/apps/frontend/modules/contacts/templates/indexSuccess.php" />
-        <option value="$PROJECT_DIR$/web/js/validator.js" />
-        <option value="$PROJECT_DIR$/apps/frontend/modules/contacts/templates/sendmailSuccess.php" />
+        <option value="$PROJECT_DIR$/apps/frontend/modules/home/templates/indexSuccess.php" />
+        <option value="$PROJECT_DIR$/apps/frontend/modules/thebrand/templates/indexSuccess.php" />
+        <option value="$PROJECT_DIR$/apps/frontend/modules/thebrand/templates/showauthorSuccess.php" />
+        <option value="$PROJECT_DIR$/apps/frontend/modules/thebrand/templates/showconceptSuccess.php" />
+        <option value="$PROJECT_DIR$/apps/frontend/modules/thebrand/templates/showhistorySuccess.php" />
+        <option value="$PROJECT_DIR$/apps/frontend/modules/thebrand/templates/showmanufactureSuccess.php" />
+        <option value="$PROJECT_DIR$/apps/backend/config/settings.yml" />
       </list>
     </option>
   </component>
@@ -297,7 +455,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -311,35 +473,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="apps" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bateye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bateye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="include" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bateye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bateye" />
+              <option name="myItemId" value="frontend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -361,7 +499,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
+              <option name="myItemId" value="backend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -379,71 +517,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
+              <option name="myItemId" value="backend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thebrand" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bateye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bateye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thebrand" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="actions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bateye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bateye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -498,6 +576,7 @@
       <recent name="$PROJECT_DIR$/web/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/lib/vendor/PHPMailer" />
       <recent name="$PROJECT_DIR$/apps/frontend/modules/contacts/config" />
       <recent name="$PROJECT_DIR$/apps/frontend/templates" />
@@ -601,7 +680,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1493" y="0" width="1387" height="905" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -609,8 +688,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32760897" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938075" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32893" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24011931" sideWeight="0.67107004" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24011931" sideWeight="0.672391" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32760897" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2492515" sideWeight="0.60210806" order="1" side_tool="false" content_ui="tabs" />
@@ -650,120 +729,114 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/contact.php">
+    <entry file="file://$PROJECT_DIR$/data/fixtures/products.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="14" selection-start="4297" selection-end="4551" vertical-scroll-proportion="-17.296297" vertical-offset="1387" max-vertical-offset="2088">
+        <state line="19" column="990" selection-start="2198" selection-end="2198" vertical-scroll-proportion="0.6785714" vertical-offset="64" max-vertical-offset="792">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/templates/indexSuccess.php">
+    <entry file="file://$PROJECT_DIR$/web/js/sidebuttons.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="148" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="486">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/home/templates/indexSuccess.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="29" selection-start="3108" selection-end="3108" vertical-scroll-proportion="1.587537" vertical-offset="262" max-vertical-offset="4410">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/actions/actions.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="55" selection-start="412" selection-end="452" vertical-scroll-proportion="-4.0" vertical-offset="216" max-vertical-offset="1224">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/others.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.013736264" vertical-offset="10" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/frontend/templates/menuSecondary.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="21" selection-start="1108" selection-end="1239" vertical-scroll-proportion="0.7960057" vertical-offset="0" max-vertical-offset="738">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/contacts/config/view.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="3" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/frontend/templates/exploreMore.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="728">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14148">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/frontend/templates/newsletter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="25" selection-start="1291" selection-end="1448" vertical-scroll-proportion="-13.62963" vertical-offset="28" max-vertical-offset="756">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/contacts/templates/indexSuccess.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="65" selection-start="496" selection-end="496" vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="738">
-          <folding>
-            <element signature="e#1133#1153#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/validator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="103" selection-start="3376" selection-end="3397" vertical-scroll-proportion="0.0" vertical-offset="1198" max-vertical-offset="2214">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/contacts/templates/sendmailSuccess.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="35" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.8216833" vertical-offset="108" max-vertical-offset="1296">
-          <folding>
-            <element signature="e#6#92#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/config/view.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="99" selection-start="756" selection-end="1024" vertical-scroll-proportion="0.3956044" vertical-offset="0" max-vertical-offset="728">
+        <state line="18" column="6" selection-start="484" selection-end="484" vertical-scroll-proportion="0.44505495" vertical-offset="0" max-vertical-offset="728">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/frontend/config/view.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="500" selection-end="500" vertical-scroll-proportion="0.42032966" vertical-offset="0" max-vertical-offset="728">
+        <state line="16" column="51" selection-start="446" selection-end="446" vertical-scroll-proportion="0.3956044" vertical-offset="0" max-vertical-offset="728">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/contacts/actions/actions.class.php">
+    <entry file="file://$PROJECT_DIR$/apps/frontend/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="3" selection-start="278" selection-end="278" vertical-scroll-proportion="0.5575221" vertical-offset="0" max-vertical-offset="630">
+        <state line="23" column="48" selection-start="498" selection-end="509" vertical-scroll-proportion="0.42032966" vertical-offset="108" max-vertical-offset="1404">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/templates/showproductSuccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="45" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.8216833" vertical-offset="0" max-vertical-offset="1494">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/templates/showcollectionSuccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="149" selection-end="243" vertical-scroll-proportion="0.051355205" vertical-offset="0" max-vertical-offset="2556">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/templates/indexSuccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="75" selection-start="148" selection-end="148" vertical-scroll-proportion="0.025677603" vertical-offset="0" max-vertical-offset="701">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/contacts/templates/indexSuccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="31" selection-start="205" selection-end="205" vertical-scroll-proportion="0.10271041" vertical-offset="0" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/home/templates/indexSuccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="72" selection-start="354" selection-end="354" vertical-scroll-proportion="0.23109843" vertical-offset="0" max-vertical-offset="4320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/thebrand/templates/showauthorSuccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="149" selection-end="213" vertical-scroll-proportion="0.051355205" vertical-offset="0" max-vertical-offset="701">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/thebrand/templates/showmanufactureSuccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="2" selection-start="213" selection-end="213" vertical-scroll-proportion="0.13081396" vertical-offset="0" max-vertical-offset="688">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/thebrand/templates/showhistorySuccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="2" selection-start="213" selection-end="213" vertical-scroll-proportion="0.12838802" vertical-offset="0" max-vertical-offset="701">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/thebrand/templates/showconceptSuccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="2" selection-start="213" selection-end="213" vertical-scroll-proportion="0.12838802" vertical-offset="0" max-vertical-offset="756">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/thebrand/templates/indexSuccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="75" selection-start="148" selection-end="148" vertical-scroll-proportion="0.025677603" vertical-offset="0" max-vertical-offset="701">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/config/settings.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="82" selection-start="244" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="738">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/backend/config/settings.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="32" selection-start="423" selection-end="423" vertical-scroll-proportion="0.2967033" vertical-offset="0" max-vertical-offset="756">
           <folding />
         </state>
       </provider>
