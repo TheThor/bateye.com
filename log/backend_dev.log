@@ -101,3 +101,17 @@ Jan 30 23:58:10 symfony [info] {sfWebDebugLogger} Factories 5.44 ms (1)
 Jan 30 23:58:10 symfony [info] {sfWebDebugLogger} Action "default/index" 0.16 ms (1)
 Jan 30 23:58:10 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 3.62 ms (1)
 Jan 30 23:58:10 symfony [info] {sfWebResponse} Send content (29335 o)
+Jan 31 18:49:33 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jan 31 18:49:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 18:49:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 31 18:49:34 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Jan 31 18:49:34 symfony [info] {sfPHPView} Render "/var/www/bateye/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Jan 31 18:49:34 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Jan 31 18:49:34 symfony [info] {sfPHPView} Render "/var/www/bateye/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Jan 31 18:49:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 31 18:49:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 31 18:49:34 symfony [info] {sfWebDebugLogger} Configuration 1.91 ms (9)
+Jan 31 18:49:34 symfony [info] {sfWebDebugLogger} Factories 395.96 ms (1)
+Jan 31 18:49:34 symfony [info] {sfWebDebugLogger} Action "default/index" 0.18 ms (1)
+Jan 31 18:49:34 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 234.94 ms (1)
+Jan 31 18:49:34 symfony [info] {sfWebResponse} Send content (29117 o)
