@@ -4564,3 +4564,199 @@ Feb 07 20:31:48 symfony [info] {sfWebDebugLogger} Partial "products/_list_batch_
 Feb 07 20:31:48 symfony [info] {sfWebDebugLogger} Partial "products/_list_actions" 0.80 ms (1)
 Feb 07 20:31:48 symfony [info] {sfWebDebugLogger} Partial "products/_list_footer" 0.65 ms (1)
 Feb 07 20:31:48 symfony [info] {sfWebResponse} Send content (188356 o)
+Feb 08 11:51:03 symfony [info] {sfPatternRouting} Match route "products" (/products.:sf_format) for /products with parameters array (  'module' => 'products',  'action' => 'index',  'sf_format' => 'html',)
+Feb 08 11:51:03 symfony [info] {sfPatternRouting} Match route "products" (/products.:sf_format) for /products with parameters array (  'module' => 'products',  'action' => 'index',  'sf_format' => 'html',)
+Feb 08 11:51:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 08 11:51:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 08 11:51:03 symfony [info] {productsActions} Call "productsActions->executeIndex()"
+Feb 08 11:51:04 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 08 11:51:04 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM products p - ()
+Feb 08 11:51:04 symfony [info] {sfPHPView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/indexSuccess.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_assets.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_flashes.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_list_header.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:04 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.is_active AS c__is_active, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM collections c - ()
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:04 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM category c - ()
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_list.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_list_th_tabular.php"
+Feb 08 11:51:04 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:04 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.name AS p__name, p.main_img_path AS p__main_img_path, p.main_img_alt AS p__main_img_alt, p.citation AS p__citation, p.description AS p__description, p.designer AS p__designer, p.width AS p__width, p.height AS p__height, p.diameter AS p__diameter, p.depth AS p__depth, p.materials AS p__materials, p.other AS p__other, p.collection_id AS p__collection_id, p.category_id AS p__category_id, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM products p LIMIT 20 - ()
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_list_td_batch_actions.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_list_td_tabular.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_list_td_actions.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_list_td_batch_actions.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_list_td_tabular.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_list_td_actions.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_list_batch_actions.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_list_actions.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_list_footer.php"
+Feb 08 11:51:04 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/backend/templates/layout.php"
+Feb 08 11:51:04 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/backend/templates/layout.php"
+Feb 08 11:51:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 08 11:51:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 08 11:51:04 symfony [info] {sfWebDebugLogger} Configuration 2.04 ms (11)
+Feb 08 11:51:04 symfony [info] {sfWebDebugLogger} Factories 132.86 ms (1)
+Feb 08 11:51:04 symfony [info] {sfWebDebugLogger} Action "products/index" 223.34 ms (1)
+Feb 08 11:51:04 symfony [info] {sfWebDebugLogger} Database (Doctrine) 111.90 ms (5)
+Feb 08 11:51:04 symfony [info] {sfWebDebugLogger} View "Success" for "products/index" 350.67 ms (1)
+Feb 08 11:51:04 symfony [info] {sfWebDebugLogger} Partial "products/_assets" 0.75 ms (1)
+Feb 08 11:51:04 symfony [info] {sfWebDebugLogger} Partial "products/_flashes" 0.70 ms (1)
+Feb 08 11:51:04 symfony [info] {sfWebDebugLogger} Partial "products/_list_header" 0.73 ms (1)
+Feb 08 11:51:04 symfony [info] {sfWebDebugLogger} Partial "products/_filters" 125.67 ms (1)
+Feb 08 11:51:04 symfony [info] {sfWebDebugLogger} Partial "products/_filters_field" 91.73 ms (16)
+Feb 08 11:51:04 symfony [info] {sfWebDebugLogger} Partial "products/_list" 197.71 ms (1)
+Feb 08 11:51:04 symfony [info] {sfWebDebugLogger} Partial "products/_list_th_tabular" 25.48 ms (1)
+Feb 08 11:51:04 symfony [info] {sfWebDebugLogger} Partial "products/_list_td_batch_actions" 3.63 ms (2)
+Feb 08 11:51:04 symfony [info] {sfWebDebugLogger} Partial "products/_list_td_tabular" 111.34 ms (2)
+Feb 08 11:51:04 symfony [info] {sfWebDebugLogger} Partial "products/_list_td_actions" 8.13 ms (2)
+Feb 08 11:51:04 symfony [info] {sfWebDebugLogger} Partial "products/_list_batch_actions" 1.22 ms (1)
+Feb 08 11:51:04 symfony [info] {sfWebDebugLogger} Partial "products/_list_actions" 0.92 ms (1)
+Feb 08 11:51:04 symfony [info] {sfWebDebugLogger} Partial "products/_list_footer" 0.64 ms (1)
+Feb 08 11:51:04 symfony [info] {sfWebResponse} Send content (187286 o)
+Feb 08 11:51:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 08 11:51:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 08 11:51:04 symfony [info] {productsActions} Call "productsActions->executeIndex()"
+Feb 08 11:51:04 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 08 11:51:04 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM products p - ()
+Feb 08 11:51:04 symfony [info] {sfPHPView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/indexSuccess.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_assets.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_flashes.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_list_header.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:04 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.is_active AS c__is_active, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM collections c - ()
+Feb 08 11:51:04 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:04 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM category c - ()
+Feb 08 11:51:05 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:05 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_filters_field.php"
+Feb 08 11:51:05 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_list.php"
+Feb 08 11:51:05 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_list_th_tabular.php"
+Feb 08 11:51:05 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Set slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {main} Get slot "sf_admin.current_header"
+Feb 08 11:51:05 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.name AS p__name, p.main_img_path AS p__main_img_path, p.main_img_alt AS p__main_img_alt, p.citation AS p__citation, p.description AS p__description, p.designer AS p__designer, p.width AS p__width, p.height AS p__height, p.diameter AS p__diameter, p.depth AS p__depth, p.materials AS p__materials, p.other AS p__other, p.collection_id AS p__collection_id, p.category_id AS p__category_id, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM products p LIMIT 20 - ()
+Feb 08 11:51:05 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_list_td_batch_actions.php"
+Feb 08 11:51:05 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_list_td_tabular.php"
+Feb 08 11:51:05 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_list_td_actions.php"
+Feb 08 11:51:05 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_list_td_batch_actions.php"
+Feb 08 11:51:05 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_list_td_tabular.php"
+Feb 08 11:51:05 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_list_td_actions.php"
+Feb 08 11:51:05 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_list_batch_actions.php"
+Feb 08 11:51:05 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_list_actions.php"
+Feb 08 11:51:05 symfony [info] {sfPartialView} Render "/var/www/bateye/cache/backend/dev/modules/autoProducts/templates/_list_footer.php"
+Feb 08 11:51:05 symfony [info] {sfPHPView} Decorate content with "/var/www/bateye/apps/backend/templates/layout.php"
+Feb 08 11:51:05 symfony [info] {sfPHPView} Render "/var/www/bateye/apps/backend/templates/layout.php"
+Feb 08 11:51:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 08 11:51:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 08 11:51:05 symfony [info] {sfWebDebugLogger} Configuration 2.27 ms (11)
+Feb 08 11:51:05 symfony [info] {sfWebDebugLogger} Factories 1031.94 ms (1)
+Feb 08 11:51:05 symfony [info] {sfWebDebugLogger} Action "products/index" 37.88 ms (1)
+Feb 08 11:51:05 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.06 ms (5)
+Feb 08 11:51:05 symfony [info] {sfWebDebugLogger} View "Success" for "products/index" 264.39 ms (1)
+Feb 08 11:51:05 symfony [info] {sfWebDebugLogger} Partial "products/_assets" 4.65 ms (1)
+Feb 08 11:51:05 symfony [info] {sfWebDebugLogger} Partial "products/_flashes" 0.70 ms (1)
+Feb 08 11:51:05 symfony [info] {sfWebDebugLogger} Partial "products/_list_header" 0.67 ms (1)
+Feb 08 11:51:05 symfony [info] {sfWebDebugLogger} Partial "products/_filters" 190.41 ms (1)
+Feb 08 11:51:05 symfony [info] {sfWebDebugLogger} Partial "products/_filters_field" 159.10 ms (16)
+Feb 08 11:51:05 symfony [info] {sfWebDebugLogger} Partial "products/_list" 58.01 ms (1)
+Feb 08 11:51:05 symfony [info] {sfWebDebugLogger} Partial "products/_list_th_tabular" 11.21 ms (1)
+Feb 08 11:51:05 symfony [info] {sfWebDebugLogger} Partial "products/_list_td_batch_actions" 3.57 ms (2)
+Feb 08 11:51:05 symfony [info] {sfWebDebugLogger} Partial "products/_list_td_tabular" 21.33 ms (2)
+Feb 08 11:51:05 symfony [info] {sfWebDebugLogger} Partial "products/_list_td_actions" 8.26 ms (2)
+Feb 08 11:51:05 symfony [info] {sfWebDebugLogger} Partial "products/_list_batch_actions" 1.21 ms (1)
+Feb 08 11:51:05 symfony [info] {sfWebDebugLogger} Partial "products/_list_actions" 0.85 ms (1)
+Feb 08 11:51:05 symfony [info] {sfWebDebugLogger} Partial "products/_list_footer" 0.63 ms (1)
+Feb 08 11:51:05 symfony [info] {sfWebResponse} Send content (187524 o)

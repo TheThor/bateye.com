@@ -1,0 +1,17 @@
+table {
+
+}
+
+#mainer{
+    margin-top: 50px;
+}
+
+#sf_admin_content form{
+
+}
+
+#sf_admin_list tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
