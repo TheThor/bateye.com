@@ -6,9 +6,7 @@
 	[?php echo $form->renderGlobalErrors() ?]
 	[?php endif; ?]
 
-	<form role="form"
-	      action="[?php echo url_for('<?php echo $this->getUrlForAction('collection') ?>', array('action' => 'filter')) ?]"
-	      method="post">
+	<form role="form" action="[?php echo url_for('<?php echo $this->getUrlForAction('collection') ?>', array('action' => 'filter')) ?]" method="post">
 		<div>
 			[?php foreach ($configuration->getFormFilterFields($form) as $name => $field): ?]
 			[?php if ((isset($form[$name]) && $form[$name]->isHidden()) || (!isset($form[$name]) && $field->isReal()))
@@ -28,7 +26,7 @@
 			[?php echo $form->renderHiddenFields() ?]
 			[?php echo link_to(__('Reset', array(), 'sf_admin'), '<?php echo $this->getUrlForAction('collection') ?>',
 			array('action' => 'filter'), array('query_string' => '_reset', 'method' => 'post')) ?]
-			<input type="submit" value="[?php echo __('Filter', array(), 'sf_admin') ?]"/>
+			<input class="btn btn-default" type="submit" value="[?php echo __('Filter', array(), 'sf_admin') ?]"/>
 		</div>
 	</form>
 </div>
