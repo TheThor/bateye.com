@@ -8,9 +8,9 @@
 			<?php endforeach; ?>
 		</select>
 		[?php $form = new BaseForm(); if ($form->isCSRFProtected()): ?]
-		<input type="hidden" name="[?php echo $form->getCSRFFieldName() ?]"
+		<input class="form-control" type="hidden" name="[?php echo $form->getCSRFFieldName() ?]"
 		       value="[?php echo $form->getCSRFToken() ?]"/>
 		[?php endif; ?]
-		<input type="submit" value="[?php echo __('go', array(), 'sf_admin') ?]"/>
+		<input class="form-control" type="submit" value="[?php echo __('go', array(), 'sf_admin') ?]"/>
 	</li>
 <?php endif; ?>

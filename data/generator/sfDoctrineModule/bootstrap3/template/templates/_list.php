@@ -6,8 +6,9 @@
 		<thead>
 		<tr>
 			<?php if ($this->configuration->getValue('list.batch_actions')): ?>
-				<th id="sf_admin_list_batch_actions"><input id="sf_admin_list_batch_checkbox" type="checkbox"
-				                                            onclick="checkAll();"/></th>
+				<th id="sf_admin_list_batch_actions">
+					<input class="form-control" id="sf_admin_list_batch_checkbox" type="checkbox" onclick="checkAll();"/>
+				</th>
 			<?php endif; ?>
 			[?php include_partial('<?php echo $this->getModuleName() ?>/list_th_<?php echo $this->configuration->getValue('list.layout') ?>', array('sort' => $sort)) ?]
 			<?php if ($this->configuration->getValue('list.object_actions')): ?>
