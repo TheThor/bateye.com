@@ -67,6 +67,27 @@ show_product:
     id: \d+
     sf_method: [get]
 
+#Lovers & its products
+lovers:
+  url:   /lovers/
+  param: { module: lovers, action: index }
+
+show_loverscollection:
+  url:   /lovers/showloverscollection/:id/:name
+  class:   sfDoctrineRoute
+  options: { model: Category, type: object }
+  param: { module: collection, action: showloverscollection }
+  requirements:
+    id: \d+
+    sf_method: [get]
+
+show_loversproduct:
+  url:  /lovers/showloversproduct/:id/:name
+  param: { module: collection, action: showloversproduct }
+  requirements:
+    id: \d+
+    sf_method: [get]
+
 #Media files and others
 mediafile:
   url: /media/:catalogue.pdf/*

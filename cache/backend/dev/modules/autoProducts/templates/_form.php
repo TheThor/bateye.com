@@ -10,13 +10,9 @@
 	<?php endif; ?>
 
 	<?php foreach ($configuration->getFormFields($form, $form->isNew() ? 'new' : 'edit') as $fieldset => $fields): ?>
-	<?php include_partial('products/form_fieldset',
-	array('products' => $products, 'form' => $form, 'fields'
-	=> $fields, 'fieldset' => $fieldset)) ?>
+	<?php include_partial('products/form_fieldset',array('products' => $products, 'form' => $form, 'fields' => $fields, 'fieldset' => $fieldset)) ?>
 	<?php endforeach; ?>
 
-	<?php include_partial('products/form_actions',
-	array('products' => $products, 'form' => $form,
-	'configuration' => $configuration, 'helper' => $helper)) ?>
+	<?php include_partial('products/form_actions',array('products' => $products, 'form' => $form,'configuration' => $configuration, 'helper' => $helper)) ?>
 	</form>
 </div>
