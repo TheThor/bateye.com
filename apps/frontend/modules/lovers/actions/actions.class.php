@@ -22,33 +22,25 @@ class loversActions extends sfActions
 	private function getLoversProductsByCollection($id){
 		$q = Doctrine_Query::create()
 			->from('Lovers l')
-			->where('p.collection_id=' . $id);
+			->where('l.collection_id=' . $id);
 		return $q->execute();
 	}
 
 	public function executeIndex(sfWebRequest $request)
 	{
 		$this->collections = $this->showActiveCollection();
-		return sfView::SUCCESS;
-	}
-
-	public function executeShowLoverscollection(sfWebRequest $request)
-	{
-		$this->collections = $this->showActiveCollection();
-		$this->forward404Unless($this->collections);
-		$this->forward404Unless($request->getParameter('id')==1);
-		$this->products = $this->getLoversProductsByCollection($request->getParameter('id'));
+		$this->products = $this->getLoversProductsByCollection(3);
 		$this->forward404Unless($this->products);
 		return sfView::SUCCESS;
 	}
 
-	public function executeShowLoversproduct(sfWebRequest $request)
+	public function executeShowloversproduct(sfWebRequest $request)
 	{
 		$this->collections = $this->showActiveCollection();
 		$this->product = Doctrine::getTable('Lovers')->find($request->getParameter('id'));
 		$q = Doctrine_Query::create()
-			->from('LoversImages pr')
-			->where('pr.product_id=' . $request->getParameter('id'));
+			->from('LoversImages li')
+			->where('li.product_id=' . $request->getParameter('id'));
 		$this->images = $q->execute();
 		$this->forward404Unless($this->product);
 		$q = Doctrine::getTable('Lovers')

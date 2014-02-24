@@ -16,8 +16,8 @@ abstract class BaseIndexContentForm extends BaseFormDoctrine
   {
     $this->setWidgets(array(
       'id'          => new sfWidgetFormInputHidden(),
-      'newsletter'  => new sfWidgetFormInputText(),
-      'catalogue'   => new sfWidgetFormInputText(),
+      'newsletter'  => new sfWidgetFormTextarea(),
+      'catalogue'   => new sfWidgetFormTextarea(),
       'thebrand'    => new sfWidgetFormInputText(),
       'thedesigner' => new sfWidgetFormInputText(),
       'created_at'  => new sfWidgetFormDateTime(),
@@ -26,8 +26,8 @@ abstract class BaseIndexContentForm extends BaseFormDoctrine
 
     $this->setValidators(array(
       'id'          => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
-      'newsletter'  => new sfValidatorString(array('max_length' => 255)),
-      'catalogue'   => new sfValidatorString(array('max_length' => 255)),
+      'newsletter'  => new sfValidatorString(array('max_length' => 500)),
+      'catalogue'   => new sfValidatorString(array('max_length' => 500)),
       'thebrand'    => new sfValidatorPass(),
       'thedesigner' => new sfValidatorPass(),
       'created_at'  => new sfValidatorDateTime(),
