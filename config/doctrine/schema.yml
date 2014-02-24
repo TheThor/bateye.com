@@ -61,7 +61,7 @@ LoversImages:
     location:       { type: string(255), notnull: true }
     alt:            { type: string(255), notnull: true }
   relations:
-    Products:       { local: product_id, foreign: id, foreignAlias: ProductImage }
+    Products:       { local: product_id, foreign: id, foreignAlias: LoversImage }
 
 Collections:
   actAs: { Timestampable: ~ }

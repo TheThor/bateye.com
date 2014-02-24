@@ -1,21 +1,28 @@
 <?php include(sfConfig::get('sf_app_template_dir').'/newsletter.php') ?>
 <?php include(sfConfig::get('sf_app_template_dir').'/menuSecondary.php') ?>
-	<div id="collect_container">
-		<div class="span11 collections-imag">
-			<?php foreach ($collections as $collection): ?>
-				<?php
-				$collectionName = $collection->getName();
-				$collectionName = str_replace(" ", "-", $collectionName);
-				$collectionName = strtolower($collectionName);
-				$collectionId = substr($collectionName, 0,-3);
-				?>
-				<div id="<?php echo $collectionId ?>">
-					<?php $collectionName = str_replace("-", "", $collectionName); ?>
-					<!--      LINK TO EXAMPLE      -->
-					<?php echo link_to(image_tag('/images/' . $collectionName . '_branco.png'), 'lovers/showloverscollection?id=' . $collection->getId() . "&name=" . $collection->getName()) ?>
+<?php slot(
+	'title',
+	sprintf('%s - A Bat Eye collection for lovers', $collections->getName()))
+?>
+	<div id="container">
+		<div style="margin: 0 auto; width: 1016px">
+			<?php foreach ($products as $product): ?>
+				<div class="img">
+					<a href="<?php echo url_for(array(
+						'module' => 'lovers',
+						'action' => 'showloversproduct',
+						'id' => $product->getId(),
+						'name' => $product->getName()
+					))?>">
+						<img src="/<?php echo $product->getMainImgPath() ?>" alt="<?php echo $product->getMainImgAlt() ?>">
+					</a>
+					<div class="desc">
+						<h6><?php echo $product->getName() ?></h6>
+						<h5><?php echo $product->getCategory() ?></h5>
+					</div>
 				</div>
 			<?php endforeach; ?>
+			<div class="clear"></div>
 		</div>
-		<div class="clear"></div>
 	</div>
 <?php include(sfConfig::get('sf_app_template_dir').'/footerSecondary.php') ?>

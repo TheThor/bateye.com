@@ -220,10 +220,10 @@
 				font-weight: 300;
 			}
 
-				input{
+				input[type=text], input[type=password], input[type=email]{
 					border: 0px;
 					background-color: #bebebe;
-					width: 600px;
+					width: 100%;
 				}
 
 				textarea{

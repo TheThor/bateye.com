@@ -73,7 +73,7 @@
                         )) ?>">Contacts</a>
                     </li>
                     <li>
-                        <a href="not_available">Lovers</a>
+                        <a href="<?php echo url_for('lovers') ?>">Lovers</a>
                     </li>
                 </ul>
             </div>

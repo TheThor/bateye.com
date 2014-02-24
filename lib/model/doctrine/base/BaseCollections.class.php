@@ -9,15 +9,18 @@
  * @property string $name
  * @property boolean $is_active
  * @property Doctrine_Collection $ProductCollection
+ * @property Doctrine_Collection $LoversCollection
  * 
  * @method integer             getId()                Returns the current record's "id" value
  * @method string              getName()              Returns the current record's "name" value
  * @method boolean             getIsActive()          Returns the current record's "is_active" value
  * @method Doctrine_Collection getProductCollection() Returns the current record's "ProductCollection" collection
+ * @method Doctrine_Collection getLoversCollection()  Returns the current record's "LoversCollection" collection
  * @method Collections         setId()                Sets the current record's "id" value
  * @method Collections         setName()              Sets the current record's "name" value
  * @method Collections         setIsActive()          Sets the current record's "is_active" value
  * @method Collections         setProductCollection() Sets the current record's "ProductCollection" collection
+ * @method Collections         setLoversCollection()  Sets the current record's "LoversCollection" collection
  * 
  * @package    bateye
  * @subpackage model
@@ -50,6 +53,10 @@ abstract class BaseCollections extends sfDoctrineRecord
     {
         parent::setUp();
         $this->hasMany('Products as ProductCollection', array(
+             'local' => 'id',
+             'foreign' => 'collection_id'));
+
+        $this->hasMany('Lovers as LoversCollection', array(
              'local' => 'id',
              'foreign' => 'collection_id'));
 

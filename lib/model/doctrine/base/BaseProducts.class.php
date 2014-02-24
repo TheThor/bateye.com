@@ -23,6 +23,7 @@
  * @property Collections $Collections
  * @property Category $Category
  * @property Doctrine_Collection $ProductImage
+ * @property Doctrine_Collection $LoversImage
  * 
  * @method integer             getId()            Returns the current record's "id" value
  * @method string              getName()          Returns the current record's "name" value
@@ -42,6 +43,7 @@
  * @method Collections         getCollections()   Returns the current record's "Collections" value
  * @method Category            getCategory()      Returns the current record's "Category" value
  * @method Doctrine_Collection getProductImage()  Returns the current record's "ProductImage" collection
+ * @method Doctrine_Collection getLoversImage()   Returns the current record's "LoversImage" collection
  * @method Products            setId()            Sets the current record's "id" value
  * @method Products            setName()          Sets the current record's "name" value
  * @method Products            setMainImgPath()   Sets the current record's "main_img_path" value
@@ -60,6 +62,7 @@
  * @method Products            setCollections()   Sets the current record's "Collections" value
  * @method Products            setCategory()      Sets the current record's "Category" value
  * @method Products            setProductImage()  Sets the current record's "ProductImage" collection
+ * @method Products            setLoversImage()   Sets the current record's "LoversImage" collection
  * 
  * @package    bateye
  * @subpackage model
@@ -151,6 +154,10 @@ abstract class BaseProducts extends sfDoctrineRecord
              'foreign' => 'id'));
 
         $this->hasMany('ProductImages as ProductImage', array(
+             'local' => 'id',
+             'foreign' => 'product_id'));
+
+        $this->hasMany('LoversImages as LoversImage', array(
              'local' => 'id',
              'foreign' => 'product_id'));
 

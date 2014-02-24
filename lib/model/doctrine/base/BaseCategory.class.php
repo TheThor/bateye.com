@@ -8,13 +8,16 @@
  * @property integer $id
  * @property string $name
  * @property Doctrine_Collection $ProductCategory
+ * @property Doctrine_Collection $LoversCategory
  * 
  * @method integer             getId()              Returns the current record's "id" value
  * @method string              getName()            Returns the current record's "name" value
  * @method Doctrine_Collection getProductCategory() Returns the current record's "ProductCategory" collection
+ * @method Doctrine_Collection getLoversCategory()  Returns the current record's "LoversCategory" collection
  * @method Category            setId()              Sets the current record's "id" value
  * @method Category            setName()            Sets the current record's "name" value
  * @method Category            setProductCategory() Sets the current record's "ProductCategory" collection
+ * @method Category            setLoversCategory()  Sets the current record's "LoversCategory" collection
  * 
  * @package    bateye
  * @subpackage model
@@ -42,6 +45,10 @@ abstract class BaseCategory extends sfDoctrineRecord
     {
         parent::setUp();
         $this->hasMany('Products as ProductCategory', array(
+             'local' => 'id',
+             'foreign' => 'category_id'));
+
+        $this->hasMany('Lovers as LoversCategory', array(
              'local' => 'id',
              'foreign' => 'category_id'));
 
