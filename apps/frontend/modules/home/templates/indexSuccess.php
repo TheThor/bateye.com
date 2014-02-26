@@ -217,5 +217,8 @@
 </div>
 <div id="produ" style="position:fixed; z-index: 5; bottom: 0; right: 0;">
     <img id="closeit" src="/images/close.png" alt="close button image">
-    <a href="queenly.php"> <img src="/images/newprod/Queenly_Bat-eye-1.png" alt="Queenly peça nova!"/></a>
+    <a href="<?php echo url_for(array(
+	    'module' => 'contacts',
+	    'action' => 'index'
+    )) ?>"> <img src="/images/newprod/Queenly_Bat-eye-1.png" alt="Queenly peça nova!"/></a>
 </div>
