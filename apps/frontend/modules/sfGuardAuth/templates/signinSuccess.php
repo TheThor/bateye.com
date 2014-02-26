@@ -8,7 +8,7 @@
 ?>
 <div class="container">
 	<div class="col-md-7 col-md-offset-3">
-<h1><?php echo __('Login', null, 'sf_guard') ?></h1>
+<h3><?php echo __('Login', null, 'sf_guard') ?></h3>
 
 <?php echo get_partial('sfGuardAuth/signin_form', array('form' => $form)) ?>
 	</div>
