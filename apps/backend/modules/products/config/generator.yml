@@ -13,7 +13,8 @@ generator:
 
     config:
       actions: ~
-      fields:  ~
+      fields:
+        slug: { attributes: { class: foo } }
       list:    ~
       filter:  ~
       form:    ~

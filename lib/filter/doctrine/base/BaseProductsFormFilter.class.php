@@ -13,7 +13,7 @@ abstract class BaseProductsFormFilter extends BaseFormFilterDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'name'          => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'name'          => new sfWidgetFormFilterInput(array('with_empty' => false), array('class'=>'form_control')),
       'main_img_path' => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'main_img_alt'  => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'citation'      => new sfWidgetFormFilterInput(array('with_empty' => false)),
