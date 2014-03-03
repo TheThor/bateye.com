@@ -12,6 +12,12 @@ class ProductsFormFilter extends BaseProductsFormFilter
 {
   public function configure()
   {
-	  //$this->widgetSchema = setAttribute('class', 'custom-class');
+	  $this->getWidget('name')->setAttribute('class','tretas2');
+//	  foreach ($this->getWidgetSchema()->getFields() as $field)
+//	  {
+//		  $field->setAttribute('class', '');
+//	  }
+//	  $fields = $this->getWidgetSchema()->getFields();
+//	  $fields['name']->setA
   }
 }

@@ -14,7 +14,7 @@ default:
 
   stylesheets:    [bootstrap3.min.css, bootstrap-theme3.min.css, backend.css]
 
-  javascripts:    [bootstrap3.min.js]
+  javascripts:    [jquery-1.10.2.js,bootstrap3.min.js]
 
   has_layout:     true
   layout:         layout
