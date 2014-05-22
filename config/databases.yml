@@ -1,7 +1,15 @@
-all:
+dev:
   doctrine:
     class: sfDoctrineDatabase
     param:
       dsn: 'mysql:host=localhost;dbname=bateye'
       username: root
       password: C@r0L87
+
+all:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=localhost;dbname=bateye_main'
+      username: bateye_bateye
+      password: Pedro13249976
