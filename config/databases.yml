@@ -11,5 +11,5 @@ all:
     class: sfDoctrineDatabase
     param:
       dsn: 'mysql:host=localhost;dbname=bateye_main'
-      username: bateye_bateye
+      username: bateye_main
       password: Pedro13249976
