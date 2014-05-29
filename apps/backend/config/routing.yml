@@ -11,6 +11,11 @@ products:
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
 
 # default rules
+
+sf_guard_signout:
+  url:   /logout
+  param: { module: sfGuardAuth, action: signout }
+
 homepage:
   url:   /
   param: { module: default, action: index }
