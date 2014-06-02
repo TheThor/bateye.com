@@ -18,7 +18,8 @@ generator:
       list:
         display: [name, designer, collection_id, created_at, updated_at]
       filter:
-        display: [name, description, citation,designer, collection_id, created_at, updated_at]
-      form:    ~
+        display: [name, description, citation, designer, collection_id, created_at, updated_at]
+      form: ~
+#        display: [collection_id, category_id, main_img_path, main_img_alt, name, description, citation, designer, width, height, diameter, depth, materials, other]
       edit:    ~
       new:     ~
