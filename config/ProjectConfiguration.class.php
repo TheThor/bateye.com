@@ -12,9 +12,13 @@ class ProjectConfiguration extends sfProjectConfiguration
 		$this->enablePlugins('sfDoctrinePlugin');
 		$this->enablePlugins('sfDoctrineGuardPlugin');
 		$this->enablePlugins('izarusBootstrap3AdminThemePlugin');
-		$this->setWebDir('../public_html');
+		$this->setWebDir('/web');
 		$this->setCacheDir($this->getRootDir() . '/cache'); //CORRECTO
 		$this->setLogDir($this->getRootDir() . '/log'); //CORRECTO
+		sfConfig::add(array(
+			'sf_upload_dir'   => sfConfig::get('sf_root_dir') . sfConfig::get('sf_web_dir')
+		));
+		var_dump(sfConfig::get('sf_upload_dir'));
 	}
 
 	static public function registerPHPmailer()
@@ -22,10 +26,7 @@ class ProjectConfiguration extends sfProjectConfiguration
 		if (self::$phpMailer) {
 			return;
 		}
-		sfConfig::add(array(
-			'sf_web_dir' => SF_ROOT_DIR . '/../www',
-			'sf_upload_dir' => SF_ROOT_DIR . '/../www/' . sfConfig::get('sf_upload_dir_name'),
-		));
+
 		set_include_path(sfConfig::get('sf_lib_dir') . '/vendor' . PATH_SEPARATOR . get_include_path());
 		require_once sfConfig::get('sf_lib_dir') . '/vendor/PHPMailer/class.phpmailer.php';
 		self::$phpMailer = true;
