@@ -18,7 +18,6 @@ class ProjectConfiguration extends sfProjectConfiguration
 		sfConfig::add(array(
 			'sf_upload_dir'   => sfConfig::get('sf_root_dir') . sfConfig::get('sf_web_dir')
 		));
-		var_dump(sfConfig::get('sf_upload_dir'));
 	}
 
 	static public function registerPHPmailer()

@@ -5,7 +5,6 @@
  * Date: 12/16/13
  * Time: 12:27 PM
  */
-//var_dump($_POST);exit;
 if(isset($_POST['contact']) && $_POST['contact']=="true"){
     $email = "marcosousa@bateye.com";
     $name = "Marco Sousa";

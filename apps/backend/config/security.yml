@@ -1,6 +1,21 @@
 # You can find more information about this file on the symfony website:
 # http://www.symfony-project.org/reference/1_4/en/08-Security
 
+sf_guard_user:
+  credentials: super_user
+
+autoSfGuardGroup:
+  credentials: super_user
+
+sf_guard_permission:
+  credentials: super_user
+
+sf_guard_register:
+  credentials: super_user
+
+sf_guard_user:
+  credentials: [[super_user]]
+
 default:
   is_secure: true
-  credentials: special
+  credentials: [[super_user, admin]]
