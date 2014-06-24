@@ -34,7 +34,7 @@
 
             <?php foreach($sliders as $slider): ?>
                 <?php if ($i==0): ?>
-                    <div class="active item img-carousel abrilfat"><img src="/<?php echo $slider->getPath();?>" alt="Banner da peça Arc" /></div>
+                    <div class="active item img-carousel abrilfat"><img src="/images/Carousel/<?php echo $slider->getPath();?>" alt="Banner da peça Arc" /></div>
                     <?php $i++;?>
                 <?php else: ?>
                     <div class="item img-carousel"><img class="img-crousel" src="/images/Carousel/banner_elegance.png" alt="Banner da peça elegance" /></div>
@@ -173,7 +173,7 @@
             <?php $i=1; ?>
             <div id="box-<?php echo $i;?>" class="box">
                 <a href="<?php echo $new->getLink() ?>">
-                    <img id="image-<?php echo $i;?>" src="/<?php echo $new->getNewsImage() ?>" alt="<?php echo htmlspecialchars_decode($new->getNewsTitle()) ?>"/>
+                    <img id="image-<?php echo $i;?>" src="/images/whatsnew/<?php echo $new->getNewsImage() ?>" alt="<?php echo htmlspecialchars_decode($new->getNewsTitle()) ?>"/>
               <span class="caption fade-caption">
               <?php echo htmlspecialchars_decode($new->getNewsTitle()) ?>
                   <?php echo htmlspecialchars_decode($new->getNewsContent()) ?></p>

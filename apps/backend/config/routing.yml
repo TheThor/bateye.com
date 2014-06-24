@@ -1,3 +1,75 @@
+slider_images:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                SliderImages
+    module:               slider_images
+    prefix_path:          /slider_images
+    column:               id
+    with_wildcard_routes: true
+
+index_content:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                IndexContent
+    module:               index_content
+    prefix_path:          /index_content
+    column:               id
+    with_wildcard_routes: true
+
+contacts:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Contacts
+    module:               contacts
+    prefix_path:          /contacts
+    column:               id
+    with_wildcard_routes: true
+
+collections:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Collections
+    module:               collections
+    prefix_path:          /collections
+    column:               id
+    with_wildcard_routes: true
+
+lovers_images:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                LoversImages
+    module:               lovers_images
+    prefix_path:          /lovers_images
+    column:               id
+    with_wildcard_routes: true
+
+product_images:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                ProductImages
+    module:               product_images
+    prefix_path:          /product_images
+    column:               id
+    with_wildcard_routes: true
+
+news:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                News
+    module:               news
+    prefix_path:          /news
+    column:               id
+    with_wildcard_routes: true
+
+lovers:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Lovers
+    module:               lovers
+    prefix_path:          /lovers
+    column:               id
+    with_wildcard_routes: true
+
 products:
   class: sfDoctrineRouteCollection
   options:

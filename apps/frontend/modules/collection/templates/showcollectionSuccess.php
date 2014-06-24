@@ -14,7 +14,7 @@
                 'id' => $product->getId(),
                 'name' => $product->getName()
             ))?>">
-                <img src="/<?php echo $product->getMainImgPath() ?>" alt="<?php echo $product->getMainImgAlt() ?>">
+                <img src="/images/mosaics/<?php echo $product->getCollections() . "/" .  $product->getMainImgPath() ?>" alt="<?php echo $product->getMainImgAlt() ?>">
             </a>
             <div class="desc">
                 <h6><?php echo $product->getName() ?></h6>
