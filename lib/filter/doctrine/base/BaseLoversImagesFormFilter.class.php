@@ -13,7 +13,7 @@ abstract class BaseLoversImagesFormFilter extends BaseFormFilterDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'product_id' => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Products'), 'add_empty' => true)),
+      'product_id' => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Lovers'), 'add_empty' => true)),
       'location'   => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'alt'        => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'created_at' => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
@@ -21,7 +21,7 @@ abstract class BaseLoversImagesFormFilter extends BaseFormFilterDoctrine
     ));
 
     $this->setValidators(array(
-      'product_id' => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('Products'), 'column' => 'id')),
+      'product_id' => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('Lovers'), 'column' => 'id')),
       'location'   => new sfValidatorPass(array('required' => false)),
       'alt'        => new sfValidatorPass(array('required' => false)),
       'created_at' => new sfValidatorDateRange(array('required' => false, 'from_date' => new sfValidatorDateTime(array('required' => false, 'datetime_output' => 'Y-m-d 00:00:00')), 'to_date' => new sfValidatorDateTime(array('required' => false, 'datetime_output' => 'Y-m-d 23:59:59')))),

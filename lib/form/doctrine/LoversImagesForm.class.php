@@ -23,11 +23,11 @@ class LoversImagesForm extends BaseLoversImagesForm
 		  'template'  => '<div>%file%<br />%input%<br />%delete% %delete_label%</div>'
 	  )));
 	  $this->setValidator('location', new sfValidatorFile(array(
-		  'required'   => false,
+		  'required'   => true,
 		  'path'       => sfConfig::get('sf_upload_dir') . '/images/slides/' . $lover->{0} . '/',
 		  'mime_types' => 'web_images',
 	  )));
 
-	  $this->validatorSchema['location'] = new sfValidatorPass();
+	  $this->validatorSchema['location_delete'] = new sfValidatorPass();
   }
 }

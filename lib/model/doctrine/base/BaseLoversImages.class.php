@@ -9,18 +9,18 @@
  * @property integer $product_id
  * @property string $location
  * @property string $alt
- * @property Products $Products
+ * @property Lovers $Lovers
  * 
  * @method integer      getId()         Returns the current record's "id" value
  * @method integer      getProductId()  Returns the current record's "product_id" value
  * @method string       getLocation()   Returns the current record's "location" value
  * @method string       getAlt()        Returns the current record's "alt" value
- * @method Products     getProducts()   Returns the current record's "Products" value
+ * @method Lovers       getLovers()     Returns the current record's "Lovers" value
  * @method LoversImages setId()         Sets the current record's "id" value
  * @method LoversImages setProductId()  Sets the current record's "product_id" value
  * @method LoversImages setLocation()   Sets the current record's "location" value
  * @method LoversImages setAlt()        Sets the current record's "alt" value
- * @method LoversImages setProducts()   Sets the current record's "Products" value
+ * @method LoversImages setLovers()     Sets the current record's "Lovers" value
  * 
  * @package    bateye
  * @subpackage model
@@ -56,7 +56,7 @@ abstract class BaseLoversImages extends sfDoctrineRecord
     public function setUp()
     {
         parent::setUp();
-        $this->hasOne('Products', array(
+        $this->hasOne('Lovers', array(
              'local' => 'product_id',
              'foreign' => 'id'));
 

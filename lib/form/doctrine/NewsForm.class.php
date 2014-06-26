@@ -27,6 +27,6 @@ class NewsForm extends BaseNewsForm
 		  'mime_types' => 'web_images',
 	  )));
 
-	  $this->validatorSchema['path'] = new sfValidatorPass();
+	  $this->validatorSchema['news_image_delete'] = new sfValidatorPass();
   }
 }

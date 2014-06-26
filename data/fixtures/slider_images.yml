@@ -1,11 +1,11 @@
 SliderImages:
   Arc:
-    path: images/Carousel/banner_arc.png
+    path: banner_arc.png
   Fairytale:
-    path: images/Carousel/banner_fairytale.png
+    path: banner_fairytale.png
   Queenly:
-    path: images/Carousel/banner_queenly.png
+    path: banner_queenly.png
   Elegance:
-    path: images/Carousel/banner_elegance.png
+    path: banner_elegance.png
   Stone:
-    path: images/Carousel/banner_stone.png
+    path: banner_stone.png
