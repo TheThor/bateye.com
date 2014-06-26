@@ -36,7 +36,7 @@ class collectionActions extends sfActions
     {
         $this->collections = $this->showActiveCollection();
         $this->forward404Unless($this->collections);
-        $this->forward404Unless($request->getParameter('id')==1);
+//        $this->forward404Unless($request->getParameter('id')==1);
         $this->products = $this->getProductsByCollection($request->getParameter('id'));
         $this->forward404Unless($this->products);
         return sfView::SUCCESS;

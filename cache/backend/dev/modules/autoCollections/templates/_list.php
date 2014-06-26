@@ -1,13 +1,16 @@
-<div class="sf_admin_list">
   <?php if (!$pager->getNbResults()): ?>
-    <p><?php echo __('No result', array(), 'sf_admin') ?></p>
+    <p class="alert alert-danger"><?php echo __('No result', array(), 'sf_admin') ?></p>
+    <div class="btn-toolbar">
+      <?php include_partial('collections/list_actions', array('helper' => $helper)) ?>
+    </div>
   <?php else: ?>
-    <table cellspacing="0">
+
+    <table class="table table-striped">
       <thead>
         <tr>
-          <th id="sf_admin_list_batch_actions"><input id="sf_admin_list_batch_checkbox" type="checkbox" onclick="checkAll();" /></th>
-          <?php include_partial('collections/list_th_tabular', array('sort' => $sort)) ?>
-          <th id="sf_admin_list_th_actions"><?php echo __('Actions', array(), 'sf_admin') ?></th>
+          <th><input id="checkAll" type="checkbox" onclick="toggleCheckboxes();" /></th>
+          <?php include_partial('collections/list_th', array('sort' => $sort)) ?>
+          <th><?php echo __('Actions', array(), 'sf_admin') ?></th>
         </tr>
       </thead>
       <tfoot>
@@ -17,30 +20,36 @@
               <?php include_partial('collections/pagination', array('pager' => $pager)) ?>
             <?php endif; ?>
 
-            <?php echo format_number_choice('[0] no result|[1] 1 result|(1,+Inf] %1% results', array('%1%' => $pager->getNbResults()), $pager->getNbResults(), 'sf_admin') ?>
-            <?php if ($pager->haveToPaginate()): ?>
-              <?php echo __('(page %%page%%/%%nb_pages%%)', array('%%page%%' => $pager->getPage(), '%%nb_pages%%' => $pager->getLastPage()), 'sf_admin') ?>
-            <?php endif; ?>
+            <div class="btn-toolbar">
+              <?php include_partial('collections/list_batch_actions', array('helper' => $helper)) ?>
+              <?php include_partial('collections/list_actions', array('helper' => $helper)) ?>
+            </div>
           </th>
         </tr>
       </tfoot>
       <tbody>
-        <?php foreach ($pager->getResults() as $i => $collections): $odd = fmod(++$i, 2) ? 'odd' : 'even' ?>
-          <tr class="sf_admin_row <?php echo $odd ?>">
+        <?php foreach ($pager->getResults() as $collections): ?>
+          <tr>
             <?php include_partial('collections/list_td_batch_actions', array('collections' => $collections, 'helper' => $helper)) ?>
-            <?php include_partial('collections/list_td_tabular', array('collections' => $collections)) ?>
+            <?php include_partial('collections/list_td', array('collections' => $collections)) ?>
             <?php include_partial('collections/list_td_actions', array('collections' => $collections, 'helper' => $helper)) ?>
           </tr>
         <?php endforeach; ?>
       </tbody>
     </table>
   <?php endif; ?>
-</div>
+
 <script type="text/javascript">
 /* <![CDATA[ */
-function checkAll()
+function toggleCheckboxes()
 {
-  var boxes = document.getElementsByTagName('input'); for(var index = 0; index < boxes.length; index++) { box = boxes[index]; if (box.type == 'checkbox' && box.className == 'sf_admin_batch_checkbox') box.checked = document.getElementById('sf_admin_list_batch_checkbox').checked } return true;
+	var $mainCheckbox = $('#checkAll'),
+	    $boxes        = $('tbody [type="checkbox"]', $mainCheckbox.closest('table'));
+
+	if ($mainCheckbox.is(':checked'))
+		$boxes.attr('checked', 'checked');
+	else
+		$boxes.removeAttr('checked');
 }
 /* ]]> */
 </script>

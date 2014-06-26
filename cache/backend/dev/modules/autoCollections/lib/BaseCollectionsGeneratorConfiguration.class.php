@@ -50,11 +50,6 @@ abstract class BaseCollectionsGeneratorConfiguration extends sfModelGeneratorCon
     return '%%id%% - %%name%% - %%is_active%% - %%created_at%% - %%updated_at%%';
   }
 
-  public function getListLayout()
-  {
-    return 'tabular';
-  }
-
   public function getListTitle()
   {
     return 'Collections List';
@@ -171,6 +166,8 @@ abstract class BaseCollectionsGeneratorConfiguration extends sfModelGeneratorCon
   {
     return 'CollectionsForm';
   }
+  
+  public function getListLayout(){}
 
   public function hasFilterForm()
   {

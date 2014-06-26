@@ -1,10 +1,29 @@
-<li class="sf_admin_batch_actions_choice">
-  <select name="batch_action">
-    <option value=""><?php echo __('Choose an action', array(), 'sf_admin') ?></option>
-    <option value="batchDelete"><?php echo __('Delete', array(), 'sf_admin') ?></option>
-  </select>
-  <?php $form = new BaseForm(); if ($form->isCSRFProtected()): ?>
-    <input type="hidden" name="<?php echo $form->getCSRFFieldName() ?>" value="<?php echo $form->getCSRFToken() ?>" />
-  <?php endif; ?>
-  <input type="submit" value="<?php echo __('go', array(), 'sf_admin') ?>" />
-</li>
+
+<div class="btn-group">
+  <a class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown" href="#">
+    <?php echo __('Choose an action', array(), 'sf_admin') ?>
+    <span class="caret"></span>
+  </a>
+  <ul class="batch-actions dropdown-menu">
+          <li><a href="#" data-action="batchDelete"><?php echo __('Delete', array(), 'sf_admin') ?></a></li>      </ul>
+</div>
+
+<input type="hidden" name="batch_action" value="" />
+
+<?php $form = new BaseForm(); if ($form->isCSRFProtected()): ?>
+<input type="hidden" name="<?php echo $form->getCSRFFieldName() ?>" value="<?php echo $form->getCSRFToken() ?>" />
+<?php endif; ?>
+
+<script type="text/javascript">
+$('.batch-actions a').bind('click', function(){
+	var $anchor = $(this),
+	    $form = $anchor.closest('form');
+
+	$('input[name="batch_action"]', $form).val($anchor.data('action'));
+
+	$form.submit();
+
+	return false;
+});
+</script>
+
