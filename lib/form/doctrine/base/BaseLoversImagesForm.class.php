@@ -16,7 +16,7 @@ abstract class BaseLoversImagesForm extends BaseFormDoctrine
   {
     $this->setWidgets(array(
       'id'         => new sfWidgetFormInputHidden(),
-      'product_id' => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Products'), 'add_empty' => false)),
+      'product_id' => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Lovers'), 'add_empty' => false)),
       'location'   => new sfWidgetFormInputText(),
       'alt'        => new sfWidgetFormInputText(),
       'created_at' => new sfWidgetFormDateTime(),
@@ -25,7 +25,7 @@ abstract class BaseLoversImagesForm extends BaseFormDoctrine
 
     $this->setValidators(array(
       'id'         => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
-      'product_id' => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('Products'))),
+      'product_id' => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('Lovers'))),
       'location'   => new sfValidatorString(array('max_length' => 255)),
       'alt'        => new sfValidatorString(array('max_length' => 255)),
       'created_at' => new sfValidatorDateTime(),

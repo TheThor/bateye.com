@@ -12,4 +12,11 @@
  */
 class Products extends BaseProducts
 {
+	public function getById($id){
+		$q = Doctrine_Query::create()
+			->from('Products p')
+			->where("id=?", $id);
+
+		return $q->execute();
+	}
 }

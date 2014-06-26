@@ -12,4 +12,11 @@
  */
 class Lovers extends BaseLovers
 {
+	public function getById($id){
+		$q = Doctrine_Query::create()
+			->from('Lovers l')
+			->where("id=?", $id);
+
+		return $q->execute();
+	}
 }
