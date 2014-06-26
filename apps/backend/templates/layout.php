@@ -23,18 +23,45 @@
 		</div>
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="<?php echo url_for('products') ?>">Productos</a></li>
-				<li><a href="#contact">Contact</a></li>
+<!--				<li class="active"><a href=""></a></li>-->
 				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Home<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="<?php echo url_for('slider_images') ?>">Gerir slider</a></li>
+						<li><a href="<?php echo url_for('index_content') ?>">Gerir conteúdos</a></li>
+						<li class="divider"></li>
+						<li class="dropdown-header">Acções</li>
+						<li><a href="<?php echo url_for(array('module' => 'slider_images','action' => 'new'))?>">Novo Adicionar slider</a></li>
+					</ul>
+				</li>				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Produtos <b class="caret"></b></a>
 					<ul class="dropdown-menu">
-						<li><a href="#">Action</a></li>
-						<li><a href="#">Another action</a></li>
-						<li><a href="#">Something else here</a></li>
+						<li><a href="<?php echo url_for('products') ?>">Gerir produtos</a></li>
+						<li><a href="<?php echo url_for('product_images') ?>">Gerir imagens</a></li>
 						<li class="divider"></li>
-						<li class="dropdown-header">Nav header</li>
-						<li><a href="#">Separated link</a></li>
-						<li><a href="#">One more separated link</a></li>
+						<li class="dropdown-header">Acções</li>
+						<li><a href="<?php echo url_for('products/new')?>">Novo producto</a></li>
+						<li><a href="<?php echo url_for(array('module' => 'product_images', 'action' => 'new'))?>">Nova imagem</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Lovers <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="<?php echo url_for('lovers') ?>">Gerir produtos</a></li>
+						<li><a href="<?php echo url_for('lovers_images') ?>">Gerir imagens</a></li>
+						<li class="divider"></li>
+						<li class="dropdown-header">Acções</li>
+						<li><a href="<?php echo url_for(array('module' => 'lovers','action' => 'new'))?>">Novo producto</a></li>
+						<li><a href="<?php echo url_for(array('module' => 'lovers_images','action' => 'new'))?>">Nova imagem</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Notícias<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="<?php echo url_for('news') ?>">Gerir</a></li>
+						<li class="divider"></li>
+						<li class="dropdown-header">Acções</li>
+						<li><a href="<?php echo url_for(array('module' => 'news','action' => 'new'))?>">Nova notícia</a></li>
 					</ul>
 				</li>
 				<li><?php echo link_to('Logout', 'sf_guard_signout') ?></li>
