@@ -7,7 +7,7 @@ Products:
     main_img_path:  { type: string(255), notnull: true }
     main_img_alt:   { type: string(255), notnull: true }
     citation:       { type: string(255), notnull: true }
-    description:    { type: string(700), notnull: true }
+    description:    { type: string(1200), notnull: true }
     designer:       { type: string(255) }
     width:          { type: string(255) }
     height:         { type: string(255) }
@@ -39,7 +39,7 @@ Lovers:
     main_img_path:  { type: string(255), notnull: true }
     main_img_alt:   { type: string(255), notnull: true }
     citation:       { type: string(255), notnull: true }
-    description:    { type: string(700), notnull: true }
+    description:    { type: string(1200), notnull: true }
     designer:       { type: string(255) }
     width:          { type: string(255) }
     height:         { type: string(255) }

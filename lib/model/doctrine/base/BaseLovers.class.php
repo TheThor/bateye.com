@@ -22,41 +22,44 @@
  * @property integer $category_id
  * @property Collections $Collections
  * @property Category $Category
+ * @property Doctrine_Collection $LoversImage
  * 
- * @method integer     getId()            Returns the current record's "id" value
- * @method string      getName()          Returns the current record's "name" value
- * @method string      getMainImgPath()   Returns the current record's "main_img_path" value
- * @method string      getMainImgAlt()    Returns the current record's "main_img_alt" value
- * @method string      getCitation()      Returns the current record's "citation" value
- * @method string      getDescription()   Returns the current record's "description" value
- * @method string      getDesigner()      Returns the current record's "designer" value
- * @method string      getWidth()         Returns the current record's "width" value
- * @method string      getHeight()        Returns the current record's "height" value
- * @method string      getDiameter()      Returns the current record's "diameter" value
- * @method string      getDepth()         Returns the current record's "depth" value
- * @method string      getMaterials()     Returns the current record's "materials" value
- * @method string      getOther()         Returns the current record's "other" value
- * @method integer     getCollectionId()  Returns the current record's "collection_id" value
- * @method integer     getCategoryId()    Returns the current record's "category_id" value
- * @method Collections getCollections()   Returns the current record's "Collections" value
- * @method Category    getCategory()      Returns the current record's "Category" value
- * @method Lovers      setId()            Sets the current record's "id" value
- * @method Lovers      setName()          Sets the current record's "name" value
- * @method Lovers      setMainImgPath()   Sets the current record's "main_img_path" value
- * @method Lovers      setMainImgAlt()    Sets the current record's "main_img_alt" value
- * @method Lovers      setCitation()      Sets the current record's "citation" value
- * @method Lovers      setDescription()   Sets the current record's "description" value
- * @method Lovers      setDesigner()      Sets the current record's "designer" value
- * @method Lovers      setWidth()         Sets the current record's "width" value
- * @method Lovers      setHeight()        Sets the current record's "height" value
- * @method Lovers      setDiameter()      Sets the current record's "diameter" value
- * @method Lovers      setDepth()         Sets the current record's "depth" value
- * @method Lovers      setMaterials()     Sets the current record's "materials" value
- * @method Lovers      setOther()         Sets the current record's "other" value
- * @method Lovers      setCollectionId()  Sets the current record's "collection_id" value
- * @method Lovers      setCategoryId()    Sets the current record's "category_id" value
- * @method Lovers      setCollections()   Sets the current record's "Collections" value
- * @method Lovers      setCategory()      Sets the current record's "Category" value
+ * @method integer             getId()            Returns the current record's "id" value
+ * @method string              getName()          Returns the current record's "name" value
+ * @method string              getMainImgPath()   Returns the current record's "main_img_path" value
+ * @method string              getMainImgAlt()    Returns the current record's "main_img_alt" value
+ * @method string              getCitation()      Returns the current record's "citation" value
+ * @method string              getDescription()   Returns the current record's "description" value
+ * @method string              getDesigner()      Returns the current record's "designer" value
+ * @method string              getWidth()         Returns the current record's "width" value
+ * @method string              getHeight()        Returns the current record's "height" value
+ * @method string              getDiameter()      Returns the current record's "diameter" value
+ * @method string              getDepth()         Returns the current record's "depth" value
+ * @method string              getMaterials()     Returns the current record's "materials" value
+ * @method string              getOther()         Returns the current record's "other" value
+ * @method integer             getCollectionId()  Returns the current record's "collection_id" value
+ * @method integer             getCategoryId()    Returns the current record's "category_id" value
+ * @method Collections         getCollections()   Returns the current record's "Collections" value
+ * @method Category            getCategory()      Returns the current record's "Category" value
+ * @method Doctrine_Collection getLoversImage()   Returns the current record's "LoversImage" collection
+ * @method Lovers              setId()            Sets the current record's "id" value
+ * @method Lovers              setName()          Sets the current record's "name" value
+ * @method Lovers              setMainImgPath()   Sets the current record's "main_img_path" value
+ * @method Lovers              setMainImgAlt()    Sets the current record's "main_img_alt" value
+ * @method Lovers              setCitation()      Sets the current record's "citation" value
+ * @method Lovers              setDescription()   Sets the current record's "description" value
+ * @method Lovers              setDesigner()      Sets the current record's "designer" value
+ * @method Lovers              setWidth()         Sets the current record's "width" value
+ * @method Lovers              setHeight()        Sets the current record's "height" value
+ * @method Lovers              setDiameter()      Sets the current record's "diameter" value
+ * @method Lovers              setDepth()         Sets the current record's "depth" value
+ * @method Lovers              setMaterials()     Sets the current record's "materials" value
+ * @method Lovers              setOther()         Sets the current record's "other" value
+ * @method Lovers              setCollectionId()  Sets the current record's "collection_id" value
+ * @method Lovers              setCategoryId()    Sets the current record's "category_id" value
+ * @method Lovers              setCollections()   Sets the current record's "Collections" value
+ * @method Lovers              setCategory()      Sets the current record's "Category" value
+ * @method Lovers              setLoversImage()   Sets the current record's "LoversImage" collection
  * 
  * @package    bateye
  * @subpackage model
@@ -93,10 +96,10 @@ abstract class BaseLovers extends sfDoctrineRecord
              'notnull' => true,
              'length' => 255,
              ));
-        $this->hasColumn('description', 'string', 700, array(
+        $this->hasColumn('description', 'string', 1200, array(
              'type' => 'string',
              'notnull' => true,
-             'length' => 700,
+             'length' => 1200,
              ));
         $this->hasColumn('designer', 'string', 255, array(
              'type' => 'string',
@@ -146,6 +149,10 @@ abstract class BaseLovers extends sfDoctrineRecord
         $this->hasOne('Category', array(
              'local' => 'category_id',
              'foreign' => 'id'));
+
+        $this->hasMany('LoversImages as LoversImage', array(
+             'local' => 'id',
+             'foreign' => 'product_id'));
 
         $timestampable0 = new Doctrine_Template_Timestampable();
         $this->actAs($timestampable0);

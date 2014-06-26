@@ -17,7 +17,7 @@
     <div class="fluid_container">
         <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
             <?php foreach($images as $image): ?>
-            <div data-src="/<?php echo $image->getLocation() ?>">
+            <div data-src="/images/slides/<?php echo $product->getName() . '/' .  $image->getLocation() ?>">
             </div>
             <?php endforeach; ?>
             </div>
@@ -65,7 +65,7 @@
                         'id' => $single->getId(),
                         'name' => $single->getName()
                     )) ?>">
-                        <img style="width: 140px; " src="/<?php echo $single->getMainImgPath() ?>" alt="<?php echo $single->getMainImgAlt() ?>">
+                        <img style="width: 140px; " src="/images/mosaics/<?php echo $single->getCollections() . '/' . $single->getMainImgPath() ?>" alt="<?php echo $single->getMainImgAlt() ?>">
                     </a>
 				</span>
             <?php endforeach ?>

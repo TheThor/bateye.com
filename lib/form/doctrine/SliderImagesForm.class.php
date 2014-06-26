@@ -26,6 +26,6 @@ class SliderImagesForm extends BaseSliderImagesForm
 		  'mime_types' => 'web_images',
 	  )));
 
-	  $this->validatorSchema['path'] = new sfValidatorPass();
+	  $this->validatorSchema['path_delete'] = new sfValidatorPass();
   }
 }

@@ -1,0 +1,26 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Contacts
+    theme:                 bootstrap
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          contacts
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: { _edit: ~ }
+      fields:  ~
+      list:
+        actions: {}
+        batch_actions: {}
+        object_actions: { _edit: ~ }
+      filter:
+        class: false
+      form:    ~
+      edit:
+        actions: { _list: ~, _save: ~ }
+      new:     ~

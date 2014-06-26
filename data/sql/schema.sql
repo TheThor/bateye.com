@@ -18,7 +18,7 @@ CREATE TABLE sf_guard_user_group (user_id BIGINT, group_id BIGINT, created_at DA
 CREATE TABLE sf_guard_user_permission (user_id BIGINT, permission_id BIGINT, created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, PRIMARY KEY(user_id, permission_id)) ENGINE = INNODB;
 ALTER TABLE lovers ADD CONSTRAINT lovers_collection_id_collections_id FOREIGN KEY (collection_id) REFERENCES collections(id);
 ALTER TABLE lovers ADD CONSTRAINT lovers_category_id_category_id FOREIGN KEY (category_id) REFERENCES category(id);
-ALTER TABLE lovers_images ADD CONSTRAINT lovers_images_product_id_products_id FOREIGN KEY (product_id) REFERENCES products(id);
+ALTER TABLE lovers_images ADD CONSTRAINT lovers_images_product_id_lovers_id FOREIGN KEY (product_id) REFERENCES lovers(id);
 ALTER TABLE product_images ADD CONSTRAINT product_images_product_id_products_id FOREIGN KEY (product_id) REFERENCES products(id);
 ALTER TABLE products ADD CONSTRAINT products_collection_id_collections_id FOREIGN KEY (collection_id) REFERENCES collections(id);
 ALTER TABLE products ADD CONSTRAINT products_category_id_category_id FOREIGN KEY (category_id) REFERENCES category(id);
