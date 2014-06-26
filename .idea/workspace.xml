@@ -2,33 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8af62ba5-926e-42db-946e-b66da7576de1" name="Default" comment="Bootstrapar">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/slides/Ballet/ballet2.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/base/BaseLovers.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/base/BaseLovers.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/form/doctrine/base/BaseLoversForm.class.php" afterPath="$PROJECT_DIR$/lib/form/doctrine/base/BaseLoversForm.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/base/BaseLoversImages.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/base/BaseLoversImages.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/filter/doctrine/base/BaseLoversImagesFormFilter.class.php" afterPath="$PROJECT_DIR$/lib/filter/doctrine/base/BaseLoversImagesFormFilter.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/base/BaseProducts.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/base/BaseProducts.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/form/doctrine/base/BaseProductsForm.class.php" afterPath="$PROJECT_DIR$/lib/form/doctrine/base/BaseProductsForm.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/filter/doctrine/base/BaseProductsFormFilter.class.php" afterPath="$PROJECT_DIR$/lib/filter/doctrine/base/BaseProductsFormFilter.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/form/doctrine/LoversImagesForm.class.php" afterPath="$PROJECT_DIR$/lib/form/doctrine/LoversImagesForm.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/form/doctrine/NewsForm.class.php" afterPath="$PROJECT_DIR$/lib/form/doctrine/NewsForm.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/form/doctrine/ProductImagesForm.class.php" afterPath="$PROJECT_DIR$/lib/form/doctrine/ProductImagesForm.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/form/doctrine/SliderImagesForm.class.php" afterPath="$PROJECT_DIR$/lib/form/doctrine/SliderImagesForm.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/lib/BaseCollectionsGeneratorConfiguration.class.php" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/lib/BaseCollectionsGeneratorConfiguration.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/lib/BaseCollectionsGeneratorHelper.class.php" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/lib/BaseCollectionsGeneratorHelper.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/_assets.php" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/_assets.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/_filters.php" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/_filters.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/_filters_field.php" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/_filters_field.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/_flashes.php" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/_flashes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/_form.php" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/_form_actions.php" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/_form_actions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/_form_field.php" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/_form_field.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/_form_fieldset.php" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/_form_fieldset.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/_list.php" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/_list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/_list_actions.php" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/_list_actions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/_list_batch_actions.php" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/_list_batch_actions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/_list_field_boolean.php" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/_list_field_boolean.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/_list_td_actions.php" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/_list_td_actions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/_list_td_batch_actions.php" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/_list_td_batch_actions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/_pagination.php" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/_pagination.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/modules/collection/actions/actions.class.php" afterPath="$PROJECT_DIR$/apps/frontend/modules/collection/actions/actions.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/actions/actions.class.php" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/actions/actions.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/backend_dev.log" afterPath="$PROJECT_DIR$/log/backend_dev.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/backend/dev/config/config_autoload.yml.php" afterPath="$PROJECT_DIR$/cache/backend/dev/config/config_autoload.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/templates/exploreMore.php" afterPath="$PROJECT_DIR$/apps/frontend/templates/exploreMore.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/editSuccess.php" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/editSuccess.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/frontend_dev.log" afterPath="$PROJECT_DIR$/log/frontend_dev.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/modules/lovers/templates/indexSuccess.php" afterPath="$PROJECT_DIR$/apps/frontend/modules/lovers/templates/indexSuccess.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/fixtures/loverproducts.yml" afterPath="$PROJECT_DIR$/data/fixtures/loverproducts.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/fixtures/lovers_images.yml" afterPath="$PROJECT_DIR$/data/fixtures/lovers_images.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/fixtures/news.yml" afterPath="$PROJECT_DIR$/data/fixtures/news.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/fixtures/porduct_images.yml" afterPath="$PROJECT_DIR$/data/fixtures/porduct_images.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/fixtures/products.yml" afterPath="$PROJECT_DIR$/data/fixtures/products.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sql/schema.sql" afterPath="$PROJECT_DIR$/data/sql/schema.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/doctrine/schema.yml" afterPath="$PROJECT_DIR$/config/doctrine/schema.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/modules/lovers/templates/showloversproductSuccess.php" afterPath="$PROJECT_DIR$/apps/frontend/modules/lovers/templates/showloversproductSuccess.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/modules/collection/templates/showproductSuccess.php" afterPath="$PROJECT_DIR$/apps/frontend/modules/collection/templates/showproductSuccess.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/fixtures/slider_images.yml" afterPath="$PROJECT_DIR$/data/fixtures/slider_images.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/indexSuccess.php" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/indexSuccess.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/backend/dev/config/modules_collections_config_generator.yml.php" afterPath="$PROJECT_DIR$/cache/backend/dev/config/modules_collections_config_generator.yml.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/newSuccess.php" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoCollections/templates/newSuccess.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/modules/collection/templates/showcollectionSuccess.php" afterPath="$PROJECT_DIR$/apps/frontend/modules/collection/templates/showcollectionSuccess.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bateye.iws" />
@@ -70,10 +69,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showcollectionSuccess.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="showcollectionSuccess.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/templates/showcollectionSuccess.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="118" selection-start="655" selection-end="747" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="2574">
+            <state line="7" column="28" selection-start="293" selection-end="293" vertical-scroll-proportion="0.17821783" vertical-offset="0" max-vertical-offset="2556">
               <folding />
             </state>
           </provider>
@@ -88,10 +87,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showloversproductSuccess.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="showloversproductSuccess.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/frontend/modules/lovers/templates/showloversproductSuccess.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="29" selection-start="2423" selection-end="2423" vertical-scroll-proportion="0.49080622" vertical-offset="751" max-vertical-offset="1458">
+            <state line="61" column="29" selection-start="2423" selection-end="2423" vertical-scroll-proportion="-12.851851" vertical-offset="751" max-vertical-offset="1458">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actions.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/actions/actions.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="10" selection-start="1113" selection-end="1113" vertical-scroll-proportion="-18.37037" vertical-offset="206" max-vertical-offset="1224">
               <folding />
             </state>
           </provider>
@@ -171,7 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/filter/doctrine/base/BaseProductsFormFilter.class.php" />
         <option value="$PROJECT_DIR$/lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php" />
         <option value="$PROJECT_DIR$/config/databases.yml" />
         <option value="$PROJECT_DIR$/data/generator/sfDoctrineModule/bootstrap3/template/templates/_list.php" />
@@ -199,7 +206,6 @@
         <option value="$PROJECT_DIR$/apps/backend/modules/news/config/generator.yml" />
         <option value="$PROJECT_DIR$/apps/backend/modules/slider_images/config/generator.yml" />
         <option value="$PROJECT_DIR$/apps/frontend/modules/home/templates/indexSuccess.php" />
-        <option value="$PROJECT_DIR$/apps/frontend/modules/collection/templates/showcollectionSuccess.php" />
         <option value="$PROJECT_DIR$/lib/model/doctrine/ProductsTable.class.php" />
         <option value="$PROJECT_DIR$/lib/model/doctrine/Products.class.php" />
         <option value="$PROJECT_DIR$/apps/backend/templates/layout.php" />
@@ -222,6 +228,8 @@
         <option value="$PROJECT_DIR$/apps/frontend/modules/collection/templates/showproductSuccess.php" />
         <option value="$PROJECT_DIR$/apps/frontend/modules/lovers/templates/indexSuccess.php" />
         <option value="$PROJECT_DIR$/apps/frontend/modules/lovers/templates/showloversproductSuccess.php" />
+        <option value="$PROJECT_DIR$/apps/frontend/modules/collection/actions/actions.class.php" />
+        <option value="$PROJECT_DIR$/apps/frontend/modules/collection/templates/showcollectionSuccess.php" />
       </list>
     </option>
   </component>
@@ -1302,13 +1310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/actions/actions.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="36" selection-start="629" selection-end="642" vertical-scroll-proportion="0.014144272" vertical-offset="422" max-vertical-offset="1224">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/form/doctrine/ProductsForm.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="78" selection-start="970" selection-end="986" vertical-scroll-proportion="0.5799151" vertical-offset="94" max-vertical-offset="828">
@@ -1493,20 +1494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/model/doctrine/LoversImages.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="36" selection-start="287" selection-end="287" vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="378">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/templates/showcollectionSuccess.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="118" selection-start="655" selection-end="747" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="2574">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/frontend/modules/lovers/templates/indexSuccess.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="4" selection-start="730" selection-end="730" vertical-scroll-proportion="0.4582744" vertical-offset="0" max-vertical-offset="707">
@@ -1523,7 +1510,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/frontend/modules/lovers/templates/showloversproductSuccess.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="29" selection-start="2423" selection-end="2423" vertical-scroll-proportion="0.49080622" vertical-offset="751" max-vertical-offset="1458">
+        <state line="61" column="29" selection-start="2423" selection-end="2423" vertical-scroll-proportion="-12.851851" vertical-offset="751" max-vertical-offset="1458">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/actions/actions.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="10" selection-start="1113" selection-end="1113" vertical-scroll-proportion="-18.37037" vertical-offset="206" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/model/doctrine/LoversImages.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="36" selection-start="287" selection-end="287" vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="378">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/templates/showcollectionSuccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="28" selection-start="293" selection-end="293" vertical-scroll-proportion="0.17821783" vertical-offset="0" max-vertical-offset="2556">
           <folding />
         </state>
       </provider>

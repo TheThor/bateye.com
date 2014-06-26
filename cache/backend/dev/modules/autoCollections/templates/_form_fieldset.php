@@ -1,6 +1,7 @@
-<fieldset id="sf_fieldset_<?php echo preg_replace('/[^a-z0-9_]/', '_', strtolower($fieldset)) ?>">
+<fieldset>
+
   <?php if ('NONE' != $fieldset): ?>
-    <h2><?php echo __($fieldset, array(), 'messages') ?></h2>
+    <legend><?php echo __($fieldset, array(), 'messages') ?></legend>
   <?php endif; ?>
 
   <?php foreach ($fields as $name => $field): ?>
@@ -12,7 +13,8 @@
       'help'       => $field->getConfig('help'),
       'form'       => $form,
       'field'      => $field,
-      'class'      => 'sf_admin_form_row sf_admin_'.strtolower($field->getType()).' sf_admin_form_field_'.$name,
+      'class'      => 'control-type-'.strtolower($field->getType()).' control-name-'.$name,
     )) ?>
   <?php endforeach; ?>
+  
 </fieldset>
