@@ -1,3 +1,3 @@
 default:
   is_secure: true
-  credentials: [[super_user, admin, user]]
+  credentials: [[super_users, admins, users]]
