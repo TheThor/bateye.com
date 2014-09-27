@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8af62ba5-926e-42db-946e-b66da7576de1" name="Default" comment="Bootstrapar">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/ProjectConfiguration.class.php" afterPath="$PROJECT_DIR$/config/ProjectConfiguration.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/modules/collection/actions/actions.class.php" afterPath="$PROJECT_DIR$/apps/frontend/modules/collection/actions/actions.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/backend.php" afterPath="$PROJECT_DIR$/web/backend.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/backend_dev.log" afterPath="$PROJECT_DIR$/log/backend_dev.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/frontend_dev.log" afterPath="$PROJECT_DIR$/log/frontend_dev.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.php" afterPath="$PROJECT_DIR$/web/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/templates/menuSecondary.php" afterPath="$PROJECT_DIR$/apps/frontend/templates/menuSecondary.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/backend/dev/config/modules_default_config_security.yml.php" afterPath="$PROJECT_DIR$/cache/backend/dev/config/modules_default_config_security.yml.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/modules_lovers_config_security.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/modules_lovers_config_security.yml.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/backend/dev/config/modules_products_config_security.yml.php" afterPath="$PROJECT_DIR$/cache/backend/dev/config/modules_products_config_security.yml.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/backend/dev/config/modules_sfGuardAuth_config_security.yml.php" afterPath="$PROJECT_DIR$/cache/backend/dev/config/modules_sfGuardAuth_config_security.yml.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/backend/config/security.yml" afterPath="$PROJECT_DIR$/apps/backend/config/security.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/modules/lovers/config/security.yml" afterPath="$PROJECT_DIR$/apps/frontend/modules/lovers/config/security.yml" />
@@ -39,10 +47,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BaseNewsForm.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/form/doctrine/base/BaseNewsForm.class.php">
+      <file leaf-file-name="ProjectConfiguration.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/ProjectConfiguration.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="3" selection-start="1650" selection-end="1650" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="1026">
+            <state line="17" column="0" selection-start="570" selection-end="570" vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="702">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductsForm.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/form/doctrine/ProductsForm.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="78" selection-start="970" selection-end="986" vertical-scroll-proportion="-15.185185" vertical-offset="94" max-vertical-offset="828">
               <folding />
             </state>
           </provider>
@@ -51,25 +68,18 @@
       <file leaf-file-name="showcollectionSuccess.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/templates/showcollectionSuccess.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="28" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="2538">
-              <folding />
+            <state line="16" column="77" selection-start="692" selection-end="706" vertical-scroll-proportion="-6.6666665" vertical-offset="108" max-vertical-offset="2556">
+              <folding>
+                <element signature="e#274#311#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoversImages.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/model/doctrine/LoversImages.class.php">
+      <file leaf-file-name="showproductSuccess.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/templates/showproductSuccess.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="36" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="378">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="showloversproductSuccess.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/frontend/modules/lovers/templates/showloversproductSuccess.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="29" selection-start="2423" selection-end="2423" vertical-scroll-proportion="0.0" vertical-offset="1098" max-vertical-offset="1440">
+            <state line="69" column="146" selection-start="2844" selection-end="2933" vertical-scroll-proportion="-8.740741" vertical-offset="1006" max-vertical-offset="1494">
               <folding />
             </state>
           </provider>
@@ -78,25 +88,25 @@
       <file leaf-file-name="actions.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/actions/actions.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="10" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.0" vertical-offset="206" max-vertical-offset="1224">
+            <state line="40" column="49" selection-start="1235" selection-end="1235" vertical-scroll-proportion="-16.666666" vertical-offset="270" max-vertical-offset="1224">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showproductSuccess.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/templates/showproductSuccess.php">
+      <file leaf-file-name="security.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/frontend/config/security.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="146" selection-start="2844" selection-end="2933" vertical-scroll-proportion="0.0" vertical-offset="1242" max-vertical-offset="1476">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="indexSuccess.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/frontend/modules/home/templates/indexSuccess.php">
+      <file leaf-file-name="sfAction.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/action/sfAction.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="220" column="29" selection-start="10361" selection-end="10369" vertical-scroll-proportion="0.0" vertical-offset="3960" max-vertical-offset="4122">
+            <state line="84" column="18" selection-start="2340" selection-end="2340" vertical-scroll-proportion="-9.037037" vertical-offset="1142" max-vertical-offset="9468">
               <folding />
             </state>
           </provider>
@@ -105,7 +115,7 @@
       <file leaf-file-name="backend.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/backend.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="234">
+            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="234">
               <folding />
             </state>
           </provider>
@@ -114,7 +124,7 @@
       <file leaf-file-name="security.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/backend/config/security.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="17" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="504">
+            <state line="16" column="25" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
               <folding />
             </state>
           </provider>
@@ -123,52 +133,34 @@
       <file leaf-file-name="security.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/frontend/modules/lovers/config/security.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="40" selection-start="67" selection-end="67" vertical-scroll-proportion="0.049046323" vertical-offset="0" max-vertical-offset="734">
+            <state line="2" column="16" selection-start="43" selection-end="43" vertical-scroll-proportion="0.049046323" vertical-offset="0" max-vertical-offset="734">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.php">
+      <file leaf-file-name="indexSuccess.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/frontend/modules/lovers/templates/indexSuccess.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
+            <state line="17" column="4" selection-start="730" selection-end="730" vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exploreMore.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/frontend/templates/exploreMore.php">
+      <file leaf-file-name="actions.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/frontend/modules/lovers/actions/actions.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="23" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="396">
+            <state line="32" column="47" selection-start="816" selection-end="831" vertical-scroll-proportion="-17.333334" vertical-offset="108" max-vertical-offset="1080">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseProducts.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/model/doctrine/base/BaseProducts.class.php">
+      <file leaf-file-name="menuSecondary.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/frontend/templates/menuSecondary.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="15" selection-start="4270" selection-end="4270" vertical-scroll-proportion="0.0" vertical-offset="980" max-vertical-offset="2970">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lovers.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/model/doctrine/Lovers.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="28" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="504">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseSliderImagesForm.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/form/doctrine/base/BaseSliderImagesForm.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="15" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="954">
+            <state line="25" column="29" selection-start="1138" selection-end="1138" vertical-scroll-proportion="-16.666666" vertical-offset="0" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
@@ -192,18 +184,13 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php" />
-        <option value="$PROJECT_DIR$/config/databases.yml" />
         <option value="$PROJECT_DIR$/data/generator/sfDoctrineModule/bootstrap3/template/templates/_list.php" />
         <option value="$PROJECT_DIR$/data/generator/sfDoctrineModule/bootstrap3/template/templates/indexSuccess.php" />
         <option value="$PROJECT_DIR$/lib/filter/doctrine/ProductsFormFilter.class.php" />
         <option value="$PROJECT_DIR$/apps/backend/lib/myUser.class.php" />
-        <option value="$PROJECT_DIR$/web/index.php" />
-        <option value="$PROJECT_DIR$/web/backend.php" />
         <option value="$PROJECT_DIR$/lib/form/doctrine/ProductsForm.class.php" />
         <option value="$PROJECT_DIR$/apps/backend/config/settings.yml" />
         <option value="$PROJECT_DIR$/apps/backend/config/routing.yml" />
-        <option value="$PROJECT_DIR$/config/ProjectConfiguration.class.php" />
         <option value="$PROJECT_DIR$/apps/backend/modules/products/config/generator.yml" />
         <option value="$PROJECT_DIR$/apps/frontend/modules/contacts/templates/sendmailSuccess.php" />
         <option value="$PROJECT_DIR$/apps/frontend/config/security.yml" />
@@ -239,8 +226,13 @@
         <option value="$PROJECT_DIR$/apps/frontend/modules/collection/templates/showproductSuccess.php" />
         <option value="$PROJECT_DIR$/apps/frontend/modules/lovers/templates/indexSuccess.php" />
         <option value="$PROJECT_DIR$/apps/frontend/modules/lovers/templates/showloversproductSuccess.php" />
-        <option value="$PROJECT_DIR$/apps/frontend/modules/collection/actions/actions.class.php" />
         <option value="$PROJECT_DIR$/apps/frontend/modules/collection/templates/showcollectionSuccess.php" />
+        <option value="$PROJECT_DIR$/web/index.php" />
+        <option value="$PROJECT_DIR$/web/backend.php" />
+        <option value="$PROJECT_DIR$/config/ProjectConfiguration.class.php" />
+        <option value="$PROJECT_DIR$/apps/frontend/templates/menuSecondary.php" />
+        <option value="$PROJECT_DIR$/apps/frontend/modules/collection/actions/actions.class.php" />
+        <option value="$PROJECT_DIR$/apps/frontend/modules/lovers/actions/actions.class.php" />
         <option value="$PROJECT_DIR$/apps/backend/config/security.yml" />
         <option value="$PROJECT_DIR$/apps/frontend/modules/lovers/config/security.yml" />
       </list>
@@ -263,7 +255,7 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
+    <option name="x" value="1494" />
     <option name="y" value="-1" />
     <option name="width" value="1387" />
     <option name="height" value="902" />
@@ -371,16 +363,208 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bateye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bateye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bateye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bateye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bateye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bateye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bateye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bateye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bateye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bateye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bateye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bateye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bateye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bateye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bateye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bateye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="920" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="138" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="132" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="923" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="142" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="135" />
     <property name="options.lastSelected" value="editor.preferences.tabs" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="110" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="113" />
     <property name="recentsLimit" value="5" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
@@ -393,14 +577,14 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../bateye_moving" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="219" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="222" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FullScreen" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="632" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="635" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="226" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="223" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="230" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="226" />
     <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
   </component>
   <component name="RecentsManager">
@@ -494,14 +678,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-1" width="1387" height="902" extended-state="6" />
+    <frame x="1494" y="-1" width="1387" height="902" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21370067" sideWeight="0.672391" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19061802" sideWeight="0.672391" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5003734" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32325888" sideWeight="0.4996277" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.325887" sideWeight="0.4996277" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2492515" sideWeight="0.60210806" order="1" side_tool="false" content_ui="tabs" />
@@ -516,7 +701,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39947438" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938075" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32325888" sideWeight="0.4996277" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938075" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
@@ -550,74 +734,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/fixtures/index_content.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="734" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/fixtures/porduct_images.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="20" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/fixtures/products.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="19" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0" vertical-offset="58" max-vertical-offset="792" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/fixtures/slider_images.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="11" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/fixtures/lovers_images.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="33" selection-start="181" selection-end="181" vertical-scroll-proportion="0.17166212" vertical-offset="0" max-vertical-offset="734" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/fixtures/loverproducts.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="19" selection-start="73" selection-end="73" vertical-scroll-proportion="0.073569484" vertical-offset="0" max-vertical-offset="734" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/fixtures/news.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="16" selection-start="1463" selection-end="1463" vertical-scroll-proportion="0.6866485" vertical-offset="0" max-vertical-offset="734" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/model/doctrine/Products.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="20" selection-start="302" selection-end="302" vertical-scroll-proportion="0.35643566" vertical-offset="0" max-vertical-offset="707" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/form/sfForm.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="591" column="18" selection-start="15897" selection-end="15897" vertical-scroll-proportion="0.34512022" vertical-offset="10358" max-vertical-offset="24624" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/validator/sfValidatorFile.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="231" column="44" selection-start="7624" selection-end="7628" vertical-scroll-proportion="0.33235294" vertical-offset="3878" max-vertical-offset="5436" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/form/doctrine/base/BaseProductImagesForm.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="15" selection-start="626" selection-end="634" vertical-scroll-proportion="0.5091938" vertical-offset="0" max-vertical-offset="1026" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/model/doctrine/base/BaseProductImages.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="36" selection-start="621" selection-end="632" vertical-scroll-proportion="0.42149928" vertical-offset="8" max-vertical-offset="1278" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/model/doctrine/ProductsTable.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="5" selection-start="354" selection-end="354" vertical-scroll-proportion="0.43281472" vertical-offset="0" max-vertical-offset="707" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/form/doctrine/ProductsForm.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="78" selection-start="970" selection-end="986" vertical-scroll-proportion="0.5799151" vertical-offset="94" max-vertical-offset="828" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/form/doctrine/LoversForm.class.php">
@@ -675,11 +794,6 @@
         <state line="193" column="34" selection-start="4757" selection-end="4766" vertical-scroll-proportion="0.58557284" vertical-offset="3132" max-vertical-offset="3888" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/backend/modules/products/actions/actions.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="37" selection-start="403" selection-end="403" vertical-scroll-proportion="0.33097595" vertical-offset="0" max-vertical-offset="707" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/model/doctrine/base/BaseProducts.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="15" selection-start="4270" selection-end="4270" vertical-scroll-proportion="0.0" vertical-offset="980" max-vertical-offset="2970">
@@ -697,13 +811,6 @@
     <entry file="file://$PROJECT_DIR$/lib/model/doctrine/LoversTable.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="734" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/form/doctrine/base/BaseNewsForm.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="3" selection-start="1650" selection-end="1650" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="1026">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/model/doctrine/LoversImagesTable.class.php">
@@ -748,28 +855,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/lovers/templates/indexSuccess.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="4" selection-start="730" selection-end="730" vertical-scroll-proportion="0.4582744" vertical-offset="0" max-vertical-offset="707" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/templates/showproductSuccess.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="146" selection-start="2844" selection-end="2933" vertical-scroll-proportion="0.0" vertical-offset="1242" max-vertical-offset="1476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/frontend/modules/lovers/templates/showloversproductSuccess.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="29" selection-start="2423" selection-end="2423" vertical-scroll-proportion="0.0" vertical-offset="1098" max-vertical-offset="1440">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/actions/actions.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="10" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.0" vertical-offset="206" max-vertical-offset="1224">
           <folding />
         </state>
       </provider>
@@ -786,13 +874,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="738" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/templates/showcollectionSuccess.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="28" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="2538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/form/doctrine/base/BaseSliderImagesForm.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="15" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="954">
@@ -807,30 +888,165 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.php">
+    <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="734">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend_dev.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="734">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="63" selection-start="51" selection-end="71" vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="234">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/backend/modules/product_images/lib/product_imagesGeneratorConfiguration.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="488">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/backend/modules/product_images/lib/product_imagesGeneratorHelper.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="488">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/backend/modules/product_images/actions/actions.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="488">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/backend/modules/products/actions/actions.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="37" selection-start="403" selection-end="403" vertical-scroll-proportion="0.5075922" vertical-offset="0" max-vertical-offset="461">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/backend/modules/products/config/generator.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/form/doctrine/base/BaseNewsForm.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="3" selection-start="1650" selection-end="1650" vertical-scroll-proportion="0.8937093" vertical-offset="470" max-vertical-offset="1044">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/templates/showproductSuccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="146" selection-start="2844" selection-end="2933" vertical-scroll-proportion="-8.740741" vertical-offset="1006" max-vertical-offset="1494">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/templates/showcollectionSuccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="77" selection-start="692" selection-end="706" vertical-scroll-proportion="-6.6666665" vertical-offset="108" max-vertical-offset="2556">
+          <folding>
+            <element signature="e#274#311#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/form/doctrine/ProductsForm.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="78" selection-start="970" selection-end="986" vertical-scroll-proportion="-15.185185" vertical-offset="94" max-vertical-offset="828">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/ProjectConfiguration.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="570" selection-end="570" vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="702">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/backend.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="234">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="234">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/templates/indexSuccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="734">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/templates/menuSecondary.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="29" selection-start="1138" selection-end="1138" vertical-scroll-proportion="-16.666666" vertical-offset="0" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/action/sfAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="18" selection-start="2340" selection-end="2340" vertical-scroll-proportion="-9.037037" vertical-offset="1142" max-vertical-offset="9468">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/actions/actions.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="49" selection-start="1235" selection-end="1235" vertical-scroll-proportion="-16.666666" vertical-offset="270" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/lovers/templates/indexSuccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="4" selection-start="730" selection-end="730" vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/lovers/actions/actions.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="47" selection-start="816" selection-end="831" vertical-scroll-proportion="-17.333334" vertical-offset="108" max-vertical-offset="1080">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/backend/config/security.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="17" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+        <state line="16" column="25" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="734">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/frontend/modules/lovers/config/security.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="40" selection-start="67" selection-end="67" vertical-scroll-proportion="0.049046323" vertical-offset="0" max-vertical-offset="734">
+        <state line="2" column="16" selection-start="43" selection-end="43" vertical-scroll-proportion="0.049046323" vertical-offset="0" max-vertical-offset="734">
           <folding />
         </state>
       </provider>
