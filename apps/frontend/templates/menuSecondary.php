@@ -15,6 +15,7 @@
 	            <?php if (isset($collections)): ?>
                 <ul>
                     <?php foreach ($collections as $collection): ?>
+	                    <?php if ($collection->getId()!=3):?>
                         <li>
                             <a href="<?php echo url_for(array(
                                 'module' => 'collection',
@@ -23,6 +24,7 @@
                                 'name' => $collection->getName()
                             )) ?>"><?php echo $collection->getName(); ?></a>
                         </li>
+	                    <?php endif; ?>
                     <?php endforeach; ?>
                 </ul>
 	            <?php endif ?>

@@ -2,21 +2,21 @@
 # http://www.symfony-project.org/reference/1_4/en/08-Security
 
 sf_guard_user:
-  credentials: super_users
+  credentials: super_user
 
 autoSfGuardGroup:
-  credentials: super_users
+  credentials: super_user
 
 sf_guard_permission:
-  credentials: super_users
+  credentials: super_user
 
 sf_guard_register:
-  credentials: super_users
+  credentials: super_user
 
 sf_guard_user:
-  credentials: [[super_users]]
+  credentials: super_user
 
 all:
   is_secure: true
-  credentials: [[super_users, admins]]
+  credentials: [[super_user, admin]]
 
