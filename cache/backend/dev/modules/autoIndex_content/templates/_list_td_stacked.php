@@ -1,3 +1,0 @@
-<td colspan="7">
-  <?php echo __('%%id%% - %%newsletter%% - %%catalogue%% - %%thebrand%% - %%thedesigner%% - %%created_at%% - %%updated_at%%', array('%%id%%' => link_to($index_content->getId(), 'index_content_edit', $index_content), '%%newsletter%%' => $index_content->getNewsletter(), '%%catalogue%%' => $index_content->getCatalogue(), '%%thebrand%%' => $index_content->getThebrand(), '%%thedesigner%%' => $index_content->getThedesigner(), '%%created_at%%' => false !== strtotime($index_content->getCreatedAt()) ? format_date($index_content->getCreatedAt(), "f") : '&nbsp;', '%%updated_at%%' => false !== strtotime($index_content->getUpdatedAt()) ? format_date($index_content->getUpdatedAt(), "f") : '&nbsp;'), 'messages') ?>
-</td>
