@@ -1,3 +1,0 @@
-<td colspan="6">
-  <?php echo __('%%id%% - %%product_id%% - %%location%% - %%alt%% - %%created_at%% - %%updated_at%%', array('%%id%%' => link_to($lovers_images->getId(), 'lovers_images_edit', $lovers_images), '%%product_id%%' => $lovers_images->getProductId(), '%%location%%' => $lovers_images->getLocation(), '%%alt%%' => $lovers_images->getAlt(), '%%created_at%%' => false !== strtotime($lovers_images->getCreatedAt()) ? format_date($lovers_images->getCreatedAt(), "f") : '&nbsp;', '%%updated_at%%' => false !== strtotime($lovers_images->getUpdatedAt()) ? format_date($lovers_images->getUpdatedAt(), "f") : '&nbsp;'), 'messages') ?>
-</td>

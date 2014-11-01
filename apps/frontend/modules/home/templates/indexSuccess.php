@@ -34,10 +34,10 @@
 
             <?php foreach($sliders as $slider): ?>
                 <?php if ($i==0): ?>
-                    <div class="active item img-carousel abrilfat"><img src="/images/Carousel/<?php echo $slider->getPath();?>" alt="Banner da peça Arc" /></div>
+                    <div class="active item img-carousel abrilfat"><img src="/images/Carousel/<?php echo $slider->getPath();?>" alt="<?php $slider->getAlt()?>" /></div>
                     <?php $i++;?>
                 <?php else: ?>
-                    <div class="item img-carousel"><img class="img-crousel" src="/images/Carousel/banner_elegance.png" alt="Banner da peça elegance" /></div>
+                    <div class="item img-carousel"><img class="img-crousel" src="/images/Carousel/<?php echo $slider->getPath();?>" alt="<?php $slider->getAlt() ?>" /></div>
                 <?php endif;?>
             <?php endforeach; ?>
         </div>
@@ -116,7 +116,7 @@
                     and chromatic seized in the cities. We want to create
                     pieces from the whole world, for the whole world.</p>
                 <br />
-                <a href="brand.php" class="red-cross">+</a>
+                <a href="<?php echo url_for('thebrand') ?>" class="red-cross">+</a>
             </div>
         </div>
         <div class="span7 center-text marginized" style="float: right">
@@ -127,7 +127,7 @@
                 <br />
                 <p class="latolight">As an architect I felt the need to create furniture that caught in the elementrs of convergence beween art and the city. The shapes, movements, gestures and chromatics that my look keeps mtranscribed into furniture as a tribute to the places. Nobady chooses the city where born.
                     <span class="latoitalic">Bat eye, Ltd.</span></p>
-                <a href="author.php" class="red-cross">+</a>
+                <a href="<?php echo url_for('thebrand/showauthor') ?>" class="red-cross">+</a>
             </div>
         </div>
     </div>
