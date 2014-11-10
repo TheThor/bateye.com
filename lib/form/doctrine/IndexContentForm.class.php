@@ -12,5 +12,12 @@ class IndexContentForm extends BaseIndexContentForm
 {
   public function configure()
   {
+      unset($this['created_at'], $this['updated_at']);
+      $this->setWidget('thebrand', new sfWidgetFormTextarea());
+      $this->setWidget('thedesigner', new sfWidgetFormTextarea());
+      $this->setValidator('thebrand', new sfValidatorString());
+      $this->setValidator('thedesigner', new sfValidatorString());
   }
 }
+
+

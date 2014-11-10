@@ -19,7 +19,7 @@
     <div class="fluid_container">
         <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
             <?php foreach($images as $image): ?>
-            <div data-src="/images/slides/<?php echo $product->getName() . '/' . $image->getLocation() ?>">
+            <div data-src="/images/slides/<?php echo $image->getLocation() ?>">
             </div>
             <?php endforeach; ?>
             </div>

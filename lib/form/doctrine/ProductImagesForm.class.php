@@ -17,14 +17,14 @@ class ProductImagesForm extends BaseProductImagesForm
 	  unset($this['created_at'], $this['updated_at']);
 	  $this->setWidget('location', new sfWidgetFormInputFileEditable(array(
 		  'label' => 'Slider image',
-		  'file_src' => '/images/slides/' . $product->{0} . '/' . $this->getObject()->getLocation(),
+		  'file_src' => '/images/slides/' . $this->getObject()->getLocation(),
 		  'is_image'  => true,
 		  'edit_mode' => !$this->isNew(),
 		  'template'  => '<div>%file%<br />%input%<br />%delete% %delete_label%</div>'
 	  )));
 	  $this->setValidator('location', new sfValidatorFile(array(
 		  'required'   => true,
-		  'path'       => sfConfig::get('sf_upload_dir') . '/images/slides/' . $product->{0} . '/',
+		  'path'       => sfConfig::get('sf_upload_dir') . '/images/slides/',
 		  'mime_types' => 'web_images',
 	  )));
 
