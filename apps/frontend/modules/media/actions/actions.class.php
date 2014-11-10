@@ -1,5 +1,4 @@
 <?php
-
 /**
  * media actions.
  *
@@ -20,6 +19,11 @@ class mediaActions extends sfActions
 
     }
 
+    /**
+     * @param sfWebRequest $request
+     * @return sfView
+     * @throws sfError404Exception
+     */
     public function executeShow(sfWebRequest $request) {
         // being sure no other content wil be output
         $this->setLayout(false);
@@ -32,7 +36,6 @@ class mediaActions extends sfActions
         $pdfpath = sfConfig::get('sf_root_dir').DIRECTORY_SEPARATOR.'media'
             .DIRECTORY_SEPARATOR
             .$this->file;
-
         // check if the file exists
         $this->forward404Unless(file_exists($pdfpath) == true);
 
@@ -44,11 +47,11 @@ class mediaActions extends sfActions
         $this->getResponse()->setHttpHeader('Content-Transfer-Encoding', 'binary');
         $this->getResponse()->setHttpHeader('Content-Length', filesize($pdfpath));
         $this->getResponse()->setHttpHeader('Cache-Control', 'public, must-revalidate');
-        //$this->getResponse()->setHttpHeader('Pragma: public', true); //HTTPS ONLY
+        $this->getResponse()->setHttpHeader('Pragma: public', true); //HTTPS ONLY
         $this->getResponse()->sendHttpHeaders();
-        //$this->getResponse()->setContent(readfile($pdfpath)); // other way
+        $this->getResponse()->setContent(readfile($pdfpath)); // other way
 
-        $this->getResponse()->setContent(file_get_contents($pdfpath)); # will produce a memory limit exhausted error
+//        $this->getResponse()->setContent(file_get_contents($pdfpath)); # will produce a memory limit exhausted error
 
         ob_end_flush();
         return $this->renderText(readfile($pdfpath));
