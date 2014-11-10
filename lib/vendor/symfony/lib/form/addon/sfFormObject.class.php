@@ -173,14 +173,14 @@ abstract class sfFormObject extends BaseForm
    */
   public function updateObject($values = null)
   {
-    if (null === $values)
-    {
-      $values = $this->values;
-    }
+      if (null === $values)
+      {
+          $values = $this->values;
+      }
 
-    $values = $this->processValues($values);
+      $values = $this->processValues($values);
 
-    $this->doUpdateObject($values);
+      $this->doUpdateObject($values);
 
     // embedded forms
     $this->updateObjectEmbeddedForms($values);
@@ -196,27 +196,30 @@ abstract class sfFormObject extends BaseForm
    */
   public function updateObjectEmbeddedForms($values, $forms = null)
   {
-    if (null === $forms)
-    {
-      $forms = $this->embeddedForms;
-    }
-
-    foreach ($forms as $name => $form)
-    {
-      if (!isset($values[$name]) || !is_array($values[$name]))
+      if (null === $forms)
       {
-        continue;
+          $forms = $this->embeddedForms;
       }
 
-      if ($form instanceof sfFormObject)
+      foreach ($forms as $name => $form)
       {
-        $form->updateObject($values[$name]);
+        if (!isset($values[$name]) || !is_array($values[$name]))
+        {
+          var_dump($values);die;
+
+          continue;
       }
-      else
-      {
-        $this->updateObjectEmbeddedForms($values[$name], $form->getEmbeddedForms());
+
+          if ($form instanceof sfFormObject)
+          {
+              $form->updateObject($values[$name]);
+          }
+          else
+          {
+              $this->updateObjectEmbeddedForms($values[$name], $form->getEmbeddedForms());
+          }
       }
-    }
+      die("nope");
   }
 
   /**

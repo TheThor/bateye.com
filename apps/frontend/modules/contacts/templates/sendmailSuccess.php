@@ -45,11 +45,12 @@ else{
 
     $mail = new PHPMailer(true);
     $mail->IsSMTP(); // telling the class to use SMTP
+    $mail->SMTPSecure = "tls";
     $mail->SMTPAuth = true; // enable SMTP authentication
-    $mail->Host = "smtp.bateye.com"; // sets GMAIL as the SMTP server
-    $mail->Port = 25; // set the SMTP port for the GMAIL server
-    $mail->Username = "bateye"; // GMAIL username
-    $mail->Password = "att314"; // GMAIL password
+    $mail->Host = "smtp.live.com"; // sets GMAIL as the SMTP server
+    $mail->Port = 587; // set the SMTP port for the GMAIL server
+    $mail->Username = "bateye.sales@hotmail.com"; // GMAIL username
+    $mail->Password = "Portocollection"; // GMAIL password
     $mail->AddAddress($email, $name);
     $mail->SetFrom($email_from, $name_from);
     $mail->Subject = $assunto;

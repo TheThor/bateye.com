@@ -12,7 +12,7 @@ class ProjectConfiguration extends sfProjectConfiguration
 		$this->enablePlugins('sfDoctrinePlugin');
 		$this->enablePlugins('sfDoctrineGuardPlugin');
 		$this->enablePlugins('izarusBootstrap3AdminThemePlugin');
-		$this->setWebDir('/bateye.com');
+		$this->setWebDir('/web');
 		$this->setCacheDir($this->getRootDir() . '/cache'); //CORRECTO
 		$this->setLogDir($this->getRootDir() . '/log'); //CORRECTO
 		sfConfig::add(array(
