@@ -1,6 +1,3 @@
-<?php if(isset($dev_mode)==true): ?>
-    <div id="getposition" style="z-index: 500000; position: fixed; top 5px; left:5px; width: 5px; height:5px;"></div>
-<?php endif; ?>
 <!--
 <!--  Created by PhpStorm.-->
 <!--  User: pedro-->
