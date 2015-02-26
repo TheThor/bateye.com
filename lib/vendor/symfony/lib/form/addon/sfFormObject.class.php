@@ -219,7 +219,6 @@ abstract class sfFormObject extends BaseForm
               $this->updateObjectEmbeddedForms($values[$name], $form->getEmbeddedForms());
           }
       }
-      die("nope");
   }
 
   /**

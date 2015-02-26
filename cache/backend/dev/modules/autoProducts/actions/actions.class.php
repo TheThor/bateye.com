@@ -189,6 +189,7 @@ abstract class autoProductsActions extends sfActions
     if ($form->isValid())
     {
       $notice = $form->getObject()->isNew() ? 'The item was created successfully.' : 'The item was updated successfully.';
+
       try {
         $products = $form->save();
       } catch (Doctrine_Validator_Exception $e) {
