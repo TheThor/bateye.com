@@ -6,8 +6,10 @@ Product:
     name:           { type: string(255), notnull: true }
     main_img_path:  { type: string(255), notnull: true }
     main_img_alt:   { type: string(255), notnull: true }
-    context_image:  { type: string(255), notnull: true }
+    context_img:    { type: string(255), notnull: true }
+    context_img_alt:{ type: string(255), notnull: true }
     small_img:      { type: string(255) }
+    small_img_alt:  { type: string(255) }
     citation:       { type: string(255), notnull: true }
     description:    { type: string(1200), notnull: true }
     designer:       { type: string(255) }
@@ -76,56 +78,97 @@ IndexContent:
     thebrand:       { type: array, notnull: true }
     thedesigner:    { type: array, notnull: true }
 
-#PressTheBrandLogo:
+#Main area before login
+PressMainArea:
+  actAs: { Timestampable: ~ }
+  columns:
+    id:             { type: integer, primary: true, autoincrement: true }
+    cover:          { type: string(255), notnull: true }
+    catalogue:      { type: string(255), notnull: true }
+
+#The brand press page Logos
+PressTheBrandAreaLogo:
+  actAs: { Timestampable: ~ }
+  columns:
+    id:             { type: integer, primary: true, autoincrement: true }
+    jpg_location:   { type: string(255), notnull: true }
+    png_location:   { type: string(255), notnull: true }
+
+#The brand press page Concept mini gallery + product gallery for single images
+PressTheBrandAreaConcept:
+  actAs: { Timestampable: ~ }
+  columns:
+    id:                 { type: integer, primary: true, autoincrement: true }
+    package_location:   { type: string(255), notnull: true }
+    image:              { type: string(255), notnull: true }
+  relations:
+    Product:            { local: product_id, foreign: id, foreignAlias: PressConceptProduct }
+
+PressTheBrandConceptImageGallery:
+  actAs: { Timestampable: ~ }
+  columns:
+    id:             { type: integer, primary: true, autoincrement: true }
+    image:          { type: string(255), notnull: true }
+    jpg_location:   { type: string(255), notnull: true }
+    png_location:   { type: string(255), notnull: true }
+  relations:
+    PressTheBrandAreaConceptImage: { local: concept_id, foreign: id, foreignAlias: PressProductConceptImage }
+    Product:        { local: product_id, foreign: id, foreignAlias: PressProductConceptImage }
+
+##########################################
+######## Press collections area ##########
+#### Here is have the collection page ####
+##########################################
+PressCollectionProduct:
+  actAs: { Timestampable: ~ }
+  columns:
+    id:               { type: integer, primary: true, autoincrement: true }
+    product_image:    { type: string(255), notnull: true }
+    package_location: { type: string(255), notnull: true }
+  relations:
+    Collection:       { local: collection_id, foreign: id, foreignAlias: PressProductCollection }
+
+##########################################
+##### Product gallery page with all ######
+##########################################
+PressProductImageGallery:
+  actAs: { Timestampable: ~ }
+  columns:
+    id:                         { type: integer, primary: true, autoincrement: true }
+    high_res_img:               { type: string(255), notnull: true }
+    low_res_img:                { type: string(255), notnull: true }
+  relations:
+    PressCollectionProduct:     { local: collection_id, foreign: id, foreignAlias: PressCollection }
+    Product:                    { local: product_id, foreign: id, foreignAlias: PressProductImage }
+
+##########################################
+############# Other areas ################
+##########################################
+PressCatalogue:
+  actAs: { Timestampable: ~ }
+  columns:
+    id:           { type: integer, primary: true, autoincrement: true }
+    link:         { type: string(255), notnull: true }
+    cover:        { type: string(255), notnull: true }
+
+PressRelease:
+  actAs: { Timestampable: ~ }
+  columns:
+    id:           { type: integer, primary: true, autoincrement: true }
+    link:         { type: string(255), notnull: true }
+    cover:        { type: string(255), notnull: true }
+
+PressCoverImage:
+  actAs: { Timestampable: ~ }
+  columns:
+    id:           { type: integer, primary: true, autoincrement: true }
+    link:         { type: string(255), notnull: true }
+    cover:        { type: string(255), notnull: true }
+
+#TODO: Upload or youtube placed?
+#PressCoverVideo:
 #  actAs: { Timestampable: ~ }
 #  columns:
-#    id:             { type: integer, primary: true, autoincrement: true }
-#    jpeg_path:      { type: string(255), notnull: true }
-#    png_path:       { type: string(255), notnull: true }
-#
-#PressTheBrandConcept:
-#  actAs: { Timestampable: ~ }
-#  columns:
-#    id:             { type: integer, primary: true, autoincrement: true }
-#    path:           { type: string(255), notnull: true }
-#    alt:            { type: string(255), notnull: true }
-#
-#PressCollectionPackage:
-#  actAs: { Timestampable: ~ }
-#  columns:
-#    id:             { type: integer, primary: true, autoincrement: true }
-#    package:        { type: string(255) }
-#  relations:
-#    Collection:     { local: collection_id, foreign: id, foreignAlias: PressProductCollection }
-#
-#PressProductImage:
-#  actAs: { Timestampable: ~ }
-#  columns:
-#    id:             { type: integer, primary: true, autoincrement: true }
-#    high_res:       { type: string(255), notnull: true }
-#    low_res:        { type: string(255), notnull: true }
-#  relations:
-#    Product:        { local: product_id, foreign: id, foreignAlias: PressProductImage }
-#
-#PressCatalogue:
-#  actAs: { Timestampable: ~ }
-#  columns:
-#    id:             { type: integer, primary: true, autoincrement: true }
-#    path:           { type: string(255), notnull: true }
-#
-#PressRealease:
-#  actAs: { Timestampable: ~ }
-#  columns:
-#    id:             { type: integer, primary: true, autoincrement: true }
-#    path:           { type: string(255), notnull: true }
-#
-#PressVideo:
-#  actAs: { Timestampable: ~ }
-#  columns:
-#    id:             { type: integer, primary: true, autoincrement: true }
-#    path:           { type: string(255), notnull: true }
-#PressCoverImage:
-#  actAs: { Timestampable: ~ }
-#  columns:
-#    id:             { type: integer, primary: true, autoincrement: true }
-#    path:           { type: string(255), notnull: true }
+#    id:           { type: integer, primary: true, autoincrement: true }
+#    link:         { type: string(255), notnull: true }
+#    cover:        { type: string(255), notnull: true }

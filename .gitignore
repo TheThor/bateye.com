@@ -1,3 +1,5 @@
-cache/
+cache/*
 log/
 .idea
+cache
+old
