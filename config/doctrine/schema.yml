@@ -1,29 +1,29 @@
 # config/doctrine/schema.yml
 Product:
-  actAs:            { Timestampable: ~ }
+  actAs:              { Timestampable: ~ }
   columns:
-    id:             { type: integer, primary: true, autoincrement: true }
-    name:           { type: string(255), notnull: true }
-    main_img_path:  { type: string(255), notnull: true }
-    main_img_alt:   { type: string(255), notnull: true }
-    context_img:    { type: string(255), notnull: true }
-    context_img_alt:{ type: string(255), notnull: true }
-    small_img:      { type: string(255) }
-    small_img_alt:  { type: string(255) }
-    citation:       { type: string(255), notnull: true }
-    description:    { type: string(1200), notnull: true }
-    designer:       { type: string(255) }
-    dimensions:     { type: string(255) }
-    materials:      { type: string(255) }
-    other:          { type: string(255) }
-    collection_id:  { type: integer, notnull: true }
-    category_id:    { type: integer, notnull: true }
+    id:               { type: integer, primary: true, autoincrement: true }
+    name:             { type: string(255), notnull: true }
+    main_img_path:    { type: string(255), notnull: true }
+    main_img_alt:     { type: string(255), notnull: true }
+    context_img:      { type: string(255), notnull: true }
+    context_img_alt:  { type: string(255), notnull: true }
+    small_img:        { type: string(255) }
+    small_img_alt:    { type: string(255) }
+    citation:         { type: string(255), notnull: true }
+    description:      { type: string(1200), notnull: true }
+    designer:         { type: string(255) }
+    dimensions:       { type: string(255) }
+    materials:        { type: string(255) }
+    other:            { type: string(255) }
+    collection_id:    { type: integer, notnull: true }
+    category_id:      { type: integer, notnull: true }
   relations:
-    Collection:     { local: collection_id, foreign: id, foreignAlias: ProductCollection }
-    Category:       { local: category_id, foreign: id, foreignAlias: ProductCategory }
+    Collection:       { local: collection_id, foreign: id, foreignAlias: ProductCollection }
+    Category:         { local: category_id, foreign: id, foreignAlias: ProductCategory }
 
 ProductImage:
-  actAs: { Timestampable: ~ }
+  actAs:            { Timestampable: ~ }
   columns:
     id:             { type: integer, primary: true, autoincrement: true }
     product_id:     { type: integer, notnull: true }
@@ -33,7 +33,7 @@ ProductImage:
     Product:        { local: product_id, foreign: id, foreignAlias: ProductImage }
 
 Collection:
-  actAs: { Timestampable: ~ }
+  actAs:              { Timestampable: ~ }
   columns:
     id:               { type: integer, primary: true, autoincrement: true }
     name:             { type: string(255), notnull: true }
@@ -86,7 +86,9 @@ PressMainArea:
     cover:          { type: string(255), notnull: true }
     catalogue:      { type: string(255), notnull: true }
 
-#The brand press page Logos
+###################################
+####### Press main area ###########
+###################################
 PressTheBrandAreaLogo:
   actAs: { Timestampable: ~ }
   columns:
@@ -104,6 +106,7 @@ PressTheBrandAreaConcept:
   relations:
     Product:            { local: product_id, foreign: id, foreignAlias: PressConceptProduct }
 
+#Individual gallery for each product concept
 PressTheBrandConceptImageGallery:
   actAs: { Timestampable: ~ }
   columns:
@@ -117,7 +120,7 @@ PressTheBrandConceptImageGallery:
 
 ##########################################
 ######## Press collections area ##########
-#### Here is have the collection page ####
+###### Here is the collection page #######
 ##########################################
 PressCollectionProduct:
   actAs: { Timestampable: ~ }
@@ -129,7 +132,7 @@ PressCollectionProduct:
     Collection:       { local: collection_id, foreign: id, foreignAlias: PressProductCollection }
 
 ##########################################
-##### Product gallery page with all ######
+####### Product individual gallery #######
 ##########################################
 PressProductImageGallery:
   actAs: { Timestampable: ~ }
@@ -165,10 +168,8 @@ PressCoverImage:
     link:         { type: string(255), notnull: true }
     cover:        { type: string(255), notnull: true }
 
-#TODO: Upload or youtube placed?
-#PressCoverVideo:
-#  actAs: { Timestampable: ~ }
-#  columns:
-#    id:           { type: integer, primary: true, autoincrement: true }
-#    link:         { type: string(255), notnull: true }
-#    cover:        { type: string(255), notnull: true }
+PressCoverVideo:
+  actAs: { Timestampable: ~ }
+  columns:
+    id:           { type: integer, primary: true, autoincrement: true }
+    link:         { type: string(255), notnull: true }
