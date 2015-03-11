@@ -67,17 +67,22 @@ show_product:
     id: \d+
     sf_method: [get]
 
-#Lovers & its products
-lovers:
-  url:   /lovers/
-  param: { module: lovers, action: index }
+show_allproduts:
+  url:  /collection/showallproducts/
+  param: { module: collection, action: showallproducts }
 
-show_loversproduct:
-  url:  /lovers/showloversproduct/:id/:name
-  param: { module: lovers, action: showloversproduct }
-  requirements:
-    id: \d+
-    sf_method: [get]
+#Deprecated
+#Lovers & its products
+#lovers:
+#  url:   /lovers/
+#  param: { module: lovers, action: index }
+#
+#show_loversproduct:
+#  url:  /lovers/showloversproduct/:id/:name
+#  param: { module: lovers, action: showloversproduct }
+#  requirements:
+#    id: \d+
+#    sf_method: [get]
 
 #Media files and others
 mediafile:

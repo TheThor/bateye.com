@@ -288,7 +288,6 @@
 					margin: 50px auto;
 					font-family: 'Lato', sans-serif;
 					font-weight: 300;
-					height: 140px;
 				}
 					#info_peca b{
 						font-weight: bold;
@@ -300,7 +299,20 @@
 								margin-left: 300px;
 								margin-top: -145px;
 							}
+#might_like{
+    width: 810px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-top: 50px;
+}
 
+#might_like hr {
+    height: 2px;
+    border: 0px;
+    background-color: #000;
+    width: 100%;
+}
 /* PAG. COLCEÇÕES */
 
 #title_colecao{

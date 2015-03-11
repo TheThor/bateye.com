@@ -17,7 +17,7 @@ class contactsActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   {
-      $this->collections = Doctrine_Core::getTable('Collections')->showActiveCollections();
+      $this->collections = Doctrine_Core::getTable('Collection')->showActiveCollections();
       $this->forward404Unless($this->collections);
       return sfView::SUCCESS;
   }
