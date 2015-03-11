@@ -11,52 +11,108 @@ class collectionActions extends sfActions
 {
     /**
      * Executes index action
-     *
-     * @param sfRequest $request A request object
+     * @param sfRequest|sfWebRequest $request A request object
+     * @return string
      */
-
-    private function showActiveCollection(){
-        return Doctrine_Core::getTable('Collections')->showActiveCollections();
-    }
-
-    private function getProductsByCollection($id){
-        $q = Doctrine_Query::create()
-            ->from('Products p')
-            ->where('p.collection_id=' . $id);
-        return $q->execute();
-    }
-
     public function executeIndex(sfWebRequest $request)
     {
-        $this->collections = $this->showActiveCollection();
+        $this->showActiveCollections();
         return sfView::SUCCESS;
     }
 
+    /**
+     * @param sfWebRequest $request
+     * @return string
+     * @throws sfError404Exception
+     */
     public function executeShowcollection(sfWebRequest $request)
     {
-	    $this->forward404Unless($request->getParameter('id')!=3);
-        $this->collections = $this->showActiveCollection();
+        $this->forward404Unless($request->getParameter('id')!=3);
+        $this->showActiveCollections();
         $this->forward404Unless($this->collections);
         $this->products = $this->getProductsByCollection($request->getParameter('id'));
         $this->forward404Unless($this->products);
         return sfView::SUCCESS;
     }
 
+    /**
+     * @param sfWebRequest $request
+     * @return string
+     * @throws sfError404Exception
+     */
     public function executeShowproduct(sfWebRequest $request)
     {
-        $this->collections = $this->showActiveCollection();
-        $this->product = Doctrine::getTable('Products')->find($request->getParameter('id'));
-        $q = Doctrine_Query::create()
-            ->from('ProductImages pr')
-            ->where('pr.product_id=' . $request->getParameter('id'));
-        $this->images = $q->execute();
+        $this->showActiveCollections();
+        $this->product = Doctrine::getTable('Product')->find($request->getParameter('id'));
+        $this->images = $this->getProductImageByProductId($request->getParameter('id'));
         $this->forward404Unless($this->product);
-        $q = Doctrine::getTable('Products')
-            ->createQuery()
-            ->orderBy('RAND()')
-            ->limit('3');
-        $this->products = $q->execute();
+        $this->products = $this->getRandomNumberOfProducts();
         $this->news = Doctrine_Core::getTable('News')->getLatestNews();
         return sfView::SUCCESS;
+    }
+
+    /**
+     * @param sfWebRequest $request
+     */
+    public function executeShowallproducts(sfWebRequest $request)
+    {
+        $this->showActiveCollections();
+        $this->showActiveCategories();
+        $this->products = Doctrine::getTable('Product')->getAllProducts();
+    }
+
+
+    /**
+     * Sets categories to show all available categories
+     */
+    private function showActiveCategories()
+    {
+        $this->categories = Doctrine_Core::getTable('Category')->getAllCategories();
+    }
+
+    /**
+     * Sets collections to show all active collections
+     */
+    private function showActiveCollections(){
+        $this->collections = Doctrine_Core::getTable('Collection')->showActiveCollections();
+    }
+
+    //TODO: Move to model as this is not correct here. Didn't do as didn't have the time
+    //TODO: Also check for other controllers in the same situation
+
+    /**
+     * @param $id
+     * @internal param sfWebRequest $request
+     * @return Doctrine_Query
+     */
+    public function getProductImageByProductId($id)
+    {
+        $q = Doctrine_Query::create()
+            ->from('ProductImage pr')
+            ->where('pr.product_id=' . $id);
+        return $q->execute();
+    }
+
+    /**
+     * @param $id
+     * @return Doctrine_Collection
+     * @throws Doctrine_Query_Exception
+     */
+    private function getProductsByCollection($id){
+        $q = Doctrine_Query::create()
+            ->from('Product p')
+            ->where('p.collection_id=' . $id);
+        return $q->execute();
+    }
+    /**
+     * @throws Doctrine_Query_Exception
+     */
+    public function getRandomNumberOfProducts()
+    {
+        $q = Doctrine::getTable('Product')
+            ->createQuery()
+            ->orderBy('RAND()')
+            ->limit('5');
+        return  $q->execute();
     }
 }

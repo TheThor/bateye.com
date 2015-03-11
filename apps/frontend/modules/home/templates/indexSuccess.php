@@ -58,19 +58,21 @@
                         <a href="<?php echo url_for('collection') ?>">Collections</a>
                     </li>
                     <li>
-                        <a href="not_available.php">News</a>
+                        <a href="<?php echo url_for(
+                            array(
+                                'module' => 'collection',
+                                'action' => 'showallproduts'
+                            )
+                        ) ?>">All Products</a>
                     </li>
                     <li>
-                        <a href="not_available.php">Press</a>
+                        <a href="#">Press</a>
                     </li>
                     <li>
                         <a href="<?php echo url_for(array(
                             'module' => 'contacts',
                             'action' => 'index'
                         )) ?>">Contacts</a>
-                    </li>
-                    <li>
-                        <a href="<?php echo url_for('lovers') ?>">Lovers</a>
                     </li>
                 </ul>
             </div>

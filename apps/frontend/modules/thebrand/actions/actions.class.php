@@ -10,43 +10,45 @@
  */
 class thebrandActions extends sfActions
 {
- /**
-  * Executes index action
-  *
-  * @param sfRequest $request A request object
-  */
-    private function showActiveCollection(){
-        return Doctrine_Core::getTable('Collections')->showActiveCollections();
+    /**
+     * @return mixed
+     */
+    private function showActiveCollections(){
+        return Doctrine_Core::getTable('Collection')->showActiveCollections();
     }
 
+    /**
+     * @param sfWebRequest $request
+     * @return string
+     */
     public function executeIndex(sfWebRequest $request)
     {
-        $this->collections = Doctrine_Core::getTable('Collections')->showActiveCollections();
+        $this->collections = $this->showActiveCollections();
         $this->news = Doctrine_Core::getTable('News')->getLatestNews();
         return sfView::SUCCESS;
     }
 
     public function executeShowconcept(sfWebRequest $request)
     {
-        $this->collections = Doctrine_Core::getTable('Collections')->showActiveCollections();
+        $this->collections = $this->showActiveCollections();
         $this->news = Doctrine_Core::getTable('News')->getLatestNews();
         return sfView::SUCCESS;
     }
     public function executeShowauthor(sfWebRequest $request)
     {
-        $this->collections = Doctrine_Core::getTable('Collections')->showActiveCollections();
+        $this->collections = $this->showActiveCollections();
         $this->news = Doctrine_Core::getTable('News')->getLatestNews();
         return sfView::SUCCESS;
     }
     public function executeShowhistory(sfWebRequest $request)
     {
-        $this->collections = Doctrine_Core::getTable('Collections')->showActiveCollections();
+        $this->collections = $this->showActiveCollections();
         $this->news = Doctrine_Core::getTable('News')->getLatestNews();
         return sfView::SUCCESS;
     }
     public function executeShowmanufacture(sfWebRequest $request)
     {
-        $this->collections = Doctrine_Core::getTable('Collections')->showActiveCollections();
+        $this->collections = $this->showActiveCollections();
         $this->news = Doctrine_Core::getTable('News')->getLatestNews();
         return sfView::SUCCESS;
     }

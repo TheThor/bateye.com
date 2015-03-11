@@ -16,4 +16,13 @@ class CategoryTable extends Doctrine_Table
     {
         return Doctrine_Core::getTable('Category');
     }
+
+    /**
+     * @return Doctrine_Collection
+     * @throws Doctrine_Query_Exception
+     */
+    public function getAllCategories(){
+        $q = $this->createQuery('Category c');
+        return $q->execute();
+    }
 }

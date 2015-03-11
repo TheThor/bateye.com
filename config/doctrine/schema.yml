@@ -89,7 +89,7 @@ PressMainArea:
 ###################################
 ####### Press main area ###########
 ###################################
-PressTheBrandAreaLogo:
+PressLogo:
   actAs: { Timestampable: ~ }
   columns:
     id:             { type: integer, primary: true, autoincrement: true }
@@ -97,52 +97,58 @@ PressTheBrandAreaLogo:
     png_location:   { type: string(255), notnull: true }
 
 #The brand press page Concept mini gallery + product gallery for single images
-PressTheBrandAreaConcept:
+PressProductConcept:
   actAs: { Timestampable: ~ }
   columns:
-    id:                 { type: integer, primary: true, autoincrement: true }
-    package_location:   { type: string(255), notnull: true }
-    image:              { type: string(255), notnull: true }
+    id:                { type: integer, primary: true, autoincrement: true }
+    package_location:  { type: string(255), notnull: true }
+    image:             { type: string(255), notnull: true }
+    product_id:        { type: integer, notnull: true }
   relations:
-    Product:            { local: product_id, foreign: id, foreignAlias: PressConceptProduct }
+    Product:           { local: product_id, foreign: id, foreignAlias: PressConceptProduct }
 
 #Individual gallery for each product concept
-PressTheBrandConceptImageGallery:
+PressProductConceptImage:
   actAs: { Timestampable: ~ }
   columns:
-    id:             { type: integer, primary: true, autoincrement: true }
-    image:          { type: string(255), notnull: true }
-    jpg_location:   { type: string(255), notnull: true }
-    png_location:   { type: string(255), notnull: true }
+    id:                       { type: integer, primary: true, autoincrement: true }
+    image:                    { type: string(255), notnull: true }
+    jpg_location:             { type: string(255), notnull: true }
+    png_location:             { type: string(255), notnull: true }
+    press_product_concept_id: { type: integer, notnull: true }
+    product_id:               { type: integer, notnull: true }
   relations:
-    PressTheBrandAreaConceptImage: { local: concept_id, foreign: id, foreignAlias: PressProductConceptImage }
-    Product:        { local: product_id, foreign: id, foreignAlias: PressProductConceptImage }
+    PressProductConcept:      { local: press_product_concept_id, foreign: id, foreignAlias: PressProductConcept }
+    Product:                  { local: product_id, foreign: id, foreignAlias: PressProductImage }
 
 ##########################################
 ######## Press collections area ##########
 ###### Here is the collection page #######
 ##########################################
-PressCollectionProduct:
+PressCollection:
   actAs: { Timestampable: ~ }
   columns:
     id:               { type: integer, primary: true, autoincrement: true }
     product_image:    { type: string(255), notnull: true }
     package_location: { type: string(255), notnull: true }
+    collection_id:    { type: integer, notnull: true }
   relations:
-    Collection:       { local: collection_id, foreign: id, foreignAlias: PressProductCollection }
+    Collection:       { local: collection_id, foreign: id, foreignAlias: PressCollection }
 
 ##########################################
 ####### Product individual gallery #######
 ##########################################
-PressProductImageGallery:
+PressProductImage:
   actAs: { Timestampable: ~ }
   columns:
-    id:                         { type: integer, primary: true, autoincrement: true }
-    high_res_img:               { type: string(255), notnull: true }
-    low_res_img:                { type: string(255), notnull: true }
+    id:                { type: integer, primary: true, autoincrement: true }
+    high_res_img:      { type: string(255), notnull: true }
+    low_res_img:       { type: string(255), notnull: true }
+    collection_id:     { type: integer, notnull: true }
+    product_id:        { type: integer, notnull: true }
   relations:
-    PressCollectionProduct:     { local: collection_id, foreign: id, foreignAlias: PressCollection }
-    Product:                    { local: product_id, foreign: id, foreignAlias: PressProductImage }
+    PressCollection:   { local: collection_id, foreign: id, foreignAlias: PressCollection }
+    Product:           { local: product_id, foreign: id, foreignAlias: PressProductImage }
 
 ##########################################
 ############# Other areas ################

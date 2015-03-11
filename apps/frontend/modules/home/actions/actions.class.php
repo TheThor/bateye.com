@@ -17,10 +17,10 @@ class homeActions extends sfActions
      */
     public function executeIndex(sfWebRequest $request)
     {
-        $this->collections = Doctrine_Core::getTable('Collections')->showActiveCollections();
+        $this->collections = Doctrine_Core::getTable('Collection')->showActiveCollections();
         $this->news = Doctrine_Core::getTable('News')->getLatestNews();
         $this->sliderCount = $this->countSlider();
-        $this->sliders = Doctrine_Core::getTable('SliderImages')->getAllSliders();
+        $this->sliders = Doctrine_Core::getTable('SliderImage')->getAllSliders();
         $this->brand = Doctrine::getTable('IndexContent')
             ->createQuery('b')
             ->execute();
@@ -30,6 +30,6 @@ class homeActions extends sfActions
 
     public function countSlider()
     {
-        return Doctrine::getTable('SliderImages')->count();
+        return Doctrine::getTable('SliderImage')->count();
     }
 }
