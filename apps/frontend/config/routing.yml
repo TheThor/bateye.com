@@ -1,18 +1,7 @@
 # You can find more information about this file on the symfony website:
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
 
-# default rules
-homepage:
-  url:   /
-  param: { module: home, action: index }
 
-# generic rules
-default_index:
-  url:   /:module
-  param: { action: index }
-
-default:
-  url:   /:module/:action/*
 
 #the brand module
 thebrand:
@@ -67,8 +56,8 @@ show_product:
     id: \d+
     sf_method: [get]
 
-show_allproduts:
-  url:  /collection/showallproducts/
+show_allproducts:
+  url:   /showallproducts/*
   param: { module: collection, action: showallproducts }
 
 #Deprecated
@@ -88,3 +77,16 @@ show_allproduts:
 mediafile:
   url: /media/:catalogue.pdf/*
   param: { module: media, action: show }
+
+# default rules
+homepage:
+  url:   /
+  param: { module: home, action: index }
+
+# generic rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

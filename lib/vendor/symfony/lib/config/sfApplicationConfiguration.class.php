@@ -341,7 +341,7 @@ abstract class sfApplicationConfiguration extends ProjectConfiguration
    */
   public function getControllerDirs($moduleName)
   {
-    if (!isset($this->cache['getControllerDirs'][$moduleName]))
+     if (!isset($this->cache['getControllerDirs'][$moduleName]))
     {
       $dirs = array();
 

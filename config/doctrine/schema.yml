@@ -46,6 +46,8 @@ Category:
   columns:
     id:             { type: integer, primary: true, autoincrement: true }
     name:           { type: string(255), notnull: true }
+    image:          { type: string(255), notnull: true }
+    alt:            { type: string(255), notnull: true }
 
 SliderImage:
   actAs: { Timestampable: ~ }
