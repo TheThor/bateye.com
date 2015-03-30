@@ -29,13 +29,13 @@
                 </ul>
 	            <?php endif ?>
             </li>
-            <li><a href="not_available.php">PRESS & NEWS</a></li>
+            <li>
+                <a href="<?php echo url_for('@show_allproducts') ?>">All Products</a>
+            </li>
             <li><a href="<?php echo url_for(array(
                     'module' => 'contacts',
                     'action' => 'index'
-                )) ?>">CONTACTS</a></li>
-            <li>
-	            <a href="<?php echo url_for('lovers') ?>">LOVERS</a>
+                )) ?>">CONTACTS</a>
             </li>
 	        <?php if ($sf_user->isAuthenticated()): ?>
 		        <li><?php echo link_to('Logout', 'sf_guard_signout') ?></li>

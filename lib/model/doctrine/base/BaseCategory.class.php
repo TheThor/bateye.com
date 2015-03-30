@@ -7,13 +7,19 @@
  * 
  * @property integer $id
  * @property string $name
+ * @property string $image
+ * @property string $alt
  * @property Doctrine_Collection $ProductCategory
  * 
  * @method integer             getId()              Returns the current record's "id" value
  * @method string              getName()            Returns the current record's "name" value
+ * @method string              getImage()           Returns the current record's "image" value
+ * @method string              getAlt()             Returns the current record's "alt" value
  * @method Doctrine_Collection getProductCategory() Returns the current record's "ProductCategory" collection
  * @method Category            setId()              Sets the current record's "id" value
  * @method Category            setName()            Sets the current record's "name" value
+ * @method Category            setImage()           Sets the current record's "image" value
+ * @method Category            setAlt()             Sets the current record's "alt" value
  * @method Category            setProductCategory() Sets the current record's "ProductCategory" collection
  * 
  * @package    bateye
@@ -32,6 +38,16 @@ abstract class BaseCategory extends sfDoctrineRecord
              'autoincrement' => true,
              ));
         $this->hasColumn('name', 'string', 255, array(
+             'type' => 'string',
+             'notnull' => true,
+             'length' => 255,
+             ));
+        $this->hasColumn('image', 'string', 255, array(
+             'type' => 'string',
+             'notnull' => true,
+             'length' => 255,
+             ));
+        $this->hasColumn('alt', 'string', 255, array(
              'type' => 'string',
              'notnull' => true,
              'length' => 255,

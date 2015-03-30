@@ -26,21 +26,31 @@ slot(
                 </ul>
             </div>
             <div id="category_images">
-            <?php /** @var Category $category */
-            foreach ($categories as $category): ?>
+                <ul>
+                <?php /** @var Category $category */
+                //TODO: generate schema again for $category->getImage() and getAlt()
+                foreach ($categories as $category): ?>
 
-            <?php endforeach; ?>
+                    <img src="<?php ?>" alt="<?php ?>"/>
+                <?php endforeach; ?>
+                </ul>
             </div>
         </div>
         <?php /** @var Product $product */
         foreach ($products as $product): ?>
             <div class="img">
-                <a href="<?php echo url_for(array(
-                    'module' => 'collection',
-                    'action' => 'showproduct',
-                    'id' => $product->getId(),
-                    'name' => $product->getName()
-                ))?>">
+                <a href="
+                    <?php
+                        echo url_for(
+                            array(
+                                'module' => 'collection',
+                                'action' => 'showproduct',
+                                'id' => $product->getId(),
+                                'name' => $product->getName()
+                            )
+                        )
+                    ?>
+                ">
                     <img src="/images/mosaics/<?php echo $product->getCollection() . "/" .  $product->getMainImgPath() ?>" alt="<?php echo $product->getMainImgAlt() ?>">
                 </a>
                 <div class="desc">

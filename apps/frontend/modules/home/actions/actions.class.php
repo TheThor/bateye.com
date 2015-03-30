@@ -21,9 +21,7 @@ class homeActions extends sfActions
         $this->news = Doctrine_Core::getTable('News')->getLatestNews();
         $this->sliderCount = $this->countSlider();
         $this->sliders = Doctrine_Core::getTable('SliderImage')->getAllSliders();
-        $this->brand = Doctrine::getTable('IndexContent')
-            ->createQuery('b')
-            ->execute();
+        $this->getBrand();
         return sfView::SUCCESS;
 //    $this->designer = Doctrine::getTable('IndexContent')->getThedesigner();
     }
@@ -31,5 +29,13 @@ class homeActions extends sfActions
     public function countSlider()
     {
         return Doctrine::getTable('SliderImage')->count();
+    }
+
+    //TODO: move this to IndexContent table class
+    public function getBrand()
+    {
+        $this->brand = Doctrine::getTable('IndexContent')
+            ->createQuery('b')
+            ->execute();
     }
 }
