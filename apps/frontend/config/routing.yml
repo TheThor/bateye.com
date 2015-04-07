@@ -1,8 +1,6 @@
 # You can find more information about this file on the symfony website:
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
 
-
-
 #the brand module
 thebrand:
   url:  /thebrand/
@@ -41,10 +39,10 @@ collection:
   param: { module: collection, action: index }
 
 show_collection:
-  url:   /collection/showcollection/:id/:name
-  class:   sfDoctrineRoute
-  options: { model: Category, type: object }
-  param: { module: collection, action: showcollection }
+  url:      /collection/showcollection/:id/:name
+  class:    sfDoctrineRoute
+  options:  { model: Category, type: object }
+  param:    { module: collection, action: showcollection }
   requirements:
     id: \d+
     sf_method: [get]

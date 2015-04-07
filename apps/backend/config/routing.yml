@@ -1,27 +1,45 @@
+slider_image:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                SliderImage
+    module:               slider_image
+    prefix_path:          /slider_image
+    column:               id
+    with_wildcard_routes: true
+
+product_image:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                ProductImage
+    module:               product_image
+    prefix_path:          /product_image
+    column:               id
+    with_wildcard_routes: true
+
+product:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Product
+    module:               product
+    prefix_path:          /product
+    column:               id
+    with_wildcard_routes: true
+
+collection:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Collection
+    module:               collection
+    prefix_path:          /collection
+    column:               id
+    with_wildcard_routes: true
+
 category:
   class: sfDoctrineRouteCollection
   options:
     model:                Category
     module:               category
     prefix_path:          /category
-    column:               id
-    with_wildcard_routes: true
-
-slider_images:
-  class: sfDoctrineRouteCollection
-  options:
-    model:                Category
-    module:               category
-    prefix_path:          /category
-    column:               id
-    with_wildcard_routes: true
-
-slider_images:
-  class: sfDoctrineRouteCollection
-  options:
-    model:                SliderImages
-    module:               slider_images
-    prefix_path:          /slider_images
     column:               id
     with_wildcard_routes: true
 
@@ -43,57 +61,12 @@ contacts:
     column:               id
     with_wildcard_routes: true
 
-collections:
-  class: sfDoctrineRouteCollection
-  options:
-    model:                Collections
-    module:               collections
-    prefix_path:          /collections
-    column:               id
-    with_wildcard_routes: true
-
-lovers_images:
-  class: sfDoctrineRouteCollection
-  options:
-    model:                LoversImages
-    module:               lovers_images
-    prefix_path:          /lovers_images
-    column:               id
-    with_wildcard_routes: true
-
-product_images:
-  class: sfDoctrineRouteCollection
-  options:
-    model:                ProductImages
-    module:               product_images
-    prefix_path:          /product_images
-    column:               id
-    with_wildcard_routes: true
-
 news:
   class: sfDoctrineRouteCollection
   options:
     model:                News
     module:               news
     prefix_path:          /news
-    column:               id
-    with_wildcard_routes: true
-
-lovers:
-  class: sfDoctrineRouteCollection
-  options:
-    model:                Lovers
-    module:               lovers
-    prefix_path:          /lovers
-    column:               id
-    with_wildcard_routes: true
-
-products:
-  class: sfDoctrineRouteCollection
-  options:
-    model:                Products
-    module:               products
-    prefix_path:          /products
     column:               id
     with_wildcard_routes: true
 
