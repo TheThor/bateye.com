@@ -10,7 +10,7 @@
         'module' => 'collection',
         'action' => 'showcollection',
         'id'    => $product->getCollectionId(),
-        'name' => $product->getCollection()
+        'name' => $product->getCollection()->getName()
     ))?>"><img src="/images/setas.png"></a>
 </div>
     <div id="title">
@@ -19,8 +19,9 @@
     </div>
     <div class="fluid_container">
         <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
-            <?php foreach($images as $image): ?>
-            <div data-src="/images/slides/<?php echo $image->getLocation() ?>">
+            <?php /** @var ProductImage $image */
+            foreach($images->getRawValue() as $image): ?>
+            <div data-src="/images/slides/<?php echo $image->getProduct()->getName() . DIRECTORY_SEPARATOR . $image->getLocation() ?>">
             </div>
             <?php endforeach; ?>
             </div>
@@ -50,8 +51,8 @@
             <b>materials</b><br>
             <?php echo $product->getMaterials(); ?><br><br>
         </div>
-        <div style="float: right; width: 500px;">
-            <img src="http://dummyimage.com/500x300/000/fff" alt=""/>
+        <div style="float: right; width: 500px; height: 300px">
+            <img style="float: right; width: 500px; height: 300px" src="/images/products/<?php echo $product->getCollection()->getName() . DIRECTORY_SEPARATOR . $product->getContextImg() ?>" alt="<?php echo $product->getContextImgAlt()?>"/>
         </div>
         <div class="clear"></div>
     </div>
@@ -66,7 +67,7 @@
                         'id' => $single->getId(),
                         'name' => $single->getName()
                     )) ?>">
-                        <img style="width: 140px; " src="/images/mosaics/<?php echo $single->getCollection() . '/' . $single->getMainImgPath() ?>" alt="<?php echo $single->getMainImgAlt() ?>">
+                        <img style="width: 140px; " src="/images/products/mosaics/<?php echo $single->getCollection()->getName() . '/' . $single->getMainImgPath() ?>" alt="<?php echo $single->getMainImgAlt() ?>">
                     </a>
 				</span>
         <?php endforeach ?>

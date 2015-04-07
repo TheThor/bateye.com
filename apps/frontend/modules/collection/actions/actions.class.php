@@ -40,7 +40,7 @@ class collectionActions extends sfActions
      * @return string
      * @throws sfError404Exception
      */
-    public function executeShowproducts(sfWebRequest $request)
+    public function executeShowproduct(sfWebRequest $request)
     {
         $this->showActiveCollections();
         $this->product = Doctrine::getTable('Product')->find($request->getParameter('id'));

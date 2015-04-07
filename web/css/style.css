@@ -127,7 +127,8 @@ margin-left: auto;
 	margin-top: 25px;
 	min-height: 63px;
 	margin: 0 auto;
-	width: 608px;
+	/*width: 608px;*/
+    width: 452px;
 	max-height: 73px;
 }
 
@@ -891,18 +892,21 @@ a.red-cross:hover{
 
 #link-container{
     position: absolute;
-    margin-left: auto;
-    margin-right: auto;
     left: 0;
     right: 0;
-    top: 40%;
+    top: 35%;
+    bottom: 0;
+    margin: auto;
 }
 
 .collection-link{
-    display: inline-block;
-    min-width: 250px;
-    min-height: 55px;
-    margin-bottom: 5px;
+    width: 240px;
+    max-width: 240px;
+    min-width: 240px;
+    height: 136px;
+    max-height: 136px;
+    min-height: 136px;
+    margin: 0 auto;
 }
 
 .collection-images img {

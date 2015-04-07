@@ -5,7 +5,7 @@
         </div>
     </div>
 </div>
-<div id="menu" <?php  if ($sf_user->isAuthenticated()) echo 'style="width: 590px"'; ?>>
+<div id="menu" <?php  if ($sf_user->isAuthenticated()) echo 'style="width: 420px"'; ?>>
     <nav>
         <ul>
             <li><a href="<?php echo url_for('homepage') ?>">HOME</a></li>
@@ -29,9 +29,9 @@
                 </ul>
 	            <?php endif ?>
             </li>
-            <li>
-                <a href="<?php echo url_for('@show_allproducts') ?>">All Products</a>
-            </li>
+<!--            <li>-->
+<!--                <a href="--><?php //echo url_for('@show_allproducts') ?><!--">All Products</a>-->
+<!--            </li>-->
             <li><a href="<?php echo url_for(array(
                     'module' => 'contacts',
                     'action' => 'index'

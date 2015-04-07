@@ -6,7 +6,8 @@
 ?>
 <div id="container">
     <div style="margin: 0 auto; width: 1016px">
-        <?php foreach ($products as $product): ?>
+        <?php /** @var Product $product */
+        foreach ($products as $product): ?>
         <div class="img">
             <a href="<?php echo url_for(array(
                 'module' => 'collection',
@@ -14,7 +15,7 @@
                 'id' => $product->getId(),
                 'name' => $product->getName()
             ))?>">
-                <img src="/images/mosaics/<?php echo $product->getCollection() . "/" .  $product->getMainImgPath() ?>" alt="<?php echo $product->getMainImgAlt() ?>">
+                <img src="/images/products/mosaics/<?php echo $product->getCollection() . "/" .  $product->getMainImgPath() ?>" alt="<?php echo $product->getMainImgAlt() ?>">
             </a>
             <div class="desc">
                 <h6><?php echo $product->getName() ?></h6>
