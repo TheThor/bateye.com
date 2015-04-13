@@ -2,230 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8af62ba5-926e-42db-946e-b66da7576de1" name="Default" comment="Bootstrapar">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/backend/modules/lovers/actions/actions.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/backend/modules/lovers/config/generator.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/backend/modules/lovers/lib/loversGeneratorConfiguration.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/backend/modules/lovers/lib/loversGeneratorHelper.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/backend/modules/lovers_images/actions/actions.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/backend/modules/lovers_images/config/generator.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/backend/modules/lovers_images/lib/lovers_imagesGeneratorConfiguration.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/backend/modules/lovers_images/lib/lovers_imagesGeneratorHelper.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/backend/modules/product_images/actions/actions.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/backend/modules/product_images/config/generator.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/backend/modules/product_images/lib/product_imagesGeneratorConfiguration.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/backend/modules/product_images/lib/product_imagesGeneratorHelper.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/backend/modules/products/actions/actions.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/backend/modules/products/config/generator.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/backend/modules/products/lib/productsGeneratorConfiguration.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/backend/modules/products/lib/productsGeneratorHelper.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/Carousel/banner_arc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/slides/Ballet/ballet1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/whatsnew/queenly.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/02.jpg" afterPath="$PROJECT_DIR$/web/images/02.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/porto/1.jpg" afterPath="$PROJECT_DIR$/web/images/slides/porto/1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/Ballet/153a125566c52d2c15ce64be4b3704dc463c43ec.jpg" afterPath="$PROJECT_DIR$/web/images/slides/Ballet/153a125566c52d2c15ce64be4b3704dc463c43ec.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/mosaics/Porto Collection/168c8acf45837beb4b83b065c339960d412f2d63.png" afterPath="$PROJECT_DIR$/web/images/mosaics/Porto Collection/168c8acf45837beb4b83b065c339960d412f2d63.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/porto/2.jpg" afterPath="$PROJECT_DIR$/web/images/slides/porto/2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/Ballet/4b01d3b18507922b046cb3a34c1c37baae63cc34.jpg" afterPath="$PROJECT_DIR$/web/images/slides/Ballet/4b01d3b18507922b046cb3a34c1c37baae63cc34.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/Ballet/671e9102a026b70e621b8cfd85feb3d4e7ade2c0.jpg" afterPath="$PROJECT_DIR$/web/images/slides/Ballet/671e9102a026b70e621b8cfd85feb3d4e7ade2c0.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/816.jpg" afterPath="$PROJECT_DIR$/web/images/816.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/Ballet/8f821da0c78db0cb41b43038d9b6277e129bcd57.jpg" afterPath="$PROJECT_DIR$/web/images/slides/Ballet/8f821da0c78db0cb41b43038d9b6277e129bcd57.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/904.jpg" afterPath="$PROJECT_DIR$/web/images/904.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/916.jpg" afterPath="$PROJECT_DIR$/web/images/916.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/927.jpg" afterPath="$PROJECT_DIR$/web/images/927.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/982.jpg" afterPath="$PROJECT_DIR$/web/images/982.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/whatsnew/ARC.png" afterPath="$PROJECT_DIR$/web/images/whatsnew/ARC.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/portocollection/Arc.png" afterPath="$PROJECT_DIR$/web/images/portocollection/Arc.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/portocollection/Ballet.png" afterPath="$PROJECT_DIR$/web/images/portocollection/Ballet.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/CATALOGUE.png" afterPath="$PROJECT_DIR$/web/images/CATALOGUE.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/portocollection/Cask.png" afterPath="$PROJECT_DIR$/web/images/portocollection/Cask.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/portocollection/Elegance.png" afterPath="$PROJECT_DIR$/web/images/portocollection/Elegance.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/portocollection/Fairytale.png" afterPath="$PROJECT_DIR$/web/images/portocollection/Fairytale.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/portocollection/Pillar.png" afterPath="$PROJECT_DIR$/web/images/portocollection/Pillar.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/lovers/Queenly.jpg" afterPath="$PROJECT_DIR$/web/images/lovers/Queenly.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/mosaics/Exclusive Collection/Queenly.jpg" afterPath="$PROJECT_DIR$/web/images/mosaics/Exclusive Collection/Queenly.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/portocollection/Queenly.png" afterPath="$PROJECT_DIR$/web/images/portocollection/Queenly.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/Queenly - Mirror/Queenly1.jpg" afterPath="$PROJECT_DIR$/web/images/slides/Queenly - Mirror/Queenly1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/lovers/Queenly2.jpg" afterPath="$PROJECT_DIR$/web/images/lovers/Queenly2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/Queenly - Mirror/Queenly800.jpg" afterPath="$PROJECT_DIR$/web/images/slides/Queenly - Mirror/Queenly800.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/Queenly - Mirror/Queenly800_01.jpg" afterPath="$PROJECT_DIR$/web/images/slides/Queenly - Mirror/Queenly800_01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/newprod/Queenly_Bat-eye-1.png" afterPath="$PROJECT_DIR$/web/images/newprod/Queenly_Bat-eye-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/portocollection/Reflection.png" afterPath="$PROJECT_DIR$/web/images/portocollection/Reflection.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/portocollection/RhytmicMovements.png" afterPath="$PROJECT_DIR$/web/images/portocollection/RhytmicMovements.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/portocollection/Sensuality.png" afterPath="$PROJECT_DIR$/web/images/portocollection/Sensuality.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/portocollection/Silhouette.png" afterPath="$PROJECT_DIR$/web/images/portocollection/Silhouette.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/portocollection/Stone.png" afterPath="$PROJECT_DIR$/web/images/portocollection/Stone.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/portocollection/Ties.png" afterPath="$PROJECT_DIR$/web/images/portocollection/Ties.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/a2e699b6fd220d2fa30d31098c0943ac5de55fb0.jpg" afterPath="$PROJECT_DIR$/web/images/slides/a2e699b6fd220d2fa30d31098c0943ac5de55fb0.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/mosaics/Porto Collection/a6a788abdcae8f96ff302a8d53d6dc87a4055743.png" afterPath="$PROJECT_DIR$/web/images/mosaics/Porto Collection/a6a788abdcae8f96ff302a8d53d6dc87a4055743.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/arc/arc1.jpg" afterPath="$PROJECT_DIR$/web/images/slides/arc/arc1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/arc/arc2.jpg" afterPath="$PROJECT_DIR$/web/images/slides/arc/arc2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/icons/ask.png" afterPath="$PROJECT_DIR$/web/images/icons/ask.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/brand/autor.png" afterPath="$PROJECT_DIR$/web/images/brand/autor.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/Carousel/banner_1.png" afterPath="$PROJECT_DIR$/web/images/Carousel/banner_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/Carousel/banner_2.png" afterPath="$PROJECT_DIR$/web/images/Carousel/banner_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/Carousel/banner_3.png" afterPath="$PROJECT_DIR$/web/images/Carousel/banner_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/Carousel/banner_4.png" afterPath="$PROJECT_DIR$/web/images/Carousel/banner_4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/Carousel/banner_elegance.png" afterPath="$PROJECT_DIR$/web/images/Carousel/banner_elegance.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/Carousel/banner_fairytale.png" afterPath="$PROJECT_DIR$/web/images/Carousel/banner_fairytale.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/Carousel/banner_queenly.png" afterPath="$PROJECT_DIR$/web/images/Carousel/banner_queenly.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/Carousel/banner_stone.png" afterPath="$PROJECT_DIR$/web/images/Carousel/banner_stone.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/pillar/bateye-1.jpg" afterPath="$PROJECT_DIR$/web/images/slides/pillar/bateye-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/elegance/bateye-1.png" afterPath="$PROJECT_DIR$/web/images/slides/elegance/bateye-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/reflection/bateye-1.png" afterPath="$PROJECT_DIR$/web/images/slides/reflection/bateye-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/rithmic/bateye-1.png" afterPath="$PROJECT_DIR$/web/images/slides/rithmic/bateye-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/sensuality/bateye-1.png" afterPath="$PROJECT_DIR$/web/images/slides/sensuality/bateye-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/silhouette/bateye-1.png" afterPath="$PROJECT_DIR$/web/images/slides/silhouette/bateye-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/silhuetta/bateye-1.png" afterPath="$PROJECT_DIR$/web/images/slides/silhuetta/bateye-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/ties/bateye-1.png" afterPath="$PROJECT_DIR$/web/images/slides/ties/bateye-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/pillar/bateye-2.jpg" afterPath="$PROJECT_DIR$/web/images/slides/pillar/bateye-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/cask/bateye-2.png" afterPath="$PROJECT_DIR$/web/images/slides/cask/bateye-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/reflection/bateye-2.png" afterPath="$PROJECT_DIR$/web/images/slides/reflection/bateye-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/rithmic/bateye-2.png" afterPath="$PROJECT_DIR$/web/images/slides/rithmic/bateye-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/sensuality/bateye-2.png" afterPath="$PROJECT_DIR$/web/images/slides/sensuality/bateye-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/silhouette/bateye-2.png" afterPath="$PROJECT_DIR$/web/images/slides/silhouette/bateye-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/silhuetta/bateye-2.png" afterPath="$PROJECT_DIR$/web/images/slides/silhuetta/bateye-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/ties/bateye-2.png" afterPath="$PROJECT_DIR$/web/images/slides/ties/bateye-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/cask/bateye-3.png" afterPath="$PROJECT_DIR$/web/images/slides/cask/bateye-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/pillar/bateye-desc.jpg" afterPath="$PROJECT_DIR$/web/images/slides/pillar/bateye-desc.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/cask/bateye-desc.png" afterPath="$PROJECT_DIR$/web/images/slides/cask/bateye-desc.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/elegance/bateye-desc.png" afterPath="$PROJECT_DIR$/web/images/slides/elegance/bateye-desc.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/reflection/bateye-desc.png" afterPath="$PROJECT_DIR$/web/images/slides/reflection/bateye-desc.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/rithmic/bateye-desc.png" afterPath="$PROJECT_DIR$/web/images/slides/rithmic/bateye-desc.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/silhuetta/bateye-desc.png" afterPath="$PROJECT_DIR$/web/images/slides/silhuetta/bateye-desc.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/ties/bateye-desc.png" afterPath="$PROJECT_DIR$/web/images/slides/ties/bateye-desc.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/icons/bateye_behance.png" afterPath="$PROJECT_DIR$/web/images/icons/bateye_behance.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/icons/bateye_facebook.png" afterPath="$PROJECT_DIR$/web/images/icons/bateye_facebook.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/icons/bateye_instagram.png" afterPath="$PROJECT_DIR$/web/images/icons/bateye_instagram.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/icons/bateye_linkedin.png" afterPath="$PROJECT_DIR$/web/images/icons/bateye_linkedin.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/icons/bateye_twitter.png" afterPath="$PROJECT_DIR$/web/images/icons/bateye_twitter.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/icons/bateye_youtube.png" afterPath="$PROJECT_DIR$/web/images/icons/bateye_youtube.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/thumbs/big_bunny_fake.jpg" afterPath="$PROJECT_DIR$/web/images/slides/thumbs/big_bunny_fake.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/blank.gif" afterPath="$PROJECT_DIR$/web/images/blank.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/thumbs/bridge.jpg" afterPath="$PROJECT_DIR$/web/images/slides/thumbs/bridge.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/mosaics/Porto Collection/c2fe7a1bad3e04f7c87bf637cf8a8d4f52d80710.png" afterPath="$PROJECT_DIR$/web/images/mosaics/Porto Collection/c2fe7a1bad3e04f7c87bf637cf8a8d4f52d80710.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/camera-loader.gif" afterPath="$PROJECT_DIR$/web/images/camera-loader.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/camera_skins.png" afterPath="$PROJECT_DIR$/web/images/camera_skins.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/events/carris.png" afterPath="$PROJECT_DIR$/web/images/events/carris.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/events/casa.png" afterPath="$PROJECT_DIR$/web/images/events/casa.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/cask/cask1.jpg" afterPath="$PROJECT_DIR$/web/images/slides/cask/cask1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/cask/cask2.jpg" afterPath="$PROJECT_DIR$/web/images/slides/cask/cask2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/icons/catalogo.png" afterPath="$PROJECT_DIR$/web/images/icons/catalogo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/close.png" afterPath="$PROJECT_DIR$/web/images/close.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/closeform.jpg" afterPath="$PROJECT_DIR$/web/images/closeform.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/closeform.png" afterPath="$PROJECT_DIR$/web/images/closeform.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/brand/concept.png" afterPath="$PROJECT_DIR$/web/images/brand/concept.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/d4f44ffae7ff92426d10e44d6e038879ad2f7f81.jpg" afterPath="$PROJECT_DIR$/web/images/slides/d4f44ffae7ff92426d10e44d6e038879ad2f7f81.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/events/decorex.jpg" afterPath="$PROJECT_DIR$/web/images/events/decorex.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/elegance/elegance1.jpg" afterPath="$PROJECT_DIR$/web/images/slides/elegance/elegance1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/icons/email.png" afterPath="$PROJECT_DIR$/web/images/icons/email.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/explore.jpg" afterPath="$PROJECT_DIR$/web/images/explore.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/mosaics/Porto Collection/f04e2f092a25d5c3ed112bab17d750c55d42f1ed.png" afterPath="$PROJECT_DIR$/web/images/mosaics/Porto Collection/f04e2f092a25d5c3ed112bab17d750c55d42f1ed.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/fairytale/fairytale_1.png" afterPath="$PROJECT_DIR$/web/images/slides/fairytale/fairytale_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/fairytale/fairytale_2.png" afterPath="$PROJECT_DIR$/web/images/slides/fairytale/fairytale_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/fairytale/fairytale_3.png" afterPath="$PROJECT_DIR$/web/images/slides/fairytale/fairytale_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/glyphicons-halflings.png" afterPath="$PROJECT_DIR$/web/images/glyphicons-halflings.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/thumbs/header_bg.png" afterPath="$PROJECT_DIR$/web/images/slides/thumbs/header_bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/brand/history.png" afterPath="$PROJECT_DIR$/web/images/brand/history.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/events/home.png" afterPath="$PROJECT_DIR$/web/images/events/home.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/events/inter.png" afterPath="$PROJECT_DIR$/web/images/events/inter.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/thumbs/leaf.jpg" afterPath="$PROJECT_DIR$/web/images/slides/thumbs/leaf.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/icons/linkedin1.png" afterPath="$PROJECT_DIR$/web/images/icons/linkedin1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/events/lisboa.png" afterPath="$PROJECT_DIR$/web/images/events/lisboa.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/logo.jpg" afterPath="$PROJECT_DIR$/web/images/logo.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/logo.png" afterPath="$PROJECT_DIR$/web/images/logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/logo_principal_cores.png" afterPath="$PROJECT_DIR$/web/images/logo_principal_cores.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/events/london.png" afterPath="$PROJECT_DIR$/web/images/events/london.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/londoncollection_branco.jpg" afterPath="$PROJECT_DIR$/web/images/londoncollection_branco.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/londoncollection_branco2.png" afterPath="$PROJECT_DIR$/web/images/londoncollection_branco2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/londoncollection_brancohi.jpg" afterPath="$PROJECT_DIR$/web/images/londoncollection_brancohi.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/lovers_2.png" afterPath="$PROJECT_DIR$/web/images/lovers_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/whatsnew/magazine.png" afterPath="$PROJECT_DIR$/web/images/whatsnew/magazine.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/events/maison.png" afterPath="$PROJECT_DIR$/web/images/events/maison.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/brand/manufactura.png" afterPath="$PROJECT_DIR$/web/images/brand/manufactura.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/whatsnew/merrychristmas.png" afterPath="$PROJECT_DIR$/web/images/whatsnew/merrychristmas.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/icons/morada.png" afterPath="$PROJECT_DIR$/web/images/icons/morada.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/newsletter.png" afterPath="$PROJECT_DIR$/web/images/newsletter.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/icons/newsletter.png" afterPath="$PROJECT_DIR$/web/images/icons/newsletter.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/patterns/overlay1.png" afterPath="$PROJECT_DIR$/web/images/patterns/overlay1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/patterns/overlay10.png" afterPath="$PROJECT_DIR$/web/images/patterns/overlay10.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/patterns/overlay2.png" afterPath="$PROJECT_DIR$/web/images/patterns/overlay2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/patterns/overlay3.png" afterPath="$PROJECT_DIR$/web/images/patterns/overlay3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/patterns/overlay4.png" afterPath="$PROJECT_DIR$/web/images/patterns/overlay4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/patterns/overlay5.png" afterPath="$PROJECT_DIR$/web/images/patterns/overlay5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/patterns/overlay6.png" afterPath="$PROJECT_DIR$/web/images/patterns/overlay6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/patterns/overlay7.png" afterPath="$PROJECT_DIR$/web/images/patterns/overlay7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/patterns/overlay8.png" afterPath="$PROJECT_DIR$/web/images/patterns/overlay8.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/patterns/overlay9.png" afterPath="$PROJECT_DIR$/web/images/patterns/overlay9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/padraocinzaescuro.jpg" afterPath="$PROJECT_DIR$/web/images/padraocinzaescuro.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/pillar/pillar1.jpg" afterPath="$PROJECT_DIR$/web/images/slides/pillar/pillar1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/pillar/pillar2.jpg" afterPath="$PROJECT_DIR$/web/images/slides/pillar/pillar2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/porto_london.jpg" afterPath="$PROJECT_DIR$/web/images/porto_london.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/portocollection_branco.jpg" afterPath="$PROJECT_DIR$/web/images/portocollection_branco.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/portocollection_branco2.png" afterPath="$PROJECT_DIR$/web/images/portocollection_branco2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/portocollection_brancohi.jpg" afterPath="$PROJECT_DIR$/web/images/portocollection_brancohi.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/icons/presskit.png" afterPath="$PROJECT_DIR$/web/images/icons/presskit.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/queenly/queenly_1.png" afterPath="$PROJECT_DIR$/web/images/slides/queenly/queenly_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/queenly/queenly_2.png" afterPath="$PROJECT_DIR$/web/images/slides/queenly/queenly_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/queenly/queenly_3.png" afterPath="$PROJECT_DIR$/web/images/slides/queenly/queenly_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/reflection/reflection1.jpg" afterPath="$PROJECT_DIR$/web/images/slides/reflection/reflection1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/reflection/reflection2.jpg" afterPath="$PROJECT_DIR$/web/images/slides/reflection/reflection2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/right.png" afterPath="$PROJECT_DIR$/web/images/right.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/rithmic/rithmic1.jpg" afterPath="$PROJECT_DIR$/web/images/slides/rithmic/rithmic1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/rithmic/rithmic2.jpg" afterPath="$PROJECT_DIR$/web/images/slides/rithmic/rithmic2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/thumbs/road.jpg" afterPath="$PROJECT_DIR$/web/images/slides/thumbs/road.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/scroll.png" afterPath="$PROJECT_DIR$/web/images/scroll.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/thumbs/sea.jpg" afterPath="$PROJECT_DIR$/web/images/slides/thumbs/sea.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/sensuality/sensuality1.jpg" afterPath="$PROJECT_DIR$/web/images/slides/sensuality/sensuality1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/sensuality/sensuality2.jpg" afterPath="$PROJECT_DIR$/web/images/slides/sensuality/sensuality2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/setas.png" afterPath="$PROJECT_DIR$/web/images/setas.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/setas_slideshow.png" afterPath="$PROJECT_DIR$/web/images/setas_slideshow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/thumbs/shelter.jpg" afterPath="$PROJECT_DIR$/web/images/slides/thumbs/shelter.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/whatsnew/showroom.png" afterPath="$PROJECT_DIR$/web/images/whatsnew/showroom.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/silhouette/silhouette1.jpg" afterPath="$PROJECT_DIR$/web/images/slides/silhouette/silhouette1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/silhouette/silhouette2.jpg" afterPath="$PROJECT_DIR$/web/images/slides/silhouette/silhouette2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/events/stockholm.png" afterPath="$PROJECT_DIR$/web/images/events/stockholm.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/whatsnew/stone.png" afterPath="$PROJECT_DIR$/web/images/whatsnew/stone.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/stone/stone1.jpg" afterPath="$PROJECT_DIR$/web/images/slides/stone/stone1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/stone/stone2.jpg" afterPath="$PROJECT_DIR$/web/images/slides/stone/stone2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/icons/telefone.png" afterPath="$PROJECT_DIR$/web/images/icons/telefone.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/ties/ties1.jpg" afterPath="$PROJECT_DIR$/web/images/slides/ties/ties1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/ties/ties2.jpg" afterPath="$PROJECT_DIR$/web/images/slides/ties/ties2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/thumbs/tree.jpg" afterPath="$PROJECT_DIR$/web/images/slides/thumbs/tree.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/form/doctrine/base/BaseCategoryForm.class.php" afterPath="$PROJECT_DIR$/lib/form/doctrine/base/BaseCategoryForm.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/filter/doctrine/base/BaseCategoryFormFilter.class.php" afterPath="$PROJECT_DIR$/lib/filter/doctrine/base/BaseCategoryFormFilter.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/form/doctrine/CategoryForm.class.php" afterPath="$PROJECT_DIR$/lib/form/doctrine/CategoryForm.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/Product.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/Product.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/form/doctrine/CollectionForm.class.php" afterPath="$PROJECT_DIR$/lib/form/doctrine/CollectionForm.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/modules/collection/actions/actions.class.php" afterPath="$PROJECT_DIR$/apps/frontend/modules/collection/actions/actions.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/backend_dev.log" afterPath="$PROJECT_DIR$/log/backend_dev.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/config_app.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/config_app.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/config_autoload.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/config_autoload.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/config_config_handlers.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/config_config_handlers.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/config_databases.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/config_databases.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/config_factories.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/config_factories.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/config_routing.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/config_routing.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/config_settings.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/config_settings.yml.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/_notes/dwsync.xml" afterPath="$PROJECT_DIR$/web/images/_notes/dwsync.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/patterns/_notes/dwsync.xml" afterPath="$PROJECT_DIR$/web/images/patterns/_notes/dwsync.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/_notes/dwsync.xml" afterPath="$PROJECT_DIR$/web/images/slides/_notes/dwsync.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/slides/thumbs/_notes/dwsync.xml" afterPath="$PROJECT_DIR$/web/images/slides/thumbs/_notes/dwsync.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/frontend_dev.log" afterPath="$PROJECT_DIR$/log/frontend_dev.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/modules/collection/templates/indexSuccess.php" afterPath="$PROJECT_DIR$/apps/frontend/modules/collection/templates/indexSuccess.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/modules/home/templates/indexSuccess.php" afterPath="$PROJECT_DIR$/apps/frontend/modules/home/templates/indexSuccess.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/backend/templates/layout.php" afterPath="$PROJECT_DIR$/apps/backend/templates/layout.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/main.css" afterPath="$PROJECT_DIR$/web/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/templates/menuSecondary.php" afterPath="$PROJECT_DIR$/apps/frontend/templates/menuSecondary.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/modules_collection_config_filters.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/modules_collection_config_filters.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/modules_collection_config_module.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/modules_collection_config_module.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/modules_collection_config_security.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/modules_collection_config_security.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/modules_collection_config_view.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/modules_collection_config_view.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/modules_home_config_filters.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/modules_home_config_filters.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/modules_home_config_module.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/modules_home_config_module.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/modules_home_config_security.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/modules_home_config_security.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/modules_home_config_view.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/modules_home_config_view.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/backend/config/routing.yml" afterPath="$PROJECT_DIR$/apps/backend/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/config/routing.yml" afterPath="$PROJECT_DIR$/apps/frontend/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/modules/collection/templates/showcollectionSuccess.php" afterPath="$PROJECT_DIR$/apps/frontend/modules/collection/templates/showcollectionSuccess.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/modules/collection/templates/showproductSuccess.php" afterPath="$PROJECT_DIR$/apps/frontend/modules/collection/templates/showproductSuccess.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/style.css" afterPath="$PROJECT_DIR$/web/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -281,61 +67,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="schema.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/doctrine/schema.yml">
+      <file leaf-file-name="showproductSuccess.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/templates/showproductSuccess.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="3384">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="-9.296296" vertical-offset="793" max-vertical-offset="1476">
+              <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+              <folding>
+                <element signature="e#2359#2437#0#HTML" expanded="true" />
+                <element signature="e#2845#2867#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="actions.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/backend/modules/collections/actions/actions.class.php">
+        <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/actions/actions.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="396">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SliderImageForm.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/form/doctrine/SliderImageForm.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.4814816" vertical-offset="113" max-vertical-offset="666">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="158" max-vertical-offset="16866">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/backend/templates/layout.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.0" vertical-offset="378" max-vertical-offset="1512">
-              <caret line="33" column="131" selection-start-line="33" selection-start-column="131" selection-end-line="33" selection-end-column="131" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menuSecondary.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apps/frontend/templates/menuSecondary.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37168142" vertical-offset="0" max-vertical-offset="900">
-              <caret line="7" column="77" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
+            <state vertical-scroll-proportion="-19.11111" vertical-offset="1536" max-vertical-offset="2232">
+              <caret line="114" column="22" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -344,40 +93,24 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="14364">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="14400">
+              <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="284" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="indexSuccess.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/frontend/modules/home/templates/indexSuccess.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.1578946" vertical-offset="699" max-vertical-offset="4014">
-              <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
-              <folding />
-            </state>
+      <file leaf-file-name="logo.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/images/logo.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sfValidatorSchema.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/validator/sfValidatorSchema.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3953" max-vertical-offset="7182">
-              <caret line="231" column="59" selection-start-line="231" selection-start-column="43" selection-end-line="231" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sfValidatorBase.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/validator/sfValidatorBase.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="5611" max-vertical-offset="8964">
-              <caret line="323" column="34" selection-start-line="323" selection-start-column="13" selection-end-line="323" selection-end-column="35" />
-              <folding />
-            </state>
+      <file leaf-file-name="logo_principal_cores.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/images/logo_principal_cores.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -399,7 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/form/doctrine/base/BaseProductsForm.class.php" />
         <option value="$PROJECT_DIR$/apps/frontend/modules/contacts/templates/sendmailSuccess.php" />
         <option value="$PROJECT_DIR$/lib/form/doctrine/IndexContentForm.class.php" />
         <option value="$PROJECT_DIR$/apps/frontend/modules/media/actions/actions.class.php" />
@@ -431,25 +163,26 @@
         <option value="$PROJECT_DIR$/apps/frontend/modules/collection/templates/showallproductsSuccess.php" />
         <option value="$PROJECT_DIR$/apps/backend/modules/collection/config/generator.yml" />
         <option value="$PROJECT_DIR$/apps/backend/modules/product/config/generator.yml" />
-        <option value="$PROJECT_DIR$/apps/frontend/modules/collection/templates/showcollectionSuccess.php" />
         <option value="$PROJECT_DIR$/apps/frontend/config/routing.yml" />
         <option value="$PROJECT_DIR$/lib/form/doctrine/ProductImageForm.class.php" />
         <option value="$PROJECT_DIR$/apps/backend/modules/product_image/config/generator.yml" />
         <option value="$PROJECT_DIR$/lib/model/doctrine/Product.class.php" />
-        <option value="$PROJECT_DIR$/apps/frontend/modules/collection/actions/actions.class.php" />
         <option value="$PROJECT_DIR$/apps/backend/config/routing.yml" />
-        <option value="$PROJECT_DIR$/apps/frontend/modules/collection/templates/showproductSuccess.php" />
         <option value="$PROJECT_DIR$/apps/backend/modules/slider_image/config/generator.yml" />
         <option value="$PROJECT_DIR$/lib/form/doctrine/ProductForm.class.php" />
-        <option value="$PROJECT_DIR$/apps/frontend/modules/collection/templates/indexSuccess.php" />
-        <option value="$PROJECT_DIR$/lib/form/doctrine/CollectionForm.class.php" />
         <option value="$PROJECT_DIR$/lib/form/doctrine/CategoryForm.class.php" />
         <option value="$PROJECT_DIR$/lib/form/doctrine/SliderImageForm.class.php" />
         <option value="$PROJECT_DIR$/apps/backend/templates/layout.php" />
-        <option value="$PROJECT_DIR$/apps/frontend/modules/home/templates/indexSuccess.php" />
-        <option value="$PROJECT_DIR$/web/css/style.css" />
-        <option value="$PROJECT_DIR$/web/css/main.css" />
         <option value="$PROJECT_DIR$/apps/frontend/templates/menuSecondary.php" />
+        <option value="$PROJECT_DIR$/apps/frontend/modules/home/templates/indexSuccess.php" />
+        <option value="$PROJECT_DIR$/apps/frontend/modules/contacts/templates/indexSuccess.php" />
+        <option value="$PROJECT_DIR$/apps/frontend/modules/collection/templates/indexSuccess.php" />
+        <option value="$PROJECT_DIR$/web/css/style.css" />
+        <option value="$PROJECT_DIR$/lib/form/doctrine/CollectionForm.class.php" />
+        <option value="$PROJECT_DIR$/apps/frontend/modules/collection/templates/showcollectionSuccess.php" />
+        <option value="$PROJECT_DIR$/apps/frontend/modules/collection/actions/actions.class.php" />
+        <option value="$PROJECT_DIR$/apps/frontend/modules/collection/templates/showproductSuccess.php" />
+        <option value="$PROJECT_DIR$/web/css/main.css" />
       </list>
     </option>
   </component>
@@ -473,10 +206,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="-4" />
-    <option name="width" value="1442" />
-    <option name="height" value="905" />
+    <option name="y" value="24" />
+    <option name="width" value="1440" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -562,6 +294,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -590,109 +323,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="log" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bateye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bateye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bateye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bateye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bateye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bateye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bateye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bateye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bateye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bateye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doctrine" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -746,56 +377,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="filter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bateye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bateye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bateye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bateye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doctrine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bateye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bateye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="apps" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -829,6 +410,32 @@
               <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thebrand" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bateye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bateye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -852,7 +459,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
+              <option name="myItemId" value="collection" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -882,7 +489,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
+              <option name="myItemId" value="collection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bateye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bateye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -915,20 +552,45 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bateye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bateye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1016" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="127" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="120" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1026" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="128" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="121" />
     <property name="options.lastSelected" value="editor.preferences.completion" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="88" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="89" />
     <property name="recentsLimit" value="5" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
@@ -941,14 +603,14 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="317" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="320" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FullScreen" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="397" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="401" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="320" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="317" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="323" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="320" />
     <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
     <property name="TODO_SCOPE" value="apps" />
     <property name="dynamic.classpath" value="false" />
@@ -1049,17 +711,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-4" width="1442" height="905" extended-state="6" />
+    <frame x="0" y="24" width="1440" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.49928263" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2840746" sideWeight="0.672391" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3373174" sideWeight="0.49928263" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30129126" sideWeight="0.672391" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5003734" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32855093" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32138115" sideWeight="0.49928263" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3240372" sideWeight="0.49928263" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32855093" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3240372" sideWeight="0.49928263" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2492515" sideWeight="0.60210806" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3360544" sideWeight="0.49962658" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1072,6 +733,7 @@
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938075" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32138115" sideWeight="0.49928263" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938075" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4926959" sideWeight="0.50071734" order="5" side_tool="false" content_ui="tabs" />
@@ -1147,42 +809,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/templates/showcollectionSuccess.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6938776" vertical-offset="0" max-vertical-offset="612">
-          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/backend/modules/product_image/config/generator.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35682818" vertical-offset="0" max-vertical-offset="486">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/form/doctrine/base/BaseProductImageForm.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.107061505" vertical-offset="169" max-vertical-offset="990">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/model/doctrine/Product.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55737704" vertical-offset="140" max-vertical-offset="594">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/model/doctrine/ProductImage.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="454">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/form/doctrine/ProductImageForm.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.55919397" vertical-offset="48" max-vertical-offset="702">
@@ -1222,14 +848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.099585064" vertical-offset="0" max-vertical-offset="723">
           <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/templates/showproductSuccess.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30600291" vertical-offset="205" max-vertical-offset="1476">
-          <caret line="23" column="84" selection-start-line="23" selection-start-column="84" selection-end-line="23" selection-end-column="84" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1329,7 +947,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1206" max-vertical-offset="2916">
           <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1337,7 +954,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1116" max-vertical-offset="1962">
           <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1345,7 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="4198" max-vertical-offset="24498">
           <caret line="248" column="0" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1353,7 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="5611" max-vertical-offset="8964">
           <caret line="323" column="34" selection-start-line="323" selection-start-column="13" selection-end-line="323" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1376,7 +990,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3384">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1384,26 +997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21818182" vertical-offset="0" max-vertical-offset="660">
           <caret line="8" column="80813" selection-start-line="8" selection-start-column="80813" selection-end-line="8" selection-end-column="80813" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/actions/actions.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="1433" max-vertical-offset="2232">
-          <caret line="87" column="47" selection-start-line="87" selection-start-column="47" selection-end-line="87" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/templates/indexSuccess.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54987836" vertical-offset="116" max-vertical-offset="846">
-          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1411,7 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1419,7 +1011,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.7871397" vertical-offset="490" max-vertical-offset="1782">
           <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1427,7 +1018,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.9285715" vertical-offset="702" max-vertical-offset="1116">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1435,7 +1025,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="429">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1443,7 +1032,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="404">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1451,15 +1039,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.11263736" vertical-offset="257" max-vertical-offset="990">
           <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/form/doctrine/CollectionForm.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.026570048" vertical-offset="259" max-vertical-offset="1260">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1467,31 +1046,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.73429954" vertical-offset="128" max-vertical-offset="648">
           <caret line="24" column="111" selection-start-line="24" selection-start-column="111" selection-end-line="24" selection-end-column="111" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/backend/modules/collections/actions/actions.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="396">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/form/doctrine/SliderImageForm.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.4814816" vertical-offset="113" max-vertical-offset="666">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/backend/templates/layout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.0" vertical-offset="378" max-vertical-offset="1512">
-          <caret line="33" column="131" selection-start-line="33" selection-start-column="131" selection-end-line="33" selection-end-column="131" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1499,40 +1053,124 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="158" max-vertical-offset="16866">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="14364">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/home/templates/indexSuccess.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.1578946" vertical-offset="699" max-vertical-offset="4014">
-          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/frontend/templates/menuSecondary.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37168142" vertical-offset="0" max-vertical-offset="900">
-          <caret line="7" column="77" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
+        <state vertical-scroll-proportion="1.2260062" vertical-offset="0" max-vertical-offset="900">
+          <caret line="44" column="6" selection-start-line="7" selection-start-column="0" selection-end-line="44" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/backend/templates/layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34123224" vertical-offset="378" max-vertical-offset="1512">
+          <caret line="33" column="131" selection-start-line="33" selection-start-column="131" selection-end-line="33" selection-end-column="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/contacts/templates/indexSuccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.027355623" vertical-offset="0" max-vertical-offset="810">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/home/templates/indexSuccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.8449848" vertical-offset="0" max-vertical-offset="4122">
+          <caret line="104" column="28" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/form/doctrine/SliderImageForm.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25862068" vertical-offset="0" max-vertical-offset="696">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/backend/modules/collections/actions/actions.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20689656" vertical-offset="0" max-vertical-offset="696">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/backend/modules/collection/config/generator.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="723">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38312587" vertical-offset="15977" max-vertical-offset="16776">
+          <caret line="903" column="0" selection-start-line="903" selection-start-column="0" selection-end-line="903" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/templates/showcollectionSuccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23718888" vertical-offset="0" max-vertical-offset="683">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/form/doctrine/CollectionForm.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18448023" vertical-offset="162" max-vertical-offset="1260">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/templates/indexSuccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48609078" vertical-offset="802" max-vertical-offset="1512">
+          <caret line="63" column="38" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/actions/actions.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.11111" vertical-offset="1536" max-vertical-offset="2232">
+          <caret line="114" column="22" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/collection/templates/showproductSuccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.296296" vertical-offset="793" max-vertical-offset="1476">
+          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+          <folding>
+            <element signature="e#2359#2437#0#HTML" expanded="true" />
+            <element signature="e#2845#2867#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14400">
+          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="284" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/logo_principal_cores.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>

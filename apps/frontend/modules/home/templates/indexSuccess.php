@@ -77,8 +77,14 @@
         <div id="artparallax" class="span11 center-text art-typo abrilfat nodisplay">art<span class="symbolred">&</span>design</div>
     </div>
     <div class="span11 collections-img nodisplay">
-        <?php foreach ($collections as $collection): ?>
+        <?php /** @var Collection $collection */
+        $i = 0;
+        foreach ($collections as $collection): ?>
             <?php
+            if ($i == 2){
+                break;
+            }
+            $i++;
             $collectionName = $collection->getName();
             $collectionName = str_replace(" ", "-", $collectionName);
             $collectionName = strtolower($collectionName);
@@ -87,7 +93,7 @@
             <div id="<?php echo $collectionId ?>">
                 <?php $collectionName = str_replace("-", "", $collectionName); ?>
                 <!--      LINK TO EXAMPLE      -->
-                <?php echo link_to(image_tag('/images/' . $collectionName . '_branco.png'), 'collection/showcollection?id=' . $collection->getId()."&name=" . $collection->getName()) ?>
+                <?php echo link_to(image_tag('/images/collection/' . $collection->getNameImage()), 'collection/showcollection?id=' . $collection->getId()."&name=" . $collection->getName()) ?>
                 <!--            <a href="--><?php //echo url_for(array(
 //                'module' => 'collection',
 //                'action' => 'showcollection',

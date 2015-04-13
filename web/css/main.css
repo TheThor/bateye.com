@@ -265,7 +265,7 @@
 		font-family: 'Lato', sans-serif;
 		font-weight: 18px;
 		text-align: center;
-		margin-top: 50px;
+		margin-top: 430px;
 		line-height: 20px;
 	}
 		#text hr{
@@ -279,9 +279,10 @@
 				margin: auto;
 				font-family: 'Lato', sans-serif;
 				font-weight: 300;
-				font-style: 14px;
+				font-size: 0.9em;
 				line-height: 20px;
 				margin-top: 50px;
+                text-align: justify;
 			}
 				#info_peca{
 					width: 810px;
@@ -305,6 +306,7 @@
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     margin-top: 50px;
+    margin-bottom: -85px;
 }
 
 #might_like hr {
@@ -359,10 +361,10 @@
 div.img
 {
 	float: left;
-	height: 350px;
+	height: 235px;
 	margin: 2px;
 	text-align: center;
-	width: 250px;
+	width: 198px;
 }
 div.img-not{
 	margin-left: 0;
@@ -371,7 +373,7 @@ div.img img
 {
 	display:inline;
 	margin:3px;
-	width: 250px;
+	width: 200px;
 }
 div.desc
 {
@@ -380,7 +382,7 @@ div.desc
 	text-align:center;
 	font-weight:normal;
 	font-family: 'Lato', sans-serif;
-	width:250px;
+	width:200px;
 	margin:2px;
 }
 				  	div.desc a{

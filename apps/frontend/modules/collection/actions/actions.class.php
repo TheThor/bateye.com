@@ -112,7 +112,7 @@ class collectionActions extends sfActions
         $q = Doctrine::getTable('Product')
             ->createQuery()
             ->orderBy('RAND()')
-            ->limit('5');
+            ->limit('4');
         return  $q->execute();
     }
 }
