@@ -14,7 +14,7 @@ class CollectionForm extends BaseCollectionForm
   {
       unset($this['created_at'], $this['updated_at']);
       $this->setWidget('name_image', new sfWidgetFormInputFileEditable(array(
-          'label' => 'Name image',
+          'label' => 'Name image (240px largura)',
           'file_src' => '/images/collection/' . $this->getObject()->getNameImage(),
           'is_image'  => true,
           'edit_mode' => !$this->isNew(),

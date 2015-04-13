@@ -901,11 +901,6 @@ a.red-cross:hover{
 
 .collection-link{
     width: 240px;
-    max-width: 240px;
-    min-width: 240px;
-    height: 136px;
-    max-height: 136px;
-    min-height: 136px;
     margin: 0 auto;
 }
 

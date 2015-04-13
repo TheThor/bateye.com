@@ -29,7 +29,7 @@
         <!-- #camera_wrap_1 -->
     </div>
     <div id="text">
-        <br><br>
+        <br><br><br>
 
         <?php echo $product->getCitation() ?><br><br>
 
@@ -60,14 +60,14 @@
         <div style="margin-bottom: 15px; font-weight: bold; position:relative; width: 100%">You might like....</div>
         <hr>
         <?php foreach($products as $single): ?>
-            <span style="width: 180px; margin-left: 35px">
+            <span >
 					<a href="<?php echo url_for(array(
                         'module' => 'collection',
                         'action' => 'showproduct',
                         'id' => $single->getId(),
                         'name' => $single->getName()
                     )) ?>">
-                        <img style="width: 140px; " src="/images/products/mosaics/<?php echo $single->getCollection()->getName() . '/' . $single->getMainImgPath() ?>" alt="<?php echo $single->getMainImgAlt() ?>">
+                        <img style="width: 200px; " src="/images/products/mosaics/<?php echo $single->getCollection()->getName() . '/' . $single->getMainImgPath() ?>" alt="<?php echo $single->getMainImgAlt() ?>">
                     </a>
 				</span>
         <?php endforeach ?>
