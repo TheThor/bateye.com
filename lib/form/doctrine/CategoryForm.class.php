@@ -22,7 +22,7 @@ class CategoryForm extends BaseCategoryForm
       )));
       $this->setValidator('image', new sfValidatorFile(array(
           'required'   => false,
-          'path'       => sfConfig::get('sf_upload_dir') . '/images/category/' . $this->getObject()->getImage() .'/',
+          'path'       => sfConfig::get('sf_upload_dir') . '/images/category/',
           'mime_types' => 'web_images',
       )));
       $this->validatorSchema['image_delete'] = new sfValidatorPass();

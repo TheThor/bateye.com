@@ -26,7 +26,7 @@ class CollectionForm extends BaseCollectionForm
       //));
       $this->setValidator('name_image', new sfValidatorFile(array(
           'required'   => false,
-          'path'       => sfConfig::get('sf_upload_dir') . '/images/collection/' . $this->getObject()->getNameImage() .'/',
+          'path'       => sfConfig::get('sf_upload_dir') . '/images/collection/',
           'mime_types' => 'web_images',
       )));
       $this->validatorSchema['name_image_delete'] = new sfValidatorPass();
@@ -50,7 +50,7 @@ class CollectionForm extends BaseCollectionForm
       //));
       $this->setValidator('backgroud_image', new sfValidatorFile(array(
           'required'   => false,
-          'path'       => sfConfig::get('sf_upload_dir') . '/images/collection/' . $this->getObject()->getBackgroudImage() .'/',
+          'path'       => sfConfig::get('sf_upload_dir') . '/images/collection/',
           'mime_types' => 'web_images',
       )));
 //		OR

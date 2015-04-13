@@ -15,7 +15,7 @@ class SliderImageForm extends BaseSliderImageForm
       unset($this['created_at'], $this['updated_at']);
       $this->setWidget('path', new sfWidgetFormInputFileEditable(array(
           'label' => 'Slider image',
-          'file_src' => '/images/Carousel/'.$this->getObject()->getPath(),
+          'file_src' => '/images/Carousel/' . $this->getObject()->getPath(),
           'is_image'  => true,
           'edit_mode' => !$this->isNew(),
           'template'  => '<div>%file%<br />%input%<br />%delete% %delete_label%</div>'

@@ -8,7 +8,7 @@
             <img class="logo" src="/images/logo_principal_cores.png" alt="Logo Bateye" width="200px" />
         </div>
     </div>
-    <div id="menu" <?php  if ($sf_user->isAuthenticated()) echo 'style="width: 420px"'; ?> style="top:140px">
+    <div id="menu" <?php  if ($sf_user->isAuthenticated()) echo 'style="width: 420px; top: 135px"'; ?> style="top:140px; top: 135px">
         <nav>
             <ul>
                 <li><a href="<?php echo url_for('homepage') ?>">HOME</a></li>

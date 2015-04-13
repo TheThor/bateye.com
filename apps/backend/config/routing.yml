@@ -81,7 +81,7 @@ sf_guard_signout:
 
 homepage:
   url:   /
-  param: { module: products, action: index }
+  param: { module: product, action: index }
 
 # generic rules
 # please, remove them by adding more specific rules
