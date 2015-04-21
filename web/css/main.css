@@ -1,4 +1,45 @@
 /* BARRA CIMA */
+@font-face {
+    font-family: 'Abril Fatface'; /*a name to be used later*/
+    src: url('../fonts/AbrilFatface-Regular.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'GFLatoRegular'; /*a name to be used later*/
+    src: url('../fonts/Lato-Regular.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'GFLatoLight'; /*a name to be used later*/
+    src: url('../fonts/Lato-Light.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'GFLatoBold'; /*a name to be used later*/
+    src: url('../fonts/Lato-Bold.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'GFLatoBoldItalic'; /*a name to be used later*/
+    src: url('../fonts/Lato-BoldItalic.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'GFLatoItalic'; /*a name to be used later*/
+    src: url('../fonts/Lato-Italic.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family:"Pompadour Black";
+    src:url("../fonts/Pompadour.eot?")
+    format("eot"),url("../fonts/Pompadour.woff")
+    format("woff"),url("../fonts/Pompadour.ttf")
+    format("truetype"),url("../fonts/Pompadour.svg#Pompadour-Black")
+    format("svg");
+    font-weight:normal;
+    font-style:normal;
+}
+
 #fundo{
 	width: 100%;
 	height: 150px;
@@ -392,16 +433,15 @@ div.desc
 
 				  	div.desc h6{
 				  		font-weight: 400;
-				  		font-size: 20px;
+				  		font-size: 14px;
 				  		text-decoration: none;
-				  		font-family: 'Abril Fatface', sans-serif;
+                        text-transform: uppercase;
 				  		margin-bottom: 2px;
 				  	}
 				  		div.desc h5{
 				  			font-weight: 300;
 				  			font-size: 12px;
-				  			text-transform: uppercase;
-				  			font-family: 'Lato', sans-serif;
+				  			text-transform: lowercase;
 				  		}
 
 

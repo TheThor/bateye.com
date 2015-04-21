@@ -15,11 +15,11 @@
                 'id' => $product->getId(),
                 'name' => $product->getName()
             ))?>">
-                <img src="/images/products/mosaics/<?php echo $product->getCollection() . "/" .  $product->getMainImgPath() ?>" alt="<?php echo $product->getMainImgAlt() ?>">
+                <img src="/images/products/<?php echo $product->getMainImgPath() ?>" alt="<?php echo $product->getMainImgAlt() ?>">
             </a>
             <div class="desc">
-                <h6><?php echo $product->getName() ?></h6>
-                <h5><?php echo $product->getCategory() ?></h5>
+                <h6 class="latobold"><?php echo strtoupper($product->getName()) ?></h6>
+                <h5 class="latolight"><?php echo strtolower($product->getCategory()) ?></h5>
             </div>
         </div>
         <?php endforeach; ?>

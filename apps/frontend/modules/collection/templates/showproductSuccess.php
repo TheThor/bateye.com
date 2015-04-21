@@ -21,7 +21,7 @@
         <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
             <?php /** @var ProductImage $image */
             foreach($images->getRawValue() as $image): ?>
-            <div data-src="/images/slides/<?php echo $image->getProduct()->getName() . DIRECTORY_SEPARATOR . $image->getLocation() ?>">
+            <div data-src="/images/slides/<?php echo $image->getLocation() ?>">
             </div>
             <?php endforeach; ?>
             </div>
@@ -52,7 +52,7 @@
             <?php echo $product->getMaterials(); ?><br><br>
         </div>
         <div style="float: right; width: 500px; height: 300px">
-            <img style="float: right; width: 500px; height: 300px" src="/images/products/<?php echo $product->getCollection()->getName() . DIRECTORY_SEPARATOR . $product->getContextImg() ?>" alt="<?php echo $product->getContextImgAlt()?>"/>
+            <img style="float: right; width: 500px; height: 300px" src="/images/products/<?php echo $product->getContextImg() ?>" alt="<?php echo $product->getContextImgAlt()?>"/>
         </div>
         <div class="clear"></div>
     </div>
@@ -67,7 +67,7 @@
                         'id' => $single->getId(),
                         'name' => $single->getName()
                     )) ?>">
-                        <img style="width: 200px; " src="/images/products/mosaics/<?php echo $single->getCollection()->getName() . '/' . $single->getMainImgPath() ?>" alt="<?php echo $single->getMainImgAlt() ?>">
+                        <img style="width: 200px; " src="/images/products/<?php echo $single->getMainImgPath() ?>" alt="<?php echo $single->getMainImgAlt() ?>">
                     </a>
 				</span>
         <?php endforeach ?>
