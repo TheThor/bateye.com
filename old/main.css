@@ -333,7 +333,6 @@
 				  text-decoration: none;
 				  text-align:center;
 				  font-weight:normal;
-				  font-family: 'Lato', sans-serif;
 				  width:302px;
 				  margin:2px;
 				  }
@@ -346,9 +345,11 @@
 				  		font-weight: bolder;
 				  		font-size: 28px;
 				  		text-decoration: none;
-				  	}
+                        font-family: 'GFLatoRegular', sans-serif;
+                    }
 				  		div.desc h5{
 				  			font-weight: 300;
 				  			font-size: 16px;
 				  			text-transform: uppercase;
+                            font-family: 'GFLatoRegular', sans-serif;
 				  		}

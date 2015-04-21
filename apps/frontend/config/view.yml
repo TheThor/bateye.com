@@ -12,7 +12,7 @@ default:
     #description:  symfony project
     #keywords:     symfony, project
     #language:     en
-    #robots:       index, follow
+    robots:       index, follow
 
   javascripts:    [jquery-1.10.2.js, bootstrap.js, sidebuttons.js, parallax.js, validator.js, others.js]
 

@@ -92,7 +92,7 @@
             ?>
             <div id="<?php echo $collectionId ?>">
                 <?php $collectionName = str_replace("-", "", $collectionName); ?>
-                <!--      LINK TO EXAMPLE      -->
+               8gb <!--      LINK TO EXAMPLE      -->
                 <?php echo link_to(image_tag('/images/collection/' . $collection->getNameImage()), 'collection/showcollection?id=' . $collection->getId()."&name=" . $collection->getName()) ?>
                 <!--            <a href="--><?php //echo url_for(array(
 //                'module' => 'collection',

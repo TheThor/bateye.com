@@ -15,7 +15,7 @@ class ProductForm extends BaseProductForm
       unset($this['created_at'], $this['updated_at']);
       $this->setWidget('main_img_path', new sfWidgetFormInputFileEditable(array(
           'label' => 'Product image',
-          'file_src' => '/images/products/mosaics/'.$this->getObject()->getCollection().'/'.$this->getObject()->getMainImgPath(),
+          'file_src' => '/images/products/'.$this->getObject()->getMainImgPath(),
           'is_image'  => true,
           'edit_mode' => !$this->isNew(),
           'template'  => '<div>%file%<br />%input%<br />%delete% %delete_label%</div>'
@@ -26,7 +26,7 @@ class ProductForm extends BaseProductForm
       //));
       $this->setValidator('main_img_path', new sfValidatorFile(array(
           'required'   => false,
-          'path'       => sfConfig::get('sf_upload_dir') . '/images/products/mosaics/' . $this->getObject()->getCollection().'/',
+          'path'       => sfConfig::get('sf_upload_dir') . '/images/products/',
           'mime_types' => 'web_images',
       )));
 //		OR
@@ -39,7 +39,7 @@ class ProductForm extends BaseProductForm
 
       $this->setWidget('context_img', new sfWidgetFormInputFileEditable(array(
           'label' => 'Context image',
-          'file_src' => '/images/products/'.$this->getObject()->getCollection().'/'.$this->getObject()->getContextImg(),
+          'file_src' => '/images/products/'.$this->getObject()->getContextImg(),
           'is_image'  => true,
           'edit_mode' => !$this->isNew(),
           'template'  => '<div>%file%<br />%input%<br />%delete% %delete_label%</div>'
@@ -50,7 +50,7 @@ class ProductForm extends BaseProductForm
       //));
       $this->setValidator('context_img', new sfValidatorFile(array(
           'required'   => false,
-          'path'       => sfConfig::get('sf_upload_dir') . '/images/products/' . $this->getObject()->getCollection().'/',
+          'path'       => sfConfig::get('sf_upload_dir') . '/images/products/',
           'mime_types' => 'web_images',
       )));
 //		OR
@@ -63,7 +63,7 @@ class ProductForm extends BaseProductForm
 
       $this->setWidget('small_img', new sfWidgetFormInputFileEditable(array(
           'label' => 'Small image',
-          'file_src' => '/images/products/'.$this->getObject()->getCollection().'/'.$this->getObject()->getSmallImg(),
+          'file_src' => '/images/products/'.$this->getObject()->getSmallImg(),
           'is_image'  => true,
           'edit_mode' => !$this->isNew(),
           'template'  => '<div>%file%<br />%input%<br />%delete% %delete_label%</div>'
@@ -74,7 +74,7 @@ class ProductForm extends BaseProductForm
       //));
       $this->setValidator('small_img', new sfValidatorFile(array(
           'required'   => false,
-          'path'       => sfConfig::get('sf_upload_dir') . '/images/products/' . $this->getObject()->getCollection().'/',
+          'path'       => sfConfig::get('sf_upload_dir') . '/images/products/',
           'mime_types' => 'web_images',
       )));
 //		OR
