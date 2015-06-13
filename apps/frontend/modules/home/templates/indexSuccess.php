@@ -91,8 +91,7 @@
             $collectionId = substr($collectionName, 0,-3);
             ?>
             <div id="<?php echo $collectionId ?>">
-                <?php $collectionName = str_replace("-", "", $collectionName); ?>
-               8gb <!--      LINK TO EXAMPLE      -->
+                <?php $collectionName = str_replace("-", "", $collectionName); ?><!--      LINK TO EXAMPLE      -->
                 <?php echo link_to(image_tag('/images/collection/' . $collection->getNameImage()), 'collection/showcollection?id=' . $collection->getId()."&name=" . $collection->getName()) ?>
                 <!--            <a href="--><?php //echo url_for(array(
 //                'module' => 'collection',
@@ -195,6 +194,8 @@
                 <a href="http://www.behance.net/Bateye"><img src="/images/icons/bateye_behance.png" alt="Behance Logo"></a>
                 <a href="http://instagram.com/bateye"><img src="/images/icons/bateye_instagram.png" alt="Instagram Logo"></a>
                 <a href="http://www.linkedin.com/company/bat-eye"><img src="/images/icons/bateye_linkedin.png" alt="Linkdin logo"></a>
+                <a href="http://www.houzz.com/pro/bateye/bateye"><img src="/images/icons/houzz.png" alt="houzz logo"></a>
+                <a href="http://pt.pinterest.com/bat_eye/"><img src="/images/icons/pinterest.png" alt="Pinterest logo"></a>
             </div>
         </div>
         <div class="span11 center-text white-text latobold">

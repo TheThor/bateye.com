@@ -538,7 +538,7 @@ margin-left: auto;
 #logos {
     margin: auto auto 50px;
     padding-top: 50px;
-    width: 325px;
+    width: 410px;
 }
 
 .white-text{
@@ -924,4 +924,10 @@ a.red-cross:hover{
         left: 50%;
         margin-left: -512px;   /* 50% */
     }
+}
+
+/*Overide bootstrap3 col */
+.col-centered{
+    float: none;
+    margin: 0 auto;
 }

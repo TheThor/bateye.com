@@ -1,0 +1,58 @@
+#press-area-menu {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.offset2-5{
+    margin-left: 306px;
+}
+
+.span3marginalized {
+    margin-left: 35px
+}
+
+#press-area-menu > div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#press-area-menu h1.abrilfat {
+    margin-top: 0;
+}
+
+#press-area-menu > div > div > ul > li {
+    border-bottom: 1px solid;
+    margin-bottom: 3px;
+    margin-left: 35px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    font-size: 1.3em;
+}
+
+#press-area-menu > div > div > ul > li:last-child {
+    border-bottom: none;
+}
+
+#press-main-area {
+    background-color: #f2f2f2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: justify;
+}
+
+#press-main-area > div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.gallery-container {
+    padding-top: 50px;
+}
+
+.gallery-container h3.abrilfat{
+    margin-top: 0;
+}
+
+#footer {
+    margin-top: 0;
+}

@@ -17,6 +17,20 @@ class pressActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   {
-    $this->forward('default', 'module');
   }
+
+    public function executeThebrand()
+    {
+        $this->showActiveCollections();
+    }
+
+    private function showActiveCategories()
+    {
+        $this->categories = Doctrine_Core::getTable('Category')->getAllCategories();
+    }
+
+    private function showActiveCollections()
+    {
+        $this->collections = Doctrine_Core::getTable('Collection')->showActiveCollections();
+    }
 }
