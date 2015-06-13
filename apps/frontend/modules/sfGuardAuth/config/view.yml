@@ -1,9 +1,9 @@
 secureSuccess:
-  stylesheets:    [reset.css, main.css, "http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900", http://fonts.googleapis.com/css?family=Abril+Fatface, camera.css, style.css, bootstrap3.min.css]
+  stylesheets:    [reset.css, main.css, "http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900", http://fonts.googleapis.com/css?family=Abril+Fatface, camera.css, bootstrap3.min.css, style.css]
   javascripts:    [-*,jquery-1.10.2.js, sidebuttons.js,  validator.js, jquery.min.js, validator.js, analytics.js, jquery.mobile.customized.min.js, jquery.easing.1.3.js, productslider.js,camera.min.js, productslider.js,jquery-1.10.2.js]
   layout: page_layout
 
 signinSuccess:
-  stylesheets:    [reset.css, main.css, "http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900", http://fonts.googleapis.com/css?family=Abril+Fatface, camera.css, style.css, bootstrap3.min.css]
+  stylesheets:    [reset.css, main.css, "http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900", http://fonts.googleapis.com/css?family=Abril+Fatface, camera.css, bootstrap3.min.css, style.css]
   javascripts:    [-*,jquery-1.10.2.js, sidebuttons.js,  validator.js, jquery.min.js, validator.js, analytics.js, jquery.mobile.customized.min.js, jquery.easing.1.3.js, productslider.js,camera.min.js, productslider.js,jquery-1.10.2.js]
   layout: page_layout

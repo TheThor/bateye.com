@@ -1,14 +1,22 @@
 # You can find more information about this file on the symfony website:
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
 
+press_thebrand:
+  url:  /press/thebrand/
+  param: { module: press, action: thebrand }
+
+press:
+  url:  /press/
+  param: { module: press, action: index }
+
 #the brand module
 thebrand:
   url:  /thebrand/
-  param: { module: thebrand, action: index}
+  param: { module: thebrand, action: index }
 
 show_concept:
   url:  /thebrand/concept/
-  param: { module: thebrand, action: showconcept}
+  param: { module: thebrand, action: showconcept }
 
 show_history:
   url:  /thebrand/history/
