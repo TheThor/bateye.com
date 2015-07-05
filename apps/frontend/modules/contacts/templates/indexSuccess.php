@@ -32,9 +32,9 @@
         </a>
         <h2>catalogue</h2>
     </div>
-    <div id="d_2">
-        <img src="/images/icons/presskit.png"><br>
-        <h2>presskit</h2>
-    </div>
+<!--    <div id="d_2">-->
+<!--        <img src="/images/icons/presskit.png"><br>-->
+<!--        <h2>presskit</h2>-->
+<!--    </div>-->
 </div>
 <?php include(sfConfig::get('sf_app_template_dir').'/footerSecondary.php') ?>

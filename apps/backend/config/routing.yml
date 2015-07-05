@@ -1,3 +1,12 @@
+press_release:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                PressRelease
+    module:               press_release
+    prefix_path:          /press_release
+    column:               id
+    with_wildcard_routes: true
+
 slider_image:
   class: sfDoctrineRouteCollection
   options:
