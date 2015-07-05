@@ -9,9 +9,9 @@
     <div>
         <div class="span11 pagination-centered" style="position: relative">
             <img class="logo" src="/images/logo_principal_cores.png" alt="Logo Bateye"/>
-            <div id="lang-choice">
-                <a href="">EN </a>|<a href="index.php"> PT</a>
-            </div>
+<!--            <div id="lang-choice">-->
+<!--                <a href="">EN </a>|<a href="index.php"> PT</a>-->
+<!--            </div>-->
         </div>
 
     </div>
@@ -204,7 +204,7 @@
                     'action' => 'index'
                 )) ?>" style="font-size:14px;">INFO</a></p>
           <span class="latolight">info@bateye.com<br />
-          +351 915790818</span>
+          +351 227312657</span>
         </div>
         <div id="rights" class="latolight">
             © 2013 <span class="latoitalic">bat eye, Ltd.</span><br />

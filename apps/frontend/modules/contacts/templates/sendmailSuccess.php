@@ -7,8 +7,8 @@
  * TODO: Move this to Controller
  */
 if (isset($_POST['contact']) && $_POST['contact'] == "true") {
-    $email = "marcosousa@bateye.com";
-    $name = "Marco Sousa";
+    $email = "info@bateye.com";
+    $name = "Bateye";
     $email_from = $_POST['email'];
     $name_from = $_POST['nome'];
     $assunto = $_POST['assunto'];
@@ -31,6 +31,8 @@ if (isset($_POST['contact']) && $_POST['contact'] == "true") {
     $mail->Password = "M@rc01325";            // GMAIL password
 
     $mail->AddAddress($email, $name);
+    $mail->AddBCC("marcosousa@bateye.com");
+    $mail->AddBCC("requeridas@bateye.com");
     $mail->SetFrom($email_from, $name_from);
     $mail->Subject = $assunto;
     $mail->Body = $message;
@@ -42,7 +44,7 @@ if (isset($_POST['contact']) && $_POST['contact'] == "true") {
         echo "false" . $mail->ErrorInfo;
     }
 } else {
-    $email = "marcosousa@bateye.com";
+    $email = "info@bateye.com";
     $name = "Marco Sousa";
     $email_from = $_POST['email'];
     $name_from = $_POST['nome'];
@@ -67,6 +69,8 @@ if (isset($_POST['contact']) && $_POST['contact'] == "true") {
     $mail->Password = "M@rc01325";            // GMAIL password
 
     $mail->AddAddress($email, $name);
+    $mail->AddBCC("marcosousa@bateye.com");
+    $mail->AddBCC("requeridas@bateye.com");
     $mail->SetFrom($email_from, $name_from);
     $mail->Subject = $assunto;
     $mail->Body = $message;

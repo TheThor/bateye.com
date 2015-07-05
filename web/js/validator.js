@@ -62,9 +62,9 @@ $(document).ready(function() {
                 data: data,
                 success: function(result){
                     if (result == 'true') {
-                        alert("Subscrição efectuada!");
+                        alert("Subscribed with success!");
                     } else {
-                        alert("Não foi possível enviar a subscrição. Contacte-nos para marcosousa@bateye.com!")
+                        alert("It was not possible to subscribe you to our email list. Please send an email to marcosousa@bateye.com. Sorry for the inconvenience.")
                     }
                 },
                 error: function(errormessage){
@@ -77,7 +77,7 @@ $(document).ready(function() {
     $("#send").click(function(){
         url_for = $("#send").attr("data-url");
         if (error>0 || !$("#mailer input[type='text']").val() || !$("#mailer input[type='email']").val() || !IsEmail($("#mailer input[type='email']").val()) /*|| !$("#mail input[type='checkbox']").is(':checked')*/){
-            alert("Tem erros no formulário.");
+            alert("You have errors. Please fill the form correctly.");
             return false;
         }else{
             var data = {
@@ -95,9 +95,9 @@ $(document).ready(function() {
                 data: data,
                 success: function(result){
                     if (result == 'true') {
-                        alert("Email enviado! Obrigado!");
+                        alert("Email sent successfully!");
                     } else {
-                        alert("Não foi possível enviar o email. Contacte-nos para marcosousa@bateye.com p.f.f.!")
+                        alert("It was not possible to send the message. Please send an email to marcosousa@bateye.com. Sorry for the inconvenience.")
                     }
                 },
                 error: function(errormessage){
