@@ -80,16 +80,20 @@ IndexContent:
     thebrand:       { type: array, notnull: true }
     thedesigner:    { type: array, notnull: true }
 
-#Main area before login
+###################################
+##### Main area before login ######
+###################################
 PressMainArea:
   actAs: { Timestampable: ~ }
   columns:
     id:             { type: integer, primary: true, autoincrement: true }
     cover:          { type: string(255), notnull: true }
     catalogue:      { type: string(255), notnull: true }
+    country:        { type: string(255), notnull: true }
+    description:    { type: string(255), notnull: true }
 
 ###################################
-####### Press main area ###########
+######## Press main area ##########
 ###################################
 PressLogo:
   actAs: { Timestampable: ~ }
@@ -97,8 +101,13 @@ PressLogo:
     id:             { type: integer, primary: true, autoincrement: true }
     jpg_location:   { type: string(255), notnull: true }
     png_location:   { type: string(255), notnull: true }
+    image:             { type: string(255), notnull: true }
 
-#The brand press page Concept mini gallery + product gallery for single images
+##########################################
+##### The brand press page Concept  ######
+#####    mini gallery + product     ######
+#####   gallery for single images   ######
+##########################################
 PressProductConcept:
   actAs: { Timestampable: ~ }
   columns:
@@ -109,7 +118,11 @@ PressProductConcept:
   relations:
     Product:           { local: product_id, foreign: id, foreignAlias: PressConceptProduct }
 
-#Individual gallery for each product concept
+##########################
+### Individual gallery ###
+### for each product  ####
+####### concept ##########
+##########################
 PressProductConceptImage:
   actAs: { Timestampable: ~ }
   columns:
