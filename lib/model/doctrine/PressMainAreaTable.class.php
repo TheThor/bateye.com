@@ -21,9 +21,19 @@ class PressMainAreaTable extends Doctrine_Table
      * @return Doctrine_Collection
      * @throws Doctrine_Query_Exception
      */
-    public function getAllMagazinesWithInfo(){
+    public function getAllMagazinesWithInfo()
+    {
         $q = $this->createQuery('PressMainArea pma')
-        ->orderBy('id desc');
+        ->orderBy('created_at desc');
+        return $q->execute();
+    }
+
+    public function getMagazinesYears()
+    {
+        $q = $this->createQuery('PressMainArea pma')
+            ->select('YEAR(created_at)')
+            ->orderBy('created_at desc')
+            ->groupBy('created_at');
         return $q->execute();
     }
 }

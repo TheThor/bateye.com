@@ -12,7 +12,7 @@ class PressMainAreaForm extends BasePressMainAreaForm
 {
   public function configure()
   {
-      unset($this['created_at'], $this['updated_at']);
+      unset($this['updated_at']);
       $this->setWidget('cover', new sfWidgetFormInputFileEditable(array(
           'label' => 'Thumbnail image (240x160)',
           'file_src' => '/images/press/main_area/' . $this->getObject()->getCover(),
@@ -27,14 +27,14 @@ class PressMainAreaForm extends BasePressMainAreaForm
       )));
       $this->setWidget('catalogue', new sfWidgetFormInputFileEditable(array(
           'label' => 'PDF File',
-          'file_src' => '/images/press/main_area/' . $this->getObject()->getCatalogue(),
+          'file_src' => '/media/press/main_area/' . $this->getObject()->getCatalogue(),
           'is_image'  => true,
           'edit_mode' => !$this->isNew(),
-          'template'  => '<div>%file%<br />%input%<br />%delete% %delete_label%</div>'
+          'template'  => '<div>%input%<br />%delete% %delete_label%</div>'
       )));
       $this->setValidator('catalogue', new sfValidatorFile(array(
           'required'   => false,
-          'path'       => sfConfig::get('sf_upload_dir') . '/images/press/main_area/',
+          'path'       => sfConfig::get('sf_upload_dir') . '/media/press/main_area/',
           'mime_categories' => array('pdf' => array('application/pdf', 'application/x-pdf')),
           'mime_types' => 'pdf',
       )));
