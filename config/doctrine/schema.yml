@@ -147,8 +147,10 @@ PressCollection:
     product_image:    { type: string(255), notnull: true }
     package_location: { type: string(255), notnull: true }
     collection_id:    { type: integer, notnull: true }
+    product_id:       { type: integer, notnull: true }
   relations:
-    Collection:       { local: collection_id, foreign: id, foreignAlias: PressCollection }
+    Collection:       { local: collection_id, foreign: id, foreignAlias: PressCollectionCollection }
+    Product:          { local: product_id, foreign: id, foreignAlias: PressCollectionProduct }
 
 ##########################################
 ####### Product individual gallery #######
@@ -162,7 +164,7 @@ PressProductImage:
     collection_id:     { type: integer, notnull: true }
     product_id:        { type: integer, notnull: true }
   relations:
-    PressCollection:   { local: collection_id, foreign: id, foreignAlias: PressCollection }
+    Collection:        { local: collection_id, foreign: id, foreignAlias: PressProductCollection }
     Product:           { local: product_id, foreign: id, foreignAlias: PressProductImage }
 
 ##########################################

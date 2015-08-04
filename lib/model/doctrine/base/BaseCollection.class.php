@@ -11,22 +11,25 @@
  * @property string $backgroud_image
  * @property boolean $is_active
  * @property Doctrine_Collection $ProductCollection
- * @property Doctrine_Collection $PressCollection
+ * @property Doctrine_Collection $PressCollectionCollection
+ * @property Doctrine_Collection $PressProductCollection
  * 
- * @method integer             getId()                Returns the current record's "id" value
- * @method string              getName()              Returns the current record's "name" value
- * @method string              getNameImage()         Returns the current record's "name_image" value
- * @method string              getBackgroudImage()    Returns the current record's "backgroud_image" value
- * @method boolean             getIsActive()          Returns the current record's "is_active" value
- * @method Doctrine_Collection getProductCollection() Returns the current record's "ProductCollection" collection
- * @method Doctrine_Collection getPressCollection()   Returns the current record's "PressCollection" collection
- * @method Collection          setId()                Sets the current record's "id" value
- * @method Collection          setName()              Sets the current record's "name" value
- * @method Collection          setNameImage()         Sets the current record's "name_image" value
- * @method Collection          setBackgroudImage()    Sets the current record's "backgroud_image" value
- * @method Collection          setIsActive()          Sets the current record's "is_active" value
- * @method Collection          setProductCollection() Sets the current record's "ProductCollection" collection
- * @method Collection          setPressCollection()   Sets the current record's "PressCollection" collection
+ * @method integer             getId()                        Returns the current record's "id" value
+ * @method string              getName()                      Returns the current record's "name" value
+ * @method string              getNameImage()                 Returns the current record's "name_image" value
+ * @method string              getBackgroudImage()            Returns the current record's "backgroud_image" value
+ * @method boolean             getIsActive()                  Returns the current record's "is_active" value
+ * @method Doctrine_Collection getProductCollection()         Returns the current record's "ProductCollection" collection
+ * @method Doctrine_Collection getPressCollectionCollection() Returns the current record's "PressCollectionCollection" collection
+ * @method Doctrine_Collection getPressProductCollection()    Returns the current record's "PressProductCollection" collection
+ * @method Collection          setId()                        Sets the current record's "id" value
+ * @method Collection          setName()                      Sets the current record's "name" value
+ * @method Collection          setNameImage()                 Sets the current record's "name_image" value
+ * @method Collection          setBackgroudImage()            Sets the current record's "backgroud_image" value
+ * @method Collection          setIsActive()                  Sets the current record's "is_active" value
+ * @method Collection          setProductCollection()         Sets the current record's "ProductCollection" collection
+ * @method Collection          setPressCollectionCollection() Sets the current record's "PressCollectionCollection" collection
+ * @method Collection          setPressProductCollection()    Sets the current record's "PressProductCollection" collection
  * 
  * @package    bateye
  * @subpackage model
@@ -72,7 +75,11 @@ abstract class BaseCollection extends sfDoctrineRecord
              'local' => 'id',
              'foreign' => 'collection_id'));
 
-        $this->hasMany('PressCollection', array(
+        $this->hasMany('PressCollection as PressCollectionCollection', array(
+             'local' => 'id',
+             'foreign' => 'collection_id'));
+
+        $this->hasMany('PressProductImage as PressProductCollection', array(
              'local' => 'id',
              'foreign' => 'collection_id'));
 

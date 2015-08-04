@@ -17,11 +17,93 @@ class pressActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   {
+      $this->form = new sfGuardFormSignin();
+      $this->showAllPressMagazines();
+      return sfView::SUCCESS;
   }
 
     public function executeThebrand()
     {
+        $this->logos = Doctrine_Core::getTable('PressLogo')->findAll();
+        $this->concepts = Doctrine_Core::getTable('PressProductConcept')->findAll();
         $this->showActiveCollections();
+    }
+
+    /**
+     * @param sfWebRequest $request
+     * @return string
+     * @throws sfError404Exception
+     */
+    public function executeShowcollection(sfWebRequest $request)
+    {
+        $this->showActiveCollections();
+        $this->forward404Unless($this->collections);
+        $this->products = Doctrine_Core::getTable('PressCollection')
+            ->getProductsByCollection($request->getParameter('id'));
+        $this->collection = Doctrine_Core::getTable('Collection')
+            ->findOneBy('id', $request->getParameter('id'));
+        $this->forward404Unless($this->products);
+        return sfView::SUCCESS;
+    }
+
+    /**
+     * @param sfWebRequest $request
+     * @return string
+     * @throws sfError404Exception
+     */
+    public function executeCatalogues(sfWebRequest $request)
+    {
+        $this->showActiveCollections();
+        $this->forward404Unless($this->collections);
+        $this->catalogues = Doctrine_Core::getTable('PressCatalogue')
+            ->findAll();
+        $this->forward404Unless($this->catalogues);
+        return sfView::SUCCESS;
+    }
+
+    /**
+     * @param sfWebRequest $request
+     * @return string
+     * @throws sfError404Exception
+     */
+    public function executeCoverimages(sfWebRequest $request)
+    {
+        $this->showActiveCollections();
+        $this->forward404Unless($this->collections);
+        $this->coverImages = Doctrine_Core::getTable('PressCoverImage')
+            ->findAll();
+        $this->forward404Unless($this->coverImages);
+        return sfView::SUCCESS;
+    }
+
+    /**
+     * @param sfWebRequest $request
+     * @return string
+     * @throws sfError404Exception
+     */
+    public function executePressreleases(sfWebRequest $request)
+    {
+        $this->showActiveCollections();
+        $this->forward404Unless($this->collections);
+        $this->pressReleases = Doctrine_Core::getTable('PressRelease')
+            ->findAll();
+        $this->forward404Unless($this->pressReleases);
+        return sfView::SUCCESS;
+    }
+
+    /**
+     * @param sfWebRequest $request
+     * @return string
+     * @throws sfError404Exception
+     */
+    public function executeCovervideos(sfWebRequest $request)
+    {
+        $this->showActiveCollections();
+        $this->forward404Unless($this->collections);
+        $this->coverVideos = Doctrine_Core::getTable('PressCoverVideo')
+            ->findAll();
+        $this->forward404Unless($this->coverVideos);
+        return sfView::SUCCESS;
     }
 
     private function showActiveCategories()
@@ -32,5 +114,10 @@ class pressActions extends sfActions
     private function showActiveCollections()
     {
         $this->collections = Doctrine_Core::getTable('Collection')->showActiveCollections();
+    }
+
+    private function showAllPressMagazines()
+    {
+        $this->pressMagazines = Doctrine_Core::getTable('PressMainArea')->getAllMagazinesWithInfo();
     }
 }

@@ -16,4 +16,14 @@ class PressMainAreaTable extends Doctrine_Table
     {
         return Doctrine_Core::getTable('PressMainArea');
     }
+
+    /**
+     * @return Doctrine_Collection
+     * @throws Doctrine_Query_Exception
+     */
+    public function getAllMagazinesWithInfo(){
+        $q = $this->createQuery('PressMainArea pma')
+        ->orderBy('id desc');
+        return $q->execute();
+    }
 }

@@ -12,5 +12,6 @@ class PressProductImageForm extends BasePressProductImageForm
 {
   public function configure()
   {
+
   }
 }

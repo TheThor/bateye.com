@@ -16,4 +16,16 @@ class PressCollectionTable extends Doctrine_Table
     {
         return Doctrine_Core::getTable('PressCollection');
     }
+
+    /**
+     * @param $id
+     * @return Doctrine_Collection
+     * @throws Doctrine_Query_Exception
+     */
+    public function getProductsByCollection($id){
+        $q = Doctrine_Query::create()
+            ->from('PressCollection p')
+            ->where('p.collection_id=' . $id);
+        return $q->execute();
+    }
 }

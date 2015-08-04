@@ -1,3 +1,7 @@
+index:
+  is_secure: false
+#  credentials: [user]
+
 default:
-  is_secure: true
-  credentials: [user]
+  is_secure: false
+  #credentials: [user]

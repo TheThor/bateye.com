@@ -27,10 +27,12 @@ class collectionActions extends sfActions
      */
     public function executeShowcollection(sfWebRequest $request)
     {
-        $this->forward404Unless($request->getParameter('id')!=3);
         $this->showActiveCollections();
         $this->forward404Unless($this->collections);
-        $this->products = $this->getProductsByCollection($request->getParameter('id'));
+        $this->products = Doctrine_Core::getTable('Product')
+            ->getProductsByCollection($request->getParameter('id'));
+        $this->collection = Doctrine_Core::getTable('Collection')
+            ->findOneBy('id', $request->getParameter('id'));
         $this->forward404Unless($this->products);
         return sfView::SUCCESS;
     }
@@ -93,17 +95,6 @@ class collectionActions extends sfActions
         return $q->execute();
     }
 
-    /**
-     * @param $id
-     * @return Doctrine_Collection
-     * @throws Doctrine_Query_Exception
-     */
-    private function getProductsByCollection($id){
-        $q = Doctrine_Query::create()
-            ->from('Product p')
-            ->where('p.collection_id=' . $id);
-        return $q->execute();
-    }
     /**
      * @throws Doctrine_Query_Exception
      */

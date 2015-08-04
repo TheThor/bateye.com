@@ -6,43 +6,10 @@
     </div>
 </div>
 <div class="container">
-    <div class="span11" id="press-area-menu">
-        <div>
-            <div class="span3">
-                <h1 class="abrilfat">PRESS</h1>
-            </div>
-            <div class="span3">
-                <ul class="latoregular">
-                    <li>the brand</li>
-                    <li>contacts</li>
-                </ul>
-            </div>
-            <div class="span3">
-                <ul class="latoregular">
-                    <?php /** @var Collection $collection */
-                    foreach ($collections as $collection): ?>
-                    <li>
-                        <a href="<?php echo url_for(array(
-                            'module' => 'collection',
-                            'action' => 'showcollection',
-                            'id'    => $collection->getId(),
-                            'name' => $collection->getName()
-                        )) ?>"><?php echo $collection->getName(); ?></a>
-                    </li>
-                    <?php endforeach; ?>
-                </ul>
-                <div class="clear"></div>
-            </div>
-            <div class="span3 latoregular">
-                <ul>
-                    <li>Catalogues</li>
-                    <li>Press releases</li>
-                    <li>Covers images</li>
-                    <li>Videos</li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    <?php include_partial(
+        'pressareamenu',
+        array('collections' => $collections)
+    ) ?>
     <div class="span11" id="press-main-area">
         <div>
             <div class="span5 offset2-5">
@@ -64,18 +31,42 @@
             <div class="span3">
                 <h3 class="abrilfat">LOGO</h3>
             </div>
+            <?php /** @var PressLogo $logo */
+            foreach ($logos as $logo): ?>
+            <div class="span3 span3marginalized">
+                <img src="<?php $logo->getImage() ?>" alt="example"/>
+                <p class="no-margin">COLOR</p>
+                <a class="span10" href="<?php $logo->getPngLocation() ?>">>png.</a>
+                <a class="span10" href="<?php $logo->getJpgLocation() ?>">>jpeg.</a>
+            </div>
+            <?php endforeach; ?>
             <div class="span3 span3marginalized">
                 <img src="http://dummyimage.com/200x200/000/fff" alt="example"/>
-                <p>COLOR</p>
+                <p class="no-margin">COLOR</p>
+                <a class="span10" href="<?php  ?>">>png.</a>
+                <a href="<?php  ?>">>jpeg.</a>
             </div>
+            <div class="clear"></div>
+        </div>
+        <div class="gallery-container">
             <div class="span3">
-                <img src="http://dummyimage.com/200x200/000/fff" alt="example"/>
-                <p>COLOR</p>
+                <h3 class="abrilfat">CONCEPT IMAGES</h3>
             </div>
-            <div class="span3">
+            <?php /** @var PressProductConcept $concept */
+            foreach ($concepts as $concept): ?>
+                <div class="span3 span3marginalized">
+                    <img src="<?php $concept->getImage() ?>" alt="example"/>
+                    <p class="no-margin">COLOR</p>
+                    <a class="span10" href="<?php $concept->getPackageLocation() ?>">>package.</a>
+                </div>
+            <?php endforeach; ?>
+            <div class="span3 span3marginalized">
                 <img src="http://dummyimage.com/200x200/000/fff" alt="example"/>
-                <p>COLOR</p>
+                <p class="no-margin">COLOR</p>
+                <a class="span10" href="<?php  ?>">>png.</a>
+                <a href="<?php  ?>">>jpeg.</a>
             </div>
+            <div class="clear"></div>
         </div>
     </div>
 </div>

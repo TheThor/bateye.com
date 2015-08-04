@@ -8,13 +8,16 @@
  * @property integer $id
  * @property string $jpg_location
  * @property string $png_location
+ * @property string $image
  * 
  * @method integer   getId()           Returns the current record's "id" value
  * @method string    getJpgLocation()  Returns the current record's "jpg_location" value
  * @method string    getPngLocation()  Returns the current record's "png_location" value
+ * @method string    getImage()        Returns the current record's "image" value
  * @method PressLogo setId()           Sets the current record's "id" value
  * @method PressLogo setJpgLocation()  Sets the current record's "jpg_location" value
  * @method PressLogo setPngLocation()  Sets the current record's "png_location" value
+ * @method PressLogo setImage()        Sets the current record's "image" value
  * 
  * @package    bateye
  * @subpackage model
@@ -37,6 +40,11 @@ abstract class BasePressLogo extends sfDoctrineRecord
              'length' => 255,
              ));
         $this->hasColumn('png_location', 'string', 255, array(
+             'type' => 'string',
+             'notnull' => true,
+             'length' => 255,
+             ));
+        $this->hasColumn('image', 'string', 255, array(
              'type' => 'string',
              'notnull' => true,
              'length' => 255,
