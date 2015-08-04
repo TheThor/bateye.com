@@ -22,4 +22,16 @@ class ProductTable extends Doctrine_Table
         $q =$this->createQuery("p");
         return $q->execute();
     }
+
+    /**
+     * @param $id
+     * @return Doctrine_Collection
+     * @throws Doctrine_Query_Exception
+     */
+    public function getProductsByCollection($id){
+        $q = Doctrine_Query::create()
+            ->from('Product p')
+            ->where('p.collection_id=' . $id);
+        return $q->execute();
+    }
 }

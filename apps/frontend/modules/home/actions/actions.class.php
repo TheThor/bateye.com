@@ -5,15 +5,15 @@
  *
  * @package    bateye
  * @subpackage home
- * @author     Your name here
+ * @author     Pedro
  * @version    SVN: $Id: actions.class.php 23810 2009-11-12 11:07:44Z Kris.Wallsmith $
  */
 class homeActions extends sfActions
 {
     /**
      * Executes index action
-     *
-     * @param sfRequest $request A request object
+     * @param sfRequest|sfWebRequest $request A request object
+     * @return string
      */
     public function executeIndex(sfWebRequest $request)
     {

@@ -1,3 +1,75 @@
+press_cover_video:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                PressCoverVideo
+    module:               press_cover_video
+    prefix_path:          /press_cover_video
+    column:               id
+    with_wildcard_routes: true
+
+press_cover_image:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                PressCoverImage
+    module:               press_cover_image
+    prefix_path:          /press_cover_image
+    column:               id
+    with_wildcard_routes: true
+
+press_collection:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                PressCollection
+    module:               press_collection
+    prefix_path:          /press_collection
+    column:               id
+    with_wildcard_routes: true
+
+press_catalogue:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                PressCatalogue
+    module:               press_catalogue
+    prefix_path:          /press_catalogue
+    column:               id
+    with_wildcard_routes: true
+
+press_product_concept_image:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                PressProductConceptImage
+    module:               press_product_concept_image
+    prefix_path:          /press_product_concept_image
+    column:               id
+    with_wildcard_routes: true
+
+press_product_concept:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                PressProductConcept
+    module:               press_product_concept
+    prefix_path:          /press_product_concept
+    column:               id
+    with_wildcard_routes: true
+
+press_logo:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                PressLogo
+    module:               press_logo
+    prefix_path:          /press_logo
+    column:               id
+    with_wildcard_routes: true
+
+press_main_area:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                PressMainArea
+    module:               press_main_area
+    prefix_path:          /press_main_area
+    column:               id
+    with_wildcard_routes: true
+
 press_release:
   class: sfDoctrineRouteCollection
   options:

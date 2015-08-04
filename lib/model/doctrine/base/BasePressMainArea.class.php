@@ -8,13 +8,19 @@
  * @property integer $id
  * @property string $cover
  * @property string $catalogue
+ * @property string $country
+ * @property string $description
  * 
- * @method integer       getId()        Returns the current record's "id" value
- * @method string        getCover()     Returns the current record's "cover" value
- * @method string        getCatalogue() Returns the current record's "catalogue" value
- * @method PressMainArea setId()        Sets the current record's "id" value
- * @method PressMainArea setCover()     Sets the current record's "cover" value
- * @method PressMainArea setCatalogue() Sets the current record's "catalogue" value
+ * @method integer       getId()          Returns the current record's "id" value
+ * @method string        getCover()       Returns the current record's "cover" value
+ * @method string        getCatalogue()   Returns the current record's "catalogue" value
+ * @method string        getCountry()     Returns the current record's "country" value
+ * @method string        getDescription() Returns the current record's "description" value
+ * @method PressMainArea setId()          Sets the current record's "id" value
+ * @method PressMainArea setCover()       Sets the current record's "cover" value
+ * @method PressMainArea setCatalogue()   Sets the current record's "catalogue" value
+ * @method PressMainArea setCountry()     Sets the current record's "country" value
+ * @method PressMainArea setDescription() Sets the current record's "description" value
  * 
  * @package    bateye
  * @subpackage model
@@ -37,6 +43,16 @@ abstract class BasePressMainArea extends sfDoctrineRecord
              'length' => 255,
              ));
         $this->hasColumn('catalogue', 'string', 255, array(
+             'type' => 'string',
+             'notnull' => true,
+             'length' => 255,
+             ));
+        $this->hasColumn('country', 'string', 255, array(
+             'type' => 'string',
+             'notnull' => true,
+             'length' => 255,
+             ));
+        $this->hasColumn('description', 'string', 255, array(
              'type' => 'string',
              'notnull' => true,
              'length' => 255,

@@ -26,49 +26,52 @@
  * @property Doctrine_Collection $ProductImage
  * @property Doctrine_Collection $PressConceptProduct
  * @property Doctrine_Collection $PressProductImage
+ * @property Doctrine_Collection $PressCollectionProduct
  * 
- * @method integer             getId()                  Returns the current record's "id" value
- * @method string              getName()                Returns the current record's "name" value
- * @method string              getMainImgPath()         Returns the current record's "main_img_path" value
- * @method string              getMainImgAlt()          Returns the current record's "main_img_alt" value
- * @method string              getContextImg()          Returns the current record's "context_img" value
- * @method string              getContextImgAlt()       Returns the current record's "context_img_alt" value
- * @method string              getSmallImg()            Returns the current record's "small_img" value
- * @method string              getSmallImgAlt()         Returns the current record's "small_img_alt" value
- * @method string              getCitation()            Returns the current record's "citation" value
- * @method string              getDescription()         Returns the current record's "description" value
- * @method string              getDesigner()            Returns the current record's "designer" value
- * @method string              getDimensions()          Returns the current record's "dimensions" value
- * @method string              getMaterials()           Returns the current record's "materials" value
- * @method string              getOther()               Returns the current record's "other" value
- * @method integer             getCollectionId()        Returns the current record's "collection_id" value
- * @method integer             getCategoryId()          Returns the current record's "category_id" value
- * @method Collection          getCollection()          Returns the current record's "Collection" value
- * @method Category            getCategory()            Returns the current record's "Category" value
- * @method Doctrine_Collection getProductImage()        Returns the current record's "ProductImage" collection
- * @method Doctrine_Collection getPressConceptProduct() Returns the current record's "PressConceptProduct" collection
- * @method Doctrine_Collection getPressProductImage()   Returns the current record's "PressProductImage" collection
- * @method Product             setId()                  Sets the current record's "id" value
- * @method Product             setName()                Sets the current record's "name" value
- * @method Product             setMainImgPath()         Sets the current record's "main_img_path" value
- * @method Product             setMainImgAlt()          Sets the current record's "main_img_alt" value
- * @method Product             setContextImg()          Sets the current record's "context_img" value
- * @method Product             setContextImgAlt()       Sets the current record's "context_img_alt" value
- * @method Product             setSmallImg()            Sets the current record's "small_img" value
- * @method Product             setSmallImgAlt()         Sets the current record's "small_img_alt" value
- * @method Product             setCitation()            Sets the current record's "citation" value
- * @method Product             setDescription()         Sets the current record's "description" value
- * @method Product             setDesigner()            Sets the current record's "designer" value
- * @method Product             setDimensions()          Sets the current record's "dimensions" value
- * @method Product             setMaterials()           Sets the current record's "materials" value
- * @method Product             setOther()               Sets the current record's "other" value
- * @method Product             setCollectionId()        Sets the current record's "collection_id" value
- * @method Product             setCategoryId()          Sets the current record's "category_id" value
- * @method Product             setCollection()          Sets the current record's "Collection" value
- * @method Product             setCategory()            Sets the current record's "Category" value
- * @method Product             setProductImage()        Sets the current record's "ProductImage" collection
- * @method Product             setPressConceptProduct() Sets the current record's "PressConceptProduct" collection
- * @method Product             setPressProductImage()   Sets the current record's "PressProductImage" collection
+ * @method integer             getId()                     Returns the current record's "id" value
+ * @method string              getName()                   Returns the current record's "name" value
+ * @method string              getMainImgPath()            Returns the current record's "main_img_path" value
+ * @method string              getMainImgAlt()             Returns the current record's "main_img_alt" value
+ * @method string              getContextImg()             Returns the current record's "context_img" value
+ * @method string              getContextImgAlt()          Returns the current record's "context_img_alt" value
+ * @method string              getSmallImg()               Returns the current record's "small_img" value
+ * @method string              getSmallImgAlt()            Returns the current record's "small_img_alt" value
+ * @method string              getCitation()               Returns the current record's "citation" value
+ * @method string              getDescription()            Returns the current record's "description" value
+ * @method string              getDesigner()               Returns the current record's "designer" value
+ * @method string              getDimensions()             Returns the current record's "dimensions" value
+ * @method string              getMaterials()              Returns the current record's "materials" value
+ * @method string              getOther()                  Returns the current record's "other" value
+ * @method integer             getCollectionId()           Returns the current record's "collection_id" value
+ * @method integer             getCategoryId()             Returns the current record's "category_id" value
+ * @method Collection          getCollection()             Returns the current record's "Collection" value
+ * @method Category            getCategory()               Returns the current record's "Category" value
+ * @method Doctrine_Collection getProductImage()           Returns the current record's "ProductImage" collection
+ * @method Doctrine_Collection getPressConceptProduct()    Returns the current record's "PressConceptProduct" collection
+ * @method Doctrine_Collection getPressProductImage()      Returns the current record's "PressProductImage" collection
+ * @method Doctrine_Collection getPressCollectionProduct() Returns the current record's "PressCollectionProduct" collection
+ * @method Product             setId()                     Sets the current record's "id" value
+ * @method Product             setName()                   Sets the current record's "name" value
+ * @method Product             setMainImgPath()            Sets the current record's "main_img_path" value
+ * @method Product             setMainImgAlt()             Sets the current record's "main_img_alt" value
+ * @method Product             setContextImg()             Sets the current record's "context_img" value
+ * @method Product             setContextImgAlt()          Sets the current record's "context_img_alt" value
+ * @method Product             setSmallImg()               Sets the current record's "small_img" value
+ * @method Product             setSmallImgAlt()            Sets the current record's "small_img_alt" value
+ * @method Product             setCitation()               Sets the current record's "citation" value
+ * @method Product             setDescription()            Sets the current record's "description" value
+ * @method Product             setDesigner()               Sets the current record's "designer" value
+ * @method Product             setDimensions()             Sets the current record's "dimensions" value
+ * @method Product             setMaterials()              Sets the current record's "materials" value
+ * @method Product             setOther()                  Sets the current record's "other" value
+ * @method Product             setCollectionId()           Sets the current record's "collection_id" value
+ * @method Product             setCategoryId()             Sets the current record's "category_id" value
+ * @method Product             setCollection()             Sets the current record's "Collection" value
+ * @method Product             setCategory()               Sets the current record's "Category" value
+ * @method Product             setProductImage()           Sets the current record's "ProductImage" collection
+ * @method Product             setPressConceptProduct()    Sets the current record's "PressConceptProduct" collection
+ * @method Product             setPressProductImage()      Sets the current record's "PressProductImage" collection
+ * @method Product             setPressCollectionProduct() Sets the current record's "PressCollectionProduct" collection
  * 
  * @package    bateye
  * @subpackage model
@@ -174,6 +177,10 @@ abstract class BaseProduct extends sfDoctrineRecord
              'foreign' => 'product_id'));
 
         $this->hasMany('PressProductConceptImage as PressProductImage', array(
+             'local' => 'id',
+             'foreign' => 'product_id'));
+
+        $this->hasMany('PressCollection as PressCollectionProduct', array(
              'local' => 'id',
              'foreign' => 'product_id'));
 

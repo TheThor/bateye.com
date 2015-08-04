@@ -61,7 +61,7 @@
 <!--                        <a href="--><?php //echo url_for('@show_allproducts') ?><!--">All Products</a>-->
 <!--                    </li>-->
                     <li>
-                        <a href="#">Press</a>
+                        <a href="<?php echo url_for('press') ?>">Press</a>
                     </li>
                     <li>
                         <a href="<?php echo url_for(array(

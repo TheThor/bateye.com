@@ -18,6 +18,7 @@ abstract class BasePressLogoForm extends BaseFormDoctrine
       'id'           => new sfWidgetFormInputHidden(),
       'jpg_location' => new sfWidgetFormInputText(),
       'png_location' => new sfWidgetFormInputText(),
+      'image'        => new sfWidgetFormInputText(),
       'created_at'   => new sfWidgetFormDateTime(),
       'updated_at'   => new sfWidgetFormDateTime(),
     ));
@@ -26,6 +27,7 @@ abstract class BasePressLogoForm extends BaseFormDoctrine
       'id'           => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
       'jpg_location' => new sfValidatorString(array('max_length' => 255)),
       'png_location' => new sfValidatorString(array('max_length' => 255)),
+      'image'        => new sfValidatorString(array('max_length' => 255)),
       'created_at'   => new sfValidatorDateTime(),
       'updated_at'   => new sfValidatorDateTime(),
     ));
