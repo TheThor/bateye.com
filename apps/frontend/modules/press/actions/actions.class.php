@@ -10,17 +10,16 @@
  */
 class pressActions extends sfActions
 {
- /**
-  * Executes index action
-  *
-  * @param sfRequest $request A request object
-  */
-  public function executeIndex(sfWebRequest $request)
-  {
-      $this->form = new sfGuardFormSignin();
-      $this->showAllPressMagazines();
-      return sfView::SUCCESS;
-  }
+    /**
+     * Executes index action
+     * @return string
+     */
+    public function executeIndex()
+    {
+        $this->form = new sfGuardFormSignin();
+        $this->showAllPressMagazines();
+        return sfView::SUCCESS;
+    }
 
     public function executeThebrand()
     {
@@ -119,5 +118,6 @@ class pressActions extends sfActions
     private function showAllPressMagazines()
     {
         $this->pressMagazines = Doctrine_Core::getTable('PressMainArea')->getAllMagazinesWithInfo();
+        $this->pressYears = Doctrine_Core::getTable('PressMainArea')->getMagazinesYears();
     }
 }

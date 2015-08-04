@@ -23,12 +23,8 @@
                 <p>Any other content needed please contact.</p>
                 <p>RAQUEL DIAS - Marketing Director & Client Relations</p>
 
-                <p>
-                    raqueldias@bateye.com | +351 227312657 <br/>
+                <p> raqueldias@bateye.com | +351 227312657 <br/>
                     info@bateye.com | www.bateye.com <br/>
-                    For press enquiries plese contact: <br/>
-                    Raquel Dias <br/>
-                    +351 915790818
                 </p>
             </div>
             <div class="clearfix"></div>
@@ -36,7 +32,10 @@
         <?php
         include_partial(
             'press/presslogineditorial',
-            array('pressMagazines' => $pressMagazines)
+            array(
+                'pressMagazines' => $pressMagazines,
+                'pressYears'     => $pressYears
+            )
         ) ?>
     </div>
 <?php include(sfConfig::get('sf_app_template_dir').'/footerSecondary.php') ?>
