@@ -1,15 +1,15 @@
-<div class="col-md-10 col-centered">
+<div class="col-md-8 col-centered">
     <?php foreach ($pressYears as $pressYear): ?>
-    <h3 class="pagination-centered">Press Editorial <?php echo $pressYear->get('YEAR') ?></h3>
+    <h3 class="pagination-centered" style="margin: 30px 0 25px 0">Press Editorial <?php echo $pressYear->get('YEAR') ?></h3>
     <div class="col-md-12 col-centered">
         <?php
         /** @var PressMainArea $pressMagazine */
         foreach ($pressMagazines as $pressMagazine):
             if ($pressMagazine->getDateTimeObject('created_at')->format('Y')==$pressYear->get('YEAR')):
         ?>
-        <div style="width: 19%; float:left; margin: 10px 14px 5px 14px">
+        <div class="col-xs-3" style="margin-bottom: 25px">
             <a href="<?php echo '/media/press/main_area/' . $pressMagazine->getCatalogue() ?>">
-                <img src="<?php echo '/images/press/main_area/' . $pressMagazine->getCover() ?>" alt="Image"/>
+                <img class="img-responsive" src="<?php echo '/images/press/main_area/' . $pressMagazine->getCover() ?>" alt="Image"/>
             </a>
             <div class="center-text">
                 <?php echo $pressMagazine->getCountry() ?> <br>
@@ -18,7 +18,7 @@
         </div>
         <?php
             endif;
-            endforeach;
+        endforeach;
         ?>
         <div class="clearfix"></div>
     </div>

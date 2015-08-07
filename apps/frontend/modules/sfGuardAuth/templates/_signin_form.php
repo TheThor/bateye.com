@@ -2,15 +2,15 @@
 <?php use_stylesheet('bootstrap3.min.css') ?>
 
 <form role="form" action="<?php echo url_for('@sf_guard_signin') ?>" method="post">
-    <div class="col-md-9">
+    <div class="col-md-11">
 	    <div class="form-group">
-            <div class="col-md-12" style="margin-bottom: 20px">
+            <div class="col-md-12" style="margin-bottom: 10px">
                 <label for="email" class="col-lg-3">email</label>
                 <div class="col-md-8">
                     <?php echo $form['username']->render(array('class' => 'form-control')) ?>
                 </div>
             </div>
-            <div class="col-md-12" style="margin-bottom: 20px">
+            <div class="col-md-12" style="margin-bottom: 10px">
                 <label for="password" class="col-lg-3">password</label>
                 <div class="col-md-8">
                     <?php echo $form['password']->render(array('class' => 'form-control')) ?>
@@ -23,8 +23,8 @@
 			    <button type="submit" class="btn btn-default" value="<?php echo __('Signin', null, 'sf_guard') ?>" style="border-radius: 0">Entrar</button>
             </div>
             <div class="col-md-7">
-                REGISTER NOW! <a href="">here</a><br>
-                forgot password? <a href="">here</a>
+<!--                REGISTER NOW! <a href="">here</a><br>-->
+<!--                forgot password? <a href="">here</a>-->
             </div>
         </div>
         <?php $routes = $sf_context->getRouting()->getRoutes() ?>

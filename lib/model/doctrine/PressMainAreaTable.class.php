@@ -33,7 +33,7 @@ class PressMainAreaTable extends Doctrine_Table
         $q = $this->createQuery('PressMainArea pma')
             ->select('YEAR(created_at)')
             ->orderBy('created_at desc')
-            ->groupBy('created_at');
+            ->groupBy('YEAR(created_at)');
         return $q->execute();
     }
 }

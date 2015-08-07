@@ -64,7 +64,7 @@
 	font-weight: bold;
 	text-decoration: none;
 	font-size: 14px;
-	width:352px;
+	width:403px;
 	margin: auto;
 	padding-top: 10px;
 	z-index: 5;
@@ -833,4 +833,16 @@ nav li li a{
     display: block;
     line-height: 40px;
     padding: 20px;
+}
+
+.warning-popup {
+	width: 44%;
+	height: 25px;
+	top: 10%;
+	left: 27%;
+	display: block;
+	position: absolute;
+	padding: 20px;
+	z-index: 1101;
+	background: rgba(255, 255, 255, 1);
 }
