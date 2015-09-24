@@ -1,26 +1,26 @@
 cataloguesSuccess:
   stylesheets:    [reset.css, bootstrap.min.css, bootstrap-responsive.css, style.css, "http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900", http://fonts.googleapis.com/css?family=Abril+Fatface, pressarea.css]
-  javascripts:    [-*,jquery-1.10.2.js, sidebuttons.js, validator.js, analytics.js, sidebuttons.js, collection_page.js]
+  javascripts:    [-*,jquery-1.10.2.js, sidebuttons.js, validator.js, analytics.js, general-animations.js]
 
 coverimagesSuccess:
   stylesheets:    [reset.css, bootstrap.min.css, bootstrap-responsive.css, style.css, "http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900", http://fonts.googleapis.com/css?family=Abril+Fatface, pressarea.css]
-  javascripts:    [-*,jquery-1.10.2.js, sidebuttons.js, validator.js, analytics.js, sidebuttons.js, collection_page.js]
+  javascripts:    [-*,jquery-1.10.2.js, sidebuttons.js, validator.js, analytics.js, general-animations.js]
 
 covervideosSuccess:
   stylesheets:    [reset.css, bootstrap.min.css, bootstrap-responsive.css, style.css, "http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900", http://fonts.googleapis.com/css?family=Abril+Fatface, pressarea.css]
-  javascripts:    [-*,jquery-1.10.2.js, sidebuttons.js, validator.js, analytics.js, sidebuttons.js, collection_page.js]
+  javascripts:    [-*,jquery-1.10.2.js, sidebuttons.js, validator.js, analytics.js, general-animations.js]
 
 pressreleasesSuccess:
   stylesheets:    [reset.css, bootstrap.min.css, bootstrap-responsive.css, style.css, "http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900", http://fonts.googleapis.com/css?family=Abril+Fatface, pressarea.css]
-  javascripts:    [-*,jquery-1.10.2.js, sidebuttons.js, validator.js, analytics.js, sidebuttons.js, collection_page.js]
+  javascripts:    [-*,jquery-1.10.2.js, sidebuttons.js, validator.js, analytics.js, general-animations.js]
 
 thebrandSuccess:
   stylesheets:    [reset.css, bootstrap.min.css, bootstrap-responsive.css, style.css, "http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900", http://fonts.googleapis.com/css?family=Abril+Fatface, pressarea.css]
-  javascripts:    [-*,jquery-1.10.2.js, sidebuttons.js, validator.js, analytics.js, sidebuttons.js, collection_page.js]
+  javascripts:    [-*,jquery-1.10.2.js, sidebuttons.js, validator.js, analytics.js, general-animations.js]
 
 showcollectionSuccess:
   stylesheets:    [reset.css, bootstrap.min.css, bootstrap-responsive.css, style.css, "http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900", http://fonts.googleapis.com/css?family=Abril+Fatface, pressarea.css]
-  javascripts:    [-*,jquery-1.10.2.js, sidebuttons.js, validator.js, analytics.js, sidebuttons.js, collection_page.js]
+  javascripts:    [-*,jquery-1.10.2.js, sidebuttons.js, validator.js, analytics.js, general-animations.js]
 
 indexSuccess:
   stylesheets:    [reset.css, main.css, "http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900", http://fonts.googleapis.com/css?family=Abril+Fatface, camera.css, bootstrap3.min.css, style.css]

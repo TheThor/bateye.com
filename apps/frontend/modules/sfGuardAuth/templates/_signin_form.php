@@ -1,6 +1,10 @@
 <?php use_helper('I18N') ?>
 <?php use_stylesheet('bootstrap3.min.css') ?>
-
+<script type="application/javascript">
+    $("#pressregistration").click(function() {
+        $( "#newsletteroverlay" ).fadeOut( "slow" );
+    });
+</script>
 <form role="form" action="<?php echo url_for('@sf_guard_signin') ?>" method="post">
     <div class="col-md-11">
 	    <div class="form-group">
@@ -22,9 +26,10 @@
             <div class="col-md-3">
 			    <button type="submit" class="btn btn-default" value="<?php echo __('Signin', null, 'sf_guard') ?>" style="border-radius: 0">Entrar</button>
             </div>
-            <div class="col-md-7">
-<!--                REGISTER NOW! <a href="">here</a><br>-->
-<!--                forgot password? <a href="">here</a>-->
+            <div class="col-md-8">
+                <p style="font-size: 0.9em; text-align: justify;">
+                    Register <a href="#" style="font-weight: bold; text-decoration: underline">HERE</a> for HD 300dpis images & Exclusive Downloads
+                </p>
             </div>
         </div>
         <?php $routes = $sf_context->getRouting()->getRoutes() ?>

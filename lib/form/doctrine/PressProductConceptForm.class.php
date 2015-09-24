@@ -21,20 +21,20 @@ class PressProductConceptForm extends BasePressProductConceptForm
           'template'  => '<div>%file%<br />%input%<br />%delete% %delete_label%</div>'
       )));
       $this->setValidator('image', new sfValidatorFile(array(
-          'required'   => false,
+          'required'   => true,
           'path'       => sfConfig::get('sf_upload_dir') . '/images/press/product_concept/',
           'mime_types' => 'web_images',
       )));
       $this->setWidget('package_location', new sfWidgetFormInputFileEditable(array(
           'label' => 'Zip File',
-          'file_src' => '/images/press/product_concept/' . $this->getObject()->getPackageLocation(),
-          'is_image'  => true,
+          'file_src' => '/press/product_concept/' . $this->getObject()->getPackageLocation(),
+          'is_image'  => false,
           'edit_mode' => !$this->isNew(),
           'template'  => '<div>%file%<br />%input%<br />%delete% %delete_label%</div>'
       )));
       $this->setValidator('package_location', new sfValidatorFile(array(
           'required'   => false,
-          'path'       => sfConfig::get('sf_upload_dir') . '/images/press/product_concept/',
+          'path'       => sfConfig::get('sf_upload_dir') . '/press/product_concept/',
           'mime_categories' =>
               array(
                   'compressed' => array(

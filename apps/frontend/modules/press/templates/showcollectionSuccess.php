@@ -30,22 +30,16 @@
         <div class="gallery-container">
             <div class="span3">
                 <?php /** @var Collection $collection */ ?>
-                <h3 class="abrilfat"><?php $collection->getName() ?></h3>
+                <h3 class="abrilfat"><?php echo $collection->getName() ?></h3>
             </div>
             <?php /** @var PressCollection $product */
             foreach ($products as $product): ?>
                 <div class="span3 span3marginalized">
-                    <img src="<?php $product->getProductImage() ?>" alt="example"/>
+                    <img src="/images/press/collection/<?php echo $product->getProductImage() ?>" alt="example"/>
                     <p class="no-margin">COLOR</p>
-                    <a class="span10" href="<?php $product->getPackageLocation() ?>">>package</a>
+                    <a class="span10" href="<?php echo sfConfig::get('sf_upload_dir') . '/press/collection/' . $product->getPackageLocation() ?>">>package</a>
                 </div>
             <?php endforeach; ?>
-            <div class="span3 span3marginalized">
-                <img src="http://dummyimage.com/200x200/000/fff" alt="example"/>
-                <p class="no-margin">COLOR</p>
-                <a class="span10" href="<?php  ?>">>png.</a>
-                <a href="<?php  ?>">>jpeg.</a>
-            </div>
             <div class="clear"></div>
         </div>
     </div>

@@ -40,12 +40,6 @@
                     <a class="span10" href="<?php $coverImage->getLink() ?>">>download</a>
                 </div>
             <?php endforeach; ?>
-            <div class="span3 span3marginalized">
-                <img src="http://dummyimage.com/200x200/000/fff" alt="example"/>
-                <p class="no-margin">COLOR</p>
-                <a class="span10" href="<?php  ?>">>png.</a>
-                <a href="<?php  ?>">>jpeg.</a>
-            </div>
             <div class="clear"></div>
         </div>
     </div>

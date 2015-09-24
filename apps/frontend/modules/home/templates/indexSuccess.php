@@ -54,12 +54,13 @@
                     <li>
                         <a href="<?php echo url_for('thebrand') ?>">The Brand</a>
                     </li>
+
                     <li>
                         <a href="<?php echo url_for('collection') ?>">Collections</a>
                     </li>
-<!--                    <li>-->
-<!--                        <a href="--><?php //echo url_for('@show_allproducts') ?><!--">All Products</a>-->
-<!--                    </li>-->
+                    <li>
+                        <a href="<?php echo url_for('@show_allproducts') ?>">All Products</a>
+                    </li>
                     <li>
                         <a href="<?php echo url_for('press') ?>">Press</a>
                     </li>

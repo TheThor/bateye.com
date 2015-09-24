@@ -24,7 +24,9 @@ class pressActions extends sfActions
     public function executeThebrand()
     {
         $this->logos = Doctrine_Core::getTable('PressLogo')->findAll();
-        $this->concepts = Doctrine_Core::getTable('PressProductConcept')->findAll();
+        /** @var PressProductConceptTable $instance */
+        $instance = PressProductConceptTable::getInstance();
+        $this->concepts = $instance->getAllPressProductConceptWithNames();
         $this->showActiveCollections();
     }
 

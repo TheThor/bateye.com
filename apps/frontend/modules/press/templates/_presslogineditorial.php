@@ -9,10 +9,10 @@
         ?>
         <div class="col-xs-3" style="margin-bottom: 25px">
             <a href="<?php echo '/media/press/main_area/' . $pressMagazine->getCatalogue() ?>">
-                <img class="img-responsive" src="<?php echo '/images/press/main_area/' . $pressMagazine->getCover() ?>" alt="Image"/>
+                <img class="centered-width" class="img-responsive" src="<?php echo '/images/press/main_area/' . $pressMagazine->getCover() ?>" alt="Image"/>
             </a>
             <div class="center-text">
-                <?php echo $pressMagazine->getCountry() ?> <br>
+                <b><?php echo $pressMagazine->getCountry() ?></b> <br>
                 <?php echo $pressMagazine->getDescription() ?>
             </div>
         </div>
