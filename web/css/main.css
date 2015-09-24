@@ -40,6 +40,56 @@
     font-style:normal;
 }
 
+#all-products-filters select {
+	padding:3px;
+	margin: 0;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	-webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+	-moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+	box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+	background: #f8f8f8;
+	color:#888;
+	border:none;
+	outline:none;
+	display: inline-block;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+	cursor:pointer;
+}
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	select {padding-right:18px}
+}
+
+#all-products-filters label[class=special-label] {position:relative}
+#all-products-filters label[class=special-label]:after {
+	content:'<>';
+	font:11px "Consolas", monospace;
+	color:#aaa;
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+	transform:rotate(90deg);
+	right:8px; top:2px;
+	padding:0 0 2px;
+	border-bottom:1px solid #ddd;
+	position:absolute;
+	pointer-events:none;
+}
+#all-products-filters label[class=special-label]:before {
+	content:'';
+	right:6px; top:0px;
+	width:20px; height:20px;
+	background:#f8f8f8;
+	position:absolute;
+	pointer-events:none;
+	display:block;
+}
+
 #fundo{
 	width: 100%;
 	height: 150px;
@@ -64,7 +114,7 @@
 	font-weight: bold;
 	text-decoration: none;
 	font-size: 14px;
-	width:403px;
+	width:518px;
 	margin: auto;
 	padding-top: 10px;
 	z-index: 5;
@@ -407,7 +457,42 @@ div.img
 	margin: 2px;
 	text-align: center;
 	width: 198px;
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 2s; /* Firefox < 16 */
+	-ms-animation: fadein 2s; /* Internet Explorer */
+	-o-animation: fadein 2s; /* Opera < 12.1 */
+	animation: fadein 2s;
 }
+
+@keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
 div.img-not{
 	margin-left: 0;
 }
@@ -703,6 +788,7 @@ div.desc
 	width: 1100px;
 	margin: auto;
 	margin-top: 50px;
+	min-height: 500px;
 }
 	div.img_event
 	  {
@@ -845,4 +931,67 @@ nav li li a{
 	padding: 20px;
 	z-index: 1101;
 	background: rgba(255, 255, 255, 1);
+}
+
+#products-search-bar{
+	float: left;
+	margin: 8px 18px 5px 0px;
+	width: 32%;
+	height: 23px;
+	padding: 2px;
+}
+
+#all-products-filters {
+	width: 85%;
+	margin: 0 auto;
+	border-bottom: 1px solid #A41B21;
+}
+
+/*#search-products {*/
+	/*background-color: white;*/
+	/*-moz-box-shadow:    1px 1px 3px 1px #ccc;*/
+	/*-webkit-box-shadow: 1px 1px 3px 1px #ccc;*/
+	/*box-shadow:         1px 1px 3px 1px #ccc;*/
+/*}*/
+
+#search-products {
+	height: 100%;
+	padding-left: 10px;
+}
+
+.filter{
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	margin-bottom: 9px;
+}
+
+#categories-list {
+	float: left;
+	width: 17%;
+	margin: 8px 18px 5px 0px;
+}
+
+#collections-list {
+	float: left;
+	width: 20%;
+	margin: 8px 18px 5px 0px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+	color: #4A4A4A;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color:    #4A4A4A;
+	opacity:  1;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color:    #4A4A4A;
+	opacity:  1;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color:    #4A4A4A;
 }

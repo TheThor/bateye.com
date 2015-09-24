@@ -16,4 +16,12 @@ class PressProductConceptTable extends Doctrine_Table
     {
         return Doctrine_Core::getTable('PressProductConcept');
     }
+
+    public function getAllPressProductConceptWithNames()
+    {
+        /** @var PressProductConceptTable $instance */
+        $q = $this->createQuery('ppct')
+            ->leftJoin('ppct.Product p');
+        return $q->execute();
+    }
 }

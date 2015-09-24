@@ -34,18 +34,12 @@
             <?php /** @var PressLogo $logo */
             foreach ($logos as $logo): ?>
             <div class="span3 span3marginalized">
-                <img src="<?php $logo->getImage() ?>" alt="example"/>
+                <img src="/images/press/logo/<?php echo $logo->getImage() ?>" alt="example"/>
                 <p class="no-margin">COLOR</p>
-                <a class="span10" href="<?php $logo->getPngLocation() ?>">>png.</a>
-                <a class="span10" href="<?php $logo->getJpgLocation() ?>">>jpeg.</a>
+                <a class="span10" href="/images/press/logo/<?php echo $logo->getPngLocation() ?>">>png.</a>
+                <a class="span10" href="/images/press/logo/<?php echo $logo->getJpgLocation() ?>">>jpeg.</a>
             </div>
             <?php endforeach; ?>
-            <div class="span3 span3marginalized">
-                <img src="http://dummyimage.com/200x200/000/fff" alt="example"/>
-                <p class="no-margin">COLOR</p>
-                <a class="span10" href="<?php  ?>">>png.</a>
-                <a href="<?php  ?>">>jpeg.</a>
-            </div>
             <div class="clear"></div>
         </div>
         <div class="gallery-container">
@@ -55,17 +49,11 @@
             <?php /** @var PressProductConcept $concept */
             foreach ($concepts as $concept): ?>
                 <div class="span3 span3marginalized">
-                    <img src="<?php $concept->getImage() ?>" alt="example"/>
-                    <p class="no-margin">COLOR</p>
-                    <a class="span10" href="<?php $concept->getPackageLocation() ?>">>package.</a>
+                    <img src="/images/press/product_concept/<?php echo $concept->getImage() ?>" alt="example"/>
+                    <p class="no-margin"><?php echo $concept->getProduct()->getName() ?></p>
+                    <a class="span10" href="<?php echo sfConfig::get('sf_upload_dir') . '/press/collection/' . $concept->getPackageLocation() ?>">>package.</a>
                 </div>
             <?php endforeach; ?>
-            <div class="span3 span3marginalized">
-                <img src="http://dummyimage.com/200x200/000/fff" alt="example"/>
-                <p class="no-margin">COLOR</p>
-                <a class="span10" href="<?php  ?>">>png.</a>
-                <a href="<?php  ?>">>jpeg.</a>
-            </div>
             <div class="clear"></div>
         </div>
     </div>
