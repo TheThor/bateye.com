@@ -26,7 +26,7 @@ class PressCoverImageForm extends BasePressCoverImageForm
           'mime_types' => 'web_images',
       )));
       $this->setWidget('link', new sfWidgetFormInputFileEditable(array(
-          'label' => 'PDF File',
+          'label' => 'PNG',
           'file_src' => '/images/press/cover_image/' . $this->getObject()->getLink(),
           'is_image'  => true,
           'edit_mode' => !$this->isNew(),
@@ -35,8 +35,7 @@ class PressCoverImageForm extends BasePressCoverImageForm
       $this->setValidator('link', new sfValidatorFile(array(
           'required'   => false,
           'path'       => sfConfig::get('sf_upload_dir') . '/images/press/cover_image/',
-          'mime_categories' => array('pdf' => array('application/pdf', 'application/x-pdf')),
-          'mime_types' => 'pdf',
+          'mime_types' => 'web_images',
       )));
   }
 }

@@ -35,9 +35,9 @@
             <?php /** @var PressCatalogue $catalogue */
             foreach ($catalogues as $catalogue): ?>
                 <div class="span3 span3marginalized">
-                    <img src="<?php $catalogue->getCover() ?>" alt="example"/>
+                    <img src="<?php echo '/images/press/catalogue/' . $catalogue->getCover() ?>" alt="example"/>
                     <p class="no-margin">COLOR</p>
-                    <a class="span10" href="<?php $catalogue->getLink() ?>">>Download</a>
+                    <a class="span10" href="<?php echo url_for('mediafile') . '?filepath=' . sfConfig::get('sf_upload_dir') . '/images/press/catalogue/' . $catalogue->getLink() ?>">>Download</a>
                 </div>
             <?php endforeach; ?>
             <div class="clear"></div>

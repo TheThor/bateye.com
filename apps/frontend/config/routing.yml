@@ -106,7 +106,7 @@ show_allproducts:
 
 #Media files and others
 mediafile:
-  url: /media/:catalogue.pdf/*
+  url: /media/
   param: { module: media, action: show }
 
 # default rules

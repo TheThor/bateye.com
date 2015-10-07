@@ -65,7 +65,7 @@
                         <li class="dropdown-header">The brand</li>
                         <li><a href="<?php echo url_for('press_logo')?>">Press brand logos</a></li>
                         <li><a href="<?php echo url_for('press_product_concept')?>">Concept Images zip</a></li>
-                        <li><a href="<?php echo url_for('press_product_concept_image')?>">Imagens conceptuais de produto</a></li>
+                        <li><a href="<?php echo url_for('press_product_concept_image')?>">Image concept single</a></li>
                         <li class="divider"></li>
                         <li class="dropdown-header">Productos/Coleções</li>
                         <li><a href="<?php echo url_for('press_collection')?>">Página de coleções</a></li>

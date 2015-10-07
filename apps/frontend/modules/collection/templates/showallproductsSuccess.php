@@ -14,14 +14,14 @@ slot(
 ?>
 <div id="container">
     <div id="all-products-filters">
-        <p class="filter">Filtros</p>
+        <p class="filter">Filters</p>
         <div id="products-search-bar">
-            <input type="text" id="search-products" placeholder="Introduza categoria, nome da peça, coleção..." data-type="search">
+            <input type="text" id="search-products" placeholder="Search for products, categories,..." data-type="search">
         </div>
         <div id="categories-list">
             <label for="categories-selector" class="special-label">
                 <select name="categories-selector" id="categories-selector">
-                    <option value="">Categoria</option>
+                    <option value="">Category</option>
                     <?php /** @var Category $category */
                     foreach ($categories as $category): ?>
                         <option value="<?php echo $category->getName() ?>">
@@ -34,7 +34,7 @@ slot(
         <div id="collections-list">
             <label for="collections-selector" class="special-label">
                 <select name="collections-selector" id="collections-selector">
-                    <option value="">Coleção</option>
+                    <option value="">Collection</option>
                     <?php /** @var Collection $colletions */
                     foreach ($collections as $collection): ?>
                         <option value="<?php echo $collection->getName() ?>">
