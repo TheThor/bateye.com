@@ -51,7 +51,7 @@
                 <div class="span3 span3marginalized">
                     <img src="/images/press/product_concept/<?php echo $concept->getImage() ?>" alt="example"/>
                     <p class="no-margin"><?php echo $concept->getProduct()->getName() ?></p>
-                    <a class="span10" href="<?php echo sfConfig::get('sf_upload_dir') . '/press/collection/' . $concept->getPackageLocation() ?>">>package.</a>
+                    <a class="span10" href="<?php echo url_for('mediafile') . '?filepath=' . sfConfig::get('sf_upload_dir') . '/press/product_concept/' . $concept->getPackageLocation() ?>">>package.</a>
                 </div>
             <?php endforeach; ?>
             <div class="clear"></div>

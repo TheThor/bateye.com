@@ -22,7 +22,7 @@ class PressCollectionForm extends BasePressCollectionForm
       )));
       $this->setValidator('product_image', new sfValidatorFile(array(
           'required'   => true,
-          'path'       => '/images/press/collection/',
+          'path'       => sfConfig::get('sf_upload_dir') . '/images/press/collection/',
           'mime_types' => 'web_images',
       )));
       $this->setWidget('package_location', new sfWidgetFormInputFileEditable(array(

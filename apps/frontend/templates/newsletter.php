@@ -30,5 +30,5 @@
     <img src="/images/newsletter.png" style="">
 </div>
 <div id="catalogue" style="position:fixed; z-index: 5; left: -6px; top:245px;">
-    <a href="<?php echo url_for('media/catalogue.pdf') ?>"><img src="/images/CATALOGUE.png"></a>
+    <a href="<?php echo url_for('mediafile') ?>"><img src="/images/CATALOGUE.png"></a>
 </div>

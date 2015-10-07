@@ -27,7 +27,7 @@
     <h1>download</h1><br>
     <hr>
     <div id="d_1" style="height: 80px">
-        <a href="<?php echo url_for('media/catalogue.pdf') ?>">
+        <a href="<?php echo url_for('mediafile') ?>">
             <img src="/images/icons/catalogo.png"><br>
         </a>
         <h2>catalogue</h2>

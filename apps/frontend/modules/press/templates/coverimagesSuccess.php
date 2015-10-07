@@ -35,9 +35,9 @@
             <?php /** @var PressCoverImage $coverImage */
             foreach ($coverImages as $coverImage): ?>
                 <div class="span3 span3marginalized">
-                    <img src="<?php $coverImage->getCover() ?>" alt="example"/>
+                    <img src="<?php  echo '/images/press/cover_image/' . $coverImage->getCover() ?>" alt="example"/>
                     <p class="no-margin">COLOR</p>
-                    <a class="span10" href="<?php $coverImage->getLink() ?>">>download</a>
+                    <a class="span10" href="<?php echo url_for('mediafile') . '?filepath=' . sfConfig::get('sf_upload_dir') . '/images/press/cover_image/' . $coverImage->getLink() ?>">>download</a>
                 </div>
             <?php endforeach; ?>
             <div class="clear"></div>
