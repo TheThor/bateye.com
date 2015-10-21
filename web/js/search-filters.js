@@ -6,13 +6,19 @@ $(document).ready(function() {
         var search = this.value;
         if (search == '') {
             $('#container .img').each(function(){
+                $(this).parent().prev('.line-text-center').fadeIn();
                 $(this).fadeIn();
             });
         } else {
             $('#container .img').each(function(){
-                if ($(this).data('name').toLowerCase().indexOf(search.toLowerCase()) == -1 && $(this).data('category').toLowerCase().indexOf(search.toLowerCase()) == -1) {
+                if (
+                    $(this).data('name').toLowerCase().indexOf(search.toLowerCase()) == -1 &&
+                    $(this).data('category').toLowerCase().indexOf(search.toLowerCase()) == -1
+                ) {
+                    $(this).parent().prev('.line-text-center').fadeOut();
                     $(this).fadeOut();
                 } else {
+                    $(this).parent().prev('.line-text-center').fadeIn();
                     $(this).fadeIn();
                 }
             });
@@ -23,13 +29,16 @@ $(document).ready(function() {
         var search = this.value;
         if (search == '') {
             $('#container .img').each(function(){
+                $(this).parent().prev('.line-text-center').fadeIn();
                 $(this).fadeIn();
             });
         } else {
             $('#container .img').each(function(){
                 if ($(this).data('category').toLowerCase().indexOf(search.toLowerCase()) == -1) {
+                    $(this).parent().prev('.line-text-center').fadeOut();
                     $(this).fadeOut();
                 } else {
+                    $(this).parent().prev('.line-text-center').fadeIn();
                     $(this).fadeIn();
                 }
             });
@@ -45,8 +54,10 @@ $(document).ready(function() {
         } else {
             $('#container .img').each(function(){
                 if ($(this).data('collection').toLowerCase().indexOf(search.toLowerCase()) == -1) {
+                    $(this).parent().prev('.line-text-center').fadeOut();
                     $(this).fadeOut();
                 } else {
+                    $(this).parent().prev('.line-text-center').fadeIn();
                     $(this).fadeIn();
                 }
             });

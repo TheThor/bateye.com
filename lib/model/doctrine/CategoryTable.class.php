@@ -25,4 +25,12 @@ class CategoryTable extends Doctrine_Table
         $q = $this->createQuery('Category c');
         return $q->execute();
     }
+
+    public function getAllCategoriesThatHaveProducts()
+    {
+        $q = $this->createQuery('Category c')
+            ->innerJoin('c.ProductCategory pc');
+
+        return $q->execute();
+    }
 }

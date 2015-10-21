@@ -28,7 +28,6 @@ class PressCatalogueForm extends BasePressCatalogueForm
       $this->setWidget('link', new sfWidgetFormInputFileEditable(array(
           'label' => 'PDF File',
           'file_src' => '/images/press/catalogue/' . $this->getObject()->getLink(),
-//          'is_image'  => true,
           'edit_mode' => !$this->isNew(),
           'template'  => '<div>%file%<br />%input%<br />%delete% %delete_label%</div>'
       )));

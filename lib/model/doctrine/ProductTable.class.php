@@ -23,6 +23,14 @@ class ProductTable extends Doctrine_Table
         return $q->execute();
     }
 
+    public function getAllProductsGroupByCategory()
+    {
+        $q = $this->createQuery("p")
+            ->innerJoin('p.Collection')
+            ->orderBy('collection_id ASC');
+        return $q->execute();
+    }
+
     /**
      * @param $id
      * @return Doctrine_Collection

@@ -12,4 +12,15 @@
  */
 class News extends BaseNews
 {
+    public function postDelete($event)
+    {
+        $filePath = sfConfig::get('sf_upload_dir') . '/images/whatsnew/' . $this->getNewsImage();
+        @unlink($filePath);
+    }
+
+    public function preUpdate($event)
+    {
+        $filePath = sfConfig::get('sf_upload_dir') . '/images/whatsnew/' . $this->getNewsImage();
+        @unlink($filePath);
+    }
 }

@@ -3,5 +3,5 @@ index:
 #  credentials: [user]
 
 default:
-  is_secure: false
-  #credentials: [user]
+  is_secure: true
+  credentials: [user]

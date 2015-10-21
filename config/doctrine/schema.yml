@@ -80,6 +80,12 @@ IndexContent:
     thebrand:       { type: array, notnull: true }
     thedesigner:    { type: array, notnull: true }
 
+IndexNewProduct:
+  actAs: { Timestampable: ~ }
+  columns:
+    id:             { type: integer, primary: true, autoincrement: true }
+    image:          { type: string(255), notnull: true }
+
 ###################################
 ##### Main area before login ######
 ###################################

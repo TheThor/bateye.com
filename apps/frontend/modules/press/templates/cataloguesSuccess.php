@@ -11,27 +11,12 @@
         array('collections' => $collections)
     ) ?>
     <div class="span11" id="press-main-area">
-        <div>
-            <div class="span5 offset2-5">
-                <p>
-                    Bat eye ® provides you private contents:
-                    Click over the pictures or buttons to download packages and pdf.s with
-                    all information about our brand and products, pictures and documents
-                    in high and low resolution and additional contents made just to make
-                    your work easy. Any other content needed please contact.
-                    Videos
-                </p>
-                <b>RAQUEL DIAS - Marketing Director & Client Relations</b>
-                raqueldias@bateye.com | +351 227312657 <br>
-                info@bateye.com | www.bateye.com
-            </div>
-            <div class="clearfix"></div>
-        </div>
         <div class="gallery-container">
             <div class="span3">
                 <?php /** @var Collection $collection */ ?>
                 <h3 class="abrilfat">Catalogues</h3>
             </div>
+            <div class="span9">
             <?php /** @var PressCatalogue $catalogue */
             foreach ($catalogues as $catalogue): ?>
                 <div class="span3 span3marginalized">
@@ -40,6 +25,7 @@
                     <a class="span10" href="<?php echo url_for('mediafile') . '?filepath=' . sfConfig::get('sf_upload_dir') . '/images/press/catalogue/' . $catalogue->getLink() ?>">>Download</a>
                 </div>
             <?php endforeach; ?>
+            </div>
             <div class="clear"></div>
         </div>
     </div>

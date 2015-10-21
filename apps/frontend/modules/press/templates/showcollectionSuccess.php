@@ -11,35 +11,21 @@
         array('collections' => $collections)
     ) ?>
     <div class="span11" id="press-main-area">
-        <div>
-            <div class="span5 offset2-5">
-                <p>
-                    Bat eye ® provides you private contents:
-                    Click over the pictures or buttons to download packages and pdf.s with
-                    all information about our brand and products, pictures and documents
-                    in high and low resolution and additional contents made just to make
-                    your work easy. Any other content needed please contact.
-                    Videos
-                </p>
-                <b>RAQUEL DIAS - Marketing Director & Client Relations</b>
-                raqueldias@bateye.com | +351 227312657 <br>
-                info@bateye.com | www.bateye.com
-            </div>
-            <div class="clearfix"></div>
-        </div>
         <div class="gallery-container">
             <div class="span3">
                 <?php /** @var Collection $collection */ ?>
                 <h3 class="abrilfat"><?php echo $collection->getName() ?></h3>
             </div>
+            <div class="span9">
             <?php /** @var PressCollection $product */
             foreach ($products as $product): ?>
                 <div class="span3 span3marginalized">
-                    <img src="/images/press/collection/<?php echo $product->getProductImage() ?>" alt="example"/>
-                    <p class="no-margin">COLOR</p>
+                    <img src="<?php echo '/images/press/collection/' . $product->getProductImage() ?>" alt="example"/>
+                    <p class="no-margin"><?php echo $product->getProduct()->getName() ?></p>
                     <a class="span10" href="<?php echo sfConfig::get('sf_upload_dir') . '/press/collection/' . $product->getPackageLocation() ?>">>package</a>
                 </div>
             <?php endforeach; ?>
+            </div>
             <div class="clear"></div>
         </div>
     </div>

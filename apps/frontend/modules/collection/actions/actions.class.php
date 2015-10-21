@@ -59,17 +59,17 @@ class collectionActions extends sfActions
     public function executeShowallproducts(sfWebRequest $request)
     {
         $this->showActiveCollections();
-        $this->showActiveCategories();
-        $this->products = Doctrine::getTable('Product')->getAllProducts();
+        $this->showActiveCategoriesWithProducts();
+        $this->products = Doctrine::getTable('Product')->getAllProductsGroupByCategory();
     }
 
 
     /**
      * Sets categories to show all available categories
      */
-    private function showActiveCategories()
+    private function showActiveCategoriesWithProducts()
     {
-        $this->categories = Doctrine_Core::getTable('Category')->getAllCategories();
+        $this->categories = Doctrine_Core::getTable('Category')->getAllCategoriesThatHaveProducts();
     }
 
     /**

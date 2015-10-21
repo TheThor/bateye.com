@@ -16,4 +16,10 @@ class Category extends BaseCategory
     {
         return Category::slugify($this->getCategory());
     }
+
+    public function postDelete($event)
+    {
+        $filePath = sfConfig::get('sf_upload_dir') . '/images/category/' . $this->getImage();
+        @unlink($filePath);
+    }
 }
