@@ -12,4 +12,15 @@
  */
 class ProductImage extends BaseProductImage
 {
+    public function postDelete($event)
+    {
+        $filePath = sfConfig::get('sf_upload_dir') . '/images/slides/' . $this->getLocation();
+        @unlink($filePath);
+    }
+
+    public function preUpdate($event)
+    {
+        $filePath = sfConfig::get('sf_upload_dir') . '/images/slides/' . $this->getLocation();
+        @unlink($filePath);
+    }
 }

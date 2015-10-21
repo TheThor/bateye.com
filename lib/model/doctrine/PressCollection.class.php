@@ -12,4 +12,19 @@
  */
 class PressCollection extends BasePressCollection
 {
+    public function postDelete($event)
+    {
+        $filepath = sfConfig::get('sf_upload_dir') . '/images/press/collection/' . $this->getProductImage();
+        @unlink($filepath);
+        $filepath = sfConfig::get('sf_upload_dir') . '/press/collection/' . $this->getPackageLocation();
+        @unlink($filepath);
+    }
+
+    public function preUpdate($event)
+    {
+        $filepath = sfConfig::get('sf_upload_dir') . '/images/press/collection/' . $this->getProductImage();
+        @unlink($filepath);
+        $filepath = sfConfig::get('sf_upload_dir') . '/press/collection/' . $this->getPackageLocation();
+        @unlink($filepath);
+    }
 }

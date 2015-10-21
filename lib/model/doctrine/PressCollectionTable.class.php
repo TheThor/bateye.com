@@ -25,6 +25,7 @@ class PressCollectionTable extends Doctrine_Table
     public function getProductsByCollection($id){
         $q = Doctrine_Query::create()
             ->from('PressCollection p')
+            ->innerJoin('p.Product pr')
             ->where('p.collection_id=' . $id);
         return $q->execute();
     }

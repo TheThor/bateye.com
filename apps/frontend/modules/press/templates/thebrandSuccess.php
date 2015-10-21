@@ -11,26 +11,11 @@
         array('collections' => $collections)
     ) ?>
     <div class="span11" id="press-main-area">
-        <div>
-            <div class="span5 offset2-5">
-                <p>
-                    Bat eye ® provides you private contents:
-                    Click over the pictures or buttons to download packages and pdf.s with
-                    all information about our brand and products, pictures and documents
-                    in high and low resolution and additional contents made just to make
-                    your work easy. Any other content needed please contact.
-                    Videos
-                </p>
-                <b>RAQUEL DIAS - Marketing Director & Client Relations</b>
-                raqueldias@bateye.com | +351 227312657 <br>
-                info@bateye.com | www.bateye.com
-            </div>
-            <div class="clearfix"></div>
-        </div>
         <div class="gallery-container">
             <div class="span3">
                 <h3 class="abrilfat">LOGO</h3>
             </div>
+            <div class="span9">
             <?php /** @var PressLogo $logo */
             foreach ($logos as $logo): ?>
             <div class="span3 span3marginalized">
@@ -40,12 +25,14 @@
                 <a class="span10" href="/images/press/logo/<?php echo $logo->getJpgLocation() ?>">>jpeg.</a>
             </div>
             <?php endforeach; ?>
+            </div>
             <div class="clear"></div>
         </div>
         <div class="gallery-container">
             <div class="span3">
                 <h3 class="abrilfat">CONCEPT IMAGES</h3>
             </div>
+            <div class="span9">
             <?php /** @var PressProductConcept $concept */
             foreach ($concepts as $concept): ?>
                 <div class="span3 span3marginalized">
@@ -54,6 +41,7 @@
                     <a class="span10" href="<?php echo url_for('mediafile') . '?filepath=' . sfConfig::get('sf_upload_dir') . '/press/product_concept/' . $concept->getPackageLocation() ?>">>package.</a>
                 </div>
             <?php endforeach; ?>
+            </div>
             <div class="clear"></div>
         </div>
     </div>

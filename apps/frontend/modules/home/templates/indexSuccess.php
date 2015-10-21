@@ -70,6 +70,9 @@
                             'action' => 'index'
                         )) ?>">Contacts</a>
                     </li>
+                    <?php if ($sf_user->isAuthenticated()): ?>
+                        <li><?php echo link_to('Logout', 'sf_guard_signout') ?></li>
+                    <?php endif ?>
                 </ul>
             </div>
         </div>
@@ -222,5 +225,7 @@
     <a href="<?php echo url_for(array(
 	    'module' => 'contacts',
 	    'action' => 'index'
-    )) ?>"> <img src="/images/newprod/Queenly_Bat-eye-1.png" alt="Queenly peça nova!"/></a>
+    )) ?>">
+        <img src="/images/newprod/Queenly_Bat-eye-1.png" alt="Queenly peça nova!"/>
+    </a>
 </div>

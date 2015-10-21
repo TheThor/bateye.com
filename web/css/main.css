@@ -43,21 +43,23 @@
 #all-products-filters select {
 	padding:3px;
 	margin: 0;
-	-webkit-border-radius:4px;
-	-moz-border-radius:4px;
-	border-radius:4px;
-	-webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
-	-moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
-	box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+	/*-webkit-border-radius:4px;*/
+	/*-moz-border-radius:4px;*/
+	/*border-radius:4px;*/
+	/*-webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;*/
+	/*-moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;*/
+	/*box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;*/
 	background: #f8f8f8;
 	color:#888;
-	border:none;
+	border: 1px #99999a;
 	outline:none;
 	display: inline-block;
 	-webkit-appearance:none;
 	-moz-appearance:none;
 	appearance:none;
 	cursor:pointer;
+	height: 100%;
+	padding: 2px;
 }
 
 /* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
@@ -312,10 +314,9 @@
 			}
 
 				input[type=text], input[type=password], input[type=email]{
-					border: 0px;
-					background-color: #bebebe;
 					width: 100%;
                     border-radius: 0;
+					border: 1px solid #DADADB;
 				}
 
 				textarea{
@@ -944,7 +945,6 @@ nav li li a{
 #all-products-filters {
 	width: 85%;
 	margin: 0 auto;
-	border-bottom: 1px solid #A41B21;
 }
 
 /*#search-products {*/
@@ -964,34 +964,50 @@ nav li li a{
 	font-weight: bold;
 	text-decoration: none;
 	margin-bottom: 9px;
+	text-align: center;
+	background: #fff;
+	padding: 0 17px 0 17px;
 }
 
 #categories-list {
 	float: left;
-	width: 17%;
-	margin: 8px 18px 5px 0px;
+	width: 12%;
+	height: 27px;
+	margin: 11px 18px 5px 0px;
 }
 
 #collections-list {
 	float: left;
-	width: 20%;
-	margin: 8px 18px 5px 0px;
+	width: 12%;
+	height: 27px;
+	margin: 11px 18px 5px 0px;
 }
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-	color: #4A4A4A;
+	color: #99999a;
 }
 
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-	color:    #4A4A4A;
+	color:    #99999a;
 	opacity:  1;
 }
 
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-	color:    #4A4A4A;
+	color:    #99999a;
 	opacity:  1;
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-	color:    #4A4A4A;
+	color:    #99999a;
+}
+
+.line-text-center {
+	width: 85%;
+	text-align: center;
+	border-bottom: 1px solid #DADADB;
+	line-height: .1em;
+	margin: 25px auto -10px;
+	color: #000;
+	text-transform: uppercase;
+	font-size: 11px;
 }
