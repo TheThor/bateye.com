@@ -30,6 +30,7 @@
 						<li><a href="<?php echo url_for('slider_image') ?>">Gerir slider</a></li>
 						<li><a href="<?php echo url_for('index_content') ?>">Gerir conteúdos</a></li>
 						<li><a href="<?php echo url_for('index_new_product') ?>">Gerir New product</a></li>
+						<li><a href="<?php echo url_for('catalogue_manager') ?>">Gerir Catálogo</a></li>
 						<li class="divider"></li>
 						<li class="dropdown-header">Acções</li>
 						<li><a href="<?php echo url_for(array('module' => 'slider_image','action' => 'new'))?>">Adicionar imagem de slider</a></li>

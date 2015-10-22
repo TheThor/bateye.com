@@ -89,6 +89,11 @@ IndexNewProduct:
   relations:
     Product:        { local: product_id, foreign: id, foreignAlias: NewProductHomepage }
 
+CatalogueManager:
+  actAs: { Timestampable: ~ }
+  columns:
+      path:      { type: string(500), notnull: true }
+
 ###################################
 ##### Main area before login ######
 ###################################
