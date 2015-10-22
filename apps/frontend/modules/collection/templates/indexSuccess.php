@@ -8,7 +8,7 @@
             <img class="logo" src="/images/logo_principal_cores.png" alt="Logo Bateye" width="200px" />
         </div>
     </div>
-    <div id="menu" <?php  if ($sf_user->isAuthenticated()) echo 'style="width: 420px; top: 135px"'; ?> style="top:140px; top: 135px">
+    <div id="menu" style="top:140px; top: 135px">
         <nav>
             <ul>
                 <li><a href="<?php echo url_for('homepage') ?>">HOME</a></li>
@@ -17,7 +17,8 @@
                     <a href="<?php echo url_for('collection') ?>">COLLECTIONS</a>
                     <?php if (isset($collections)): ?>
                         <ul>
-                            <?php foreach ($collections as $collection): ?>
+                            <?php /** @var Collection $collection */
+                            foreach ($collections as $collection): ?>
                                 <?php if ($collection->getId()!=3):?>
                                     <li>
                                         <a href="<?php echo url_for(array(

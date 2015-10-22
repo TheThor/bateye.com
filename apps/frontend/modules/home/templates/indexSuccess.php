@@ -220,12 +220,17 @@
 <!-- END   -->
 
 </div>
-<div id="produ" style="position:fixed; z-index: 5; bottom: 0; right: 0;">
-    <img id="closeit" src="/images/close.png" alt="close button image">
-    <a href="<?php echo url_for(array(
-	    'module' => 'contacts',
-	    'action' => 'index'
-    )) ?>">
-        <img src="/images/newprod/Queenly_Bat-eye-1.png" alt="Queenly peça nova!"/>
-    </a>
-</div>
+<?php if($latestProduct->count() > 0): ?>
+    <?php /** @var IndexNewProduct $product */
+    foreach($latestProduct as $product): ?>
+    <div id="produ" style="position:fixed; z-index: 5; bottom: 0; right: 0;">
+        <img id="closeit" src="/images/close.png" alt="close button image">
+        <a href="<?php echo url_for(array(
+            'module' => 'contacts',
+            'action' => 'index'
+        )) ?>">
+            <img src="/images/homepage/<?php echo $product->getImage() ?>" alt="Our new piece!"/>
+        </a>
+     </div>
+    <?php endforeach; ?>
+<?php endif; ?>

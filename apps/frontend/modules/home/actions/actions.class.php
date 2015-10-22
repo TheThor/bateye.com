@@ -22,6 +22,7 @@ class homeActions extends sfActions
         $this->sliderCount = $this->countSlider();
         $this->sliders = Doctrine_Core::getTable('SliderImage')->getAllSliders();
         $this->getBrand();
+        $this->latestProduct = Doctrine_Core::getTable('IndexNewProduct')->getLatestProduct();
         return sfView::SUCCESS;
 //    $this->designer = Doctrine::getTable('IndexContent')->getThedesigner();
     }

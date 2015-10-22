@@ -10,22 +10,22 @@
  */
 class SliderImageForm extends BaseSliderImageForm
 {
-  public function configure()
-  {
-      unset($this['created_at'], $this['updated_at']);
-      $this->setWidget('path', new sfWidgetFormInputFileEditable(array(
-          'label' => 'Slider image',
-          'file_src' => '/images/Carousel/' . $this->getObject()->getPath(),
-          'is_image'  => true,
-          'edit_mode' => !$this->isNew(),
-          'template'  => '<div>%file%<br />%input%<br />%delete% %delete_label%</div>'
-      )));
-      $this->setValidator('path', new sfValidatorFile(array(
-          'required'   => false,
-          'path'       => sfConfig::get('sf_upload_dir') . '/images/Carousel/',
-          'mime_types' => 'web_images',
-      )));
+    public function configure()
+    {
+        unset($this['created_at'], $this['updated_at']);
+        $this->setWidget('path', new sfWidgetFormInputFileEditable(array(
+            'label' => 'Slider image',
+            'file_src' => '/images/Carousel/' . $this->getObject()->getPath(),
+            'is_image' => true,
+            'edit_mode' => !$this->isNew(),
+            'template' => '<div>%file%<br />%input%<br />%delete% %delete_label%</div>'
+        )));
+        $this->setValidator('path', new sfValidatorFile(array(
+            'required' => false,
+            'path' => sfConfig::get('sf_upload_dir') . '/images/Carousel/',
+            'mime_types' => 'web_images',
+        )));
 
-      $this->validatorSchema['path_delete'] = new sfValidatorPass();
-  }
+        $this->validatorSchema['path_delete'] = new sfValidatorPass();
+    }
 }
