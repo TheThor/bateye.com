@@ -28,6 +28,8 @@ all:
     # Form security secret (CSRF protection)
     csrf_secret:            d5e2b4e2f45238df663f752b1a547661e2b4dd9c
 
+    logging_enabled:        true
+
     # Output escaping settings
     escaping_strategy:      true
     escaping_method:        ESC_SPECIALCHARS

@@ -24,6 +24,7 @@
  * @property Collection $Collection
  * @property Category $Category
  * @property Doctrine_Collection $ProductImage
+ * @property Doctrine_Collection $NewProductHomepage
  * @property Doctrine_Collection $PressConceptProduct
  * @property Doctrine_Collection $PressProductImage
  * @property Doctrine_Collection $PressCollectionProduct
@@ -47,6 +48,7 @@
  * @method Collection          getCollection()             Returns the current record's "Collection" value
  * @method Category            getCategory()               Returns the current record's "Category" value
  * @method Doctrine_Collection getProductImage()           Returns the current record's "ProductImage" collection
+ * @method Doctrine_Collection getNewProductHomepage()     Returns the current record's "NewProductHomepage" collection
  * @method Doctrine_Collection getPressConceptProduct()    Returns the current record's "PressConceptProduct" collection
  * @method Doctrine_Collection getPressProductImage()      Returns the current record's "PressProductImage" collection
  * @method Doctrine_Collection getPressCollectionProduct() Returns the current record's "PressCollectionProduct" collection
@@ -69,6 +71,7 @@
  * @method Product             setCollection()             Sets the current record's "Collection" value
  * @method Product             setCategory()               Sets the current record's "Category" value
  * @method Product             setProductImage()           Sets the current record's "ProductImage" collection
+ * @method Product             setNewProductHomepage()     Sets the current record's "NewProductHomepage" collection
  * @method Product             setPressConceptProduct()    Sets the current record's "PressConceptProduct" collection
  * @method Product             setPressProductImage()      Sets the current record's "PressProductImage" collection
  * @method Product             setPressCollectionProduct() Sets the current record's "PressCollectionProduct" collection
@@ -169,6 +172,10 @@ abstract class BaseProduct extends sfDoctrineRecord
              'foreign' => 'id'));
 
         $this->hasMany('ProductImage', array(
+             'local' => 'id',
+             'foreign' => 'product_id'));
+
+        $this->hasMany('IndexNewProduct as NewProductHomepage', array(
              'local' => 'id',
              'foreign' => 'product_id'));
 

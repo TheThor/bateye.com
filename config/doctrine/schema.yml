@@ -85,6 +85,9 @@ IndexNewProduct:
   columns:
     id:             { type: integer, primary: true, autoincrement: true }
     image:          { type: string(255), notnull: true }
+    product_id:     { type: integer, notnull: true }
+  relations:
+    Product:        { local: product_id, foreign: id, foreignAlias: NewProductHomepage }
 
 ###################################
 ##### Main area before login ######

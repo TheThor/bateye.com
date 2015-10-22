@@ -1,3 +1,12 @@
+index_new_product:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                IndexNewProduct
+    module:               index_new_product
+    prefix_path:          /index_new_product
+    column:               id
+    with_wildcard_routes: true
+
 press_cover_video:
   class: sfDoctrineRouteCollection
   options:
