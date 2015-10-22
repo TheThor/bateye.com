@@ -16,7 +16,8 @@ class ProjectConfiguration extends sfProjectConfiguration
 		$this->setCacheDir($this->getRootDir() . '/cache'); //CORRECTO
 		$this->setLogDir($this->getRootDir() . '/log'); //CORRECTO
 		sfConfig::add(array(
-			'sf_upload_dir'   => sfConfig::get('sf_root_dir') . sfConfig::get('sf_web_dir')
+			'sf_upload_dir'   => sfConfig::get('sf_root_dir') . sfConfig::get('sf_web_dir'),
+			'sf_media_upload_dir'   => sfConfig::get('sf_root_dir') . '/media/'
 		));
 	}
 

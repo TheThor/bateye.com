@@ -29,8 +29,8 @@ class mediaActions extends sfActions
         sfConfig::set('sf_web_debug', false);
         $this->setLayout(false);
         $this->filepath = $request->getGetParameter('filepath');
-
-        if (empty($this->filepath)) {
+        $fileType = explode('.', $this->filepath);
+        if ($fileType[1] == 'pdf') {
             $this->renderText(readfile($this->pdfDownload()));
         } else {
             $filePath = $this->genericFileDownlad();

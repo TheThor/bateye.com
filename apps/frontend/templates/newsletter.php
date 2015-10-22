@@ -29,6 +29,13 @@
 <div id="newsletter" style="position:fixed; z-index: 5; left: -6px; top:120px">
     <img src="/images/newsletter.png" style="">
 </div>
+<?php /** @var CatalogueManagerTable $instance */
+$instance = CatalogueManagerTable::getInstance();
+/** @var Doctrine_Collection $catalogue */
+$catalogue = $instance->getLastInserted();
+/** @var CatalogueManager $catalogue */
+$catalogue = $catalogue->getFirst();
+?>
 <div id="catalogue" style="position:fixed; z-index: 5; left: -6px; top:245px;">
-    <a href="<?php echo url_for('mediafile') ?>"><img src="/images/CATALOGUE.png"></a>
+    <a href="<?php echo url_for('mediafile') . '?filepath=' . sfConfig::get('sf_media_upload_dir') . $catalogue->getPath() ?>"><img src="/images/CATALOGUE.png"></a>
 </div>
