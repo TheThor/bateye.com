@@ -13,6 +13,10 @@ class ProductForm extends BaseProductForm
   public function configure()
   {
       unset($this['created_at'], $this['updated_at']);
+      $this->validatorSchema['main_img_path_delete'] = new sfValidatorPass();
+      $this->validatorSchema['context_img_delete'] = new sfValidatorPass();
+      $this->validatorSchema['small_img_delete'] = new sfValidatorPass();
+
       $this->setWidget('main_img_path', new sfWidgetFormInputFileEditable(array(
           'label' => 'Product image',
           'file_src' => '/images/products/'.$this->getObject()->getMainImgPath(),
@@ -35,7 +39,6 @@ class ProductForm extends BaseProductForm
 //			'path'       => sfConfig::get('sf_upload_dir').'/jobs',
 //			'mime_types' => 'web_images',
 //		));
-      $this->validatorSchema['main_img_path_delete'] = new sfValidatorPass();
 
       $this->setWidget('context_img', new sfWidgetFormInputFileEditable(array(
           'label' => 'Context image',
@@ -59,7 +62,6 @@ class ProductForm extends BaseProductForm
 //			'path'       => sfConfig::get('sf_upload_dir').'/jobs',
 //			'mime_types' => 'web_images',
 //		));
-      $this->validatorSchema['context_img_delete'] = new sfValidatorPass();
 
       $this->setWidget('small_img', new sfWidgetFormInputFileEditable(array(
           'label' => 'Small image',
@@ -83,6 +85,5 @@ class ProductForm extends BaseProductForm
 //			'path'       => sfConfig::get('sf_upload_dir').'/jobs',
 //			'mime_types' => 'web_images',
 //		));
-      $this->validatorSchema['small_img_delete'] = new sfValidatorPass();
   }
 }

@@ -19,12 +19,4 @@ class Collection extends BaseCollection
         $filePath = sfConfig::get('sf_upload_dir') . '/images/collection/' . $this->getBackgroudImage();
         @unlink($filePath);
     }
-
-    public function preUpdate($event)
-    {
-        $filePath = sfConfig::get('sf_upload_dir') . '/images/collection/' . $this->getNameImage();
-        @unlink($filePath);
-        $filePath = sfConfig::get('sf_upload_dir') . '/images/collection/' . $this->getBackgroudImage();
-        @unlink($filePath);
-    }
 }

@@ -17,10 +17,4 @@ class CatalogueManager extends BaseCatalogueManager
         $filePath = sfConfig::get('sf_media_upload_dir') . $this->getPath();
         @unlink($filePath);
     }
-
-    public function preUpdate($event)
-    {
-        $filePath = sfConfig::get('sf_media_upload_dir') . $this->getPath();
-        @unlink($filePath);
-    }
 }

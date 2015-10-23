@@ -37,5 +37,7 @@ class PressCatalogueForm extends BasePressCatalogueForm
           'mime_categories' => array('pdf' => array('application/pdf', 'application/x-pdf')),
           'mime_types' => 'pdf',
       )));
+      $this->validatorSchema['cover_delete'] = new sfValidatorPass();
+      $this->validatorSchema['link_delete'] = new sfValidatorPass();
   }
 }

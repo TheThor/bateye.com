@@ -38,5 +38,7 @@ class PressMainAreaForm extends BasePressMainAreaForm
           'mime_categories' => array('pdf' => array('application/pdf', 'application/x-pdf')),
           'mime_types' => 'pdf',
       )));
+      $this->validatorSchema['cover_delete'] = new sfValidatorPass();
+      $this->validatorSchema['catalogue_delete'] = new sfValidatorPass();
   }
 }
