@@ -305,7 +305,6 @@ abstract class sfFormDoctrine extends sfFormObject
     {
       $this->removeFile($field);
 
-      return '';
     }
 
     if (!$values[$field])

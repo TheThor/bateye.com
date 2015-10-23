@@ -49,5 +49,8 @@ class PressLogoForm extends BasePressLogoForm
           'path'       => sfConfig::get('sf_upload_dir') . '/images/press/logo/',
           'mime_types' => 'web_images',
       )));
+      $this->validatorSchema['image_delete'] = new sfValidatorPass();
+      $this->validatorSchema['jpg_location_delete'] = new sfValidatorPass();
+      $this->validatorSchema['png_location_delete'] = new sfValidatorPass();
   }
 }

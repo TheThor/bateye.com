@@ -43,5 +43,7 @@ class PressReleaseForm extends BasePressReleaseForm
               ),
           'mime_types' => 'compressed',
       )));
+      $this->validatorSchema['cover_delete'] = new sfValidatorPass();
+      $this->validatorSchema['link_delete'] = new sfValidatorPass();
   }
 }

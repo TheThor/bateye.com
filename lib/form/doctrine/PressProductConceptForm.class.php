@@ -44,5 +44,7 @@ class PressProductConceptForm extends BasePressProductConceptForm
               ),
           'mime_types' => 'compressed',
       )));
+      $this->validatorSchema['image_delete'] = new sfValidatorPass();
+      $this->validatorSchema['package_location_delete'] = new sfValidatorPass();
   }
 }

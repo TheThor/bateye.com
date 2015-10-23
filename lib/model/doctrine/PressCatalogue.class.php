@@ -19,12 +19,4 @@ class PressCatalogue extends BasePressCatalogue
         $filepath = sfConfig::get('sf_upload_dir') . '/images/press/catalogue/' . $this->getLink();
         @unlink($filepath);
     }
-
-    public function preUpdate($event)
-    {
-        $filepath = sfConfig::get('sf_upload_dir') . '/images/press/catalogue/' . $this->getCover();
-        @unlink($filepath);
-        $filepath = sfConfig::get('sf_upload_dir') . '/images/press/catalogue/' . $this->getLink();
-        @unlink($filepath);
-    }
 }

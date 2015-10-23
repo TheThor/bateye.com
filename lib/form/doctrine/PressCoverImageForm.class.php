@@ -37,5 +37,7 @@ class PressCoverImageForm extends BasePressCoverImageForm
           'path'       => sfConfig::get('sf_upload_dir') . '/images/press/cover_image/',
           'mime_types' => 'web_images',
       )));
+      $this->validatorSchema['cover_delete'] = new sfValidatorPass();
+      $this->validatorSchema['link_delete'] = new sfValidatorPass();
   }
 }

@@ -24,26 +24,4 @@ class Product extends BaseProduct
 
         return $q->execute();
     }
-
-    public function postDelete($event)
-    {
-        $filePath = sfConfig::get('sf_upload_dir') . '/images/products/' . $this->getMainImgPath();
-        @unlink($filePath);
-        $filePath = sfConfig::get('sf_upload_dir') . '/images/products/' . $this->getSmallImg();
-        @unlink($filePath);
-        $filePath = sfConfig::get('sf_upload_dir') . '/images/products/' . $this->getContextImg();
-        @unlink($filePath);
-        parent::postDelete($event);
-    }
-
-    public function preUpdate($event)
-    {
-        $filePath = sfConfig::get('sf_upload_dir') . '/images/products/' . $this->getMainImgPath();
-        @unlink($filePath);
-        $filePath = sfConfig::get('sf_upload_dir') . '/images/products/' . $this->getSmallImg();
-        @unlink($filePath);
-        $filePath = sfConfig::get('sf_upload_dir') . '/images/products/' . $this->getContextImg();
-        @unlink($filePath);
-        parent::postDelete($event);
-    }
 }

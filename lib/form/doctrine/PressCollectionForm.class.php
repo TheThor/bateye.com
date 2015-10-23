@@ -45,5 +45,7 @@ class PressCollectionForm extends BasePressCollectionForm
               ),
           'mime_types' => 'compressed',
       )));
+      $this->validatorSchema['package_delete'] = new sfValidatorPass();
+      $this->validatorSchema['product_delete'] = new sfValidatorPass();
   }
 }

@@ -17,10 +17,4 @@ class SliderImage extends BaseSliderImage
         $filepath = sfConfig::get('sf_upload_dir') . '/images/Carousel/' . $this->getPath();
         @unlink($filepath);
     }
-
-    public function preUpdate($event)
-    {
-        $filepath = sfConfig::get('sf_upload_dir') . '/images/Carousel/' . $this->getPath();
-        @unlink($filepath);
-    }
 }

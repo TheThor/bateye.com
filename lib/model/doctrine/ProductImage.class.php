@@ -17,10 +17,4 @@ class ProductImage extends BaseProductImage
         $filePath = sfConfig::get('sf_upload_dir') . '/images/slides/' . $this->getLocation();
         @unlink($filePath);
     }
-
-    public function preUpdate($event)
-    {
-        $filePath = sfConfig::get('sf_upload_dir') . '/images/slides/' . $this->getLocation();
-        @unlink($filePath);
-    }
 }

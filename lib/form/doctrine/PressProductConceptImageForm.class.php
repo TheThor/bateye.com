@@ -49,6 +49,9 @@ class PressProductConceptImageForm extends BasePressProductConceptImageForm
           'path'       => sfConfig::get('sf_upload_dir') . '/images/press/product_concept_images/',
           'mime_types' => 'web_images',
       )));
+      $this->validatorSchema['image_delete'] = new sfValidatorPass();
+      $this->validatorSchema['jpg_location_delete'] = new sfValidatorPass();
+      $this->validatorSchema['png_location_delete'] = new sfValidatorPass();
 //      $this->setWidget('package_location', new sfWidgetFormInputFileEditable(array(
 //          'label' => 'Zip File',
 //          'file_src' => '/images/press/main_area/' . $this->getObject()->getPackageLocation(),
