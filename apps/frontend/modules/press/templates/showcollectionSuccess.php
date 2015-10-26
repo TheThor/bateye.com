@@ -22,7 +22,7 @@
                 <div class="span3 span3marginalized">
                     <img src="<?php echo '/images/press/collection/' . $product->getProductImage() ?>" alt="example"/>
                     <p class="no-margin"><?php echo $product->getProduct()->getName() ?></p>
-                    <a class="span10" href="<?php echo sfConfig::get('sf_upload_dir') . '/press/collection/' . $product->getPackageLocation() ?>">>package</a>
+                    <a class="span10" href="<?php echo url_for('mediafile') . '?filepath=' . sfConfig::get('sf_upload_dir') . '/press/collection/' . $product->getPackageLocation() ?>">>package</a>
                 </div>
             <?php endforeach; ?>
             </div>

@@ -20,7 +20,7 @@
             <?php /** @var PressCoverVideo $coverVideo */
             foreach ($coverVideos as $coverVideo): ?>
                 <div class="span3 span3marginalized">
-                    <img src="<?php $coverVideo->getLink() ?>" alt="example"/>
+                    <img src="<?php echo $coverVideo->getLink() ?>" alt="example"/>
                 </div>
             <?php endforeach; ?>
             </div>
