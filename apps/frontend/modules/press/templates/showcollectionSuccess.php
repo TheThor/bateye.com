@@ -20,7 +20,13 @@
             <?php /** @var PressCollection $product */
             foreach ($products as $product): ?>
                 <div class="span3 span3marginalized">
-                    <img src="<?php echo '/images/press/collection/' . $product->getProductImage() ?>" alt="example"/>
+                    <a href="<?php echo url_for(array(
+                        'module' => 'press',
+                        'action' => 'showproduct',
+                        'id' => $product->getId()
+                    ))?>">
+                        <img src="<?php echo '/images/press/collection/' . $product->getProductImage() ?>" alt="example"/>
+                    </a>
                     <p class="no-margin"><?php echo $product->getProduct()->getName() ?></p>
                     <a class="span10" href="<?php echo url_for('mediafile') . '?filepath=' . sfConfig::get('sf_upload_dir') . '/press/collection/' . $product->getPackageLocation() ?>">>package</a>
                 </div>

@@ -1,3 +1,12 @@
+press_product_image:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                PressProductImage
+    module:               press_product_image
+    prefix_path:          /press_product_image
+    column:               id
+    with_wildcard_routes: true
+
 catalogue_manager:
   class: sfDoctrineRouteCollection
   options:

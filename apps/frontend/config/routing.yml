@@ -1,6 +1,14 @@
 # You can find more information about this file on the symfony website:
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+press_show_product:
+  url:  /press/showproduct/:id
+  param: { module: press, action: showproduct }
+  requirements:
+    id: \d+
+    sf_method: [get]
+
 press_cover_videos_success:
   url:  /press/videos/
   param: { module: press, action: covervideos }

@@ -71,7 +71,7 @@
                         <li class="divider"></li>
                         <li class="dropdown-header">Productos/Coleções</li>
                         <li><a href="<?php echo url_for('press_collection')?>">Página de coleções</a></li>
-<!--                        <li><a href="--><?php //echo url_for('press_product_image')?><!--">Imagens de produto</a></li>-->
+                        <li><a href="<?php echo url_for('press_product_image')?>">Imagens de produto</a></li>
                         <li class="divider"></li>
                         <li class="dropdown-header">Media</li>
                         <li><a href="<?php echo url_for('press_catalogue')?>">Catálogos</a></li>

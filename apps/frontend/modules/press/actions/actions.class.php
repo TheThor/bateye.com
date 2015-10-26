@@ -107,6 +107,18 @@ class pressActions extends sfActions
         return sfView::SUCCESS;
     }
 
+    public function executeShowproduct(sfWebRequest $request)
+    {
+        $this->showActiveCollections();
+        $this->forward404Unless($this->collections);
+        $productId = $request->getParameter('id');
+        $this->product = Doctrine::getTable('Product')->findOneBy('id', $productId);
+        $this->images = Doctrine::getTable('PressProductImage')
+            ->getProductImagesByProductId($productId);
+        $this->forward404Unless($this->images);
+        return sfView::SUCCESS;
+    }
+
     private function showActiveCategories()
     {
         $this->categories = Doctrine_Core::getTable('Category')->getAllCategories();
