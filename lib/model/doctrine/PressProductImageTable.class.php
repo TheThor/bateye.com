@@ -16,4 +16,16 @@ class PressProductImageTable extends Doctrine_Table
     {
         return Doctrine_Core::getTable('PressProductImage');
     }
+
+    /**
+     * @param $id
+     * @internal param sfWebRequest $request
+     * @return Doctrine_Query
+     */
+    public function getProductImagesByProductId($id)
+    {
+        $result = Doctrine::getTable('PressProductImage')
+            ->findBy('product_id', $id);
+        return $result;
+    }
 }
