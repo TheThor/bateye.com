@@ -12,6 +12,8 @@ class PressCollectionForm extends BasePressCollectionForm
 {
   public function configure()
   {
+      $this->validatorSchema['package_location_delete'] = new sfValidatorPass();
+      $this->validatorSchema['product_image_delete'] = new sfValidatorPass();
       unset($this['created_at'], $this['updated_at']);
       $this->setWidget('product_image', new sfWidgetFormInputFileEditable(array(
           'label' => 'Thumbnail image (240x160)',
@@ -45,7 +47,5 @@ class PressCollectionForm extends BasePressCollectionForm
               ),
           'mime_types' => 'compressed',
       )));
-      $this->validatorSchema['package_delete'] = new sfValidatorPass();
-      $this->validatorSchema['product_delete'] = new sfValidatorPass();
   }
 }

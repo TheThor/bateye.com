@@ -25,7 +25,7 @@ class PressProductConceptForm extends BasePressProductConceptForm
           'path'       => sfConfig::get('sf_upload_dir') . '/images/press/product_concept/',
           'mime_types' => 'web_images',
       )));
-      $this->setWidget('package_location', new sfWidgetFormInputFileEditable(array(
+      $this->setWidget('package_location_location', new sfWidgetFormInputFileEditable(array(
           'label' => 'Zip File',
           'file_src' => '/press/product_concept/' . $this->getObject()->getPackageLocation(),
           'is_image'  => false,
