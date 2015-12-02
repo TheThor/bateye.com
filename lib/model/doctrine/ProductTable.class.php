@@ -19,7 +19,9 @@ class ProductTable extends Doctrine_Table
 
     public function getAllProducts()
     {
-        $q =$this->createQuery("p");
+        $q =$this->createQuery("p")
+            ->orderBy('created_at ASC');
+
         return $q->execute();
     }
 
@@ -39,7 +41,8 @@ class ProductTable extends Doctrine_Table
     public function getProductsByCollection($id){
         $q = Doctrine_Query::create()
             ->from('Product p')
-            ->where('p.collection_id=' . $id);
+            ->where('p.collection_id=' . $id)
+            ->orderBy('p.created_at ASC');
         return $q->execute();
     }
 }

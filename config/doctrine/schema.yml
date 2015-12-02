@@ -1,3 +1,19 @@
+Partenrs:
+  actAs:              { Timestampable: ~ }
+  columns:
+    id:               { type: integer, primary: true, autoincrement: true }
+    name:             { type: string(255), notnull: true }
+    link:             { type: string(255), notnull: true }
+
+PartenrsContent:
+  actAs:              { Timestampable: ~ }
+  columns:
+    id:               { type: integer, primary: true, autoincrement: true }
+    image:            { type: string(255), notnull: true }
+    order:            { type: integer }
+    description:      { type: string(255) }
+    link:             { type: string(255), notnull: true }
+
 # config/doctrine/schema.yml
 Product:
   actAs:              { Timestampable: ~ }
