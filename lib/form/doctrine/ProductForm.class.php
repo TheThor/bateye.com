@@ -12,7 +12,7 @@ class ProductForm extends BaseProductForm
 {
   public function configure()
   {
-      unset($this['created_at'], $this['updated_at']);
+      unset($this['updated_at']);
       $this->validatorSchema['main_img_path_delete'] = new sfValidatorPass();
       $this->validatorSchema['context_img_delete'] = new sfValidatorPass();
       $this->validatorSchema['small_img_delete'] = new sfValidatorPass();
