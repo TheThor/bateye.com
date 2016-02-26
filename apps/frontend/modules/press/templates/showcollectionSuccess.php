@@ -29,6 +29,11 @@
                     </a>
                     <p class="no-margin"><?php echo $product->getProduct()->getName() ?></p>
                     <a class="span10" href="<?php echo url_for('mediafile') . '?filepath=' . sfConfig::get('sf_upload_dir') . '/press/collection/' . $product->getPackageLocation() ?>">>package</a>
+                    <a class="span10" href="<?php echo url_for(array(
+                        'module' => 'press',
+                        'action' => 'showproduct',
+                        'id' => $product->getId()
+                    ))?>">>single images</a>
                 </div>
             <?php endforeach; ?>
             </div>
