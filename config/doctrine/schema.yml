@@ -1,11 +1,11 @@
-Partenrs:
+Partners:
   actAs:              { Timestampable: ~ }
   columns:
     id:               { type: integer, primary: true, autoincrement: true }
     name:             { type: string(255), notnull: true }
     link:             { type: string(255), notnull: true }
 
-PartenrsContent:
+PartnersContent:
   actAs:              { Timestampable: ~ }
   columns:
     id:               { type: integer, primary: true, autoincrement: true }
