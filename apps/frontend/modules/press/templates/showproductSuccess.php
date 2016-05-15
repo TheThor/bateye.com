@@ -23,6 +23,7 @@
                         <img src="<?php echo '/images/press/product/' . $image->getLowResImg() ?>" alt="example"/>
                         <p class="no-margin"><?php echo $image->getProduct()->getName() ?></p>
                         <a class="span10" href="<?php echo '/images/press/product/' . $image->getHighResImg() ?>">HD</a>
+                        <a class="span10" href="<?php echo '/images/press/product/' . $image->getLowResImg() ?>">LOW</a>
                     </div>
                 <?php endforeach; ?>
             </div>
