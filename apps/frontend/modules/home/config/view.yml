@@ -1,2 +1,5 @@
 indexSuccess:
   stylesheets:    [reset.css, bootstrap.min.css, bootstrap-responsive.css, style.css]
+  javascripts:    [jquery-1.10.2.js, sidebuttons.js, parallax.js, validator.js, others.js, bootstrap3.min.js]
+  metas:
+    viewport:     width=device-width, initial-scale=1.0

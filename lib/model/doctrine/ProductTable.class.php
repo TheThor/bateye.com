@@ -30,6 +30,7 @@ class ProductTable extends Doctrine_Table
         $q = $this->createQuery("p")
             ->innerJoin('p.Collection')
             ->orderBy('collection_id ASC');
+
         return $q->execute();
     }
 
@@ -43,6 +44,22 @@ class ProductTable extends Doctrine_Table
             ->from('Product p')
             ->where('p.collection_id=' . $id)
             ->orderBy('p.created_at ASC');
+
+        return $q->execute();
+    }
+
+    /**
+     * @return Doctrine_Collection
+     * @throws Doctrine_Query_Exception
+     */
+    public function getFeaturedProductWithImages()
+    {
+        $q = $this->createQuery('p')
+            ->innerJoin('p.ProductImage')
+            ->where("home_featured = ?", 1)
+            ->orderBy('id asc')
+            ->limit(1);
+
         return $q->execute();
     }
 }

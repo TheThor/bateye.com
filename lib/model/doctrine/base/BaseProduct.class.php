@@ -21,6 +21,8 @@
  * @property string $other
  * @property integer $collection_id
  * @property integer $category_id
+ * @property boolean $home_featured
+ * @property string $home_text
  * @property Collection $Collection
  * @property Category $Category
  * @property Doctrine_Collection $ProductImage
@@ -45,6 +47,8 @@
  * @method string              getOther()                  Returns the current record's "other" value
  * @method integer             getCollectionId()           Returns the current record's "collection_id" value
  * @method integer             getCategoryId()             Returns the current record's "category_id" value
+ * @method boolean             getHomeFeatured()           Returns the current record's "home_featured" value
+ * @method string              getHomeText()               Returns the current record's "home_text" value
  * @method Collection          getCollection()             Returns the current record's "Collection" value
  * @method Category            getCategory()               Returns the current record's "Category" value
  * @method Doctrine_Collection getProductImage()           Returns the current record's "ProductImage" collection
@@ -68,6 +72,8 @@
  * @method Product             setOther()                  Sets the current record's "other" value
  * @method Product             setCollectionId()           Sets the current record's "collection_id" value
  * @method Product             setCategoryId()             Sets the current record's "category_id" value
+ * @method Product             setHomeFeatured()           Sets the current record's "home_featured" value
+ * @method Product             setHomeText()               Sets the current record's "home_text" value
  * @method Product             setCollection()             Sets the current record's "Collection" value
  * @method Product             setCategory()               Sets the current record's "Category" value
  * @method Product             setProductImage()           Sets the current record's "ProductImage" collection
@@ -157,6 +163,15 @@ abstract class BaseProduct extends sfDoctrineRecord
         $this->hasColumn('category_id', 'integer', null, array(
              'type' => 'integer',
              'notnull' => true,
+        ));
+        $this->hasColumn('home_featured', 'boolean', null, array(
+            'type' => 'boolean',
+            'notnull' => true,
+            'default' => 0,
+        ));
+        $this->hasColumn('home_text', 'string', 255, array(
+            'type' => 'string',
+            'length' => 255,
              ));
     }
 

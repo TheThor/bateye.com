@@ -11,7 +11,7 @@ $(document).ready(function() {
     function fixDiv() {
         var $cache;
         $cache = $('#menu');
-        if ($(window).scrollTop() > 641)
+        if ($(window).scrollTop() > 700)
             $cache.css({'position': 'fixed', 'z-index': '4', 'top': '0px'});
         else
             $cache.css({'position': 'absolute', 'top': 'auto'});
