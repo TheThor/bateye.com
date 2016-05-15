@@ -29,7 +29,8 @@
         <!-- Carousel items -->
         <div class="carousel-inner">
 
-            <?php foreach($sliders as $slider): ?>
+            <?php /** @var SliderImage $slider */
+            foreach($sliders as $slider): ?>
                 <?php if ($i==0): ?>
                     <div class="active item img-carousel abrilfat"><img src="/images/Carousel/<?php echo $slider->getPath();?>" alt="<?php $slider->getAlt()?>" /></div>
                     <?php $i++;?>
@@ -77,33 +78,64 @@
             </div>
         </div>
     </div>
+    <?php
+    $productArray = $featuredProduct->getRawValue()->getData();
+    if (!empty($productArray)):
+        ?>
+        <div class="span11 featured-product nodisplay">
+            <?php
+            $product = $productArray[0];
+            /** @var Product $product */
+            $i = 0;
+            foreach ($product->getProductImage() as $image): ?>
+                <div class="span7">
+                    <?php echo
+                        //TODO: Move link this to parent 
+
+                    image_tag('/images/slides/' . $image->getLocation())
+                    //'product/showproduct?id=' . $product->getId() . "&name=" . $product->getName()
+                    ?>
+                </div>
+                <?php
+                if ($i == 2) {
+                    break;
+                }
+                $i++;
+                ?>
+            <?php endforeach; ?>
+            <div id="featured-product-text-centered" class="span7">
+                <p class="latolight">
+                    <?php echo $product->getHomeText() ?>
+                </p>
+            </div>
+        </div>
+    <?php endif; ?>
     <div class="span11 background-art">
         <div id="artparallax" class="span11 center-text art-typo abrilfat nodisplay">art<span class="symbolred">&</span>design</div>
     </div>
     <div class="span11 collections-img nodisplay">
+        <div id="collection-text-centered" class="span7">
+            <p class="latobold">
+                Cities tell stories, we heard them and seize them, we interpret them and recreate that distinct and
+                personal vision. The city conveys life in every corner, in every street that goes unnoticed, even in
+                places where people least expect it.
+            </p>
+        </div>
         <?php /** @var Collection $collection */
         $i = 0;
-        foreach ($collections as $collection): ?>
-            <?php
-            if ($i == 2){
-                break;
-            }
+        /** @var Doctrine_Collection $collections */
+        foreach ($collections as $collection):
             $i++;
             $collectionName = $collection->getName();
             $collectionName = str_replace(" ", "-", $collectionName);
             $collectionName = strtolower($collectionName);
             $collectionId = substr($collectionName, 0,-3);
-            ?>
-            <div id="<?php echo $collectionId ?>">
-                <?php $collectionName = str_replace("-", "", $collectionName); ?><!--      LINK TO EXAMPLE      -->
-                <?php echo link_to(image_tag('/images/collection/' . $collection->getNameImage()), 'collection/showcollection?id=' . $collection->getId()."&name=" . $collection->getName()) ?>
-                <!--            <a href="--><?php //echo url_for(array(
-//                'module' => 'collection',
-//                'action' => 'showcollection',
-//                'collection'   => $collection->getName()
-//            )) ?><!--">-->
-                <!--                <img class="/responsive-img" src="/images/--><?php //echo $collectionName ?><!--_branco.png" />-->
-                <!--            </a>-->
+            $collectionName = str_replace("-", "", $collectionName); ?>
+            <div class="span7">
+                <?php echo image_tag('/images/collection/' . $collection->getBackgroudImage()) ?>
+                <div class="span3">
+                    <?php echo link_to(image_tag('/images/collection/' . $collection->getNameImage()), 'collection/showcollection?id=' . $collection->getId() . "&name=" . $collection->getName()) ?>
+            </div>
             </div>
         <?php endforeach; ?>
     </div>
@@ -172,7 +204,8 @@
         <h2 class="abrilfat">what's new?</h2>
     </div>
     <div id="mainwrapper" class="span11 nodisplay">
-        <?php foreach($news as $new): ?>
+        <?php /** @var News $news */
+        foreach($news as $new): ?>
             <?php $i=1; ?>
             <div id="box-<?php echo $i;?>" class="box">
                 <a href="<?php echo $new->getLink() ?>">
@@ -220,7 +253,8 @@
 <!-- END   -->
 
 </div>
-<?php if($latestProduct->count() > 0): ?>
+<?php /** @var Product $latestProduct */
+if($latestProduct->count() > 0): ?>
     <?php /** @var IndexNewProduct $product */
     foreach($latestProduct as $product): ?>
     <div id="produ" style="position:fixed; z-index: 5; bottom: 0; right: 0;">
