@@ -52,13 +52,12 @@ class ProductTable extends Doctrine_Table
      * @return Doctrine_Collection
      * @throws Doctrine_Query_Exception
      */
-    public function getFeaturedProductWithImages()
+    public function getFeaturedProductsWithImages()
     {
-        $q = $this->createQuery('p')
-            ->innerJoin('p.ProductImage')
+        $q = Doctrine_Query::create()
+            ->from('Product p')
             ->where("home_featured = ?", 1)
-            ->orderBy('id asc')
-            ->limit(1);
+            ->orderBy('id asc');
 
         return $q->execute();
     }

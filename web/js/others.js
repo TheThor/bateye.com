@@ -42,4 +42,20 @@ $(document).ready(function() {
             }
         }
     );
+    //initialize swiper when document ready
+    var mySwiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+
+        // Optional parameters
+        loop: true,
+        slidesPerView: 6,
+        //centeredSlides: true,
+        paginationClickable: true,
+        spaceBetween: 0,
+        //slidesOffsetBefore: 60,
+
+        // Navigation arrows
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+    })
 });
