@@ -44,7 +44,7 @@
         <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
     </div>
 
-    <div class="span11 no-space">
+    <div class="span11">
         <div id="menu" class="span10 transp-white">
             <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-th-list">
@@ -77,37 +77,40 @@
                 </ul>
             </div>
         </div>
+        <div class="clear"></div>
     </div>
     <?php
-    $productArray = $featuredProduct->getRawValue()->getData();
-    if (!empty($productArray)):
+    //$productArray = $featuredProducts->getRawValue()->getData();
+    /** @var ProductTable $featuredProducts */
+    if (isset($featuredProducts) && $featuredProducts->count()):
         ?>
-        <div class="span11 featured-product nodisplay">
-            <?php
-            $product = $productArray[0];
-            /** @var Product $product */
-            $i = 0;
-            foreach ($product->getProductImage() as $image): ?>
-                <div class="span7">
-                    <?php echo
-                        //TODO: Move link this to parent 
-
-                    image_tag('/images/slides/' . $image->getLocation())
-                    //'product/showproduct?id=' . $product->getId() . "&name=" . $product->getName()
-                    ?>
-                </div>
+        <!-- Slider main container -->
+        <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
                 <?php
-                if ($i == 2) {
-                    break;
-                }
-                $i++;
-                ?>
-            <?php endforeach; ?>
-            <div id="featured-product-text-centered" class="span7">
-                <p class="latolight">
-                    <?php echo $product->getHomeText() ?>
-                </p>
+                /** @var Product $product */
+                foreach ($featuredProducts as $product): ?>
+                    <div class="swiper-slide">
+                        <a href="<?php echo url_for(array(
+                            'module' => 'collection',
+                            'action' => 'showproduct',
+                            'id' => $product->getId(),
+                            'name' => $product->getName()
+                        )) ?>">
+                            <?php echo image_tag('/images/products/' . $product->getMainImgPath()) ?>
+                        </a>
+                    </div>
+                <?php endforeach; ?>
             </div>
+            <!-- If we need pagination -->
+            <!--            <div class="swiper-pagination"></div>-->
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
         </div>
     <?php endif; ?>
     <div class="span11 background-art">

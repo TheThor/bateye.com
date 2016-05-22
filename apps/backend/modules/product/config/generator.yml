@@ -16,9 +16,9 @@ generator:
       fields:
         display: [name]
       list:
-        display: [name, designer, collection_id, created_at, updated_at]
+        display: [name, designer, collection_id, created_at, updated_at, home_featured]
       filter:
-        display: [name, description, citation, designer, collection_id, created_at, updated_at]
+        display: [name, description, citation, designer, collection_id, created_at, updated_at, home_featured]
       form:    ~
       edit:    ~
       new:     ~
