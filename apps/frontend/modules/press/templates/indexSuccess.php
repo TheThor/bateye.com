@@ -22,7 +22,7 @@
         }
     </style>
     <div class="container">
-        <div class="col-md-8 col-centered margin-top-normal">
+        <div class="col-md-12 col-centered margin-top-normal">
             <div class="col-md-6">
                 <?php echo get_partial('sfGuardAuth/signin_form', array('form' => $form)) ?>
             </div>

@@ -6,7 +6,7 @@
 <!-- /-->
 <?php include(sfConfig::get('sf_app_template_dir').'/newsletter.php') ?>
 <div class="container">
-    <div id="myCarousel" class="carousel slide span11">
+    <div id="myCarousel" class="carousel slide span12">
         <a href="#" id="keep-scroll"></a>
         <ol class="carousel-indicators">
             <?php for($i=0; $i<$sliderCount; $i++): ?>
@@ -42,8 +42,8 @@
         <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
     </div>
 
-    <div class="span11">
-        <div id="menu" class="span10 transp-white">
+    <div class="span12">
+        <div id="menu" class="span12 transp-white">
             <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-th-list">
             </span>
@@ -115,10 +115,10 @@
 
         </div>
     <?php endif; ?>
-    <div class="span11 background-art">
-        <div id="artparallax" class="span11 center-text art-typo abrilfat nodisplay">art<span class="symbolred">&</span>design</div>
+    <div class="span12 background-art">
+        <div id="artparallax" class="span12 center-text art-typo abrilfat nodisplay">art<span class="symbolred">&</span>design</div>
     </div>
-    <div class="span11 collections-img nodisplay">
+    <div class="span12 collections-img nodisplay">
         <?php /** @var Collection $collection */
         $i = 2;
         /** @var Doctrine_Collection $collections */
@@ -128,7 +128,7 @@
             $collectionName = strtolower($collectionName);
             $collectionId = substr($collectionName, 0,-3);
             $collectionName = str_replace("-", "", $collectionName); ?>
-            <div class="span11">
+            <div class="span12">
             <?php if ($i%2==0): ?>
             <div id="collection-text-centered" class="span7">
                 <?php echo $collection->getRawValue()->getDescription() ?>
@@ -155,7 +155,7 @@
             </div>
         <?php $i++; endforeach; ?>
     </div>
-    <div class="span11 moreinfo nodisplay">
+    <div class="span12 moreinfo nodisplay">
         <div class="span7 center-text border-r marginized abrilfat" style="float: left">
             <div class="justified">
                 <h1 class="abrilfat">the brand</h1>
@@ -182,10 +182,10 @@
             </div>
         </div>
     </div>
-    <div class="span11 whatsnew nodisplay">
+    <div class="span12 whatsnew nodisplay">
         <h2 class="abrilfat">what's new?</h2>
     </div>
-    <div id="mainwrapper" class="span11 nodisplay">
+    <div id="mainwrapper-home" class="span12 nodisplay">
         <?php /** @var News $news */
         foreach($news as $new): ?>
             <?php $i=1; ?>
@@ -204,7 +204,7 @@
     <div class="clear"></div>
     <?php $uri_url=$_SERVER['REQUEST_URI'];?>
 
-    <div class="span11" id="footer" style="<?php if ($uri_url=="" || $uri_url=="index.php") echo 'display: none';?>">
+    <div class="span12" id="footer" style="<?php if ($uri_url=="" || $uri_url=="index.php") echo 'display: none';?>">
         <div id="bar">
             <div id="logos">
                 <a href="https://twitter.com/bat_eye"><img src="/images/icons/bateye_twitter.png" alt="Twitter Logo"></a>
@@ -217,8 +217,8 @@
                 <a href="http://pt.pinterest.com/bat_eye/"><img src="/images/icons/pinterest.png" alt="Pinterest logo"></a>
             </div>
         </div>
-        <div class="span11 center-text white-text latobold">
-            <p style="font-size:15px;">+<a href="<?php echo url_for(array(
+        <div class="span12 center-text latobold">
+            <p class="red" style="font-size:15px;">+<a href="<?php echo url_for(array(
                     'module' => 'contacts',
                     'action' => 'index'
                 )) ?>" style="font-size:14px;">INFO</a></p>
