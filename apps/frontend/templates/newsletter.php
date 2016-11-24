@@ -37,5 +37,5 @@ $catalogue = $instance->getLastInserted();
 $catalogue = $catalogue->getFirst();
 ?>
 <div id="catalogue" style="position:fixed; z-index: 5; left: -6px; top:245px;">
-    <a href="<?php echo url_for('mediafile') . '?filepath=' . sfConfig::get('sf_media_upload_dir') . $catalogue->getPath() ?>"><img src="/images/CATALOGUE.png"></a>
+    <a href="<?php echo url_for('mediafile') . '?filepath=' . $catalogue->getPath() ?>"><img src="/images/CATALOGUE.png"></a>
 </div>

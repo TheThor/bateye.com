@@ -27,7 +27,7 @@ class collectionActions extends sfActions
      */
     public function executeShowcollection(sfWebRequest $request)
     {
-        $this->showActiveCollections();
+        $this->showActiveCollectionsForMenu();
         $this->forward404Unless($this->collections);
         $this->products = Doctrine_Core::getTable('Product')
             ->getProductsByCollection($request->getParameter('id'));
@@ -44,7 +44,7 @@ class collectionActions extends sfActions
      */
     public function executeShowproduct(sfWebRequest $request)
     {
-        $this->showActiveCollections();
+        $this->showActiveCollectionsForMenu();
         $this->product = Doctrine::getTable('Product')->find($request->getParameter('id'));
         $this->images = $this->getProductImageByProductId($request->getParameter('id'));
         $this->forward404Unless($this->product);
@@ -58,7 +58,7 @@ class collectionActions extends sfActions
      */
     public function executeShowallproducts(sfWebRequest $request)
     {
-        $this->showActiveCollections();
+        $this->showActiveCollectionsForMenu();
         $this->showActiveCategoriesWithProducts();
         $this->products = Doctrine::getTable('Product')->getAllProductsGroupByCategory();
     }
@@ -75,8 +75,15 @@ class collectionActions extends sfActions
     /**
      * Sets collections to show all active collections
      */
+    private function showActiveCollectionsForMenu(){
+        $this->collections = Doctrine_Core::getTable('Collection')->showActiveCollectionsForMenu();
+    }
+
+    /**
+     * Sets collections to show all active collections
+     */
     private function showActiveCollections(){
-        $this->collections = Doctrine_Core::getTable('Collection')->showActiveCollections();
+        $this->collections = Doctrine_Core::getTable('Collection')->showActiveCollectionsForMenu();
     }
 
     //TODO: Move to model as this is not correct here. Didn't do as didn't have the time

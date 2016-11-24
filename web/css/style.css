@@ -215,17 +215,17 @@ margin-left: auto;
 	width: 100%;
 }
 
-.collections-img > div {
+.collections-img > div > div {
 	position: relative;
 	padding: 8px;
 }
 
-.collections-img > div > img {
+.collections-img > div  > div > img {
 	max-width: 100%;
 	max-height: 100%;
 }
 
-.collections-img > div > div {
+.collections-img > div  > div > div {
 	width: 29%;
 	height: 18%;
 	overflow: auto;
@@ -979,9 +979,9 @@ a.red-cross:hover{
 	margin-top: 11%;
 }
 
-#collection-text-centered p {
+#collection-text-centered p, h4 {
 	width: 85%;
-	margin-left: 40px;
+	margin-left: 70px;
 }
 
 #featured-product-text-centered {
@@ -1000,7 +1000,6 @@ a.red-cross:hover{
 
 .swiper-container {
     width: 100%;
-    height: 250px;
     margin: 20px auto;
 }
 
@@ -1030,4 +1029,9 @@ a.red-cross:hover{
 
 .swiper-slide:nth-child(3n) {
     width: 20%;
+}
+
+.swiper-image {
+	max-width:100%;
+	max-height:100%;
 }

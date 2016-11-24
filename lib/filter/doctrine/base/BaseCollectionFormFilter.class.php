@@ -14,6 +14,7 @@ abstract class BaseCollectionFormFilter extends BaseFormFilterDoctrine
   {
     $this->setWidgets(array(
       'name'            => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'description'     => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'name_image'      => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'backgroud_image' => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'is_active'       => new sfWidgetFormChoice(array('choices' => array('' => 'yes or no', 1 => 'yes', 0 => 'no'))),
@@ -23,6 +24,7 @@ abstract class BaseCollectionFormFilter extends BaseFormFilterDoctrine
 
     $this->setValidators(array(
       'name'            => new sfValidatorPass(array('required' => false)),
+      'description'     => new sfValidatorPass(array('required' => false)),
       'name_image'      => new sfValidatorPass(array('required' => false)),
       'backgroud_image' => new sfValidatorPass(array('required' => false)),
       'is_active'       => new sfValidatorChoice(array('required' => false, 'choices' => array('', 1, 0))),
@@ -49,6 +51,7 @@ abstract class BaseCollectionFormFilter extends BaseFormFilterDoctrine
     return array(
       'id'              => 'Number',
       'name'            => 'Text',
+      'description'     => 'Text',
       'name_image'      => 'Text',
       'backgroud_image' => 'Text',
       'is_active'       => 'Boolean',

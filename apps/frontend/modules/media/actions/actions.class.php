@@ -47,20 +47,15 @@ class mediaActions extends sfActions
      */
     public function pdfDownload()
     {
-        $this->fileName = Doctrine_Core::getTable('IndexContent')->getCatalogueFileName();
-        foreach ($this->fileName as $file) {
-            $this->file = $file->getCatalogue();
-        }
-        $pdfpath = sfConfig::get('sf_root_dir') . DIRECTORY_SEPARATOR . 'media'
-            . DIRECTORY_SEPARATOR
-            . $this->file;
+        $this->fileName = $this->filepath;
+        $pdfpath = sfConfig::get('sf_media_upload_dir') . $this->fileName;
         // check if the file exists
         $this->forward404Unless(file_exists($pdfpath) == true);
-        $file = $this->file;
+        $file = $this->fileName;
         // Adding the file to the Response object
         $this->getResponse()->clearHttpHeaders();
         $this->getResponse()->setContentType('application/pdf');
-        $this->getResponse()->addHttpMeta('Content-disposition', "attachment; filename=" . $file );
+        $this->getResponse()->addHttpMeta('Content-disposition', "attachment; filename=catalogue.pdf");
         $this->getResponse()->setHttpHeader('Content-Description', 'File Transfer');
         $this->getResponse()->setHttpHeader('Content-Transfer-Encoding', 'binary');
         $this->getResponse()->setHttpHeader('Content-Length', filesize($pdfpath));

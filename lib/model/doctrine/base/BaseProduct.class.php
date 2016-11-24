@@ -163,15 +163,15 @@ abstract class BaseProduct extends sfDoctrineRecord
         $this->hasColumn('category_id', 'integer', null, array(
              'type' => 'integer',
              'notnull' => true,
-        ));
+             ));
         $this->hasColumn('home_featured', 'boolean', null, array(
-            'type' => 'boolean',
-            'notnull' => true,
-            'default' => 0,
-        ));
+             'type' => 'boolean',
+             'notnull' => true,
+             'default' => 0,
+             ));
         $this->hasColumn('home_text', 'string', 255, array(
-            'type' => 'string',
-            'length' => 255,
+             'type' => 'string',
+             'length' => 255,
              ));
     }
 

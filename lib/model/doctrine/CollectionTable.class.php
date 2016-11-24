@@ -27,4 +27,11 @@ class CollectionTable extends Doctrine_Table
             ->where('c.is_active = 1');
         return $q->execute();
     }
+
+    public function showActiveCollectionsForMenu(){
+        $q = $this->createQuery('Collection c')
+            ->select('c.id, c.name')
+            ->where('c.is_active = 1');
+        return $q->execute();
+    }
 }

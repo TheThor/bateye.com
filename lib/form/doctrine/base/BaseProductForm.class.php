@@ -31,8 +31,8 @@ abstract class BaseProductForm extends BaseFormDoctrine
       'other'           => new sfWidgetFormInputText(),
       'collection_id'   => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Collection'), 'add_empty' => false)),
       'category_id'     => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Category'), 'add_empty' => false)),
-        'home_featured' => new sfWidgetFormInputCheckbox(),
-        'home_text' => new sfWidgetFormInputText(),
+      'home_featured'   => new sfWidgetFormInputCheckbox(),
+      'home_text'       => new sfWidgetFormInputText(),
       'created_at'      => new sfWidgetFormDateTime(),
       'updated_at'      => new sfWidgetFormDateTime(),
     ));
@@ -54,8 +54,8 @@ abstract class BaseProductForm extends BaseFormDoctrine
       'other'           => new sfValidatorString(array('max_length' => 255, 'required' => false)),
       'collection_id'   => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('Collection'))),
       'category_id'     => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('Category'))),
-        'home_featured' => new sfValidatorBoolean(array('required' => false)),
-        'home_text' => new sfValidatorString(array('max_length' => 255, 'required' => false)),
+      'home_featured'   => new sfValidatorBoolean(array('required' => false)),
+      'home_text'       => new sfValidatorString(array('max_length' => 255, 'required' => false)),
       'created_at'      => new sfValidatorDateTime(),
       'updated_at'      => new sfValidatorDateTime(),
     ));

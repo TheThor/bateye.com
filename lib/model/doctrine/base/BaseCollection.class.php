@@ -7,6 +7,7 @@
  * 
  * @property integer $id
  * @property string $name
+ * @property string $description
  * @property string $name_image
  * @property string $backgroud_image
  * @property boolean $is_active
@@ -16,6 +17,7 @@
  * 
  * @method integer             getId()                        Returns the current record's "id" value
  * @method string              getName()                      Returns the current record's "name" value
+ * @method string              getDescription()               Returns the current record's "description" value
  * @method string              getNameImage()                 Returns the current record's "name_image" value
  * @method string              getBackgroudImage()            Returns the current record's "backgroud_image" value
  * @method boolean             getIsActive()                  Returns the current record's "is_active" value
@@ -24,6 +26,7 @@
  * @method Doctrine_Collection getPressProductCollection()    Returns the current record's "PressProductCollection" collection
  * @method Collection          setId()                        Sets the current record's "id" value
  * @method Collection          setName()                      Sets the current record's "name" value
+ * @method Collection          setDescription()               Sets the current record's "description" value
  * @method Collection          setNameImage()                 Sets the current record's "name_image" value
  * @method Collection          setBackgroudImage()            Sets the current record's "backgroud_image" value
  * @method Collection          setIsActive()                  Sets the current record's "is_active" value
@@ -50,6 +53,11 @@ abstract class BaseCollection extends sfDoctrineRecord
              'type' => 'string',
              'notnull' => true,
              'length' => 255,
+             ));
+        $this->hasColumn('description', 'string', 500, array(
+             'type' => 'string',
+             'notnull' => true,
+             'length' => 500,
              ));
         $this->hasColumn('name_image', 'string', 255, array(
              'type' => 'string',
