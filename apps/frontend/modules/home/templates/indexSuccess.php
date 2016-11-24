@@ -6,15 +6,6 @@
 <!-- /-->
 <?php include(sfConfig::get('sf_app_template_dir').'/newsletter.php') ?>
 <div class="container">
-    <div>
-        <div class="span11 pagination-centered" style="position: relative">
-            <img class="logo" src="/images/logo_principal_cores.png" alt="Logo Bateye"/>
-<!--            <div id="lang-choice">-->
-<!--                <a href="">EN </a>|<a href="index.php"> PT</a>-->
-<!--            </div>-->
-        </div>
-
-    </div>
     <div id="myCarousel" class="carousel slide span11">
         <a href="#" id="keep-scroll"></a>
         <ol class="carousel-indicators">
