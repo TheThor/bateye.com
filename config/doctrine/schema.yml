@@ -39,6 +39,7 @@ Collection:
   columns:
     id:               { type: integer, primary: true, autoincrement: true }
     name:             { type: string(255), notnull: true }
+    description:      { type: string(500), notnull: true }
     name_image:       { type: string(255), notnull: true }
     backgroud_image:  { type: string(255), notnull: true }
     is_active:        { type: boolean, notnull: true, default: 1 }

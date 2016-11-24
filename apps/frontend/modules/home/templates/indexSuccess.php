@@ -31,12 +31,19 @@
 
             <?php /** @var SliderImage $slider */
             foreach($sliders as $slider): ?>
-                <?php if ($i==0): ?>
-                    <div class="active item img-carousel abrilfat"><img src="/images/Carousel/<?php echo $slider->getPath();?>" alt="<?php $slider->getAlt()?>" /></div>
-                    <?php $i++;?>
+                <?php if (substr(strrchr($slider->getPath(), "."), 1) == "mp4"): ?>
+                    <div align="center item <?php echo $i==0 ? 'active' : ''?>">
+                        <video autoplay loop style="width: 100%">
+                            <source src="/images/Carousel/<?php echo $slider->getPath();?>" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
                 <?php else: ?>
-                    <div class="item img-carousel"><img class="img-crousel" src="/images/Carousel/<?php echo $slider->getPath();?>" alt="<?php $slider->getAlt() ?>" /></div>
-                <?php endif;?>
+                    <div class="<?php echo $i==0 ? 'active' : ''?> item img-carousel">
+                        <img src="/images/Carousel/<?php echo $slider->getPath();?>" alt="<?php echo $slider->getAlt()?>" />
+                    </div>
+                <?php endif; ?>
+                <?php $i++;?>
             <?php endforeach; ?>
         </div>
         <!-- Carousel nav -->
@@ -93,14 +100,18 @@
                 /** @var Product $product */
                 foreach ($featuredProducts as $product): ?>
                     <div class="swiper-slide">
-                        <a href="<?php echo url_for(array(
-                            'module' => 'collection',
-                            'action' => 'showproduct',
-                            'id' => $product->getId(),
-                            'name' => $product->getName()
-                        )) ?>">
-                            <?php echo image_tag('/images/products/' . $product->getMainImgPath()) ?>
-                        </a>
+                            <a href="<?php echo url_for(array(
+                                'module' => 'collection',
+                                'action' => 'showproduct',
+                                'id' => $product->getId(),
+                                'name' => $product->getName()
+                            )) ?>">
+                                <?php echo image_tag('/images/products/' . $product->getMainImgPath(), array('class' => 'swiper-image')) ?>
+                                <div>
+                                    <h6 class="latobold"><?php echo strtoupper($product->getName()) ?></h6>
+                                    <h5 class="latolight"><?php echo strtolower($product->getCategory()) ?></h5>
+                                </div>
+                            </a>
                     </div>
                 <?php endforeach; ?>
             </div>
@@ -117,30 +128,41 @@
         <div id="artparallax" class="span11 center-text art-typo abrilfat nodisplay">art<span class="symbolred">&</span>design</div>
     </div>
     <div class="span11 collections-img nodisplay">
-        <div id="collection-text-centered" class="span7">
-            <p class="latobold">
-                Cities tell stories, we heard them and seize them, we interpret them and recreate that distinct and
-                personal vision. The city conveys life in every corner, in every street that goes unnoticed, even in
-                places where people least expect it.
-            </p>
-        </div>
         <?php /** @var Collection $collection */
-        $i = 0;
+        $i = 2;
         /** @var Doctrine_Collection $collections */
         foreach ($collections as $collection):
-            $i++;
             $collectionName = $collection->getName();
             $collectionName = str_replace(" ", "-", $collectionName);
             $collectionName = strtolower($collectionName);
             $collectionId = substr($collectionName, 0,-3);
             $collectionName = str_replace("-", "", $collectionName); ?>
+            <div class="span11">
+            <?php if ($i%2==0): ?>
+            <div id="collection-text-centered" class="span7">
+                <?php echo $collection->getRawValue()->getDescription() ?>
+            </div>
             <div class="span7">
                 <?php echo image_tag('/images/collection/' . $collection->getBackgroudImage()) ?>
                 <div class="span3">
                     <?php echo link_to(image_tag('/images/collection/' . $collection->getNameImage()), 'collection/showcollection?id=' . $collection->getId() . "&name=" . $collection->getName()) ?>
+                </div>
             </div>
+            <?php else: ?>
+            <div class="span7">
+                <?php echo image_tag('/images/collection/' . $collection->getBackgroudImage()) ?>
+                <div class="span3">
+                    <?php echo link_to(image_tag('/images/collection/' . $collection->getNameImage()), 'collection/showcollection?id=' . $collection->getId() . "&name=" . $collection->getName()) ?>
+                </div>
             </div>
-        <?php endforeach; ?>
+            <div id="collection-text-centered" class="span7">
+                <p class="latobold">
+                    <?php echo $collection->getRawValue()->getDescription() ?>
+                </p>
+            </div>
+            <?php endif; ?>
+            </div>
+        <?php $i++; endforeach; ?>
     </div>
     <div class="span11 moreinfo nodisplay">
         <div class="span7 center-text border-r marginized abrilfat" style="float: left">
@@ -167,40 +189,6 @@
                     <span class="latoitalic">Bat eye, Ltd.</span></p>
                 <a href="<?php echo url_for('thebrand/showauthor') ?>" class="red-cross">+</a>
             </div>
-        </div>
-    </div>
-    <div id="fadeitnow" class="span11 nodisplay">
-        <div id="numbers">
-            <table id="table-numbers">
-                <tr class="pompadour">
-                    <td width="10%">
-                        1
-                    </td>
-                    <td width="10%">
-                        2
-                    </td>
-                    <td width="10%">
-                        3
-                    </td>
-                    <td width="10%">
-                        4
-                    </td>
-                </tr>
-                <tr class="latolight" style="font-size:0.3em;">
-                    <td width="10%">Ability to create.<br />
-                        To rip.<br /> To risk.</td>
-                    <td width="10%">Link between
-                        technology
-                        and tradition.</td>
-                    <td width="10%">Quality of
-                        manufacture.
-                        Noble materials.</td>
-                    <td width="10%">Attention
-                        to the detail and
-                        the singularity of
-                        each piece.</td>
-                </tr>
-            </table>
         </div>
     </div>
     <div class="span11 whatsnew nodisplay">

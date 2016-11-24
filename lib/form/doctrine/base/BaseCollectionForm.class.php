@@ -17,6 +17,7 @@ abstract class BaseCollectionForm extends BaseFormDoctrine
     $this->setWidgets(array(
       'id'              => new sfWidgetFormInputHidden(),
       'name'            => new sfWidgetFormInputText(),
+      'description'     => new sfWidgetFormTextarea(),
       'name_image'      => new sfWidgetFormInputText(),
       'backgroud_image' => new sfWidgetFormInputText(),
       'is_active'       => new sfWidgetFormInputCheckbox(),
@@ -27,6 +28,7 @@ abstract class BaseCollectionForm extends BaseFormDoctrine
     $this->setValidators(array(
       'id'              => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
       'name'            => new sfValidatorString(array('max_length' => 255)),
+      'description'     => new sfValidatorString(array('max_length' => 500)),
       'name_image'      => new sfValidatorString(array('max_length' => 255)),
       'backgroud_image' => new sfValidatorString(array('max_length' => 255)),
       'is_active'       => new sfValidatorBoolean(array('required' => false)),
