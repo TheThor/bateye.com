@@ -1,4 +1,4 @@
-<div class="col-md-8 col-centered">
+<div class="col-md-12 col-centered">
     <?php foreach ($pressYears as $pressYear): ?>
     <h3 class="pagination-centered" style="margin: 30px 0 25px 0">Press Editorial <?php echo $pressYear->get('YEAR') ?></h3>
     <div class="col-md-12 col-centered">
