@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list id="8af62ba5-926e-42db-946e-b66da7576de1" name="Default" comment="Slider de produtos pronto;&#10;Removido CSS inválido;" />
-    <list default="true" id="f78e731d-b829-4895-9d0a-4137fe971fd9" name="CSS Restyling" comment="">
+    <list default="true" id="f78e731d-b829-4895-9d0a-4137fe971fd9" name="CSS Restyling" comment="CSS Restyling">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bateye.iws" />
@@ -678,9 +678,16 @@
       <updated>1481033866825</updated>
       <workItem from="1480786591926" duration="563000" />
       <workItem from="1481031108025" duration="1408000" />
-      <workItem from="1481033867129" duration="41000" />
+      <workItem from="1481033867129" duration="114000" />
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="CSS Restyling">
+      <created>1481033926915</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1481033926915</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <option name="clearContext" value="false" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
@@ -688,7 +695,8 @@
   </component>
   <component name="TimeTrackingManager">
     <option name="enabled" value="true" />
-    <option name="totallyTimeSpent" value="61813000" />
+    <option name="totallyTimeSpent" value="61886000" />
+    <option name="autoMode" value="false" />
     <option name="showClosedTasks" value="false" />
   </component>
   <component name="TodoView">
@@ -751,8 +759,11 @@
     <MESSAGE value="Bootstrapar" />
     <MESSAGE value="Criado módulo de destaque (inicio de proceder a alterações para slider);&#10;Adicionados ficheiros antigos;&#10;Correção de Responsive (ainda em progresso);" />
     <MESSAGE value="Slider de produtos pronto;&#10;Removido CSS inválido;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Slider de produtos pronto;&#10;Removido CSS inválido;" />
+    <MESSAGE value="CSS Restyling" />
+    <option name="LAST_COMMIT_MESSAGE" value="CSS Restyling" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.82222223" />
   </component>
   <component name="XDebuggerManager">
