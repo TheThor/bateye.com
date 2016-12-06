@@ -21,7 +21,7 @@
       $('.whatsnew').fadeIn(2000);
     }
     if (top > 2200) {
-      $('#mainwrapper-home').fadeIn(2000);
+      $('#mainwrapper').fadeIn(2000);
     }
   });
 });

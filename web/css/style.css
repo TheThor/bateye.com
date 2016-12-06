@@ -287,15 +287,6 @@ a:active {color: black; text-decoration: none;}  /* selected link */
 	height: 420px;
 }
 
-#mainwrapper-home .box {
-    cursor: pointer;
-    float: left;
-    position: relative;
-    overflow: hidden;
-    width: 32.58%;
-    height: 346px;
-}
-
 #mainwrapper .box img{
 	width: 100%;
 	height: 100%;
@@ -328,10 +319,6 @@ a:active {color: black; text-decoration: none;}  /* selected link */
 	font-size: 5em;
 }
 
-#footer {
-    width: 100%;
-    height: 400px;
-}
 #mainwrapper .box .caption {
     background-color: rgba(206,0,0,0.5);
     position: absolute;
@@ -370,10 +357,12 @@ a:active {color: black; text-decoration: none;}  /* selected link */
 	position: absolute;
 }
 .carousel-control.left {
-	padding-top: 16%;
+	top: 50%;
+	background-image: none;
 }
 .carousel-control.right {
-	padding-top: 16%;
+	top: 50%;
+	background-image: none;
 }
 
 #newsletteroverlay{
@@ -651,24 +640,18 @@ a:active {color: black; text-decoration: none;}  /* selected link */
 	}
 	.transp-white {
     	background-color: transparent;
-    	min-height: 36px;
-	}
+    	/* min-height: 36px; */
+ }
 	#menu{
 		position: absolute;
 		z-index: 4 !important;
-		min-height: 10%;
+		min-height: 0%;
 	}
 	#menu a{
 		background-color: white;
 	}
-	.carousel-control.left {
-    	padding-top: 17%;
-	}
-	.carousel-control.right {
-    	padding-top: 17%;
-	}
 }
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 420px){
 	#artparallax{
 		margin-top: 40px;
 	}
@@ -677,8 +660,8 @@ a:active {color: black; text-decoration: none;}  /* selected link */
 	}
 	.transp-white {
     	background-color: transparent;
-    	min-height: 73px;
-	}
+    	/* min-height: 73px; */
+ }
 	.newsubscribe {
 	    width: 90%;
 	    left: 5%;
@@ -729,12 +712,6 @@ a:active {color: black; text-decoration: none;}  /* selected link */
 	}
 	.navigation {
     	width: 49%;
-	}
-	.carousel-control.left {
-    	padding-top: 30%;
-	}
-	.carousel-control.right {
-    	padding-top: 30%;
 	}
 	.responsive-img{
 		width: 50px;
@@ -795,22 +772,11 @@ a:active {color: black; text-decoration: none;}  /* selected link */
 		width: 20px;
 		height: 20px;
 	}
-	.carousel-control.left {
-    	padding-top: 15%;
-	}
-	.carousel-control.right {
-    	padding-top: 15%;
-	}
 	.logo{
 		padding-left: 8px;
 	}
 	#produ{
 		display: none;
-	}
-	#footer {
-	    width: 100%;
-	    height: 240px;
-	    background-color: rgb(38, 39, 40);
 	}
 }
 
@@ -989,8 +955,8 @@ a.red-cross:hover{
 
 .swiper-container {
     width: 100%;
-    margin: 20px auto;
-	padding-top: 40px;
+    /* margin: 20px auto; */
+    /* padding-top: 40px; */
 }
 
 .swiper-slide {

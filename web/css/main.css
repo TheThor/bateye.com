@@ -889,10 +889,11 @@ nav li li a{
 	width: 100%;
 	z-index: -15;
 	top: 150px;
+	background-size: cover;
 }
 
 #manufacturebackground{
-	background-image: url('../images/brand/manufactura_2.png');
+	background-image: url('../images/brand/manufactura_2. png');
 	height: 616px;
 	position: absolute;
 	width: 100%;

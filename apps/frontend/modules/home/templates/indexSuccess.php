@@ -185,7 +185,7 @@
     <div class="span12 whatsnew nodisplay">
         <h2 class="abrilfat">what's new?</h2>
     </div>
-    <div id="mainwrapper-home" class="span12 nodisplay">
+    <div id="mainwrapper" class="span12 nodisplay">
         <?php /** @var News $news */
         foreach($news as $new): ?>
             <?php $i=1; ?>
