@@ -131,10 +131,10 @@
   .navbar-static-top .container,
   .navbar-fixed-top .container,
   .navbar-fixed-bottom .container {
-    width: 1340px;
+    width: 1200px;
   }
   .span12 {
-    width: 1340px;
+    width: 1170px;
   }
   .span11 {
     width: 1070px;
@@ -194,7 +194,7 @@
     margin-left: 530px;
   }
   .offset4 {
-    margin-left: 430px;
+    margin-left: 34%;
   }
   .offset3 {
     margin-left: 330px;
@@ -455,6 +455,19 @@
   }
   .row-fluid .thumbnails {
     margin-left: 0;
+  }
+}
+
+@media (min-width: 1370px) {
+  .container,
+  .navbar-static-top .container,
+  .navbar-fixed-top .container,
+  .navbar-fixed-bottom .container {
+    width: 1370px;
+  }
+
+  .span12 {
+    width: 1340px;
   }
 }
 

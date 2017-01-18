@@ -1232,7 +1232,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1340px;
+    max-width: 1200px;
   }
   .col-lg-1,
   .col-lg-2,
@@ -1390,6 +1390,12 @@ pre code {
   }
   .col-lg-offset-11 {
     margin-left: 91.66666666666666%;
+  }
+}
+
+@media (min-width: 1370px) {
+  .container {
+    max-width: 1370px;
   }
 }
 

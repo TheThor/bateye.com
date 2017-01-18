@@ -8,11 +8,13 @@ default:
     content-type: text/html
 
   metas:
-    #title:        symfony project
-    #description:  symfony project
-    #keywords:     symfony, project
-    #language:     en
+    title:        bat eye luxury furniture
+    description:  bat eye - Buy the most exclusive, exquisite design furniture
+    keywords:     bat eye, bateye, luxury furniture, lux, exclusive design, designers, expensive furniture, exquisite furniture
+    language:     en
     robots:       index, follow
+    author:       Pedro Tentugal
+    charset:      UTF-8
 
   javascripts:    [jquery-1.10.2.js, bootstrap.min.js, sidebuttons.js, parallax.js, validator.js, others.js, tawk.js]
 

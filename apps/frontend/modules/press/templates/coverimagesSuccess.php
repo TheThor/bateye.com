@@ -1,16 +1,11 @@
 <?php include(sfConfig::get('sf_app_template_dir').'/newsletter.php') ?>
-<div class="span11 pagination-centered" style="position: relative">
-    <img class="logo" src="/images/logo_principal_cores.png" alt="Logo Bateye"/>
-    <!--    <div id="lang-choice">-->
-    <!--        <a href="">EN </a>|<a href="index.php"> PT</a>-->
-    <!--    </div>-->
-</div>
+<?php include_partial('header') ?>
 <div class="container">
     <?php include_partial(
         'pressareamenu',
         array('collections' => $collections)
     ) ?>
-    <div class="span11" id="press-main-area">
+    <div class="span100" id="press-main-area">
         <div class="gallery-container">
             <div class="span3">
                 <?php /** @var Collection $collection */ ?>
