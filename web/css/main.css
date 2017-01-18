@@ -328,7 +328,7 @@
 					width: 100px;
 				}
 
-/* PAG. PEÇAS*/
+/* PAG. PEÃ‡AS*/
 
 #title{
 	width: 200px;
@@ -407,7 +407,7 @@
     background-color: #000;
     width: 100%;
 }
-/* PAG. COLCEÇÕES */
+/* PAG. COLCEÃ‡Ã•ES */
 
 #title_colecao{
 		width: 140px;
@@ -531,7 +531,7 @@ div.desc
 				  		}
 
 
-/* SECÇÃO THE BRAND */
+/* SECÃ‡ÃƒO THE BRAND */
 
 #brand{
 	width: 300px;
@@ -874,8 +874,7 @@ nav li li a{
 #authorbackground{
 	background-image: url('../images/brand/autor_2.png');
 	background-repeat: no-repeat;
-
-	height: 616px;
+	height: 557px;
 	position: absolute;
 	width: 100%;
 	z-index: -15;
