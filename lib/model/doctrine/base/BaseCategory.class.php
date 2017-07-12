@@ -10,17 +10,20 @@
  * @property string $image
  * @property string $alt
  * @property Doctrine_Collection $ProductCategory
+ * @property Doctrine_Collection $LoversAtelierProductCategory
  * 
- * @method integer             getId()              Returns the current record's "id" value
- * @method string              getName()            Returns the current record's "name" value
- * @method string              getImage()           Returns the current record's "image" value
- * @method string              getAlt()             Returns the current record's "alt" value
- * @method Doctrine_Collection getProductCategory() Returns the current record's "ProductCategory" collection
- * @method Category            setId()              Sets the current record's "id" value
- * @method Category            setName()            Sets the current record's "name" value
- * @method Category            setImage()           Sets the current record's "image" value
- * @method Category            setAlt()             Sets the current record's "alt" value
- * @method Category            setProductCategory() Sets the current record's "ProductCategory" collection
+ * @method integer             getId()                           Returns the current record's "id" value
+ * @method string              getName()                         Returns the current record's "name" value
+ * @method string              getImage()                        Returns the current record's "image" value
+ * @method string              getAlt()                          Returns the current record's "alt" value
+ * @method Doctrine_Collection getProductCategory()              Returns the current record's "ProductCategory" collection
+ * @method Doctrine_Collection getLoversAtelierProductCategory() Returns the current record's "LoversAtelierProductCategory" collection
+ * @method Category            setId()                           Sets the current record's "id" value
+ * @method Category            setName()                         Sets the current record's "name" value
+ * @method Category            setImage()                        Sets the current record's "image" value
+ * @method Category            setAlt()                          Sets the current record's "alt" value
+ * @method Category            setProductCategory()              Sets the current record's "ProductCategory" collection
+ * @method Category            setLoversAtelierProductCategory() Sets the current record's "LoversAtelierProductCategory" collection
  * 
  * @package    bateye
  * @subpackage model
@@ -58,6 +61,10 @@ abstract class BaseCategory extends sfDoctrineRecord
     {
         parent::setUp();
         $this->hasMany('Product as ProductCategory', array(
+             'local' => 'id',
+             'foreign' => 'category_id'));
+
+        $this->hasMany('LoversAtelierProduct as LoversAtelierProductCategory', array(
              'local' => 'id',
              'foreign' => 'category_id'));
 

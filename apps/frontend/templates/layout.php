@@ -4,7 +4,7 @@
     <?php include_http_metas() ?>
     <?php include_metas() ?>
     <?php include_title() ?>
-    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="shortcut icon" href="/images/icons/favicon.ico" />
     <meta name="p:domain_verify" content="79c5f16af344f891223c96af2a24d84e"/>
     <?php include_stylesheets() ?>
   </head>

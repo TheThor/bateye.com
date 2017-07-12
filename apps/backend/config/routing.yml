@@ -1,3 +1,21 @@
+lovers_atelier_product_image:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                LoversAtelierProductImage
+    module:               lovers_atelier_product_image
+    prefix_path:          /lovers_atelier_product_image
+    column:               id
+    with_wildcard_routes: true
+
+lovers_atelier_product:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                LoversAtelierProduct
+    module:               lovers_atelier_product
+    prefix_path:          /lovers_atelier_product
+    column:               id
+    with_wildcard_routes: true
+
 press_product_image:
   class: sfDoctrineRouteCollection
   options:

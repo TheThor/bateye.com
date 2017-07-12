@@ -82,11 +82,6 @@ a:active {color: black; text-decoration: none;}  /* selected link */
 	background-color: #1A1A1A;
 }
 
-#menu {
-    z-index: 2;
-	text-align: center;
-}
-
 .pagination-centered {
   text-align: center;
 }
@@ -110,6 +105,10 @@ a:active {color: black; text-decoration: none;}  /* selected link */
     width: 400px;
 }
 
+.affix {
+    min-width: 80.5%;
+}
+
 .white-font{
 	color: white;
 }
@@ -117,14 +116,12 @@ a:active {color: black; text-decoration: none;}  /* selected link */
 /*RESPONSIVE NAV PREP*/
 
 .navigation{
-	color: #ffffff;
 	font-size: 1.1em;
 	text-transform: uppercase;
-	min-height: 63px;
+	float: none;
 	margin: 0 auto;
-	/*width: 590px;*/
-	max-height: 73px;
-	display: inline-block;
+	display: table;
+	table-layout: fixed;
 }
 
 #porto-collect a, #london-collect a{
@@ -169,7 +166,6 @@ a:active {color: black; text-decoration: none;}  /* selected link */
 
 .transp-white{
 	background-color: rgba(255, 255, 255, 0.5);
-	min-height: 73px;
 }
 
 /*RETIRA MARGEM DOS SPANS DENTRO DE PAIS*/
@@ -205,26 +201,9 @@ a:active {color: black; text-decoration: none;}  /* selected link */
 	width: 100%;
 }
 
-.collections-img > div > div {
-	position: relative;
-	padding: 8px;
-}
-
 .collections-img > div  > div > img {
 	max-width: 100%;
 	max-height: 100%;
-}
-
-.collections-img > div  > div > div {
-	width: 29%;
-	height: 18%;
-	overflow: auto;
-	margin: auto;
-	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
 }
 
 .span3 > a > img {
@@ -272,10 +251,10 @@ a:active {color: black; text-decoration: none;}  /* selected link */
 }
 
 #mainwrapper {
-  font: 10pt normal Arial, sans-serif;
-  height: auto;
-  margin: 10px auto 0 auto;
-  text-align: center;
+  /* font: 10pt normal Arial, sans-serif; */
+  /* height: auto; */
+  /* margin: 10px auto 0 auto; */
+  /* text-align: center; */
 }
 
 #mainwrapper .box {
@@ -283,7 +262,6 @@ a:active {color: black; text-decoration: none;}  /* selected link */
     float: left;
     position: relative;
     overflow: hidden;
-    width: 33.33%;
     height: 360px;
 }
 
@@ -621,19 +599,6 @@ a:active {color: black; text-decoration: none;}  /* selected link */
 	.marginized{
 		margin-left: 0;
 	}
-	[class^="icon-"],
-	[class*=" icon-"] {
-	  display: inline-block;
-	  width: 26px;
-	  height: 26px;
-	  margin-top: 1px;
-	  *margin-right: .3em;
-	  line-height: 14px;
-	  vertical-align: text-top;
-	  background-image: url("../images/glyphicons-halflings.png");
-	  background-position: -256px 7px;
-	  background-repeat: no-repeat;
-	}
 	.navigation{
 		max-height: 1000px;
 		width: 25%;
@@ -642,17 +607,20 @@ a:active {color: black; text-decoration: none;}  /* selected link */
 	.transp-white {
     	background-color: transparent;
     	/* min-height: 36px; */
- }
-	#menu{
-		position: absolute;
-		z-index: 4 !important;
-		min-height: 0%;
-	}
-	#menu a{
-		background-color: white;
-	}
+    }
 }
+
+.homepage-collection-text-wrapper {
+    min-height: 368px;
+}
+
 @media only screen and (max-width: 420px){
+    .homepage-collection-text-wrapper {
+        min-height: 157px;
+    }
+    .affix {
+        min-width: 95%;
+    }
 	#artparallax{
 		margin-top: 40px;
 	}
@@ -675,22 +643,8 @@ a:active {color: black; text-decoration: none;}  /* selected link */
 	    width: 37%;
 	}
     .art-typo {
-		padding-left: 0;
         font-size: 0.7em;
     }
-	[class^="icon-"],
-	[class*=" icon-"] {
-	  display: inline-block;
-	  width: 10px;
-	  height: 14px;
-	  margin-top: 1px;
-	  *margin-right: .3em;
-	  line-height: 14px;
-	  vertical-align: text-top;
-	  background-image: url("../images/glyphicons-halflings.png");
-	  background-position: 14px 14px;
-	  background-repeat: no-repeat;
-	}
 	.navigation{
 		max-height: 1000px;
 		width: 95%;
@@ -739,7 +693,7 @@ a:active {color: black; text-decoration: none;}  /* selected link */
 	    position: absolute;
 	}
 	.collections-img{
-		height: 775px;
+		height: 810px;
 	}
 	.on-top {
 	    font-size: 1.2em;
@@ -799,6 +753,8 @@ a:active {color: black; text-decoration: none;}  /* selected link */
 
 .latobolditalic {
     font-family: 'GFLatoBoldItalic'; /*a name to be used later*/
+    display: inline-block;
+    float: none;
 }
 
 .latoitalic {
@@ -931,15 +887,6 @@ a.red-cross:hover{
     margin: 0 auto;
 }
 
-#collection-text-centered {
-	margin-top: 11%;
-}
-
-#collection-text-centered p, h4 {
-	width: 85%;
-	margin-left: 70px;
-}
-
 #featured-product-text-centered {
 	height: 463px;
 }
@@ -989,6 +936,33 @@ a.red-cross:hover{
 }
 
 .swiper-image {
-	max-width:100%;
-	max-height:100%;
+	margin-top: -50px;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: black;
+}
+
+.collection-button, .collection-text-centered {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	height: 80px;
+	padding-left: 16px;
+}
+
+.collection-button img {
+	padding-left: 7px;
+}
+
+#menu {
+    z-index: 4;
+    position: sticky;
+}
+
+.full-width {
+    /* width: 100%; */
 }

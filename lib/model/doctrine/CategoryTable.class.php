@@ -33,4 +33,12 @@ class CategoryTable extends Doctrine_Table
 
         return $q->execute();
     }
+
+    public function getAllCategoriesThatHaveLoversAtelierProducts()
+    {
+        $q = $this->createQuery('Category c')
+            ->innerJoin('c.LoversAtelierProductCategory lp');
+
+        return $q->execute();
+    }
 }

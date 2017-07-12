@@ -52,6 +52,21 @@ class collectionActions extends sfActions
         $this->news = Doctrine_Core::getTable('News')->getLatestNews();
         return sfView::SUCCESS;
     }
+    /**
+     * @param sfWebRequest $request
+     * @return string
+     * @throws sfError404Exception
+     */
+    public function executeShowloversatelierproduct(sfWebRequest $request)
+    {
+        $this->showActiveCollectionsForMenu();
+        $this->product = Doctrine::getTable('LoversAtelierProduct')->find($request->getParameter('id'));
+        $this->images = $this->getLoversProductImageByProductId($request->getParameter('id'));
+        $this->forward404Unless($this->product);
+        $this->products = $this->getRandomNumberOfProducts();
+        $this->news = Doctrine_Core::getTable('News')->getLatestNews();
+        return sfView::SUCCESS;
+    }
 
     /**
      * @param sfWebRequest $request
@@ -61,6 +76,16 @@ class collectionActions extends sfActions
         $this->showActiveCollectionsForMenu();
         $this->showActiveCategoriesWithProducts();
         $this->products = Doctrine::getTable('Product')->getAllProductsGroupByCategory();
+    }
+
+    /**
+     * @param sfWebRequest $request
+     */
+    public function executeShowallatelierproducts(sfWebRequest $request)
+    {
+        $this->showActiveCollectionsForMenu();
+        $this->categories = Doctrine_Core::getTable('Category')->getAllCategoriesThatHaveLoversAtelierProducts();
+        $this->products = Doctrine::getTable('LoversAtelierProduct')->getAllProductsGroupByCategory();
     }
 
 
@@ -92,12 +117,25 @@ class collectionActions extends sfActions
     /**
      * @param $id
      * @internal param sfWebRequest $request
-     * @return Doctrine_Query
+     * @return Doctrine_Collection
      */
     public function getProductImageByProductId($id)
     {
         $q = Doctrine_Query::create()
             ->from('ProductImage pr')
+            ->where('pr.product_id=' . $id);
+        return $q->execute();
+    }
+
+    /**
+     * @param $id
+     * @internal param sfWebRequest $request
+     * @return Doctrine_Collection
+     */
+    public function getLoversProductImageByProductId($id)
+    {
+        $q = Doctrine_Query::create()
+            ->from('LoversAtelierProductImage pr')
             ->where('pr.product_id=' . $id);
         return $q->execute();
     }
