@@ -6,7 +6,7 @@
 <!-- /-->
 <?php include(sfConfig::get('sf_app_template_dir').'/newsletter.php') ?>
 <div class="container">
-    <div id="myCarousel" class="carousel slide span12">
+    <div id="myCarousel" class="carousel slide row" data-interval="6000">
         <a href="#" id="keep-scroll"></a>
         <ol class="carousel-indicators">
             <?php for($i=0; $i<$sliderCount; $i++): ?>
@@ -42,23 +42,26 @@
         <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
     </div>
 
-    <div class="span12">
-        <div id="menu" class="span12 transp-white">
-            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-th-list">
-            </span>
-            </a>
-            <div class="nav-collapse">
-                <ul class="nav nav-pills navigation latoregular">
-                    <li>
-                        <a href="<?php echo url_for('thebrand') ?>">The Brand</a>
-                    </li>
+        <nav id="menu"  class="navbar navbar-toggleable-md navbar-light bg-faded transp-white">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav nav-pills navigation latoregular">
                     <li>
                         <a href="<?php echo url_for('collection') ?>">Collections</a>
                     </li>
                     <li>
                         <a href="<?php echo url_for('@show_allproducts') ?>">All Products</a>
+                    </li>
+                    <li>
+                        <a href="<?php echo url_for('@show_allatelierproducts') ?>">Lovers Atelier</a>
                     </li>
                     <li>
                         <a href="<?php echo url_for('press') ?>">Press</a>
@@ -74,9 +77,8 @@
                     <?php endif ?>
                 </ul>
             </div>
-        </div>
-        <div class="clear"></div>
-    </div>
+        </nav>
+
     <?php
     //$productArray = $featuredProducts->getRawValue()->getData();
     /** @var ProductTable $featuredProducts */
@@ -115,10 +117,10 @@
 
         </div>
     <?php endif; ?>
-    <div class="span12 background-art">
-        <div id="artparallax" class="span12 center-text art-typo abrilfat nodisplay">art<span class="symbolred">&</span>design</div>
+    <div class="row background-art">
+        <div id="artparallax" class="col-md-12 center-text art-typo abrilfat nodisplay">art<span class="symbolred">&</span>design</div>
     </div>
-    <div class="span12 collections-img nodisplay">
+    <div class="row collections-img nodisplay">
         <?php /** @var Collection $collection */
         $i = 2;
         /** @var Doctrine_Collection $collections */
@@ -128,35 +130,37 @@
             $collectionName = strtolower($collectionName);
             $collectionId = substr($collectionName, 0,-3);
             $collectionName = str_replace("-", "", $collectionName); ?>
-            <div class="span12">
-            <?php if ($i%2==0): ?>
-            <div id="collection-text-centered" class="span7">
-                <?php echo $collection->getRawValue()->getDescription() ?>
-            </div>
-            <div class="span7">
-                <?php echo image_tag('/images/collection/' . $collection->getBackgroudImage()) ?>
-                <div class="span3">
-                    <?php echo link_to(image_tag('/images/collection/' . $collection->getNameImage()), 'collection/showcollection?id=' . $collection->getId() . "&name=" . $collection->getName()) ?>
+            <div class="col-md-12">
+                <?php if ($i%2==0): ?>
+                <div class="col-md-6 homepage-collection-text-wrapper">
+                    <div class="col-md-9 collection-text-centered">
+                        <?php echo $collection->getRawValue()->getDescription() ?>
+                    </div>
                 </div>
-            </div>
-            <?php else: ?>
-            <div class="span7">
-                <?php echo image_tag('/images/collection/' . $collection->getBackgroudImage()) ?>
-                <div class="span3">
-                    <?php echo link_to(image_tag('/images/collection/' . $collection->getNameImage()), 'collection/showcollection?id=' . $collection->getId() . "&name=" . $collection->getName()) ?>
+                <div class="col-md-6">
+                    <?php echo image_tag('/images/collection/' . $collection->getBackgroudImage()) ?>
+                    <div class="col-md-5 collection-button">
+                        <?php echo link_to(image_tag('/images/collection/' . $collection->getNameImage()), 'collection/showcollection?id=' . $collection->getId() . "&name=" . $collection->getName()) ?>
+                    </div>
                 </div>
-            </div>
-            <div id="collection-text-centered" class="span7">
-                <p class="latobold">
-                    <?php echo $collection->getRawValue()->getDescription() ?>
-                </p>
-            </div>
-            <?php endif; ?>
+                <?php else: ?>
+                <div class="col-md-6">
+                    <?php echo image_tag('/images/collection/' . $collection->getBackgroudImage()) ?>
+                    <div class="col-md-5 collection-button">
+                        <?php echo link_to(image_tag('/images/collection/' . $collection->getNameImage()), 'collection/showcollection?id=' . $collection->getId() . "&name=" . $collection->getName()) ?>
+                    </div>
+                </div>
+                <div class="col-md-6 homepage-collection-text-wrapper">
+                    <div class="col-md-9 collection-text-centered">
+                        <?php echo $collection->getRawValue()->getDescription() ?>
+                    </div>
+                </div>
+                <?php endif; ?>
             </div>
         <?php $i++; endforeach; ?>
     </div>
-    <div class="span12 moreinfo nodisplay">
-        <div class="span7 center-text border-r marginized abrilfat" style="float: left">
+    <div class="row moreinfo nodisplay">
+        <div class="col-md-6 center-text border-r marginized abrilfat" style="float: left">
             <div class="justified">
                 <h1 class="abrilfat">the brand</h1>
                 <br />
@@ -170,7 +174,7 @@
                 <a href="<?php echo url_for('thebrand') ?>" class="red-cross">+</a>
             </div>
         </div>
-        <div class="span7 center-text marginized" style="float: right">
+        <div class="col-md-6 center-text marginized" style="float: right">
             <div class="justified abrilfat">
                 <h1 class="abrilfat">the designer</h1>
                 <br />
@@ -182,14 +186,14 @@
             </div>
         </div>
     </div>
-    <div class="span12 whatsnew nodisplay">
+    <div class="row whatsnew nodisplay">
         <h2 class="abrilfat">what's new?</h2>
     </div>
-    <div id="mainwrapper" class="span12 nodisplay">
+    <div id="mainwrapper" class="row nodisplay">
         <?php /** @var News $news */
         foreach($news as $new): ?>
             <?php $i=1; ?>
-            <div id="box-<?php echo $i;?>" class="box">
+            <div id="box-<?php echo $i;?>" class="col-md-4 box">
                 <a href="<?php echo $new->getLink() ?>">
                     <img id="image-<?php echo $i;?>" src="/images/whatsnew/<?php echo $new->getNewsImage() ?>" alt="<?php echo htmlspecialchars_decode($new->getNewsTitle()) ?>"/>
               <span class="caption fade-caption">
@@ -204,7 +208,7 @@
     <div class="clear"></div>
     <?php $uri_url=$_SERVER['REQUEST_URI'];?>
 
-    <div class="span12" id="footer" style="<?php if ($uri_url=="" || $uri_url=="index.php") echo 'display: none';?>">
+    <div class="row" id="footer" style="<?php if ($uri_url=="" || $uri_url=="index.php") echo 'display: none';?>">
         <div id="bar">
             <div id="logos">
                 <a href="https://twitter.com/bat_eye"><img src="/images/icons/bateye_twitter.png" alt="Twitter Logo"></a>
@@ -217,7 +221,7 @@
                 <a href="http://pt.pinterest.com/bat_eye/"><img src="/images/icons/pinterest.png" alt="Pinterest logo"></a>
             </div>
         </div>
-        <div class="span12 center-text latobold">
+        <div class="row center-text latobold">
             <p class="red" style="font-size:15px;">+<a href="<?php echo url_for(array(
                     'module' => 'contacts',
                     'action' => 'index'
