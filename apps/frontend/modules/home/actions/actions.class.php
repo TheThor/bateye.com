@@ -17,6 +17,8 @@ class homeActions extends sfActions
      */
     public function executeIndex(sfWebRequest $request)
     {
+        //$this->getResponse()->addCacheControlHttpHeader('max_age=60');
+        //$this->getResponse()->setHttpHeader('Expires', $this->getResponse()->getDate($timestamp));
         $this->collections = Doctrine_Core::getTable('Collection')->showActiveCollections();
         $this->news = Doctrine_Core::getTable('News')->getLatestNews();
         $this->sliderCount = $this->countSlider();

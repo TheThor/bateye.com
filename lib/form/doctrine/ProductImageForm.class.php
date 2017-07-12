@@ -12,7 +12,6 @@ class ProductImageForm extends BaseProductImageForm
 {
   public function configure()
   {
-      $products = new Product();
       /** @var Product $product */
       unset($this['created_at'], $this['updated_at']);
       $this->setWidget('location', new sfWidgetFormInputFileEditable(array(

@@ -12,6 +12,7 @@ class ProjectConfiguration extends sfProjectConfiguration
 		$this->enablePlugins('sfDoctrinePlugin');
 		$this->enablePlugins('sfDoctrineGuardPlugin');
 		$this->enablePlugins('izarusBootstrap3AdminThemePlugin');
+        $this->enablePlugins('prestaSitemapPlugin');
 		$this->setWebDir('/web'); //bateye.com para live
 		$this->setCacheDir($this->getRootDir() . '/cache'); //CORRECTO
 		$this->setLogDir($this->getRootDir() . '/log'); //CORRECTO
@@ -19,7 +20,8 @@ class ProjectConfiguration extends sfProjectConfiguration
 			'sf_upload_dir'   => sfConfig::get('sf_root_dir') . sfConfig::get('sf_web_dir'),
 			'sf_media_upload_dir'   => sfConfig::get('sf_root_dir') . '/media/'
 		));
-	}
+	  $this->enablePlugins('prestaSitemapPlugin');
+  }
 
 	static public function registerPHPmailer()
 	{

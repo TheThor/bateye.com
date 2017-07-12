@@ -1,0 +1,24 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           LoversAtelierProduct
+    theme:                 bootstrap
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          lovers_atelier_product
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        display: [name]
+      list:
+        display: [name, designer, created_at, updated_at, home_featured]
+      filter:
+        display: [name, description, citation, designer, created_at, updated_at, home_featured]
+      form:    ~
+      edit:    ~
+      new:     ~

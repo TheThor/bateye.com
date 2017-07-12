@@ -2,22 +2,11 @@
  * Created by pedro on 1/13/14.
  */
 $(document).ready(function() {
-    //Definições para carousel
-    $('.carousel').carousel({
-        interval: 6000
+    $('#menu').affix({
+        offset: {
+            top: $('#myCarousel').height()
+        }
     });
-
-    //Menu fixo
-    function fixDiv() {
-        var $cache;
-        $cache = $('#menu');
-        if ($(window).scrollTop() > 700)
-            $cache.css({'position': 'fixed', 'z-index': '4', 'top': '0px'});
-        else
-            $cache.css({'position': 'absolute', 'top': 'auto'});
-    }
-    $(window).scroll(fixDiv);
-    fixDiv();
 
     //Debugg
     $(document).on('mousemove', function(e){
@@ -45,55 +34,58 @@ $(document).ready(function() {
     //initialize swiper when document ready
     var mySwiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
+        autoplay: 5500,
+        speed: 1000,
+        autoplayDisableOnInteraction: true,
 
         // Optional parameters
         loop: true,
-        slidesPerView: 8,
+        slidesPerView: 6,
         //centeredSlides: true,
         paginationClickable: true,
         spaceBetween: 0,
         resizeEvent: 'auto',
         disableAutoResize: false,
-        initialSlide: 8,
+        initialSlide: 6,
         //slidesOffsetBefore: 60,
 
         // // Responsive breakpoints
-        // breakpoints: {
-        //     // when window width is <= 320px
-        //     320: {
-        //         slidesPerView: 1,
-        //         spaceBetweenSlides: 10
-        //     },
-        //     // when window width is <= 480px
-        //     480: {
-        //         slidesPerView: 1,
-        //         spaceBetweenSlides: 20
-        //     },
-        //     // when window width is <= 640px
-        //     840: {
-        //         slidesPerView: 3,
-        //         spaceBetweenSlides: 30
-        //     },
-        //     840: {
-        //         slidesPerView: 3,
-        //         spaceBetweenSlides: 30
-        //     },
-        //     1024: {
-        //         slidesPerView: 4,
-        //         spaceBetweenSlides: 30
-        //     },
-        //     1280: {
-        //         slidesPerView: 5,
-        //         spaceBetweenSlides: 30
-        //     },
-        //     1440: {
-        //         slidesPerView: 8,
-        //         spaceBetweenSlides: 30
-        //     },
-        //     // Navigation arrows
-        //     nextButton: '.swiper-button-next .swiper-button-grey',
-        //     prevButton: '.swiper-button-prev .swiper-button-grey',
-        // },
+        breakpoints: {
+            // when window width is <= 320px
+            320: {
+                slidesPerView: 1,
+                spaceBetweenSlides: 10
+            },
+            // when window width is <= 480px
+            480: {
+                slidesPerView: 1,
+                spaceBetweenSlides: 20
+            },
+            // when window width is <= 640px
+            840: {
+                slidesPerView: 3,
+                spaceBetweenSlides: 30
+            },
+            840: {
+                slidesPerView: 3,
+                spaceBetweenSlides: 30
+            },
+            1024: {
+                slidesPerView: 4,
+                spaceBetweenSlides: 30
+            },
+            1280: {
+                slidesPerView: 5,
+                spaceBetweenSlides: 30
+            },
+            1440: {
+                slidesPerView: 6,
+                spaceBetweenSlides: 30
+            },
+            // Navigation arrows
+            nextButton: '.swiper-button-next .swiper-button-grey',
+            prevButton: '.swiper-button-prev .swiper-button-grey',
+        },
 
         // Navigation arrows
         nextButton: '.swiper-button-next',

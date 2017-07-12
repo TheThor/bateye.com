@@ -99,6 +99,17 @@ show_allproducts:
   url:   /showallproducts/*
   param: { module: collection, action: showallproducts }
 
+show_allatelierproducts:
+  url:   /lovers-atelier/products/*
+  param: { module: collection, action: showallatelierproducts }
+
+show_loversatelierproduct:
+  url:  /lovers-atelier/showproduct/:id/:name
+  param: { module: collection, action: showloversatelierproduct }
+  requirements:
+    id: \d+
+    sf_method: [get]
+
 #Deprecated
 #Lovers & its products
 #lovers:
