@@ -44,6 +44,39 @@ Collection:
     backgroud_image:  { type: string(255), notnull: true }
     is_active:        { type: boolean, notnull: true, default: 1 }
 
+LoversAtelierProduct:
+  actAs:              { Timestampable: ~ }
+  columns:
+    id:               { type: integer, primary: true, autoincrement: true }
+    name:             { type: string(255), notnull: true }
+    main_img_path:    { type: string(255), notnull: true }
+    main_img_alt:     { type: string(255), notnull: true }
+    context_img:      { type: string(255), notnull: true }
+    context_img_alt:  { type: string(255), notnull: true }
+    small_img:        { type: string(255) }
+    small_img_alt:    { type: string(255) }
+    citation:         { type: string(255), notnull: true }
+    description:      { type: string(1200), notnull: true }
+    designer:         { type: string(255) }
+    dimensions:       { type: string(255) }
+    materials:        { type: string(255) }
+    other:            { type: string(255) }
+    category_id:      { type: integer, notnull: true }
+    home_featured:    { type: boolean, notnull: true, default: 0 }
+    home_text:        { type: string(255) }
+  relations:
+    Category:         { local: category_id, foreign: id, foreignAlias: LoversAtelierProductCategory }
+
+LoversAtelierProductImage:
+  actAs:            { Timestampable: ~ }
+  columns:
+    id:             { type: integer, primary: true, autoincrement: true }
+    product_id:     { type: integer, notnull: true }
+    location:       { type: string(255), notnull: true }
+    alt:            { type: string(255), notnull: true }
+  relations:
+    LoversAtelierProduct:        { local: product_id, foreign: id, foreignAlias: LoversAtelierProductImage }
+
 Category:
   actAs: { Timestampable: ~ }
   columns:

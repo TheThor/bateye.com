@@ -1,5 +1,5 @@
 indexSuccess:
-  stylesheets:    [reset.css, bootstrap.min.css, bootstrap-responsive.css, swiper.min.css, style.css]
-  javascripts:    [jquery-1.10.2.js, sidebuttons.js, parallax.js, validator.js, swiper.jquery.min.js, others.js, bootstrap.min.js]
+  stylesheets:    [normalize.min.css, bootstrap.min.css, swiper.min.css, style.css]
+  javascripts:    [jquery-1.10.2.min.js, sidebuttons.min.js, parallax.min.js, validator.min.js, swiper.jquery.min.js, others.min.js, bootstrap.min.js]
   metas:
     viewport:     width=device-width, initial-scale=1.0
