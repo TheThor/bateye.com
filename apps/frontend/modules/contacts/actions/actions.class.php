@@ -24,6 +24,21 @@ class contactsActions extends sfActions
 
     public function executeSendmail(sfWebRequest $request){
         ProjectConfiguration::registerPHPmailer();
-        return sfView::SUCCESS;
+        $privateKey = "6LfaWzkUAAAAAHyuiC4QFl4T2Sjy325cbk10XupD";
+        if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])){
+            $resp = recaptcha_check_answer($privateKey,
+            $request->getRemoteAddress(),
+            $_POST["recaptcha_challenge_field"],
+            $_POST["recaptcha_response_field"]);
+            if (!$resp->is_valid) {
+                echo "false";
+                return sfView::ERROR;
+            }
+            return sfView::SUCCESS;
+        }
+        // user didn't enter reCAPTCHA
+        var_dump($_POST);
+        echo "The reCAPTCHA wasn't entered correctly. Go back and try it again.";
+        return sfView::ERROR;
     }
 }
