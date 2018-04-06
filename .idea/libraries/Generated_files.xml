@@ -1,0 +1,56 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/webpack.config.min.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/node_modules/graceful-readlink/index.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/source-map/dist/source-map.debug.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/source-map/dist/source-map.min.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/source-map/lib/array-set.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/source-map/lib/base64-vlq.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/source-map/lib/base64.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/source-map/lib/binary-search.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/source-map/lib/mapping-list.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/source-map/lib/quick-sort.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/source-map/lib/source-map-consumer.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/source-map/lib/source-map-generator.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/source-map/lib/source-node.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/source-map/lib/util.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/source-map/source-map.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/uglify-js/lib/ast.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/uglify-js/lib/compress.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/uglify-js/lib/minify.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/uglify-js/lib/mozilla-ast.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/uglify-js/lib/output.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/uglify-js/lib/parse.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/uglify-js/lib/propmangle.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/uglify-js/lib/scope.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/uglify-js/lib/sourcemap.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/uglify-js/lib/transform.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/uglify-js/lib/utils.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/uglify-js/tools/exports.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/uglify-js/tools/node.min.js" />
+      <root url="file://$PROJECT_DIR$/web/js/analytics.min.js" />
+      <root url="file://$PROJECT_DIR$/web/js/bootstrap.min.js" />
+      <root url="file://$PROJECT_DIR$/web/js/collection_page.min.js" />
+      <root url="file://$PROJECT_DIR$/web/js/general-animations.min.js" />
+      <root url="file://$PROJECT_DIR$/web/js/jquery-1.10.2.min.js" />
+      <root url="file://$PROJECT_DIR$/web/js/jquery-1.9.1.min.js" />
+      <root url="file://$PROJECT_DIR$/web/js/jquery.easing.1.3.min.js" />
+      <root url="file://$PROJECT_DIR$/web/js/others.min.js" />
+      <root url="file://$PROJECT_DIR$/web/js/parallax.min.js" />
+      <root url="file://$PROJECT_DIR$/web/js/productslider.min.js" />
+      <root url="file://$PROJECT_DIR$/web/js/search-filters.min.js" />
+      <root url="file://$PROJECT_DIR$/web/js/sidebuttons.min.js" />
+      <root url="file://$PROJECT_DIR$/web/js/tawk.min.js" />
+      <root url="file://$PROJECT_DIR$/web/js/validator.min.js" />
+      <root url="file://$PROJECT_DIR$/web/js/warning-popup.min.js" />
+      <root url="file://$PROJECT_DIR$/web/js/bootstrap.min.min.js" />
+      <root url="file://$PROJECT_DIR$/webpack.config.min.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

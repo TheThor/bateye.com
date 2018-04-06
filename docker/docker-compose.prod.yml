@@ -1,0 +1,38 @@
+version: '3'
+services:
+  db_bateye:
+    image: postgres
+    ports:
+        - '5433:5432'
+
+  php:
+    build: php-fpm
+    environment:
+      PHP_ENV: production
+    ports:
+        - '9002:9000'
+    volumes:
+        - ../:/var/www/symfony:cached
+        - ./logs/symfony:/var/www/symfony/var/logs:cached
+    links:
+        - db_bateye
+
+  nginx:
+    build: nginx
+    ports:
+        - '8080:80'
+    links:
+        - php
+    volumes:
+        - ./logs/nginx/:/var/log/nginx:cached
+
+  elastic-search:
+    image: willdurand/elk
+    ports:
+      - 81:80
+    volumes:
+      - ./elk/logstash:/etc/logstash
+      - ./elk/logstash/patterns:/opt/logstash/patterns
+    volumes_from:
+      - php
+      - nginx
