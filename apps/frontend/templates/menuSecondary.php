@@ -5,7 +5,7 @@
         </div>
     </div>
 </div>
-<div id="menu" <?php  //if ($sf_user->isAuthenticated()) echo 'style="width: 520px"'; ?>>
+<div id="menu" <?php echo $sf_user->isAuthenticated() ?  'style="width: 609px; margin: 0 auto;"' : 'style="width:33%; margin: 0 auto;"'; ?>>
     <nav>
         <ul>
             <li><a href="<?php echo url_for('homepage') ?>">HOME</a></li>
