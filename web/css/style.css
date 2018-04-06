@@ -846,23 +846,19 @@ a.red-cross:hover{
 }
 
 #link-container{
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 35%;
-    bottom: 0;
-    margin: auto;
+    position: relative;
+    margin-top: 10%;
 }
 
 .collection-link{
-    width: 240px;
+    width: 17%;
     margin: 0 auto;
 }
 
 .collection-images img {
     /* Set rules to fill background */
-    min-height: 100%;
-    min-width: 1024px;
+    /* min-height: 100%; */
+    /* min-width: 1024px; */
 
     /* Set up proportionate scaling */
     width: 100%;
@@ -963,6 +959,15 @@ a.red-cross:hover{
     position: sticky;
 }
 
+#menu ul {
+	padding-left: 0;
+}
+
 .full-width {
     /* width: 100%; */
+}
+
+#collections-logo {
+	z-index: 1000;
+	position: relative;
 }
