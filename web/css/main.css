@@ -120,7 +120,7 @@
 	padding-top: 10px;
 	z-index: 5;
 	position: relative;
-	text-align: center;
+	/* text-align: center; */
 }
 	#menu a{
 		padding-left: 10px;
@@ -329,7 +329,7 @@
 					width: 100px;
 				}
 
-/* PAG. PEÃ‡AS*/
+/* PAG. PEÃƒâ€¡AS*/
 
 #title{
 	width: 200px;
@@ -408,7 +408,7 @@
     background-color: #000;
     width: 100%;
 }
-/* PAG. COLCEÃ‡Ã•ES */
+/* PAG. COLCEÃƒâ€¡Ãƒâ€¢ES */
 
 #title_colecao{
 		width: 140px;
@@ -454,7 +454,6 @@
 div.img
 {
 	float: left;
-	height: 235px;
 	margin: 2px;
 	text-align: center;
 	width: 198px;
@@ -524,15 +523,17 @@ div.desc
 				  		text-decoration: none;
                         text-transform: uppercase;
 				  		margin-bottom: 2px;
+						margin-top: 0px;
 				  	}
 				  		div.desc h5{
 				  			font-weight: 300;
 				  			font-size: 12px;
 				  			text-transform: lowercase;
+				  			margin-top: 0px;
 				  		}
 
 
-/* SECÃ‡ÃƒO THE BRAND */
+/* SECÃƒâ€¡ÃƒÆ’O THE BRAND */
 
 #brand{
 	width: 300px;

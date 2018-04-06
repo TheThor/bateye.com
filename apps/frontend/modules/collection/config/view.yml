@@ -19,7 +19,7 @@ showproductSuccess:
   layout: page_layout
 
 indexSuccess:
-  stylesheets:    [normalize.min.css, bootstrap.min.css, bootstrap-responsive.css, style.css, "http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900", http://fonts.googleapis.com/css?family=Abril+Fatface]
+  stylesheets:    [normalize.min.css, style.css, "http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900", http://fonts.googleapis.com/css?family=Abril+Fatface, bootstrap.min.css]
   javascripts:    [-*,jquery-1.10.2.min.js, sidebuttons.min.js, validator.min.js, analytics.min.js, sidebuttons.min.js, collection_page.min.js]
 
 all:
