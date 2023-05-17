@@ -122,3 +122,4 @@ app/node_modules/
 *.log
 *.sql
 *.sqlite
+apps/frontend/modules/contacts/templates/sendmailSuccess.php
