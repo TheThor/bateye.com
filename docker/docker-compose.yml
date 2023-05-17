@@ -1,36 +1,67 @@
 version: '2'
 services:
-  db_bateye:
+  db:
     image: postgres
     ports:
-        - '5433:5432'
+      - '5433:5432'
 
   php:
     build: php-fpm
     ports:
-        - '9002:9000'
+      - '9002:9000'
     volumes:
-        - ../:/var/www/symfony:cached
-        - ./logs/symfony:/var/www/symfony/var/logs:cached
+      - ../:/var/www/symfony:cached
+      - ./logs/symfony:/var/www/symfony/var/logs:cached
     links:
-        - db_bateye
+      - db
+      - node
 
   nginx:
     build: nginx
+    restart: always
     ports:
-        - '8080:80'
+      - '8080:80'
     links:
-        - php
-    volumes:
-        - ./logs/nginx/:/var/log/nginx:cached
-
-  elastic-search:
-    image: willdurand/elk
-    ports:
-      - 81:80
-    volumes:
-      - ./elk/logstash:/etc/logstash
-      - ./elk/logstash/patterns:/opt/logstash/patterns
+      - php
     volumes_from:
       - php
-      - nginx
+    volumes:
+      - ./logs/nginx/:/var/log/nginx:cached
+
+  node:
+    image: "node:8"
+    user: "node"
+    working_dir: /home/node/app
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./:/home/node/app
+    expose:
+      - "8081"
+    command: "npm start"
+
+  mongodb:
+    image: mongo:latest
+    container_name: "mongodb"
+    environment:
+      - MONGO_DATA_DIR=/data/db
+      - MONGO_LOG_DIR=/dev/null
+    volumes:
+      - ./data/db:/data/db
+    ports:
+        - 27017:27017
+    command: mongod --smallfiles --logpath=/dev/null # --quiet
+
+#  elk:
+#    image: willdurand/elk
+#    ports:
+#      - 81:80
+#    environment:
+#      network.host: "_non_loopback_"
+#      cluster.name: "my-cluster"
+#    volumes:
+#      - ./elk/logstash:/etc/logstash
+#      - ./elk/logstash/patterns:/opt/logstash/patterns
+#    volumes_from:
+#      - php
+#      - nginx
