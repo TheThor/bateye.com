@@ -1,9 +1,12 @@
 log/
 .idea/
+.git
 cache
 .DS_Store
 # Ignore prod docker compose files
 .env-prod
+.env.dist
+.env
 nginx-conf/*
 !nginx-conf/.nginx-prod.conf
 !nginx-conf/.nginx-local.conf
